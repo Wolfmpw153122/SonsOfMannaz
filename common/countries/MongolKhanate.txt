@@ -1,0 +1,134 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 108 153 65 }
+revolutionary_colors = { 4 15 4 }
+historical_idea_groups = {
+	humanist_ideas
+	trade_ideas
+	quantity_ideas
+	offensive_ideas
+	expansion_ideas
+	economic_ideas
+	defensive_ideas
+	administrative_ideas
+}
+historical_units = {
+	reformed_steppe_rifles
+	steppe_cavalry
+	steppe_footmen
+	steppe_infantry
+	steppe_lancers
+	steppe_mounted_raiders
+	steppe_musketeers
+	steppe_raiders
+	steppe_riders
+	steppe_rifles
+	steppe_uhlans
+}
+monarch_names = {
+	"Aibek #2" = 10
+	"Akkadevi #0" = -1
+	"Apollonia #0" = -1
+	"Ayten #0" = -1
+	"Bachman #1" = 10
+	"Begluk #1" = 10
+	"Bhagadatta #0" = 0
+	"Borte #1" = -1
+	"Bönek #1" = 10
+	"Chagatai #1" = 10
+	"Doquz #1" = -1
+	"Düru #0" = 0
+	"Einkura #0" = 0
+	"Erke-kara #1" = 10
+	"Gulçiçek #0" = -1
+	"Gurkhan #1" = 10
+	"Hidarnes #1" = 10
+	"Inanch #1" = 10
+	"Jagambu #2" = 10
+	"Jamugha #1" = 10
+	"Jebe #1" = 10
+	"Jochi #1" = 10
+	"Khachigun #1" = 10
+	"Kitbuqa #2" = 10
+	"Kopti #0" = 0
+	"Mithradates #0" = 0
+	"Morokha #1" = 10
+	"Osor #0" = 0
+	"Parnika #0" = -1
+	"Peksen #0" = -1
+	"Pratapnarayan #0" = 0
+	"Prexaspes #1" = 10
+	"Pulad #1" = 10
+	"Saran #0" = -1
+	"Saru #0" = 0
+	"Sevilay #0" = -1
+	"Sevindik #0" = -1
+	"Sirçan #1" = 10
+	"Smerdomenes #1" = 10
+	"Songul #1" = -1
+	"Sotan #0" = 0
+	"Taknye #0" = 0
+	"Temur #1" = 10
+	"Tugor #1" = 10
+	"Çilbu #1" = 10
+}
+leader_names = {
+	"Abaga"
+	"Abaganar"
+	"Ast"
+	"Borjigin"
+	"Chagaan"
+	"Chakhar"
+	"Darqan"
+	"Hohhot"
+	"Jurim"
+	"Karakorum"
+	"Khalkha"
+	"Kharachin"
+	"Khorchin"
+	"Noyan"
+	"Onriut"
+	"Ordos"
+	"Tümed"
+	"Ulanqab"
+	"Uriankhai"
+	"Wang"
+	"Xilingol"
+	"Yingchang"
+	"Yungshiyebu"
+}
+ship_names = {
+	"Adai"
+	"Batu"
+	"Bo'orchu"
+	"Borokhula"
+	"Böke"
+	"Chagaan"
+	"Chilaun"
+	"Dharmapala"
+	"Dörben Külü'üd"
+	"Dörben Noyas"
+	"Elbeg"
+	"Ghengis Khan"
+	"Hohhot"
+	"Hülegü"
+	"Jebe"
+	"Jelme"
+	"Jinggim"
+	"Jöchi"
+	"Kamala"
+	"Karakorum"
+	"Khar Khiruge"
+	"Khubilai"
+	"Mugali"
+	"Möngke"
+	"Qubilai"
+	"Shikhikhutug"
+	"Sorqan Shira"
+	"Subutai"
+	"Tolui"
+	"Yelü Chucai"
+	"Yingchang"
+	"Ögödei"
+	"Örüg Temür"
+}

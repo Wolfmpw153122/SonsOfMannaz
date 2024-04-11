@@ -1,0 +1,197 @@
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 100 50 150 }
+revolutionary_colors = { 15 6 16 }
+historical_idea_groups = {
+	trade_ideas
+	quantity_ideas
+	economic_ideas
+	maritime_ideas
+	defensive_ideas
+	innovativeness_ideas
+	offensive_ideas
+	quality_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	italian_condotta
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Achaios #0" = 0
+	"Ancus #2" = 10
+	"Arsa #1" = -1
+	"Bepos #0" = 0
+	"Bitorix #1" = 10
+	"Brogimaros #1" = 10
+	"Cingetorix #1" = 10
+	"Camma #1" = 10
+	"Dardana #0" = -1
+	"Dazomenos #1" = 10
+	"Deiana #0" = -1
+	"Demetrios #0" = 0
+	"Demodamas #0" = 0
+	"Drusa #0" = -1
+	"Eponi #2" = 10
+	"Eshmouniaton #1" = 10
+	"Genthena #1" = -1
+	"Gyríðr #0" = -1
+	"Hosta #0" = -1
+	"Iaritos #0" = 0
+	"Ilme #0" = -1
+	"Labinkia #0" = -1
+	"Lydiadas #0" = 0
+	"Malthake #0" = -1
+	"Nonntio #0" = -1
+	"Numeria #0" = -1
+	"Olorix #0" = 0
+	"Perdikkas #0" = 0
+	"Postumus #3" = 10
+	"Publia #1" = -1
+	"Qazim #1" = 10
+	"Quintus #4" = 10
+	"Salah #2" = 10
+	"Servius #1" = 10
+	"Smertomara #0" = 0
+	"Tertius #1" = 10
+	"Tita #0" = -1
+	"Vibius #0" = 0
+	"Yllka #0" = -1
+	"Zenel #0" = 0
+}
+leader_names = {
+	"Acquaviva"
+	"Caracciolo"
+	"Carafa"
+	"Coscia"
+	"Martino"
+	"Marzano"
+	"Mazzaccara"
+	"Mazziotti"
+	"Orsini"
+	"Paladini"
+	"Pignatelli"
+	"Principato"
+	"Rizzo"
+	"Sanseverino"
+	"Tocco"
+	"d'Avalos"
+}
+ship_names = {
+	"Achille"
+	"Amalia"
+	"Archimede"
+	"Aretusa"
+	"Aurora"
+	"Brava"
+	"Capitana"
+	"Capri"
+	"Caracciolo"
+	"Carolana"
+	"Cerere"
+	"Cingana"
+	"Constanza"
+	"Cristina"
+	"Determinada"
+	"Etna"
+	"Fama"
+	"Fiamma"
+	"Flora"
+	"Fortuna"
+	"Galantuomo"
+	"Galatea"
+	"Gioacchino"
+	"Gioia"
+	"Gru"
+	"Guiscardo"
+	"Gusmana"
+	"Idra"
+	"Intrepido"
+	"Invidia"
+	"Lampreda"
+	"Leonessa"
+	"Letiza"
+	"Lucien Charles"
+	"Luna"
+	"Lupa"
+	"Marchesa"
+	"Margherita"
+	"Mendoza"
+	"Minerva"
+	"Monarca"
+	"Ocasion"
+	"Padrona"
+	"Padrone di Davide Imperiale"
+	"Pallade"
+	"Partenope"
+	"Piemontese"
+	"Piramide con Cane"
+	"Pugliese"
+	"Pylades"
+	"Regina"
+	"Regina Isabella"
+	"Roma"
+	"Ruggiero"
+	"Sagittaria"
+	"Samnita"
+	"San Antonio"
+	"San Carlo"
+	"San Ferdinando"
+	"San Filippo"
+	"San Gabriele"
+	"San Genaro"
+	"San Gioacchino"
+	"San Giorgio"
+	"San Giovanni"
+	"San Giuseppe"
+	"San Guilian"
+	"San Jacopo"
+	"San Leopoldo"
+	"San Luigi"
+	"San Luigi Gonzaga"
+	"San Michele"
+	"San Nicola"
+	"San Pasquale"
+	"Sant'Andrea"
+	"Sant'Angelo"
+	"Santa Amalia"
+	"Santa Barbara"
+	"Santa Caterina"
+	"Santa Chiara"
+	"Santa Dorotea"
+	"Santa Elisabetta"
+	"Santa Lucia"
+	"Santa Teresa"
+	"Santissima Concezione"
+	"Sibilla"
+	"Sicilia"
+	"Simplon"
+	"Sirena"
+	"Sparviero"
+	"Speranza"
+	"Stabia"
+	"Stromboli"
+	"Tancredi"
+	"Taranto"
+	"Terana"
+	"Turca"
+	"Urania"
+	"Venere"
+	"Vesuvio"
+	"Vittoria"
+	"Volpe"
+	"Vulcano"
+}
+army_names = {
+	"Armata di $PROVINCE$"
+}

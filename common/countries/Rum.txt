@@ -1,0 +1,148 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 30 160 203 }
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+	trade_ideas
+	religious_ideas
+	diplomatic_ideas
+	quality_ideas
+	administrative_ideas
+}
+historical_units = {
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_dragoon
+	muslim_mass_infantry
+	persian_cavalry_charge
+	persian_footsoldier
+	persian_rifle
+	persian_shamshir
+	qizilbash_cavalry_unit
+	tofongchis_musketeer
+	topchis_artillery
+}
+monarch_names = {
+	"Asmu-nikal #0" = -1
+	"Bitorix #0" = 0
+	"Carssouna #0" = -1
+	"Cingetessa #0" = -1
+	"Camma #1" = 10
+	"Daduhepa #0" = -1
+	"Diseta #1" = -1
+	"Domneiu #0" = 0
+	"Eponi #0" = 0
+	"Gassulawiya #0" = -1
+	"Gerðr #0" = -1
+	"Gwendolen #0" = -1
+	"Hastayara #0" = -1
+	"Henti #1" = -1
+	"Huzziya #0" = 0
+	"Kameshwar #0" = 0
+	"Litavis #0" = -1
+	"Mnesarete #1" = -1
+	"Nysa #1" = -1
+	"Olorix #0" = 0
+	"Puduhepa #2" = -1
+	"Sinke #0" = 0
+	"Telipinus #1" = 10
+	"Thothori #0" = 0
+	"Vagn #0" = 0
+	"Vassura #1" = -1
+	"Vinoma #1" = -1
+	"Viryas #0" = 0
+	"Walanni #0" = -1
+	"Ylva #0" = -1
+	"Zakaria #1" = 10
+	"Zida #2" = -1
+}
+leader_names = {
+	"Alemdar"
+	"Amasyali"
+	"Ayas"
+	"Bali"
+	"Barbaros"
+	"Bayram"
+	"Cerrah"
+	"Cezzar"
+	"Civan"
+	"Damad"
+	"Defterdar"
+	"Dervis"
+	"Gazi"
+	"Gedik"
+	"Gümülcineli"
+	"Gürcü"
+	"Hadim"
+	"Hekimoglu"
+	"Hersekli"
+	"Ishak"
+	"Izzed"
+	"Kanijeli"
+	"Kara"
+	"Karamanli"
+	"Kavalali"
+	"Kaymak"
+	"Kemal"
+	"Kemankes"
+	"Koca"
+	"Köprülü"
+	"Köse"
+	"Küçük"
+	"Lala"
+	"Lefkeli"
+	"Malkoç"
+	"Müezzinzade"
+	"Nevsehirli"
+	"Nisanci"
+	"Oflu"
+	"Ohrili"
+	"Oruç"
+	"Osmancikli"
+	"Pargali"
+	"Pehlivan"
+	"Piri"
+	"Piyale"
+	"Rumi"
+	"Salih"
+	"Sari"
+	"Semiz"
+	"Serdar"
+	"Silahdar"
+	"Sokullu"
+	"Tarhuncu"
+	"Tayyar"
+	"Topal"
+	"Turgut"
+	"Uluç"
+	"Veli"
+	"Yemisçi"
+	"Çandarli"
+	"Çelebi"
+	"Çerkes"
+	"Çuhadar"
+}
+ship_names = {
+	"Bunsuz"
+	"Cilicia"
+	"Ermenek"
+	"Göksu"
+	"Gülnar"
+	"Karaman Bey"
+	"Larande"
+	"Mer"
+	"Mut"
+	"Nure Sufi"
+	"Sadaddin"
+	"Semseddin Mehmet"
+	"Silifke"
+	"Zeynül-Hac"
+}
+army_names = {
+	"$PROVINCE$ Ordusu"
+}
+fleet_names = {
+	"$PROVINCE$ Donanmasî"
+}

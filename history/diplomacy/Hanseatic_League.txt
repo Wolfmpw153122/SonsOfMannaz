@@ -1,0 +1,43 @@
+
+alliance = {
+	first = HSA
+	second = RIG
+	trade_league = 1
+	start_date = 1380.1.1
+	end_date = 1581.1.1
+}
+alliance = {
+	first = HSA
+	second = FRN
+	trade_league = 1
+	start_date = 1380.1.1
+	end_date = 1581.1.1
+}
+alliance = {
+	first = HSA
+	second = Z20
+	trade_league = 1
+	start_date = 1380.1.1
+	end_date = 1581.1.1
+}
+alliance = {
+	first = HSA
+	second = Z24
+	trade_league = 1
+	start_date = 1380.1.1
+	end_date = 1581.1.1
+}
+alliance = {
+	first = HSA
+	second = Z25
+	trade_league = 1
+	start_date = 1380.1.1
+	end_date = 1581.1.1
+}
+alliance = {
+	first = HSA
+	second = RUG
+	trade_league = 1
+	start_date = 1380.1.1
+	end_date = 1581.1.1
+}

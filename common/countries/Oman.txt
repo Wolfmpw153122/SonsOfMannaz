@@ -1,0 +1,112 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 98 134 153 }
+revolutionary_colors = { 0 5 9 }
+historical_idea_groups = {
+	trade_ideas
+	quality_ideas
+	religious_ideas
+	maritime_ideas
+	economic_ideas
+	quantity_ideas
+	offensive_ideas
+	administrative_ideas
+}
+historical_units = {
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_dragoon
+	muslim_mass_infantry
+	persian_cavalry_charge
+	persian_footsoldier
+	persian_rifle
+	persian_shamshir
+	qizilbash_cavalry_unit
+	tofongchis_musketeer
+	topchis_artillery
+}
+monarch_names = {
+	"Agathokleia #1" = -1
+	"Aigyptia #0" = -1
+	"Akbar #1" = 10
+	"Ariston #1" = 10
+	"Arseas #0" = 0
+	"Ashshur-bêlshunu #2" = 10
+	"Batulia #1" = 10
+	"Diodotos #1" = 10
+	"Dokimos #0" = 0
+	"Dristar #1" = 10
+	"Eudamidas #1" = 10
+	"Hediste #0" = -1
+	"Javeed #1" = 10
+	"Monime #0" = -1
+	"Nidinti-Marduk #0" = 0
+	"Nikarchos #2" = 10
+	"Niko #0" = -1
+	"Orestes #2" = 10
+	"Ostro #1" = 10
+	"Parviz #3" = 10
+	"Philainis #1" = -1
+	"Rheomitres #1" = 10
+	"Shahryar #1" = 10
+	"Sophytes #1" = 10
+	"Sotas #0" = 0
+	"Tukultî-Adad #1" = 10
+	"Tukultî-Ashshur #0" = 0
+	"Tukultî-Ishtar #0" = 0
+	"Wardat-Bêl #1" = -1
+	"Wardat-Ishtar #0" = -1
+	"Wardat-Ninurta #0" = -1
+	"Wardat-Shamash #1" = -1
+	"Wardat-Sîn #0" = -1
+	"Yani #1" = 10
+	"Zarrindokht #0" = -1
+}
+leader_names = {
+	"Abbas"
+	"Bazzi"
+	"Issa"
+	"Jomaa"
+	"Khoury"
+	"Mourad"
+	"Moussa"
+	"Moustafa"
+	"Nasser"
+	"Sakr"
+}
+ship_names = {
+	"Al-Akhdar"
+	"Al-Batinah"
+	"Al-Gharbi"
+	"Al-Hadd"
+	"Al-Hajar"
+	"Al-Huqf"
+	"Al-Jabal"
+	"Al-Khaburah"
+	"As-Sib"
+	"Ash-Sharqi"
+	"Dank"
+	"Fins"
+	"Ibrä"
+	"Jabal ash-Shäm"
+	"Masirah"
+	"Maskin"
+	"Masqat"
+	"Matrah"
+	"Nizwä"
+	"Quraqqät"
+	"Ra's Abu Daud"
+	"Ra's Al-Hadd"
+	"Ramlat al Wahibah"
+	"Sarür"
+	"Shinas"
+	"Suhar"
+	"Sür"
+	"Tan'am"
+	"Tiwi"
+	"Tur at Masirah"
+	"Umm As-Samim"
+	"Wadi Andam"
+	"Wadi Aswad"
+	"Wadi al-Bahta"
+}

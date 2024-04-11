@@ -1,0 +1,133 @@
+ck2_converter_generated = yes
+graphical_culture = inuitgfx
+color = { 154 69 116 }
+revolutionary_colors = { 9 0 5 }
+historical_idea_groups = {
+	humanist_ideas
+	trade_ideas
+	economic_ideas
+	quality_ideas
+	diplomatic_ideas
+	administrative_ideas
+	aristocracy_ideas
+	quantity_ideas
+}
+historical_units = {
+	bardiche_infantry
+	eastern_carabinier
+	eastern_knights
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	hungarian_hussar
+	polish_hussar
+	polish_musketeer
+	polish_tercio
+	polish_winged_hussar
+	russian_cuirassier
+	russian_lancer
+	russian_mass
+	slavic_stradioti
+}
+monarch_names = {
+	"Abo #1" = 10
+	"Adalbert #1" = 10
+	"Andhave #2" = 10
+	"Arjuna #2" = -1
+	"Atyuccagami #0" = 0
+	"Borissa #0" = 0
+	"Caiytiska #3" = 10
+	"Claus #1" = 10
+	"Cunolava #0" = -1
+	"Duomoric #1" = 10
+	"Eidoht #0" = 0
+	"Hilppa #0" = 0
+	"Indradhvaje #1" = 10
+	"Kat #0" = -1
+	"Katarina #0" = -1
+	"Khatyako #0" = -1
+	"Ksmarjune #1" = 10
+	"Mandak #1" = 10
+	"Marcomund #0" = 0
+	"Nagasene #1" = -1
+	"Nga #0" = 0
+	"Piminä #0" = 0
+	"Praskovya #0" = -1
+	"Purnaya #2" = -1
+	"Putere #2" = -1
+	"Salinder #0" = 0
+	"Samatu #1" = 10
+	"Sinyava #1" = -1
+	"Sirtya #0" = 0
+	"Sumaise #1" = -1
+	"Tarmawirne #1" = -1
+	"Tikshayka #1" = -1
+	"Tisye #1" = -1
+	"Vesei #0" = 0
+	"Vinaise #1" = 10
+	"Waldmund #2" = 10
+	"Wayngachi #0" = 0
+	"Yarpalaske #1" = 10
+	"Yasaraksite #1" = -1
+	"Yavlad #0" = 0
+}
+leader_names = {
+	"Alseniskis"
+	"Astikas"
+	"Chodkevicius"
+	"Daukantas"
+	"Dauksa"
+	"Denhofas"
+	"Giedraitis"
+	"Gosevskis"
+	"Gostautas"
+	"Kesgaila"
+	"Kiska"
+	"Kosakovskis"
+	"Kulvietis"
+	"Lietuvis"
+	"Masalskis"
+	"Mazvydas"
+	"Nemirovicius"
+	"Oginskis"
+	"Ostrogiskis"
+	"Pacas"
+	"Pociejus"
+	"Radvila"
+	"Rapolionis"
+	"Rimsa"
+	"Sanguska"
+	"Sapiega"
+	"Simonavicius"
+	"Sirvydas"
+	"Skorina"
+	"Sluska"
+	"Sosnovskis"
+	"Svyriskis"
+	"Tiskevicius"
+	"Valancius"
+	"Valavicius"
+	"Visniovieckis"
+	"Zabiela"
+}
+ship_names = {
+	"Alytus"
+	"Birzai"
+	"Druskininkai"
+	"Gardinas"
+	"Jonava"
+	"Kaunas"
+	"Kretinga"
+	"Kreva"
+	"Lazdijai"
+	"Naugardukas"
+	"Palanga"
+	"Raseiniai"
+	"Siauliai"
+	"Sventoji"
+	"Taurage"
+	"Telsiai"
+	"Trakai"
+	"Utena"
+	"Vilkmerge"
+}

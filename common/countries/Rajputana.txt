@@ -1,0 +1,141 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 49 13 22 }
+historical_idea_groups = {
+	aristocracy_ideas
+	offensive_ideas
+	defensive_ideas
+	diplomatic_ideas
+	religious_ideas
+	trade_ideas
+	spy_ideas
+	economic_ideas
+}
+historical_units = {
+	bhonsle_cavalry
+	indian_arquebusier
+	indian_footsoldier
+	indian_rifle
+	mughal_mansabdar
+	mughal_musketeer
+	rajput_hill_fighters
+	reformed_mughal_mansabdar
+	sikh_hit_and_run
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"Ada #0" = -1
+	"Amrapali #0" = -1
+	"Amritnarayan #0" = 0
+	"Arbupales #0" = 0
+	"Ariabignes #0" = 0
+	"Bhavashankari #0" = -1
+	"Bhikhari #1" = 10
+	"Bhogavati #0" = -1
+	"Bibibai #0" = -1
+	"Bishwas Devi #0" = -1
+	"Cadayan #1" = 10
+	"Chand #0" = 0
+	"Dashasidkhaka #1" = 10
+	"Dattadevi #0" = -1
+	"Dehanagadevi #0" = -1
+	"Devi Ahiylya #0" = -1
+	"Dhairjendranayaran #0" = 0
+	"Dhanga #3" = 10
+	"Dhireshwar #1" = 10
+	"Drypetina #0" = -1
+	"Gayatri #0" = -1
+	"Hajo #1" = 10
+	"Hari Singh #2" = 10
+	"Hemant Sen #1" = 10
+	"Hetubalike #0" = 0
+	"Hirapal #0" = 0
+	"Irminburg #0" = -1
+	"Jagaddipendranarayan #0" = 0
+	"Jagdeva #1" = 10
+	"Jamyang #0" = -1
+	"Jayapala #0" = 0
+	"Jyotirishwar #0" = 0
+	"Kalayandevi #0" = -1
+	"Kalkurna #0" = 0
+	"Kanvarpala #0" = 0
+	"Kelzang #0" = -1
+	"Khadgodyama #1" = 10
+	"Kirti Singh #1" = 10
+	"Kumaradevi #0" = -1
+	"Mahendrapala #0" = 0
+	"Mahidevi #0" = -1
+	"Martandrao #0" = 0
+	"Melaina #0" = -1
+	"Oluwanisola #0" = -1
+	"Parikshitnayaran #0" = 0
+	"Radhika #1" = -1
+	"Rajasbai #0" = -1
+	"Rajendranarayan #2" = 10
+	"Ramnath #0" = 0
+	"Rani #1" = -1
+	"Shashigupta #1" = 10
+	"Shivanarayan #3" = 10
+	"Shukladhwaj #0" = 0
+	"Shurapala #0" = 0
+	"Sibel #0" = -1
+	"Suvrata #0" = -1
+	"Syamadevi #0" = -1
+	"Thais #0" = -1
+	"Tärtvisara #0" = -1
+	"Vapyata #0" = 0
+	"Vasudeva #1" = 10
+	"Vidurathpala #0" = 0
+	"Vijnayavati #0" = -1
+	"Vina #0" = -1
+	"Vishwarupsen #0" = 0
+	"Šanaz #0" = -1
+}
+leader_names = {
+	"Bargujar"
+	"Bhaal"
+	"Bhati"
+	"Chandela"
+	"Chauhan"
+	"Chudasama"
+	"Chundawa"
+	"Das"
+	"Gohil"
+	"Jadeja"
+	"Jadon"
+	"Khumba"
+	"Mori"
+	"Pratap"
+	"Sahu"
+	"Saran"
+	"Singh"
+	"Sisodiya"
+	"Tomara"
+	"Vaghela"
+}
+ship_names = {
+	"Chambal"
+	"Devi"
+	"Durga"
+	"Gayatri"
+	"Ghaggar"
+	"Godwar"
+	"Jalsena"
+	"Kala Jahazi"
+	"Lakshmi"
+	"Lal Jahazi"
+	"Luni"
+	"Merwar ka Nav"
+	"Nausena"
+	"Nav ka Yudh"
+	"Nila Jahazi"
+	"Padmini"
+	"Parvati"
+	"Radha"
+	"Rani"
+	"Ratri"
+	"Sagar"
+	"Sarasvati"
+	"Sekhawati"
+	"Sita"
+}

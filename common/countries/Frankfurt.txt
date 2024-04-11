@@ -1,0 +1,104 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 243 201 33 }
+revolutionary_colors = { 5 0 5 }
+historical_idea_groups = {
+	religious_ideas
+	trade_ideas
+	defensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	offensive_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	prussian_uhlan
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adalgar #1" = 10
+	"Aegidius #1" = 10
+	"Aliberta #1" = -1
+	"Bitorix #1" = 10
+	"Cunsa #1" = -1
+	"Eggerd #2" = 10
+	"Eponi #1" = 10
+	"Faroin #1" = 10
+	"Gurli #0" = -1
+	"Gyða #0" = -1
+	"Hildevold #1" = 10
+	"Hildimunduz #1" = 10
+	"Hucbert #1" = 10
+	"Ingólfr #0" = 0
+	"Jörundr #1" = 10
+	"Magneric #1" = 10
+	"Ragnald #1" = 10
+	"Sigríðr #0" = -1
+	"Sigtryggr #0" = 0
+	"Sveinn #0" = 0
+	"Tectomaros #2" = 10
+	"Teutbald #2" = 10
+	"Thunrafrithuz #1" = 10
+	"Waltgaud #1" = 10
+	"Álfrhildr #0" = -1
+	"Ívar #0" = 0
+}
+leader_names = {
+	"Alfter"
+	"Allendorf"
+	"Assmann"
+	"Barth"
+	"Becker"
+	"Betz"
+	"Bopp"
+	"Bornschlegel"
+	"Dude"
+	"Dörrenbecher"
+	"Eins"
+	"Fust"
+	"Grob"
+	"Göhler"
+	"Haas"
+	"Heidelberger"
+	"Ickstadt"
+	"Lawall"
+	"Pittschaft"
+	"Schmitt"
+	"Schoeneberger"
+	"Storck"
+	"Volz"
+}
+ship_names = {
+	"Hagenmünster"
+	"St. Alban"
+	"St. Aureus"
+	"St. Christoph"
+	"St. Emmeran"
+	"St. Georg"
+	"St. Ignaz"
+	"St. Johannes"
+	"St. Lambert"
+	"St. Maria"
+	"St. Nicomedes"
+	"St. Peter"
+	"St. Quintin"
+	"St. Theonest"
+	"Udenmünster"
+}
+army_names = {
+	"Armee von $PROVINCE$"
+}

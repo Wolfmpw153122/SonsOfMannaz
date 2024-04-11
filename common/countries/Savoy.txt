@@ -1,0 +1,185 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 80 149 57 }
+revolutionary_colors = { 5 13 6 }
+historical_idea_groups = {
+	administrative_ideas
+	defensive_ideas
+	diplomatic_ideas
+	offensive_ideas
+	trade_ideas
+	economic_ideas
+	innovativeness_ideas
+	quality_ideas
+}
+historical_units = {
+	anglofrench_line
+	french_bluecoat
+	french_carabinier
+	french_caracolle
+	french_dragoon
+	french_impulse
+	italian_condotta
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Ada #0" = -1
+	"Addila #0" = -1
+	"Arvirargus #1" = 10
+	"Balthasar #0" = 0
+	"Bernd #1" = 10
+	"Bia #0" = -1
+	"Bitorix #0" = 0
+	"Brun #0" = 0
+	"Concolitanus #1" = 10
+	"Drífa #0" = -1
+	"Ducarius #1" = 10
+	"Eggerd #0" = 0
+	"Engelbert #0" = 0
+	"Gerðr #0" = -1
+	"Giselher #0" = 0
+	"Glóð #0" = -1
+	"Hafríðr #0" = -1
+	"Helgi #0" = 0
+	"Högni #0" = 0
+	"Ingegerd #0" = -1
+	"Ingibjörg #0" = -1
+	"Ingólfr #0" = 0
+	"Kettilmund #0" = 0
+	"Mairi #0" = -1
+	"Nikulás #0" = 0
+	"Reginlint #0" = -1
+	"Reinmar #1" = 10
+	"Suanhilde #0" = -1
+	"Sörkvir #0" = 0
+	"Tasgetius #2" = 10
+	"Tectomaros #0" = 0
+	"Thimo #1" = 10
+	"Ulvhilde #0" = -1
+	"Veloriga #2" = -1
+	"Vigfús #0" = 0
+	"Vinoma #0" = -1
+	"Volrad #2" = 10
+	"Warinechin #0" = 0
+	"Wenzel #2" = 10
+	"Weybrecht #0" = 0
+	"Wienke #0" = -1
+	"Wiltrud #0" = -1
+	"Wolter #0" = 0
+	"Zopyris #0" = -1
+	"Þyri #0" = -1
+	"Þórdís #0" = -1
+}
+leader_names = {
+	"Alfieri"
+	"Arborio Mella"
+	"Asinari"
+	"Balbo"
+	"Benso"
+	"Boncompagni Ludovisi"
+	"Borromeo"
+	"Bosco"
+	"Botta"
+	"Broglia"
+	"Cacherano"
+	"Cafasso"
+	"Cantatore di Breo"
+	"Carignano"
+	"Casati"
+	"Chiodo"
+	"Cisa Asinari"
+	"Cottolengo"
+	"Doria di Cirié"
+	"Ferrero-Fiesco"
+	"Fiesco"
+	"Gaetani"
+	"Gaetani dell'Aquila"
+	"Galletti"
+	"Gioberti"
+	"Lascaris"
+	"Luserna di Bonifacio"
+	"Luserna di Campiglione"
+	"Luserna di Chiaberto"
+	"Melzi"
+	"Micca"
+	"Paleologi Montferrato"
+	"Pallavicini"
+	"Solaro"
+	"Taparelli"
+	"Valdo"
+	"Valfré"
+	"Vico"
+	"d'Acaja"
+	"d'Appiani d'Aragona"
+	"d'Attalaya"
+	"d'Incisa"
+	"d'Ottaiano"
+	"de Maretta"
+	"del Marco"
+	"del Monte"
+	"del Vasto"
+	"della Torre"
+	"di Busca"
+	"di Cadoval"
+	"di Cardé"
+	"di Challant"
+	"di Luserna"
+	"di Paesana"
+	"di Saluzzo"
+	"di Savoia"
+}
+ship_names = {
+	"Adelaide di Susa"
+	"Aimone"
+	"Albane"
+	"Amedeo Coda"
+	"Annecy"
+	"Bauges"
+	"Bellevaux"
+	"Biancamano"
+	"Bonifacio"
+	"Casa di Savoia"
+	"Chablais"
+	"Chambéry"
+	"Contamine-sur-Arve"
+	"Dora Riparia"
+	"Edoardo"
+	"Entremont"
+	"Faucigny"
+	"Filippo"
+	"Genevois"
+	"Giacomo"
+	"Hautecombe"
+	"Jaquerio"
+	"Lac du Bourget"
+	"Leysse"
+	"Maurienne"
+	"Oddone"
+	"Piemonte"
+	"Pietro I"
+	"Sacra Sindone"
+	"San Domenico"
+	"San Donato"
+	"San Paolo"
+	"San Salvario"
+	"Sangone"
+	"Santa Rita"
+	"Stura di Lanzo"
+	"Talloires"
+	"Tamié"
+	"Tarentaise"
+	"Tommaso"
+	"Torino"
+	"Umberto Sabaudia"
+	"Val d'Aosta"
+	"fiume Po"
+}
+army_names = {
+	"Armata di $PROVINCE$"
+}

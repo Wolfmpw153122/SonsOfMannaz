@@ -1,0 +1,102 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 215 208 14 }
+revolutionary_colors = { 13 11 0 }
+historical_idea_groups = {
+	defensive_ideas
+	religious_ideas
+	offensive_ideas
+	trade_ideas
+	spy_ideas
+	economic_ideas
+	diplomatic_ideas
+	administrative_ideas
+}
+historical_units = {
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_dragoon
+	muslim_mass_infantry
+	persian_cavalry_charge
+	persian_footsoldier
+	persian_rifle
+	persian_shamshir
+	qizilbash_cavalry_unit
+	tofongchis_musketeer
+	topchis_artillery
+}
+monarch_names = {
+	"Abdul-Razzaq #1" = 10
+	"Adad-erîba #1" = 10
+	"Agenor #0" = 0
+	"Alah-Verdi #0" = 0
+	"Alarus #0" = 0
+	"Amantas #0" = 0
+	"Anaxikrates #1" = 10
+	"Antipatros #2" = 10
+	"Aristodemos #1" = 10
+	"Aristonikos #0" = 0
+	"Arngrímr #0" = 0
+	"Ashshur-bêlshunu #0" = 0
+	"Biote #0" = -1
+	"Chrysippos #1" = 10
+	"Conna #0" = -1
+	"Enda #0" = -1
+	"Eubulos #0" = 0
+	"Gunada #1" = 10
+	"Gwendolen #0" = -1
+	"Halkyoneus #2" = 10
+	"Hermaios #1" = 10
+	"Hermogenes #1" = 10
+	"Hippostratos #1" = 10
+	"Kidin-Shamash #0" = 0
+	"Krateros #1" = 10
+	"Kráka #0" = -1
+	"Leonnatos #1" = 10
+	"Lurak-Luhhan #1" = 10
+	"Marduk-ibni #0" = 0
+	"Marduk-êtir #0" = 0
+	"Nergal-ibni #0" = 0
+	"Nikokreon #1" = 10
+	"Omar #0" = 0
+	"Peithon #3" = 10
+	"Phile #0" = -1
+	"Polygnotos #0" = 0
+	"Rhigeneu #0" = 0
+	"Tectomaros #0" = 0
+	"Valdemar #0" = 0
+	"Wardat-Ashshur #0" = -1
+	"Wardat-Enlil #0" = -1
+	"Wardat-Nergal #0" = -1
+}
+leader_names = {
+	"Ardashir"
+	"Buzurg"
+	"Dabuya"
+	"Dadhburzmihr"
+	"Farrukhan"
+	"Hassan"
+	"Kamal"
+	"Khurshid"
+	"Kiya"
+	"Mazyar"
+	"Qarin"
+	"Quhyar"
+	"Rida"
+	"Rustam"
+	"Shahriyar"
+	"Vindadhhurmuzd"
+}
+ship_names = {
+	"Amol"
+	"Ardashir"
+	"Astarabad"
+	"Chalus"
+	"Farim"
+	"Kelar"
+	"Lahican"
+	"Mazyar"
+	"Natel"
+	"Rustam"
+	"Vindadhhurmuzd"
+}

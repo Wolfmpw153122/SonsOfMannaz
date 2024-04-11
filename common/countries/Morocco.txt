@@ -1,0 +1,97 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 191 110 62 }
+revolutionary_colors = { 8 0 5 }
+historical_idea_groups = {
+	maritime_ideas
+	defensive_ideas
+	religious_ideas
+	expansion_ideas
+	administrative_ideas
+	offensive_ideas
+	trade_ideas
+	economic_ideas
+}
+historical_units = {
+	ali_bey_reformed_infantry
+	mamluk_archer
+	mamluk_cavalry_charge
+	mamluk_duel
+	mamluk_musket_charge
+	muslim_dragoon
+	muslim_mass_infantry
+}
+monarch_names = {
+	"Abakada #1" = 10
+	"Abdul-Azeem #0" = 0
+	"Acaymo #1" = 10
+	"Acosayda #1" = 10
+	"Adal #1" = 10
+	"Adeun #0" = 0
+	"Agdada #1" = 10
+	"Algzcin #0" = 0
+	"Arai #0" = -1
+	"Atidamana #0" = -1
+	"Awlagh #1" = 10
+	"Bentagay #0" = 0
+	"Br'ir'uc #1" = 10
+	"Brogimaros #2" = 10
+	"Catia #1" = -1
+	"Chabrias #0" = 0
+	"Chavender #0" = 0
+	"Chincanayro #0" = 0
+	"Cucung #2" = 10
+	"Camma #2" = 10
+	"Egonaiga #0" = 0
+	"Eponi #1" = 10
+	"Ermengar #0" = 0
+	"Guayasen #0" = 0
+	"It'ij #0" = 0
+	"Jugurtha #1" = 10
+	"Kadidu #1" = 10
+	"Kentarske #0" = 0
+	"Mbanyik #0" = 0
+	"Nisa #0" = -1
+	"Nizamaddin #1" = 10
+	"Nunno #0" = 0
+	"Odelric #0" = 0
+	"Olorix #0" = 0
+	"Sibisse #0" = -1
+	"Tectomaros #2" = 10
+	"Teguise #0" = -1
+}
+leader_names = {
+	"Alami"
+	"Arazi"
+	"Barek"
+	"Behar"
+	"Berui"
+	"Haida"
+	"Lahsini"
+	"Sahiri"
+	"Sellami"
+	"Skah"
+}
+ship_names = {
+	"Afuww"
+	"Badi"
+	"Baqi"
+	"Darr"
+	"Fa'uf"
+	"Fazl Azim"
+	"Ghani"
+	"Hadi"
+	"Jalal Ikram"
+	"Jami"
+	"Malik Mulk"
+	"Mani"
+	"Mughni"
+	"Muntaqim"
+	"Muqsit"
+	"Nafi"
+	"Nur"
+	"Rashid"
+	"Sabur"
+	"Tawwab"
+	"Warith"
+}

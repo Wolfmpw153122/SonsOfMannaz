@@ -1,0 +1,158 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 38 101 255 }
+revolutionary_colors = { 16 8 13 }
+historical_idea_groups = {
+	religious_ideas
+	offensive_ideas
+	trade_ideas
+	defensive_ideas
+	economic_ideas
+	spy_ideas
+	diplomatic_ideas
+	administrative_ideas
+}
+historical_units = {
+	asian_arquebusier
+	asian_charge_cavalry
+	asian_mass_infantry
+	asian_musketeer
+	east_asian_spearmen
+	eastern_bow
+	reformed_asian_cavalry
+	reformed_asian_musketeer
+}
+monarch_names = {
+	"Adityadeva #0" = 0
+	"Anamika #0" = -1
+	"Anantadevi #0" = -1
+	"Apara Gangeya #0" = 0
+	"Berkya #1" = 10
+	"Bhopal #0" = 0
+	"Birpal #0" = 0
+	"Bishwas Devi #0" = -1
+	"Champa #1" = 10
+	"Chödak #1" = -1
+	"Chöden #1" = 10
+	"Devakhadga #0" = 0
+	"Dhruvadevi #0" = -1
+	"Dinachintamani #0" = 0
+	"Domneiu #0" = 0
+	"Duktsuk #0" = -1
+	"Dîristan #0" = -1
+	"Fathia #0" = -1
+	"Garma #0" = -1
+	"Glaphyra #0" = -1
+	"Govindaraja #0" = 0
+	"Gulçiçek #0" = -1
+	"Harpal #0" = 0
+	"Hemavati #0" = -1
+	"Honghong #0" = -1
+	"Irâcâticci #0" = -1
+	"Jaganpala #0" = 0
+	"Jñanawirye #0" = 0
+	"Kailaspal #0" = 0
+	"Kakanvati #0" = -1
+	"Kalayandevi #0" = -1
+	"Karmavati #0" = -1
+	"Kashibai #0" = -1
+	"Kiratpala #0" = 0
+	"Kleagora #0" = -1
+	"Kumaradevi #0" = -1
+	"Kumarapala #3" = 10
+	"Kunwar #0" = 0
+	"Lhachen #0" = 0
+	"Lhakpa #1" = -1
+	"Mahidevi #0" = -1
+	"Mahlakadeva #0" = 0
+	"Mahâdeviyâr #0" = -1
+	"Marbold #0" = 0
+	"Muhing #0" = -1
+	"Narayanapala #1" = 10
+	"Nayapala #0" = 0
+	"Ngor #1" = 10
+	"Nikagora #0" = -1
+	"Parikshitnayaran #2" = 10
+	"Pratapnarayan #2" = 10
+	"Rabtson #2" = 10
+	"Rajamati #0" = -1
+	"Ramabhadra #0" = 0
+	"Rani #0" = -1
+	"Ranjana #0" = -1
+	"Ratnapala #0" = 0
+	"Saci #0" = -1
+	"Sanyukta #0" = -1
+	"Shrimitradevi #0" = -1
+	"Sukhinpala #0" = 0
+	"Sultanpala #0" = 0
+	"Tejapala #0" = 0
+	"Tisho #2" = 10
+	"Toktokteng #1" = -1
+	"Tshogyal #0" = -1
+	"Tsuktsen #3" = 10
+	"Vapyata #1" = 10
+	"Vidurathpala #0" = 0
+	"Yasovarman #0" = 0
+	"Zangza #0" = -1
+	"Zhonnu #1" = 10
+}
+leader_names = {
+	"Bal"
+	"Bri"
+	"Bro"
+	"Chespong"
+	"Cogro"
+	"Dbas"
+	"Dbra"
+	"Dru"
+	"Gnon"
+	"Gnyags"
+	"Khjungpo"
+	"Khu"
+	"Khun"
+	"Lang"
+	"Ldong"
+	"Lig"
+	"Mchims"
+	"Mgar"
+	"Mgus"
+	"Mjang"
+	"Mkar"
+	"Mnyammed"
+	"Mong"
+	"Nganlam"
+	"Nyang"
+	"Phjongsrgjas"
+	"Rinspungs"
+	"Rlangs"
+	"Rma"
+	"Rmu"
+	"Sba"
+	"Sbas"
+	"Se"
+	"Sgro"
+	"Shudpu"
+	"Snang"
+	"Snyiba"
+	"Stong"
+	"Thonmi"
+	"Zhang"
+	"Zhingshag"
+}
+ship_names = {
+	"Barkam"
+	"Dartsendo"
+	"Gartse"
+	"Gyantse"
+	"Lhasa"
+	"Lhotse"
+	"Makalu"
+	"Nagqu"
+	"Nedong"
+	"Nyingchi"
+	"Pelbar"
+	"Qamdo"
+	"Sakya"
+	"Shigatse"
+	"Tinggri"
+}

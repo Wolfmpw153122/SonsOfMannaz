@@ -1,0 +1,37 @@
+pagan = {
+	converted_dynamic_faith_141 = {
+		color = { 97 14 48 }
+		icon =  179
+		country = {
+ 
+		legitimacy = 1
+		horde_unity = 1
+		devotion = 0.5
+		meritocracy = 0.5
+		republican_tradition = 0.5
+	
+
+		leader_naval_manuever = 1
+		global_ship_trade_power = 0.1
+	
+
+		hostile_attrition = 1
+	
+
+		heir_chance = 0.5
+	
+}
+		country_as_secondary = {
+ 
+		raze_power_gain = 0.15
+	
+
+		global_trade_power = 0.1
+	
+}
+		
+	heretic = { KUSHITE SPHYNX }
+
+	}
+}
+

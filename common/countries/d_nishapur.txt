@@ -1,0 +1,22 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 80 250 255 }
+monarch_names = {
+	"Ardys #1" = 10
+	"Bêl-uballit #0" = 0
+	"Efšer #1" = 10
+	"Eurylochos #1" = 10
+	"Kartir #2" = 10
+	"Kleombrotos #1" = 10
+	"Lygdamis #1" = 10
+	"Orzek #1" = 10
+	"Parviz #1" = 10
+	"Pleistarchos #0" = 0
+	"Serçinar #1" = -1
+	"Stateira #1" = -1
+	"Theophilos #0" = 0
+	"Timarete #1" = -1
+	"Vahide #1" = -1
+	"Waryaruci #1" = 10
+	"Zartosht #1" = 10
+}

@@ -1,0 +1,177 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 178 163 143 }
+revolutionary_colors = { 13 8 13 }
+historical_idea_groups = {
+	defensive_ideas
+	trade_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	offensive_ideas
+	spy_ideas
+	religious_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	french_impulse
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	prussian_uhlan
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Agnes #0" = -1
+	"Airmed #0" = -1
+	"Anna #0" = -1
+	"Beneke #1" = 10
+	"Bernd #0" = 0
+	"Birgitta #0" = -1
+	"Bitorix #1" = 10
+	"Brogimaros #1" = 10
+	"Cedwyn #0" = 0
+	"Cord #1" = 10
+	"Cristin #0" = -1
+	"Camma #1" = 10
+	"Dalla #0" = -1
+	"Dethard #0" = 0
+	"Domneiu #0" = 0
+	"Ekbert #0" = 0
+	"Eponi #1" = 10
+	"Gisela #1" = -1
+	"Glóð #0" = -1
+	"Grímr #1" = 10
+	"Gurli #0" = -1
+	"Hafríðr #0" = -1
+	"Heroi #0" = 0
+	"Hrólfr #1" = 10
+	"Håkan #0" = 0
+	"Ilud #0" = -1
+	"Inga #0" = -1
+	"Ingjaldr #0" = 0
+	"Kako #0" = 0
+	"Kalodaye #0" = 0
+	"Karin #0" = -1
+	"Khatyako #0" = -1
+	"Kontäw #0" = -1
+	"Kujku #0" = -1
+	"Lembert #1" = 10
+	"Magunna #0" = -1
+	"Maija #0" = -1
+	"Meirchion #0" = 0
+	"Munkhare #0" = 0
+	"Num #0" = 0
+	"Olaf #0" = 0
+	"Olorix #1" = 10
+	"Padrig #0" = 0
+	"Purnaya #0" = -1
+	"Reinmar #0" = 0
+	"Rhamis #0" = -1
+	"Roce #1" = -1
+	"Ruuth #0" = -1
+	"Santisene #0" = -1
+	"Senda #0" = -1
+	"Sigríðr #0" = -1
+	"Smertomara #0" = 0
+	"Stinian #0" = 0
+	"Sæmundr #1" = 10
+	"Tectomaros #3" = 10
+	"Theodwin #0" = 0
+	"Unwan #0" = 0
+	"Uppalavarna #0" = -1
+	"Urien #1" = 10
+	"Valþjófr #0" = 0
+	"Vinoma #0" = -1
+	"Wecta #0" = 0
+	"Wiltrud #0" = -1
+	"Yasawine #1" = 10
+	"Álfrhildr #0" = -1
+	"Ástríðr #1" = -1
+	"Örvar #2" = 10
+}
+leader_names = {
+	"Desgouttes"
+	"Duquesne"
+	"Le Tellier"
+	"d'Ambleteuse"
+	"d'Aulnay"
+	"d'Entraigues"
+	"d'Estrées"
+	"d'Ornano"
+	"d'Usson"
+	"de Beauharnais"
+	"de Bercy"
+	"de Boissieu"
+	"de Bonnefoy"
+	"de Bonneuil"
+	"de Broglie"
+	"de Béthune"
+	"de Castaing"
+	"de Caumartin"
+	"de Chambly"
+	"de Chambronne"
+	"de Champmartin"
+	"de Chevigny"
+	"de Crussol"
+	"de Crèvecoeur"
+	"de Dampierre"
+	"de Galard"
+	"de La Barthe"
+	"de La Ferrandie"
+	"de La Galissonière"
+	"de La Mothe"
+	"de La Motte d'Airan"
+	"de La Porte"
+	"de Lhéry"
+	"de Luynes"
+	"de Marguerye"
+	"de Maurepas"
+	"de Neufchâtel"
+	"de Pellefort"
+	"de Richemont"
+	"de Rieu"
+	"de Rochechouart"
+	"de Rochemaure"
+	"de Saint Chamond"
+	"de Saint Esprit"
+	"de Saint Germain"
+	"de Saint Omer"
+	"de Siorac"
+	"de Tocqueville"
+	"de Tréville"
+	"de Vergennes"
+	"de Vibien"
+	"de Vigny"
+	"de Villeneuve"
+	"de la Bretonnière"
+	"de la Tour d'Auvergne"
+	"des Coulons"
+	"des Ecures"
+	"des Herbiers"
+	"du Bosquet"
+	"du Fournay"
+	"du Valentinois"
+}
+ship_names = {
+	"Barrois"
+	"Bera"
+	"Emperor Lothar"
+	"Lotharingen"
+	"Metz"
+	"Rene II Lothringen"
+	"Scoc"
+	"Sekjan"
+	"Skirmjan"
+	"Toul"
+	"Verdun"
+	"Warding"
+}

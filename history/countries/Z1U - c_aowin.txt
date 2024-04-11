@@ -1,0 +1,57 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = sub_saharan
+religion = coptic
+primary_culture = dynamic-mali-culture-num1
+capital = 2258
+fixed_capital = 2258
+set_country_flag = ZZZ_generated_converter_nation
+1444.11.11= {
+	monarch = {
+		name = "Fadima"
+		dynasty = "Toubou-Kyadya"
+		adm = 4
+		dip = 4
+		mil = 4
+		birth_date = 1398.5.12
+		female = yes
+		religion = coptic
+		culture = dynamic-mali-culture-num1
+	}
+	add_ruler_personality = bold_fighter_personality
+	add_ruler_personality = drunkard_personality
+	queen = {
+		name = "Etimpo"
+		dynasty = "City-Shabe"
+		adm = 5
+		dip = 3
+		mil = 5
+		country_of_origin = Z1U
+		birth_date = 1399.11.10
+		death_date = 1459.11.10
+		religion = coptic
+		culture = fon
+	}
+	add_queen_personality = cruel_personality
+	add_queen_personality = free_thinker_personality
+	heir = {
+		name = "Aisosa"
+		monarch_name = "Aisosa"
+		dynasty = "City-Ijebu"
+		adm = 1
+		dip = 1
+		mil = 1
+		birth_date = 1439.9.21
+		death_date = 1504.9.21
+		claim = 89
+		religion = coptic
+		culture = dynamic-yorumba-aka-culture-num1
+	}
+	add_heir_personality = charismatic_negotiator_personality
+	add_heir_personality = kind_hearted_personality
+}
+1444.11.11= {
+	add_prestige = 71
+	add_treasury = 40
+}

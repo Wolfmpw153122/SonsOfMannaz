@@ -1,0 +1,189 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 89 128 68 }
+revolutionary_colors = { 5 13 8 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	offensive_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Abram #0" = 0
+	"Adalgari #0" = 0
+	"Adalgod #1" = 10
+	"Adiatorix #2" = 10
+	"Ageric #0" = 0
+	"Albofleda #2" = -1
+	"Aliberta #0" = -1
+	"Ansuario #1" = 10
+	"Aregisel #1" = 10
+	"Audovera #0" = -1
+	"Austrechild #0" = -1
+	"Badegisel #0" = 0
+	"Balthild #0" = -1
+	"Bernegildis #0" = -1
+	"Berthefled #0" = -1
+	"Berthefried #0" = 0
+	"Bertilla #0" = -1
+	"Björg #0" = -1
+	"Bladovildis #0" = -1
+	"Brogimaros #1" = 10
+	"Brunhild #0" = -1
+	"Chilperic #0" = 0
+	"Chlodosind #0" = -1
+	"Dagobert #1" = 10
+	"Dalla #0" = -1
+	"Diedke #0" = -1
+	"Domneiu #2" = 10
+	"Dusnastainaz #1" = 10
+	"Eggerd #1" = 10
+	"Eilífr #0" = 0
+	"Elaine #0" = -1
+	"Engilbert #0" = 0
+	"Eponi #1" = 10
+	"Faileuba #0" = -1
+	"Feremund #0" = 0
+	"Finnguala #0" = -1
+	"Frolaica #0" = -1
+	"Gautlindis #0" = -1
+	"Gautmar #0" = 0
+	"Genovefa #1" = -1
+	"Gerhard #0" = 0
+	"Gozhelm #0" = 0
+	"Grimald #0" = 0
+	"Gualtari #0" = 0
+	"Gunthiwaldaz #1" = 10
+	"Haldemar #0" = 0
+	"Halderudis #0" = -1
+	"Halla #0" = -1
+	"Hartmut #0" = 0
+	"Hengest #0" = 0
+	"Hugbert #0" = 0
+	"Hörðr #0" = 0
+	"Ilud #0" = -1
+	"Ingiríðr #0" = -1
+	"Ingitrude #0" = -1
+	"Ingwo #1" = 10
+	"Játvarðr #1" = 10
+	"Jórunn #0" = -1
+	"Jörundr #1" = 10
+	"Karilaz #1" = 10
+	"Lambert #0" = 0
+	"Linda #0" = -1
+	"Madelgarde #0" = -1
+	"Maeve #0" = -1
+	"Magnachar #0" = 0
+	"Mainard #0" = 0
+	"Marell #1" = 10
+	"Morberga #0" = -1
+	"Odelric #0" = 0
+	"Pharamond #0" = 0
+	"Ragena #0" = 0
+	"Ragenard #0" = 0
+	"Rakericus #1" = 10
+	"Roland #1" = 10
+	"Segoin #0" = 0
+	"Seguin #0" = 0
+	"Senila #0" = -1
+	"Sicleard #0" = 0
+	"Sigobert #0" = 0
+	"Simon #0" = 0
+	"Tassilo #0" = 0
+	"Tectomaros #1" = 10
+	"Teutbald #0" = 0
+	"Theutbald #0" = 0
+	"Thunrafrithuz #1" = 10
+	"Trutgaud #0" = 0
+	"Walburg #0" = -1
+	"Wicho #1" = 10
+	"Wulfhild #0" = -1
+	"Áidná #0" = -1
+}
+leader_names = {
+	"Blochberger"
+	"Bär"
+	"Degen"
+	"Dick"
+	"Dietsch"
+	"Däumler"
+	"Egelkraut"
+	"Ernst"
+	"Fichtelmann"
+	"Fischer"
+	"Franck"
+	"Färber"
+	"Födisch"
+	"Grimm"
+	"Gäbelein"
+	"Hager"
+	"Hofmann"
+	"Höhrer"
+	"Knörnschild"
+	"Langheinrich"
+	"Maier"
+	"Narr"
+	"Ott"
+	"Ranck"
+	"Rank"
+	"Rudl"
+	"Sack"
+	"Schmidt"
+	"Schwager"
+	"Seel"
+	"Sell"
+	"Simon"
+	"Söll"
+	"Teichmann"
+	"Weinrich"
+	"Wirth"
+}
+ship_names = {
+	"Albrecht Achilles"
+	"Bayreuth"
+	"Bergtheim"
+	"Biebelried"
+	"Eigelstadt"
+	"Friedrich V"
+	"Friedrich von Ansbach"
+	"Georg"
+	"Georg Friedrich"
+	"Gramschatz"
+	"Hohenzollern"
+	"Höchberg"
+	"Julius Echter"
+	"Kietzingen"
+	"Kulmbach"
+	"Main"
+	"Marienberg"
+	"Ochsenfurth"
+	"Onoldsbach"
+	"Rezat"
+	"Rimpar"
+	"Uettingen"
+	"Wern"
+}
+army_names = {
+	"Armee von $PROVINCE$"
+	"Erste Fränkische Armee"
+}

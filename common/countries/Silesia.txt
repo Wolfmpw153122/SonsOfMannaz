@@ -1,0 +1,152 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 84 166 93 }
+revolutionary_colors = { 8 1 8 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	quality_ideas
+	religious_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adiatorix #0" = 0
+	"Aessicunia #0" = -1
+	"Aife #0" = -1
+	"Alatucca #0" = -1
+	"Aldona #0" = -1
+	"Alf #0" = 0
+	"Ansuwaldaz #1" = 10
+	"Anukijaz #1" = 10
+	"Audawakraz #1" = 10
+	"Banna #0" = -1
+	"Bertrada #0" = -1
+	"Bisina #0" = -1
+	"Bitorix #0" = 0
+	"Bodicacia #0" = -1
+	"Boudica #0" = -1
+	"Bricta #0" = -1
+	"Brogimaros #0" = 0
+	"Burchard #1" = 10
+	"Bóthildr #0" = -1
+	"Cantisena #0" = -1
+	"Carssouna #0" = -1
+	"Casthild #1" = -1
+	"Cata #0" = -1
+	"Catia #0" = -1
+	"Catissena #0" = -1
+	"Cingetessa #0" = -1
+	"Cunolava #0" = -1
+	"Camma #0" = 0
+	"Dagas #0" = -1
+	"Detleff #1" = 10
+	"Domneiu #0" = 0
+	"Dýri #0" = 0
+	"Einarr #0" = 0
+	"Engelhard #0" = 0
+	"Eponi #1" = 10
+	"Friðríkr #0" = 0
+	"Gandálfr #0" = 0
+	"Glande #0" = 0
+	"Glóð #0" = -1
+	"Gomulfus #0" = 0
+	"Gopala #1" = 10
+	"Gormr #0" = 0
+	"Gundhram #0" = 0
+	"Guðmundr #0" = 0
+	"Guðrún #0" = -1
+	"Gygaia #0" = -1
+	"Günther #0" = 0
+	"Hadwig #1" = -1
+	"Heilwig #0" = -1
+	"Hildwald #1" = 10
+	"Hörðaknútr #0" = 0
+	"Iamcilla #0" = -1
+	"Ingfríðr #0" = -1
+	"Karoline #0" = -1
+	"Kersten #0" = 0
+	"Laikiwaldaz #1" = 10
+	"Leuderic #0" = 0
+	"Lucilia #0" = -1
+	"Magunna #0" = -1
+	"Margrethe #0" = -1
+	"Monnia #0" = -1
+	"Olorix #0" = 0
+	"Phrynichos #1" = 10
+	"Ragnhildr #0" = -1
+	"Randild #1" = -1
+	"Rescurai #0" = -1
+	"Rudolf #1" = 10
+	"Ríkiza #0" = -1
+	"Sentica #0" = -1
+	"Sigibald #1" = 10
+	"Signý #0" = -1
+	"Sigtryggr #1" = 10
+	"Sunnonriks #1" = 10
+	"Svanhildr #0" = -1
+	"Tectomaros #0" = 0
+	"Uen #0" = -1
+	"Upatisye #0" = -1
+	"Velibia #0" = -1
+	"Vigfús #0" = 0
+	"Vina #1" = -1
+	"Viscaverga #0" = -1
+	"Vistremiro #2" = 10
+	"Volrad #0" = 0
+	"Waliriks #1" = 10
+	"Warinechin #0" = 0
+	"Árni #1" = 10
+	"Þorsteinn #0" = 0
+	"Þyri #0" = -1
+	"Þórðr #0" = 0
+}
+leader_names = {
+	"Abeln"
+	"Greve"
+	"Gronau"
+	"Heintzel"
+	"Hergesell"
+	"Hoppe"
+	"Jauernik"
+	"Kahl"
+	"Liegnitz"
+	"Schwarz"
+	"Sterner"
+	"Tilch"
+	"Wiehle"
+}
+ship_names = {
+	"Breslau"
+	"Cosel-Beuthen"
+	"Falkenberg"
+	"Glogau"
+	"Liegnitz-Brieg"
+	"Münsterberg"
+	"Neisse-Ottmachau"
+	"Oels"
+	"Oppeln"
+	"Ratibor"
+	"Sagan"
+	"Schweidnitz-Jauer"
+	"Steinau"
+	"Teschen"
+}

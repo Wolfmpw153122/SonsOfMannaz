@@ -1,0 +1,103 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 80 200 120 }
+revolutionary_colors = { 0 5 0 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	religious_ideas
+	offensive_ideas
+	maritime_ideas
+	innovativeness_ideas
+	spy_ideas
+	quality_ideas
+}
+historical_units = {
+	anglofrench_line
+	french_caracolle
+	french_dragoon
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	prussian_frederickian
+	prussian_uhlan
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"'Abd'ashtart #1" = 10
+	"'Abd'osir #1" = -1
+	"'Ammi'eshmun #1" = -1
+	"'Eshmun'amos #1" = 10
+	"Adiya #1" = -1
+	"Amulius #1" = 10
+	"Anaxippos #0" = 0
+	"Apollonios #1" = 10
+	"Arishat #1" = -1
+	"Ba'lshillek #1" = 10
+	"Baaliaton #0" = 0
+	"Barekbaal #2" = 10
+	"Batnoam #0" = -1
+	"Bersi #0" = 0
+	"Bitshalom #1" = -1
+	"Bodmelqart #1" = 10
+	"Bodo #1" = 10
+	"Boodes #1" = 10
+	"Cynfarch #0" = 0
+	"Danel #1" = 10
+	"Dorkas #0" = -1
+	"Eudamidas #0" = 0
+	"Flavius #2" = 10
+	"Kanmi #1" = 10
+	"Kleariste #0" = -1
+	"Laomedon #1" = 10
+	"Libys #0" = -1
+	"Malthake #0" = -1
+	"Mashah #1" = -1
+	"Muttunbaal #0" = -1
+	"Nafissa #0" = -1
+	"Patrokles #0" = 0
+	"Philonides #1" = 10
+	"Philosir #0" = 0
+	"Plangon #0" = -1
+	"Servia #1" = -1
+	"Shayna #1" = -1
+	"Stratokles #0" = 0
+	"Suhaima #1" = -1
+	"Thearidas #1" = 10
+	"Tzaloh #1" = 10
+	"Urumilki #1" = 10
+	"Ytab #0" = -1
+	"Zimrida #1" = 10
+}
+leader_names = {
+	"Ahmad"
+	"Hussain"
+	"Jahagir"
+	"Mahmud"
+	"Mirza"
+	"Mohsin"
+	"Rukh"
+	"Sa'id"
+	"Uways"
+	"Zaman"
+}
+ship_names = {
+	"Alfonse of Portugal"
+	"Arnaud de Comps"
+	"Auger de Balben"
+	"Garnier de Naplous"
+	"Gastone de Murols"
+	"Geoffrey le Rat"
+	"Geoffroy de Donjon"
+	"Gilbert d'Aissailly"
+	"Gilbert of Syria"
+	"Hermangard d'Asp"
+	"Hélion de Villeneuve"
+	"Raymond du Puy de Provence"
+	"Roger de Moulins"
+	"The Blessed Gerard"
+}

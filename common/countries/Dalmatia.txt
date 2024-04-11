@@ -1,0 +1,233 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 46 128 188 }
+revolutionary_colors = { 12 15 13 }
+historical_idea_groups = {
+	trade_ideas
+	plutocracy_ideas
+	humanist_ideas
+	exploration_ideas
+	defensive_ideas
+	economic_ideas
+	quality_ideas
+	innovativeness_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	italian_condotta
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Albrikt #0" = 0
+	"Alfhild #0" = -1
+	"Ammida #0" = -1
+	"Ampratasene #0" = -1
+	"Appius #0" = 0
+	"Arnfast #0" = 0
+	"Arsa #0" = -1
+	"Athela #0" = -1
+	"Azem #0" = 0
+	"Banna #0" = -1
+	"Bertrada #0" = -1
+	"Birgitta #0" = -1
+	"Bora #0" = -1
+	"Botulf #0" = 0
+	"Brigida #0" = -1
+	"Bror #0" = 0
+	"Brynolf #0" = 0
+	"Bryoukos #0" = 0
+	"Charikles #0" = 0
+	"Dan #0" = 0
+	"Dasmenos #0" = 0
+	"Decima #0" = -1
+	"Dritëro #0" = 0
+	"Dukagjin #0" = 0
+	"Eccana #0" = -1
+	"Edla #0" = -1
+	"Egil #0" = 0
+	"Eleri #0" = -1
+	"Elidon #0" = 0
+	"Fatmir #0" = 0
+	"Faustus #0" = 0
+	"Flavius #0" = 0
+	"Florin #0" = 0
+	"Fredrik #0" = 0
+	"Gjylo #0" = -1
+	"Glaukias #0" = 0
+	"Glóð #0" = -1
+	"Gyla #0" = -1
+	"Halil #0" = 0
+	"Hasan #0" = 0
+	"Helena #0" = -1
+	"Holmger #0" = 0
+	"Hostus #0" = 0
+	"Håkan #0" = 0
+	"Inge #0" = 0
+	"Ingvar #0" = 0
+	"Jehona #0" = -1
+	"Játvarðr #0" = 0
+	"Katarina #0" = -1
+	"Kettil #0" = 0
+	"Kleino #0" = -1
+	"Kol #0" = 0
+	"Kristina #0" = -1
+	"Laidos #0" = 0
+	"Leukon #0" = 0
+	"Lucia #0" = -1
+	"Ludolf #0" = 0
+	"Marcus #0" = 0
+	"Megurka #0" = -1
+	"Nikokrates #0" = 0
+	"Numeria #0" = -1
+	"Nxhiku #0" = 0
+	"Olorix #0" = 0
+	"Orvar #0" = 0
+	"Quinta #0" = -1
+	"Quintus #0" = 0
+	"Ragnar #0" = 0
+	"Richardis #0" = -1
+	"Sarikel #0" = -1
+	"Sextus #0" = 0
+	"Skilos #0" = 0
+	"Sven #0" = 0
+	"Tatonia #0" = -1
+	"Tawannanna #0" = -1
+	"Teuta #0" = -1
+	"Thoas #0" = 0
+	"Thomas #0" = 0
+	"Thordis #0" = -1
+	"Timo #0" = -1
+	"Tizios #0" = 0
+	"Tourranios #0" = 0
+	"Tritano #0" = -1
+	"Tita #0" = -1
+	"Ulf #0" = 0
+	"Urkleina #0" = -1
+	"Vandano #0" = -1
+	"Vesa #0" = -1
+	"Walburg #0" = -1
+	"Wiltrud #0" = -1
+	"Yllka #0" = -1
+	"Zenel #0" = 0
+	"Östen #0" = 0
+}
+leader_names = {
+	"Alapic"
+	"Alvise"
+	"Babonic"
+	"Barbarigo"
+	"Bardolino"
+	"Barilla"
+	"Bassano"
+	"Bembo"
+	"Blagaj"
+	"Casanova"
+	"Cassandro"
+	"Cesnegic"
+	"Chiogga"
+	"Commachio"
+	"Contarini"
+	"Cornaro"
+	"Crnkovic"
+	"Dolfin"
+	"Donato"
+	"Drashkovic"
+	"Emo"
+	"Erizzo"
+	"Ermelli"
+	"Flangini"
+	"Foscarini"
+	"Foscolo"
+	"Frankapan"
+	"Garda"
+	"Giustinani"
+	"Gorjanski"
+	"Grimani"
+	"Gritti"
+	"Horvat"
+	"Hrvatinic"
+	"Ilocki"
+	"Jelacic"
+	"Kacic"
+	"Kaniski"
+	"Keglevic"
+	"Knezevic"
+	"Krbavski"
+	"Kruzic"
+	"Kurjakovic"
+	"Labia"
+	"Lackovic"
+	"Lando"
+	"Lomellini"
+	"Loredan"
+	"Magno"
+	"Marcello"
+	"Memmo"
+	"Mestre"
+	"Mihalovic"
+	"Moceningo"
+	"Modigliano"
+	"Molin"
+	"Moro"
+	"Morosini"
+	"Nelipcic"
+	"Ozegovic"
+	"Pejacevic"
+	"Pesaro"
+	"Pezzini"
+	"Pisani"
+	"Polani"
+	"Pordenone"
+	"Priuli"
+	"Quirini"
+	"Radic"
+	"Riva"
+	"Rovereto"
+	"Rovigo"
+	"Rukavina"
+	"Ruzzini"
+	"San Paulo"
+	"Schio"
+	"Subic"
+	"Sugaina"
+	"Talovac"
+	"Toscani"
+	"Trevisano"
+	"Valieri"
+	"Veniero"
+	"Vittorio"
+	"Vrancic"
+	"Zeno"
+	"Zrinski"
+	"Zustiniani"
+	"d'Alviano"
+	"de Blazio"
+}
+ship_names = {
+	"Cres"
+	"Dugi Otok"
+	"Goli"
+	"Krl"
+	"Pag"
+	"Plavnik"
+	"Susak"
+	"Sveti Grgur"
+	"Tijat"
+	"Unije"
+	"Vele Srankane"
+	"Zlarin"
+	"Zmajan"
+}
+army_names = {
+	"Vojska $PROVINCE$"
+}

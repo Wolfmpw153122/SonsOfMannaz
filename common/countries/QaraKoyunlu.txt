@@ -1,0 +1,97 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 54 117 136 }
+revolutionary_colors = { 14 1 14 }
+historical_idea_groups = {
+	administrative_ideas
+	religious_ideas
+	offensive_ideas
+	trade_ideas
+	defensive_ideas
+	diplomatic_ideas
+	economic_ideas
+	humanist_ideas
+}
+historical_units = {
+	reformed_steppe_rifles
+	steppe_cavalry
+	steppe_footmen
+	steppe_infantry
+	steppe_lancers
+	steppe_mounted_raiders
+	steppe_musketeers
+	steppe_raiders
+	steppe_riders
+	steppe_rifles
+	steppe_uhlans
+}
+monarch_names = {
+	"Adad-erîba #1" = 10
+	"Agenor #0" = 0
+	"Alah-Verdi #0" = 0
+	"Alarus #0" = 0
+	"Amantas #0" = 0
+	"Antipatros #1" = 10
+	"Aristodemos #1" = 10
+	"Aristonikos #1" = 10
+	"Arngrímr #0" = 0
+	"Ashshur-bêlshunu #0" = 0
+	"Biote #0" = -1
+	"Conna #0" = -1
+	"Enda #0" = -1
+	"Eubulos #0" = 0
+	"Eupolemos #2" = 10
+	"Ezcan #1" = -1
+	"Gwendolen #0" = -1
+	"Halkyoneus #2" = 10
+	"Hippostratos #0" = 0
+	"Ishtar-bêlî #1" = 10
+	"Kidin-Shamash #0" = 0
+	"Kráka #0" = -1
+	"Marduk-ibni #0" = 0
+	"Marduk-êtir #0" = 0
+	"Megasthenes #1" = 10
+	"Menedemos #1" = 10
+	"Nergal-ibni #0" = 0
+	"Nikandros #1" = 10
+	"Nikokrates #1" = 10
+	"Nikokreon #2" = 10
+	"Omar #0" = 0
+	"Peithon #2" = 10
+	"Phile #0" = -1
+	"Polygnotos #0" = 0
+	"Rhigeneu #0" = 0
+	"Shipqat-Bêl #1" = 10
+	"Tectomaros #0" = 0
+	"Valdemar #0" = 0
+	"Wardat-Ashshur #0" = -1
+	"Wardat-Enlil #0" = -1
+	"Wardat-Nergal #0" = -1
+}
+leader_names = {
+	"Bairam"
+	"Hasan"
+	"Jahan"
+	"Khwaja"
+	"Muhammad"
+	"Muzaffar"
+	"Nasr"
+	"Nyuan"
+	"Turmush"
+	"Yûsuf"
+}
+ship_names = {
+	"Agdam"
+	"Bazard'uz'u"
+	"Bälän Safar"
+	"Herat"
+	"Iskander Yusuf"
+	"K'urdamir"
+	"Kura"
+	"Qara Muhammad"
+	"Qara Yusuf"
+	"Qareh Sü"
+	"Sevan"
+	"Sumgait"
+	"Udzary"
+}

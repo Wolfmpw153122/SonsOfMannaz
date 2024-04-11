@@ -1,0 +1,110 @@
+ck2_converter_generated = yes
+graphical_culture = africangfx
+color = { 230 240 255 }
+revolutionary_colors = { 5 0 8 }
+historical_idea_groups = {
+	religious_ideas
+	offensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	trade_ideas
+	maritime_ideas
+	defensive_ideas
+	administrative_ideas
+}
+historical_units = {
+	adal_guerilla_warfare
+	adal_gunpowder_warfare
+	african_abyssinian_cavalry
+	african_abyssinian_light_cavalry
+	african_dragoon
+	african_hill_warfare
+	african_hussar
+	african_somali_cavalry
+	african_spearmen
+	bantu_tribal_warfare
+	westernized_adal
+}
+monarch_names = {
+	"Abdirahman #2" = 10
+	"Adan #1" = 10
+	"Awa #0" = -1
+	"Aydahis #1" = 10
+	"Balad #1" = 10
+	"Baraka #0" = 0
+	"Chremonides #1" = 10
+	"Dagale #1" = 10
+	"Dhidhin #1" = 10
+	"Dionysios #1" = 10
+	"Hamalmal #1" = 10
+	"Haqq #1" = 10
+	"Haweeya #0" = -1
+	"Irir #0" = 0
+	"Isman #1" = 10
+	"Ismenias #0" = 0
+	"Jiinow #0" = -1
+	"Kadhafo #1" = 10
+	"Khalaf #1" = 10
+	"Liban #0" = 0
+	"Liemar #0" = 0
+	"Luula #1" = -1
+	"Magol #1" = -1
+	"Nassir #1" = 10
+	"Nikarchos #2" = 10
+	"Nuña #0" = -1
+	"Sa'ad #0" = 0
+	"Salah #1" = 10
+	"Skjaldvör #0" = -1
+	"Thearidas #1" = 10
+	"Umar #1" = 10
+	"Wilbrand #0" = 0
+}
+leader_names = {
+	"Abdallah"
+	"Abdikarim"
+	"Abubakar"
+	"Ahmad"
+	"Ayub"
+	"Dalmar"
+	"Ghedi"
+	"Hassan"
+	"Khalid"
+	"Liban"
+	"Mahad"
+	"Mosa"
+	"Muhammad"
+	"Omar"
+	"Rahim"
+	"Saad"
+	"Sadiq"
+	"Sharif"
+}
+ship_names = {
+	"Afgooye"
+	"Awash"
+	"Baraawe"
+	"Berahle"
+	"Boocame"
+	"Dallol"
+	"Dooloow"
+	"Dubti"
+	"Dulecha"
+	"Elidar"
+	"Ewa"
+	"Geedo"
+	"Gewane"
+	"Gobolka"
+	"Hawo"
+	"Jubbada"
+	"Kalabaydh"
+	"Marka"
+	"Semera"
+	"Simurobi"
+	"Yalo"
+}
+army_names = {
+	"Army of $PROVINCE$"
+}
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}

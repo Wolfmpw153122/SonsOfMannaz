@@ -1,0 +1,124 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 51 59 76 }
+historical_idea_groups = {
+	maritime_ideas
+	trade_ideas
+	defensive_ideas
+	innovativeness_ideas
+	offensive_ideas
+	economic_ideas
+	quality_ideas
+	administrative_ideas
+}
+historical_units = {
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	prussian_frederickian
+	prussian_uhlan
+	swedish_arme_blanche
+	swedish_caroline
+	swedish_gallop
+	swedish_gustavian
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Ainaharjaz #1" = 10
+	"Athalagaizaz #1" = 10
+	"Bagina #1" = -1
+	"Bergþóra #0" = -1
+	"Dusnastainaz #1" = 10
+	"Dyre #1" = 10
+	"Ehwawiniz #1" = -1
+	"Freyr #0" = 0
+	"Gisela #1" = -1
+	"Gudahildiz #1" = -1
+	"Guðrún #0" = -1
+	"Halla #0" = -1
+	"Halsten #1" = 10
+	"Högni #1" = 10
+	"Inga #0" = -1
+	"Ingfrid #3" = -1
+	"Jacob #1" = 10
+	"Mauregato #2" = 10
+	"Miro #1" = 10
+	"Recesuinda #1" = -1
+	"Rögnfríðr #0" = -1
+	"Segomirus #1" = 10
+	"Sigurðr #1" = 10
+	"Sisulfus #1" = 10
+	"Skarphéðinn #0" = 0
+	"Sune #2" = 10
+	"Torsten #2" = 10
+	"Toste #1" = 10
+	"Ýr #1" = -1
+	"Þórdís #0" = -1
+}
+leader_names = {
+	"Beyse"
+	"Boniface"
+	"Grosch"
+	"Haufoote"
+	"Heidmann"
+	"Jürgens"
+	"Krumtum"
+	"Kurzhöfer"
+	"Kurzmann"
+	"Mandüvel"
+	"Meuseling"
+	"Michels"
+	"Miercke"
+	"Milies"
+	"Normann"
+	"Rainbek"
+	"Rähl"
+	"Scheld"
+	"Stellmacher"
+	"Stuke"
+	"Störtebeker"
+	"Wessel"
+	"Wichmann"
+	"Wygbold"
+	"von Borcke"
+	"von Cammin"
+	"von Eickstedt"
+	"von Greifswald"
+	"von Kolberg"
+	"von Pommern"
+	"von Rügen"
+	"von Schwerin"
+	"von Stettin"
+	"von Stolp"
+	"von Stralsund"
+	"von Wethemonkule"
+	"von Wolgast"
+	"von Wolgatz"
+	"von Wolin"
+}
+ship_names = {
+	"Bornholmer Drachenboot"
+	"Danziger Schmetterer"
+	"Der Drache des Nordens"
+	"Der Greif von Pommern"
+	"Der Hammer von Stettin"
+	"Der Sturm von Gottland"
+	"Der Öresundsschrecken"
+	"Die Geißel von Pommern"
+	"Die Schwarze Perle"
+	"Dänisches Feuer"
+	"Fräulein Stina"
+	"Fräulein von Rügen"
+	"Michels Augenklappe"
+	"Odins Zorn"
+	"Rückkehr der Likedeeler"
+	"Schnelltrinker"
+	"Schrecken der Hanse"
+	"Störtebekers Rache"
+	"Tochter der Vitalienbrüder"
+	"Wikingertochter"
+}

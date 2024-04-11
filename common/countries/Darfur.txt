@@ -1,0 +1,92 @@
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 44 160 70 }
+revolutionary_colors = { 5 16 1 }
+historical_idea_groups = {
+	defensive_ideas
+	trade_ideas
+	religious_ideas
+	quantity_ideas
+	offensive_ideas
+	spy_ideas
+	economic_ideas
+	quality_ideas
+}
+historical_units = {
+	adal_guerilla_warfare
+	adal_gunpowder_warfare
+	african_abyssinian_cavalry
+	african_abyssinian_light_cavalry
+	african_dragoon
+	african_hill_warfare
+	african_hussar
+	african_somali_cavalry
+	african_spearmen
+	bantu_tribal_warfare
+	westernized_adal
+}
+monarch_names = {
+	"Antigone #0" = -1
+	"Aristogeiton #0" = 0
+	"Beroaia #0" = -1
+	"Bitorix #0" = 0
+	"Cartimandua #1" = -1
+	"Chaski #1" = 10
+	"Chrysilla #0" = -1
+	"Decia #1" = -1
+	"Dhidhin #0" = 0
+	"Diogenes #0" = 0
+	"Emsire #1" = -1
+	"Epikydes #0" = 0
+	"Euporia #0" = -1
+	"Freyr #0" = 0
+	"Hassaballah #1" = 10
+	"Hypatia #0" = -1
+	"Ibrahim #1" = 10
+	"Juries #0" = 0
+	"Kalge #1" = 10
+	"Kallisthenes #0" = 0
+	"Kimzir #3" = -1
+	"Kiya #0" = -1
+	"Kur #1" = 10
+	"Kuti #0" = 0
+	"Maj #0" = -1
+	"Murtin #1" = 10
+	"Nectanebo #0" = 0
+	"Nnamdi #4" = 10
+	"Opiter #1" = 10
+	"Osorkon #0" = 0
+	"Sagal #0" = -1
+	"Senila #1" = -1
+	"Tectomaros #1" = 10
+	"Thais #0" = -1
+	"Weybrecht #0" = 0
+	"Xenia #0" = -1
+	"Xenophon #0" = 0
+	"Zosime #0" = -1
+}
+leader_names = {
+	"Abboud"
+	"Fung"
+	"Garang"
+	"Kayra"
+	"Keira"
+	"Kelueljang"
+	"Lugor"
+	"Nuer"
+	"Shol"
+	"Taha"
+}
+ship_names = {
+	"Amenirdis"
+	"Amon"
+	"Apedemak"
+	"Arensnuphis"
+	"Bes"
+	"Dedwen"
+	"Khnum"
+	"Mandulis"
+	"Mut"
+	"Taweret"
+	"Tefnut"
+}

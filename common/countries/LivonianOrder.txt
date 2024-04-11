@@ -1,0 +1,221 @@
+ck2_converter_generated = yes
+graphical_culture = inuitgfx
+color = { 125 30 100 }
+revolutionary_colors = { 5 9 0 }
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	trade_ideas
+	offensive_ideas
+	diplomatic_ideas
+	quality_ideas
+	administrative_ideas
+	economic_ideas
+}
+historical_units = {
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	prussian_frederickian
+	swedish_arme_blanche
+	swedish_caroline
+	swedish_gallop
+	swedish_gustavian
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Aarto #1" = 10
+	"Adiatorix #0" = 0
+	"Adolf #0" = 0
+	"Alebrand #0" = 0
+	"Amratasene #0" = -1
+	"Andrés #1" = 10
+	"Anni #0" = -1
+	"Arnd #0" = 0
+	"Atko #0" = 0
+	"Aul #1" = 10
+	"Balduin #0" = 0
+	"Banna #0" = -1
+	"Birgitta #0" = -1
+	"Bithild #0" = -1
+	"Camma #0" = 0
+	"Darya #1" = -1
+	"Domneiu #0" = 0
+	"Donar #0" = 0
+	"Eilika #0" = -1
+	"Einarr #1" = 10
+	"Gediminas #0" = 0
+	"Gelennis #0" = -1
+	"Gevert #0" = 0
+	"Guðrún #0" = -1
+	"Hasala #0" = -1
+	"Helmi #0" = -1
+	"Hoger #0" = 0
+	"Hólmgeirr #0" = 0
+	"Húnþjófr #0" = 0
+	"Ihalemb #0" = 0
+	"Ihatõiv #0" = 0
+	"Ilmalemb #0" = 0
+	"Ilvelemb #1" = 10
+	"Imma #0" = -1
+	"Ingimar #0" = 0
+	"Ipek #0" = -1
+	"Jeansa #1" = 10
+	"Járre #0" = 0
+	"Kaaren #0" = 0
+	"Kaja #1" = -1
+	"Kat #0" = -1
+	"Kaur #0" = 0
+	"Killu #0" = -1
+	"Lagle #0" = -1
+	"Leek #1" = -1
+	"Leili #0" = -1
+	"Liudger #0" = 0
+	"Maeve #0" = -1
+	"Mandak #1" = 10
+	"Marja #0" = -1
+	"Mehis #2" = 10
+	"Mitraske #1" = 10
+	"Málmfríðr #0" = -1
+	"Ninni #0" = -1
+	"Ohetõiv #0" = 0
+	"Päevalemb #0" = 0
+	"Richardis #0" = -1
+	"Ruslan #3" = 10
+	"Rögnfríðr #0" = -1
+	"Salme #0" = -1
+	"Sigbert #1" = 10
+	"Sutemeel #0" = 0
+	"Säde #0" = -1
+	"Tarvet #1" = 10
+	"Titocuna #0" = -1
+	"Tonke #1" = 10
+	"Tukik #1" = 10
+	"Tuul #0" = 0
+	"Tõnn #0" = 0
+	"Valdemar #0" = 0
+	"Veshnyak #1" = 10
+	"Virge #0" = -1
+	"Volodar #1" = 10
+	"Vtorak #1" = 10
+	"Väino #1" = 10
+	"Värvu #0" = -1
+	"Waltard #1" = 10
+	"Ylva #0" = -1
+	"Ástríðr #0" = -1
+	"Õigemeel #0" = 0
+}
+leader_names = {
+	"Ascheberg"
+	"Behr"
+	"Bilderling"
+	"Blomberg"
+	"Borch"
+	"Brincken"
+	"Brüggen"
+	"Buchholtz"
+	"Derschau"
+	"Drachenfels"
+	"Düsterlohe"
+	"Engelhardt"
+	"Fircks"
+	"Funck"
+	"Fölkersam"
+	"Grotthuss"
+	"Haaren"
+	"Hahn"
+	"Heyking"
+	"Howen"
+	"Kleist"
+	"Klopmann"
+	"Komorowski"
+	"Koskull"
+	"Lambsdorff"
+	"Mirbach"
+	"Nettelhorst"
+	"Nolcken"
+	"Oelsen"
+	"Offenberg"
+	"Osten-Sacken"
+	"Pahlen"
+	"Raczynski"
+	"Recke"
+	"Ropp"
+	"Rosenberg"
+	"Schlippenbach"
+	"Seefeld"
+	"Stackelberg"
+	"Stromberg"
+	"Taube"
+	"von Altenbockum"
+	"von Bach"
+	"von Boetticher"
+	"von Hoerner"
+	"von Lysander"
+	"von Rummel"
+	"von Schroeders"
+	"von Timroth"
+	"von der Launitz"
+}
+ship_names = {
+	"Aa"
+	"Blumentopf"
+	"Bruno"
+	"Dame"
+	"Das Wappen der Herzogin von Kurland"
+	"Diderick Tork"
+	"Drei Heringe"
+	"Düna"
+	"Franco Kerskorff"
+	"Goldingen"
+	"Hasenpoth"
+	"Herzogenstein"
+	"Hoffnung"
+	"Johannes Ungenade"
+	"Krokodil"
+	"Lynn kurländische Möwe"
+	"Mitau"
+	"Reimar Hane"
+	"Seeburg"
+	"Tukums"
+	"Windau"
+	"von Bockenvorde"
+	"von Breithausen"
+	"von Bürggeneye"
+	"von Dreileben"
+	"von Eltz"
+	"von Endorp"
+	"von Feuchtwangen"
+	"von Fürstenberg"
+	"von Galen"
+	"von Grüningen"
+	"von Hercke"
+	"von Herse"
+	"von Hohembach"
+	"von Hornhausen"
+	"von Jocke"
+	"von Loringhofe"
+	"von Lutterberg"
+	"von Mandern"
+	"von Mengede"
+	"von Monheim"
+	"von Nortecken"
+	"von Overbergen"
+	"von Plettenberg"
+	"von Rassburg"
+	"von Rogga"
+	"von Rutenberg"
+	"von Sangershausen"
+	"von Spanheim"
+	"von Stierland"
+	"von Vietinghof"
+	"von Vrymersheim"
+	"von der Borch"
+	"von der Recke"
+	"von dinkelaghe"
+}

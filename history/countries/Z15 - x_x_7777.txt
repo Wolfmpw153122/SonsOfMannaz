@@ -1,0 +1,57 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2
+technology_group = eastern
+religion = kemetism
+primary_culture = dynamic-greek-culture-num9
+capital = 2346
+add_accepted_culture = dynamic-greek-culture-num6
+set_country_flag = ZZZ_generated_converter_nation
+1444.11.11= {
+	monarch = {
+		name = "Amphoteros II"
+		dynasty = "Siisi-Madina"
+		adm = 4
+		dip = 4
+		mil = 3
+		birth_date = 1379.2.17
+		religion = kemetism
+		culture = dynamic-greek-culture-num9
+	}
+	add_ruler_personality = drunkard_personality
+	add_ruler_personality = entrepreneur_personality
+	queen = {
+		name = "Narkissa"
+		dynasty = "Siisi-Madina"
+		adm = 3
+		dip = 2
+		mil = 4
+		country_of_origin = Z15
+		birth_date = 1417.11.7
+		death_date = 1477.11.7
+		female = yes
+		religion = kemetism
+		culture = dynamic-greek-culture-num9
+	}
+	add_queen_personality = righteous_personality
+	add_queen_personality = tolerant_personality
+	heir = {
+		name = "Diomedes"
+		monarch_name = "Diomedes"
+		dynasty = "Aratid-Sana"
+		adm = 6
+		dip = 6
+		mil = 5
+		birth_date = 1396.4.1
+		death_date = 1461.4.1
+		claim = 89
+		religion = kemetism
+		culture = dynamic-greek-culture-num6
+	}
+	add_heir_personality = industrious_personality
+	add_heir_personality = tactical_genius_personality
+}
+1444.11.11= {
+	add_prestige = 102
+	add_treasury = 0
+}

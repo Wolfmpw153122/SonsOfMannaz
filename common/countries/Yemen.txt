@@ -1,0 +1,102 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 106 38 44 }
+revolutionary_colors = { 5 0 1 }
+historical_idea_groups = {
+	defensive_ideas
+	maritime_ideas
+	religious_ideas
+	offensive_ideas
+	trade_ideas
+	economic_ideas
+	spy_ideas
+	diplomatic_ideas
+}
+historical_units = {
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_dragoon
+	muslim_mass_infantry
+	persian_cavalry_charge
+	persian_footsoldier
+	persian_rifle
+	persian_shamshir
+	qizilbash_cavalry_unit
+	tofongchis_musketeer
+	topchis_artillery
+}
+monarch_names = {
+	"Aasha #1" = -1
+	"Abdul-Gafur #0" = 0
+	"Abdullah #0" = 0
+	"Abu-Bakr #1" = 10
+	"Adey #1" = -1
+	"Amburo #1" = -1
+	"Atoberhan #1" = 10
+	"Aul #1" = 10
+	"Awa #1" = -1
+	"Aydar #0" = 0
+	"Bahir #0" = 0
+	"Djedhor #1" = 10
+	"Doris #0" = -1
+	"Dorkas #0" = -1
+	"Gabra #1" = 10
+	"Hakym #1" = 10
+	"Harire #1" = 10
+	"Hibaaq #1" = -1
+	"Leyla #1" = -1
+	"Ljótr #0" = 0
+	"Mahamud #1" = 10
+	"Mahmud #0" = 0
+	"Maka #1" = -1
+	"Mansur #2" = 10
+	"Muhammad #0" = 0
+	"Nehi #1" = 10
+	"Nur #2" = 10
+	"Omer #1" = 10
+	"Sami #0" = 0
+	"Samir #0" = 0
+	"Shararah #1" = -1
+	"Songul #0" = -1
+	"Talib #0" = 0
+	"Tessema #1" = 10
+	"Timëreç #0" = 0
+	"Unoka #0" = 0
+	"Wardat-Ashshur #1" = -1
+	"Yayyo #1" = 10
+	"Youkhanna #0" = 0
+}
+leader_names = {
+	"Ali"
+	"Ibrahim"
+	"Issa"
+	"Jomaa"
+	"Khalil"
+	"Mansour"
+	"Saab"
+	"Saad"
+	"Saleh"
+	"Shammas"
+}
+ship_names = {
+	"Al-Kawd"
+	"Ali ibn Rasul"
+	"At-Tubah"
+	"Dhubab"
+	"Ibb"
+	"Jabal Kharaz"
+	"Jabal Thamar"
+	"Jabal al-Hasha"
+	"Malik al-Mujahid"
+	"Mansur Umar"
+	"Mawiyah"
+	"Musaymir"
+	"Muzaffar Yusuf"
+	"Qa'tabah"
+	"Shaykh Uthman"
+	"Ta'izz"
+	"Wadi Bana"
+	"Whaqra"
+	"Zabid"
+	"Zaizz"
+}

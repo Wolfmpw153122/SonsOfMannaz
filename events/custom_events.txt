@@ -1,0 +1,178 @@
+namespace = matt_new_event
+
+country_event = {
+	id = matt_new_event.1
+	title = matt_new_event.1.t
+	desc = matt_new_event.1.d
+	picture = HRE_eventPicture
+	
+	major = yes
+	major_trigger = {
+		is_in_empire = yes
+	}
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	immediate = {
+				frisia_area = {
+					limit = {
+						culture = dynamic-norse-lower_saxon-culture-num4
+					}
+					
+					change_culture = frisian
+				}
+				holland_area = {
+					limit = {
+						culture = dynamic-norse-lower_saxon-culture-num4
+					}
+					
+					change_culture = frisian
+				}
+				north_brabant_area = {
+					limit = {
+						culture = dynamic-norse-lower_saxon-culture-num4
+					}
+					
+					change_culture = frisian
+				}
+				
+				
+				brabant_area = {
+					limit = {
+						culture = dynamic-norse-lower_saxon-culture-num4
+					}
+					
+					change_culture = flemish
+				}
+				flanders_area = {
+					limit = {
+						culture = dynamic-norse-lower_saxon-culture-num4
+					}
+					
+					change_culture = flemish
+				}
+				wallonia_area = {
+					limit = {
+						culture = dynamic-norse-lower_saxon-culture-num4
+					}
+					
+					change_culture = flemish
+				}
+				picardy_area = {
+					limit = {
+						culture = dynamic-norse-lower_saxon-culture-num4
+					}
+					
+					change_culture = flemish
+				}
+				
+				every_province = {
+					limit = {
+						culture = dynamic-norse-lower_saxon-culture-num4
+					}
+					change_culture = saxon
+				}
+				
+				
+				every_province = {
+					limit = {
+						culture = dynamic-norwegian-lower_saxon-culture-num5
+					}
+					change_culture = luxemburgish
+				}
+				every_province = {
+					limit = {
+						culture = dynamic-norse-lower_saxon-culture-num8
+					}
+					change_culture = alsatian
+				}
+				every_province = {
+					limit = {
+						culture = dynamic-norse-lower_saxon-culture-num7
+					}
+					change_culture = alsatian
+				}
+				every_province = {
+					limit = {
+						culture = dynamic-norse-lower_saxon-culture-num6
+					}
+					change_culture = bavarian
+				}
+				every_province = {
+					limit = {
+						culture = dynamic-norse-lower_saxon-culture-num2
+					}
+					change_culture = austrian
+				}
+				every_province = {
+					limit = {
+						culture = dynamic-norse-lower_saxon-culture-num3
+					}
+					change_culture = austrian
+				}
+				every_province = {
+					limit = {
+						culture = dynamic-norwegian-lower_saxon-culture-num2
+					}
+					change_culture = austrian
+				}
+				every_province = {
+					limit = {
+						culture = dynamic-norse-culture-num2
+					}
+					change_culture = hanseatic
+				}
+				every_province = {
+					limit = {
+						culture = dynamic-norse-lower_saxon-culture-num5
+					}
+					change_culture = saxon
+				}
+				every_country{
+					limit = {
+					culture_group = british
+					NOT = { culture = dynamic-norwegian-lower_saxon-culture-num1}
+					NOT = { culture = dynamic-lower_saxon-culture-num2}
+					NOT = { culture = dynamic-welsh-culture-num1}
+					NOT = { culture = northumbrian}
+					}
+					country_event = {id = matt_new_event.2}
+					}
+			}
+			option = { name = "matt_new_eventOption1"}
+			
+			
+
+
+}
+
+country_event = {
+	id = matt_new_event.2
+	title = matt_new_event.2.t
+	desc = matt_new_event.2.d
+	picture = HRE_eventPicture
+	#fire_only_once = yes
+	is_triggered_only = yes
+	
+		option = {
+				name = "Convert_To_German"
+				
+				ai_chance = { factor = 1 }
+					
+				hidden_effect = {
+
+				change_primary_culture = capital
+				set_ruler_culture = capital
+				set_heir_culture = capital
+				set_consort_culture = capital
+				
+				}
+				
+			}
+			option {
+				name = "Ignore_The_German_Peasants"
+				ai_chance = { factor = 0 }
+				add_stability  = -1
+				add_dip_power  = 100
+			}
+}

@@ -1,0 +1,123 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 150 231 150 }
+historical_idea_groups = {
+	maritime_ideas
+	aristocracy_ideas
+	trade_ideas
+	diplomatic_ideas
+	economic_ideas
+	spy_ideas
+	innovativeness_ideas
+	offensive_ideas
+}
+historical_units = {
+	anglofrench_line
+	british_hussar
+	british_redcoat
+	british_square
+	gaelic_free_shooter
+	gaelic_galloglaigh
+	gaelic_mercenary
+	irish_charge
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	western_medieval_infantry
+	western_medieval_knights
+}
+monarch_names = {
+	"Aryakose #0" = -1
+	"Betten #0" = -1
+	"Björg #1" = -1
+	"Bragi #1" = 10
+	"Brogimaros #1" = 10
+	"Cennétig #0" = 0
+	"Coirpre #2" = 10
+	"Connla #1" = 10
+	"Daigre #0" = 0
+	"Dallán #0" = 0
+	"Dianaim #0" = -1
+	"Donnucán #0" = 0
+	"Drusus #1" = 10
+	"Dímmasach #1" = 10
+	"Dínertach #0" = 0
+	"Ekbert #1" = 10
+	"Fallaman #1" = 10
+	"Fedelm #0" = -1
+	"Finnchú #1" = 10
+	"Forbassach #1" = 10
+	"Fíne #0" = -1
+	"Fócarta #1" = 10
+	"Gelgéis #1" = -1
+	"Heilwig #0" = -1
+	"Hramund #0" = 0
+	"Liam #1" = 10
+	"Martha #0" = -1
+	"Máelán #1" = 10
+	"Olorix #0" = 0
+	"Penetrudia #0" = -1
+	"Scolaige #1" = 10
+	"Simon #1" = 10
+	"Slébíne #1" = 10
+	"Tomás #0" = 0
+	"Tómnat #0" = -1
+	"Valdemar #1" = 10
+}
+leader_names = {
+	"Caomhanach"
+	"Conchobhair"
+	"Mac Amhalghaidh"
+	"Mac Cochláin"
+	"Mac Coibheanaigh"
+	"Mac Conshnámha"
+	"Mac Fhlannchaidh"
+	"Mac Fionbhair"
+	"Mac Giolla Phadraig"
+	"Mac Raghnaill"
+	"Mac Tighearnáin"
+	"Mac an tSionnaigh"
+	"Mag Eochagáin"
+	"Ó Braoin"
+	"Ó Cairbre"
+	"Ó Caoindealbháin"
+	"Ó Catharnaigh"
+	"Ó Ceallaigh"
+	"Ó Cearbhaill"
+	"Ó Ciardha"
+	"Ó Comhraidhe"
+	"Ó Congalaig"
+	"Ó Cosraigh"
+	"Ó Diubhgeannáin"
+	"Ó Doinn"
+	"Ó Donnchadha"
+	"Ó Dubhghaill"
+	"Ó Dubhuidhe"
+	"Ó Faolain"
+	"Ó Fhearghaill"
+	"Ó Finntighearn"
+	"Ó Fionnaláin"
+	"Ó Lorcáin"
+	"Ó Maolmhuaidh"
+	"Ó Ruairc"
+	"Ó Seaghdha"
+	"Ó Seanáin"
+	"Ó Tuathail"
+	"Ó hAimheirgin"
+	"Ó hAonghusa"
+}
+ship_names = {
+	"Carlow"
+	"Dublin"
+	"Kildare"
+	"Kilkenny"
+	"Laios"
+	"Longford"
+	"Louth"
+	"Meath"
+	"Offaly"
+	"Westmeath"
+	"Wexford"
+	"Wicklow"
+}

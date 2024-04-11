@@ -1,0 +1,91 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 114 171 184 }
+revolutionary_colors = { 15 0 5 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	spy_ideas
+	offensive_ideas
+	innovativeness_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Agnes #0" = -1
+	"Alitrudis #1" = -1
+	"Bótólfr #1" = 10
+	"Cingetessa #1" = -1
+	"Domneiu #1" = 10
+	"Eilífr #0" = 0
+	"Ermenisinda #0" = -1
+	"Gerdautas #2" = 10
+	"Grasus #0" = -1
+	"Guillabert #1" = 10
+	"Hoger #0" = 0
+	"Husun #0" = 0
+	"Hörðaknútr #1" = 10
+	"Imnachar #1" = 10
+	"Inga #0" = -1
+	"Katharina #0" = -1
+	"Knútr #1" = 10
+	"Lucilia #1" = -1
+	"Rakericus #1" = 10
+	"Roland #0" = 0
+	"Rudigar #1" = 10
+	"Rögnfríðr #1" = -1
+	"Rögnvaldr #1" = 10
+	"Sigtryggr #2" = 10
+	"Smertomara #2" = 10
+	"Suvrata #0" = -1
+	"Svanhildr #0" = -1
+	"Sæmundr #1" = 10
+	"Tectomaros #1" = 10
+	"Zamarius #1" = 10
+	"Ólafr #1" = 10
+}
+leader_names = {
+	"Arnsberg"
+	"Bebra"
+	"Eder"
+	"Fulda"
+	"Hamm"
+	"Kassel"
+	"Knyphausen"
+	"Lippstadt"
+	"Münden"
+	"Paderborn"
+	"von Scheideck"
+}
+ship_names = {
+	"Fulda"
+	"Hanau"
+	"Heinrich I"
+	"Kassel"
+	"Lahn"
+	"Marburg"
+	"Stirnberg"
+	"Wasserkuppe"
+	"Werra"
+	"Wetzlar"
+}
+army_names = {
+	"Armee von $PROVINCE$"
+}

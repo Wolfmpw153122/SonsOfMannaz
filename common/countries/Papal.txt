@@ -1,0 +1,246 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 211 220 178 }
+revolutionary_colors = { 1 0 5 }
+historical_idea_groups = {
+	administrative_ideas
+	diplomatic_ideas
+	defensive_ideas
+	religious_ideas
+	trade_ideas
+	offensive_ideas
+	economic_ideas
+	maritime_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	italian_condotta
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Agrafena #0" = -1
+	"Bárðr #1" = 10
+	"Egilmar #0" = 0
+	"Eilífr #1" = 10
+	"Eysteinn #0" = 0
+	"Eðla #1" = -1
+	"Frederik #0" = 0
+	"Gnaeus #1" = 10
+	"Gunhild #1" = -1
+	"Gunzelin #0" = 0
+	"Harald #1" = 10
+	"Hrani #1" = 10
+	"Hróðgeirr #0" = 0
+	"Hörðr #1" = 10
+	"Hýsingr #0" = 0
+	"Iliana #0" = -1
+	"Ingfrid #1" = -1
+	"Knut #1" = 10
+	"Kári #0" = 0
+	"Märta #1" = -1
+	"Reginlint #0" = -1
+	"Reinmar #0" = 0
+	"Rodulvard #1" = 10
+	"Steinn #0" = 0
+	"Svanhild #0" = -1
+	"Svanhildr #0" = -1
+	"Sven #1" = 10
+	"Volkwin #0" = 0
+	"Ófeigr #2" = 10
+	"Óttar #1" = 10
+	"Úlfhildr #0" = -1
+	"Þórunn #0" = -1
+}
+leader_names = {
+	"Abano"
+	"Adria"
+	"Agno"
+	"Alvise"
+	"Anconna"
+	"Argenta"
+	"Bardolino"
+	"Barilla"
+	"Bassano"
+	"Belfuno"
+	"Belluno"
+	"Bembo"
+	"Brenta"
+	"Brescia"
+	"Casanova"
+	"Cassandro"
+	"Castiglione"
+	"Cento"
+	"Chiogga"
+	"Commachio"
+	"Contarini"
+	"Corfini"
+	"Corleone"
+	"Cornaro"
+	"Cremona"
+	"De Blazio"
+	"Di Castrozza"
+	"Dolfin"
+	"Emo"
+	"Erizzo"
+	"Ermelli"
+	"Feltre"
+	"Ferme"
+	"Ferrara"
+	"Fiume"
+	"Flangini"
+	"Foscarini"
+	"Friuli"
+	"Garda"
+	"Gardone"
+	"Giudica"
+	"Giustani"
+	"Gorizia"
+	"Grado"
+	"Grimani"
+	"Gritti"
+	"Idro"
+	"Iseo"
+	"Isonzo"
+	"Lando"
+	"Latisana"
+	"Legnago"
+	"Lido"
+	"Lignano"
+	"Lissa"
+	"Livenza"
+	"Loredano"
+	"Magno"
+	"Mantova"
+	"Meduna"
+	"Memmo"
+	"Mestre"
+	"Mincio"
+	"Modigliano"
+	"Molini"
+	"Monfalcone"
+	"Oglio"
+	"Padova"
+	"Panaro"
+	"Pesaro"
+	"Pezzini"
+	"Piave"
+	"Ponte Vechio"
+	"Pontebba"
+	"Pordenone"
+	"Pramaggiore"
+	"Priuli"
+	"Raguse"
+	"Rovereto"
+	"Rovigo"
+	"Ruzzini"
+	"San Paulo"
+	"Schio"
+	"Serio"
+	"Sugaina"
+	"Tagliamento"
+	"Tartaro"
+	"Tolmezzo"
+	"Toscani"
+	"Trento"
+	"Trevisano"
+	"Treviso"
+	"Trieste"
+	"Udine"
+	"Valieri"
+	"Verona"
+	"Vicenza"
+	"Vittorio"
+	"Zara"
+	"Zustiniani"
+}
+ship_names = {
+	"Abraham"
+	"Adam"
+	"Angeli"
+	"Archangeli"
+	"Archangelus Gabriel"
+	"Archangelus Michael"
+	"Archangelus Raphael"
+	"Cherubim"
+	"Corpus Christi"
+	"David Rex"
+	"Dominationes"
+	"Episcopus Romanus"
+	"Eva"
+	"Franciscus Assisiensis"
+	"Hierosalyma"
+	"Iesu Christus Salvator"
+	"Ioannes Baptista"
+	"Iob"
+	"Isaac"
+	"Moyses"
+	"Noe"
+	"Pater et Pastor"
+	"Pontifex Maximum"
+	"Potestates"
+	"Principatus"
+	"Salomon Rex"
+	"Sancta Birgitta"
+	"Sanctus Alexander"
+	"Sanctus Ambrosius"
+	"Sanctus Andreas"
+	"Sanctus Anselmus"
+	"Sanctus Augustinus"
+	"Sanctus Bartholomeus"
+	"Sanctus Bernardus"
+	"Sanctus Bonaventura"
+	"Sanctus Cassianus"
+	"Sanctus Cyprianus"
+	"Sanctus Dominicus"
+	"Sanctus Hieronymus"
+	"Sanctus Hilarius"
+	"Sanctus Hippolytus"
+	"Sanctus Iohannes"
+	"Sanctus Iosephus"
+	"Sanctus Isidorus"
+	"Sanctus Iudas"
+	"Sanctus Leo I"
+	"Sanctus Linus"
+	"Sanctus Mattheus"
+	"Sanctus Matthias"
+	"Sanctus Patricius"
+	"Sanctus Paulus"
+	"Sanctus Petrus"
+	"Sanctus Philippus"
+	"Sanctus Simon"
+	"Sanctus Synesius"
+	"Sanctus Thomas"
+	"Sanctus Urbanus I"
+	"Seraphim"
+	"St Albertus Magnus"
+	"St Antonius de Padova"
+	"St Basilius Magnus"
+	"St Beda Venerabilis"
+	"St Cathatina Sienensis"
+	"St Ciaranus Maior"
+	"St Ciaranus Minor"
+	"St Ephraem Syrus"
+	"St Gregorius Magnus"
+	"St Iacobus Alphei"
+	"St Iacobus Maior"
+	"St Iohannes Damascena"
+	"St Petrus Chrysologus"
+	"St Petrus Damianus"
+	"St Thomas Aquinas"
+	"Throni"
+	"Virgo Maria"
+	"Virtutes"
+}
+army_names = {
+	"Armata di $PROVINCE$"
+}

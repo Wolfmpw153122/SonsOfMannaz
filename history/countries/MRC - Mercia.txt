@@ -1,0 +1,55 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = western
+religion = catholic
+primary_culture = dynamic-norwegian-lower_saxon-culture-num1
+capital = 4372
+1444.11.11= {
+	monarch = {
+		name = "Hásteinn"
+		dynasty = "Yarlestre"
+		adm = 5
+		dip = 6
+		mil = 5
+		birth_date = 1365.8.3
+		religion = catholic
+		culture = dynamic-norwegian-lower_saxon-culture-num1
+	}
+	add_ruler_personality = navigator_personality
+	add_ruler_personality = tactical_genius_personality
+	queen = {
+		name = "Katharina"
+		dynasty = "Zürich"
+		adm = 4
+		dip = 2
+		mil = 4
+		country_of_origin = MRC
+		birth_date = 1411.6.28
+		death_date = 1471.6.28
+		female = yes
+		religion = catholic
+		culture = dynamic-norwegian-lower_saxon-culture-num4
+	}
+	add_queen_personality = free_thinker_personality
+	add_queen_personality = tactical_genius_personality
+	heir = {
+		name = "Mattheus"
+		monarch_name = "Mattheus"
+		dynasty = "Yarlestre"
+		adm = 6
+		dip = 3
+		mil = 5
+		birth_date = 1407.4.22
+		death_date = 1472.4.22
+		claim = 89
+		religion = catholic
+		culture = dynamic-norwegian-lower_saxon-culture-num1
+	}
+	add_heir_personality = free_thinker_personality
+	add_heir_personality = righteous_personality
+}
+1444.11.11= {
+	add_prestige = 95
+	add_treasury = 71
+}

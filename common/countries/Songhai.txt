@@ -1,0 +1,92 @@
+ck2_converter_generated = yes
+graphical_culture = africangfx
+color = { 62 175 151 }
+revolutionary_colors = { 0 1 0 }
+historical_idea_groups = {
+	defensive_ideas
+	trade_ideas
+	religious_ideas
+	offensive_ideas
+	spy_ideas
+	diplomatic_ideas
+	quality_ideas
+	economic_ideas
+}
+historical_units = {
+	african_dragoon
+	african_hill_warfare
+	african_hussar
+	african_mandelaku
+	african_mossi_horsemen
+	african_spearmen
+	african_tuareg_cavalry
+	african_western_franchise_warfare
+	niger_kongolese_gunpowder_warfare
+	songhai_tribal_warfare
+	westernized_niger_kongolese
+}
+monarch_names = {
+	"Abazu #1" = 10
+	"Abdulraham #0" = 0
+	"Amamchukwu #0" = -1
+	"Amar #0" = 0
+	"Bilali #0" = 0
+	"Chinedu #1" = 10
+	"Daoud #0" = 0
+	"Daurama #0" = -1
+	"Elempo #0" = 0
+	"Enyinnaya #1" = 10
+	"Eri #0" = 0
+	"Fatoumata #1" = -1
+	"Fuluku #1" = 10
+	"Gnilane #1" = 10
+	"Hawa #1" = -1
+	"Ifikuanim #1" = 10
+	"Kanafa #0" = 0
+	"Kukuray #0" = 0
+	"Laasuk #1" = 10
+	"Mazi #0" = 0
+	"Mbar #1" = 10
+	"Mbodj #0" = -1
+	"Mbooj #0" = 0
+	"Nafi #0" = -1
+	"Ndate #0" = -1
+	"Ngarmaba #0" = 0
+	"Niokhobaye #1" = 10
+	"Ojiugo #0" = -1
+	"Okechukwu #0" = 0
+	"Onyekachi #2" = 10
+	"Ouankoÿ #0" = 0
+	"Tanamwir #0" = 0
+	"Tasse #2" = 10
+	"Tor #0" = 0
+	"Warja #0" = 0
+	"Win #0" = -1
+}
+leader_names = {
+	"Amadou"
+	"Compaore"
+	"Diallo"
+	"Diarra"
+	"Keita"
+	"Lamizana"
+	"Modibo"
+	"Ouedraogo"
+	"Toure"
+	"Zerbo"
+}
+ship_names = {
+	"Akoi"
+	"Alayaman"
+	"Ali-Fay"
+	"Biyo-Kumoy"
+	"Biyu"
+	"Kinkin"
+	"Ku"
+	"Kukuray"
+	"Nintasanay"
+	"Takoi"
+	"Yama-Karaway"
+	"Za Kuroy"
+	"Zakoi"
+}

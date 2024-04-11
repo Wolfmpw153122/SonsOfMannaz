@@ -1,0 +1,188 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 83 149 105 }
+revolutionary_colors = { 8 5 8 }
+historical_idea_groups = {
+	maritime_ideas
+	aristocracy_ideas
+	trade_ideas
+	economic_ideas
+	religious_ideas
+	innovativeness_ideas
+	offensive_ideas
+	spy_ideas
+}
+historical_units = {
+	anglofrench_line
+	british_hussar
+	british_redcoat
+	british_square
+	gaelic_free_shooter
+	gaelic_mercenary
+	irish_charge
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	western_longbow
+	western_medieval_infantry
+	western_medieval_knights
+}
+monarch_names = {
+	"Ansgar #1" = 10
+	"Asig #1" = 10
+	"Birgitta #0" = -1
+	"Bitorix #1" = 10
+	"Björg #0" = -1
+	"Boddic #1" = 10
+	"Bride #0" = 0
+	"Brwt #0" = 0
+	"Budoc #2" = 10
+	"Burchard #0" = 0
+	"Corentin #0" = 0
+	"Creirwy #0" = -1
+	"Camma #0" = 0
+	"Dagas #0" = -1
+	"Diedke #1" = -1
+	"Domneiu #1" = 10
+	"Efa #0" = -1
+	"Eggerd #0" = 0
+	"Eilika #0" = -1
+	"Elinor #0" = -1
+	"Enda #0" = -1
+	"Eðla #0" = -1
+	"Fafinia #0" = -1
+	"Freydís #0" = -1
+	"Gerold #0" = 0
+	"Glismod #1" = -1
+	"Guðfríðr #0" = 0
+	"Gwenasedd #0" = -1
+	"Gwrfawr #0" = 0
+	"Helgi #0" = 0
+	"Hermann #1" = 10
+	"Hinrik #1" = 10
+	"Hrærekr #0" = 0
+	"Högni #0" = 0
+	"Imma #0" = -1
+	"Ingiríðr #0" = -1
+	"Juries #0" = 0
+	"Jutta #0" = -1
+	"Lovernisca #1" = -1
+	"Maelscoet #2" = 10
+	"Mair #0" = -1
+	"Mallt #0" = -1
+	"Marbold #1" = 10
+	"Margarete #0" = -1
+	"Mathilde #0" = -1
+	"Málmfríðr #0" = -1
+	"Nest #0" = -1
+	"Oda #0" = -1
+	"Oneka #0" = -1
+	"Prawst #0" = -1
+	"Quintus #1" = 10
+	"Radke #1" = 10
+	"Rikissa #0" = -1
+	"Siwan #0" = -1
+	"Smertomara #0" = 0
+	"Starkad #1" = 10
+	"Sverrir #0" = 0
+	"Sölvi #0" = 0
+	"Tectomaros #0" = 0
+	"Teilo #0" = 0
+	"Theoderic #1" = 10
+	"Thomas #0" = 0
+	"Tydy #0" = 0
+	"Ulvhilde #1" = -1
+	"Veloriga #0" = -1
+	"Waldemar #0" = 0
+	"Werneke #1" = 10
+	"Wienke #0" = -1
+	"Witta #1" = 10
+	"Æthelric #1" = 10
+	"Örvar #0" = 0
+	"Þórunn #0" = -1
+}
+leader_names = {
+	"Armstrong"
+	"Atkinson"
+	"Ball"
+	"Bell"
+	"Birkett"
+	"Braithwaite"
+	"Burdon"
+	"Carlisle"
+	"Carr"
+	"Cavendish"
+	"Charlton"
+	"Dacre"
+	"Dixon"
+	"Dodd"
+	"Elliott"
+	"Featherstonehaugh"
+	"Fenwick"
+	"Graham"
+	"Grey"
+	"Hall"
+	"Heron"
+	"Hodgson"
+	"Hume"
+	"Lambton"
+	"Liddell"
+	"Lowther"
+	"Lumley"
+	"Marley"
+	"Milburn"
+	"Musgrave"
+	"Neville"
+	"Percy"
+	"Radcliffe"
+	"Robinson"
+	"Robson"
+	"Scott"
+	"Shafto"
+	"Swinburne"
+	"Todhunter"
+	"Tyson"
+}
+ship_names = {
+	"Aethelfrith"
+	"Alnwick"
+	"Bamburgh"
+	"Bede"
+	"Bernicia"
+	"Berwick"
+	"Blackadder"
+	"Borderer"
+	"Bowes"
+	"Carlisle"
+	"Cheviot"
+	"Cumberland"
+	"Derwent"
+	"Durham"
+	"Eden"
+	"Hadrian"
+	"Helvellyn"
+	"Jarrow"
+	"Lindisfarne"
+	"Morpeth"
+	"Newcastle"
+	"Northumbria"
+	"Penrith"
+	"Percy"
+	"Reiver"
+	"Rheged"
+	"Scafell"
+	"Shap"
+	"Skiddaw"
+	"Solway"
+	"St Cuthbert"
+	"St Edwin"
+	"St Oswald"
+	"Sunderland"
+	"Tees"
+	"Tweed"
+	"Tyne"
+	"Wear"
+	"Westmorland"
+	"Windermere"
+}

@@ -1,0 +1,170 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 153 122 108 }
+revolutionary_colors = { 9 5 8 }
+historical_idea_groups = {
+	administrative_ideas
+	plutocracy_ideas
+	trade_ideas
+	defensive_ideas
+	economic_ideas
+	expansion_ideas
+	quality_ideas
+	innovativeness_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	halberd_infantry
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Aife #1" = -1
+	"Alebrand #0" = 0
+	"Anele #0" = -1
+	"Appia #1" = -1
+	"Atis #1" = 10
+	"Beatrix #0" = -1
+	"Benno #0" = 0
+	"Bera #1" = 10
+	"Bernd #1" = 10
+	"Billica #0" = -1
+	"Bisina #0" = -1
+	"Bragi #0" = 0
+	"Brogimaros #2" = 10
+	"Buðli #0" = 0
+	"Decius #1" = 10
+	"Eidsunne #0" = -1
+	"Eponi #2" = 10
+	"Finnguala #0" = -1
+	"Gerðr #0" = -1
+	"Glynys #0" = -1
+	"Glóð #0" = -1
+	"Gnaea #1" = -1
+	"Grettir #0" = 0
+	"Grýla #0" = -1
+	"Guiderius #1" = 10
+	"Gunhild #0" = -1
+	"Gunnarr #0" = 0
+	"Guðröðr #0" = 0
+	"Halfdán #0" = 0
+	"Hallsteinn #0" = 0
+	"Haraldr #0" = 0
+	"Helena #0" = -1
+	"Helene #0" = -1
+	"Heria #1" = -1
+	"Herjólfr #0" = 0
+	"Hýsingr #0" = 0
+	"Ida #0" = -1
+	"Illica #1" = -1
+	"Immanuentius #1" = 10
+	"Jaunutis #1" = 10
+	"Julia #0" = -1
+	"Jórunn #0" = -1
+	"Kallo #0" = -1
+	"Kantibutas #0" = 0
+	"Karin #0" = -1
+	"Katharina #0" = -1
+	"Kephisodoros #0" = 0
+	"Liawizo #0" = 0
+	"Lleuca #0" = -1
+	"Ludwig #0" = 0
+	"Mantvydas #0" = 0
+	"Marchild #0" = -1
+	"Maria #0" = -1
+	"Mauregato #1" = 10
+	"Milzas #0" = 0
+	"Movkoldas #0" = 0
+	"Olorix #2" = 10
+	"Othelindis #0" = -1
+	"Primus #1" = 10
+	"Reginlint #0" = -1
+	"Reineke #0" = 0
+	"Rudolf #0" = 0
+	"Ríkiza #0" = -1
+	"Sibel #0" = -1
+	"Sigríðr #0" = -1
+	"Sinorix #1" = 10
+	"Smertomara #1" = 10
+	"Steinn #0" = 0
+	"Styrbjörn #0" = 0
+	"Síg #0" = -1
+	"Sölvi #0" = 0
+	"Tasgetius #1" = 10
+	"Theothild #0" = -1
+	"Tolir #0" = 0
+	"Traidenis #1" = 10
+	"Trasmira #1" = 10
+	"Tyke #0" = 0
+	"Tita #1" = -1
+	"Udo #0" = 0
+	"Unnr #0" = -1
+	"Vainius #0" = 0
+	"Valdemar #0" = 0
+	"Vassura #0" = -1
+	"Vinoma #0" = -1
+	"Vorvena #1" = -1
+	"Wilbrand #0" = 0
+	"Wulfhild #0" = -1
+	"Yrsa #0" = -1
+	"Þórunn #0" = -1
+}
+leader_names = {
+	"Aebi"
+	"Amman"
+	"Bischofberger"
+	"Blank"
+	"Blies"
+	"Brugger"
+	"Combe"
+	"Eugster"
+	"Frei"
+	"Frisch"
+	"Gasenzer"
+	"Grüneisen"
+	"Heberlin"
+	"Helberingen"
+	"Hertzler"
+	"Hiltbrand"
+	"Honegger"
+	"Luz"
+	"Miller"
+	"Munzinger"
+	"Oberholzer"
+	"Schwendimann"
+	"Spörri"
+	"Vogt"
+	"Wächter"
+	"Zumbach"
+	"von Baltharsar"
+	"von Hasseln"
+}
+ship_names = {
+	"Berne"
+	"Dufour"
+	"Glarus"
+	"Inn"
+	"Lucerne"
+	"Rhein"
+	"Rhöne"
+	"Schwyz"
+	"Ticino"
+	"Unterwalden"
+	"Uri"
+	"Wilhelm Tell"
+	"Zug"
+	"Zürich"
+}
+army_names = {
+	"Armee von $PROVINCE$"
+}
+preferred_religion = reformed

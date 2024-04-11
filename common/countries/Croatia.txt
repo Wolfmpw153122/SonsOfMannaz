@@ -1,0 +1,119 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 104 94 247 }
+revolutionary_colors = { 5 0 13 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	religious_ideas
+	quality_ideas
+}
+historical_units = {
+	eastern_carabinier
+	eastern_knights
+	eastern_medieval_infantry
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	ottoman_lancer
+	ottoman_new_model
+	ottoman_nizami_cedid
+	ottoman_reformed_janissary
+	ottoman_reformed_spahi
+	ottoman_sekban
+	ottoman_toprakli_dragoon
+	ottoman_toprakli_hit_and_run
+	slavic_stradioti
+}
+monarch_names = {
+	"Adiatorix #0" = 0
+	"Brogimaros #1" = 10
+	"Demodamas #1" = 10
+	"Dioskourides #2" = 10
+	"Ermengildis #0" = -1
+	"Flavius #1" = 10
+	"Gunborg #0" = -1
+	"Gundmar #0" = 0
+	"Hasala #1" = -1
+	"Hramhild #0" = -1
+	"Kapitolina #0" = -1
+	"Kassandros #1" = 10
+	"Lucilia #0" = -1
+	"Malburg #0" = -1
+	"Marca #1" = -1
+	"Marchild #0" = -1
+	"Margarete #0" = -1
+	"Norbert #1" = 10
+	"Oddr #0" = 0
+	"Olorix #0" = 0
+	"Poseidonios #1" = 10
+	"Randild #0" = -1
+	"Rhamis #0" = -1
+	"Richild #0" = -1
+	"Rigrand #0" = 0
+	"Rögnvaldr #1" = 10
+	"Sigact #0" = 0
+	"Sigiburg #0" = -1
+	"Sigirand #0" = 0
+	"Steinn #1" = 10
+	"Tancwald #0" = 0
+	"Tectomaros #1" = 10
+	"Theodeburg #0" = -1
+	"Theodoram #0" = 0
+	"Theothild #0" = -1
+	"Vakromar #1" = 10
+	"Wienke #0" = -1
+	"Wlencing #0" = 0
+	"Úlfkell #0" = 0
+}
+leader_names = {
+	"Alapic"
+	"Babonic"
+	"Blagaj"
+	"Cesnegic"
+	"Crnkovic"
+	"Drashkovic"
+	"Frankapan"
+	"Gorjanski"
+	"Horvat"
+	"Hrvatinic"
+	"Ilocki"
+	"Jelacic"
+	"Kacic"
+	"Kaniski"
+	"Keglevic"
+	"Knezevic"
+	"Krbavski"
+	"Kruzic"
+	"Kurjakovic"
+	"Lackovic"
+	"Mihalovic"
+	"Nelipcic"
+	"Ozegovic"
+	"Pejacevic"
+	"Radic"
+	"Rukavina"
+	"Subic"
+	"Talovac"
+	"Vrancic"
+	"Zrinski"
+}
+ship_names = {
+	"Cres"
+	"Dugi Otok"
+	"Goli"
+	"Krl"
+	"Pag"
+	"Plavnik"
+	"Susak"
+	"Sveti Grgur"
+	"Tijat"
+	"Unije"
+	"Vele Srankane"
+	"Zlarin"
+	"Zmajan"
+}

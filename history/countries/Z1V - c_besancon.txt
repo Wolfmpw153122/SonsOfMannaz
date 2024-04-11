@@ -1,0 +1,58 @@
+government = republic
+add_government_reform = free_city
+government_rank = 1
+technology_group = western
+religion = catholic
+primary_culture = swedish
+capital = 193
+fixed_capital = 193
+mercantilism = 25
+set_country_flag = ZZZ_generated_converter_nation
+1444.11.11= {
+	monarch = {
+		name = "Rörek"
+		dynasty = "af Rumby"
+		adm = 4
+		dip = 3
+		mil = 4
+		birth_date = 1402.7.25
+		religion = catholic
+		culture = swedish
+	}
+	add_ruler_personality = fertile_personality
+	add_ruler_personality = navigator_personality
+	queen = {
+		name = "Gnathnad"
+		dynasty = "Sämundid"
+		adm = 3
+		dip = 4
+		mil = 4
+		country_of_origin = Z1V
+		birth_date = 1403.4.4
+		death_date = 1463.4.4
+		female = yes
+		religion = catholic
+		culture = irish
+	}
+	add_queen_personality = intricate_web_weaver_personality
+	add_queen_personality = zealot_personality
+	heir = {
+		name = "Greger"
+		monarch_name = "Greger"
+		dynasty = "af Rumby"
+		adm = 4
+		dip = 6
+		mil = 3
+		birth_date = 1421.8.4
+		death_date = 1486.8.4
+		claim = 89
+		religion = catholic
+		culture = swedish
+	}
+	add_heir_personality = drunkard_personality
+	add_heir_personality = free_thinker_personality
+}
+1444.11.11= {
+	add_prestige = 86
+	add_treasury = 39
+}

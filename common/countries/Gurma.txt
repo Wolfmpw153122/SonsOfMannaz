@@ -1,0 +1,97 @@
+ck2_converter_generated = yes
+graphical_culture = africangfx
+color = { 71 133 178 }
+revolutionary_colors = { 0 1 0 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+	diplomatic_ideas
+	economic_ideas
+	administrative_ideas
+	quantity_ideas
+}
+historical_units = {
+	african_dragoon
+	african_hill_warfare
+	african_hussar
+	african_mandelaku
+	african_mossi_horsemen
+	african_spearmen
+	african_tuareg_cavalry
+	african_western_franchise_warfare
+	mali_tribal_warfare
+	niger_kongolese_gunpowder_warfare
+	westernized_niger_kongolese
+}
+monarch_names = {
+	"Afa Ajuri #1" = 10
+	"Asta #0" = -1
+	"Baguiri #1" = 10
+	"Baláa #1" = 10
+	"Benno #1" = 10
+	"Bil #1" = -1
+	"Caaka #3" = 10
+	"Dan #0" = 0
+	"Daramani #0" = 0
+	"Demades #0" = 0
+	"Demba #1" = -1
+	"Dobidia #1" = 10
+	"Eukrates #0" = 0
+	"Faaduma #1" = -1
+	"Genma #0" = 0
+	"Gnilane #2" = 10
+	"Gunnhildr #0" = -1
+	"Jaspar #0" = 0
+	"Jogo #0" = 0
+	"Kalinkuma #1" = 10
+	"Kichay #0" = 0
+	"Kora #1" = 10
+	"Magunna #0" = -1
+	"Maysa #0" = 0
+	"Mbooj #1" = 10
+	"Mennad #0" = 0
+	"Mihka #0" = 0
+	"Nambare #0" = 0
+	"Nan #1" = -1
+	"Nure #1" = -1
+	"Nurumba #0" = -1
+	"Rigau #1" = 10
+	"Sanmoon #1" = 10
+	"Shypicha #0" = 0
+	"Sidibé #0" = -1
+	"Sime #1" = 10
+	"Sumah #0" = -1
+	"Tenin #1" = 10
+	"Tere #0" = -1
+	"Tiati #0" = 0
+	"Tula #1" = 10
+	"Vasujyeshtha #0" = 0
+	"Yalla #1" = -1
+}
+leader_names = {
+	"Addy"
+	"Afrifa"
+	"Akoto"
+	"Donkor"
+	"Moyoyo"
+	"Offei"
+	"Sabah"
+	"Sadami"
+	"Sribor"
+	"Zakari"
+}
+ship_names = {
+	"Asase Yaa"
+	"Benada"
+	"Bia"
+	"Dwoada"
+	"Fiada"
+	"Kwasiada"
+	"Memeneda"
+	"Nyame"
+	"Tano"
+	"Wukuada"
+	"Yawoada"
+}

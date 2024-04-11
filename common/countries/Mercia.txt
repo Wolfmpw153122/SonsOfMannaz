@@ -1,0 +1,75 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 200 30 0 }
+revolutionary_colors = { 13 8 13 }
+historical_idea_groups = {
+	exploration_ideas
+	quality_ideas
+	expansion_ideas
+	offensive_ideas
+	maritime_ideas
+	naval_ideas
+	trade_ideas
+	economic_ideas
+}
+historical_units = {
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	prussian_frederickian
+	prussian_uhlan
+	swedish_arme_blanche
+	swedish_caroline
+	swedish_gallop
+	swedish_gustavian
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adalbero #1" = 10
+	"Adaldag #1" = 10
+	"Adolf #0" = 0
+	"Airmed #0" = -1
+	"Aiwariks #1" = 10
+	"Arnd #1" = 10
+	"Arosinda #0" = 0
+	"Athela #0" = -1
+	"Beatrix #1" = -1
+	"Bertrada #0" = -1
+	"Björg #0" = -1
+	"Blodwen #0" = -1
+	"Bragi #0" = 0
+	"Bróen #0" = 0
+	"Derborgaill #0" = -1
+	"Fagilo #0" = -1
+	"Filippus #0" = 0
+	"Frederuna #0" = -1
+	"Froilo #1" = -1
+	"Gödke #0" = 0
+	"Hadwig #0" = -1
+	"Haukr #1" = 10
+	"Hrothwina #1" = -1
+	"Hásteinn #1" = 10
+	"Ingólfr #0" = 0
+	"Jacob #2" = 10
+	"Katharina #0" = -1
+	"Köpke #0" = 0
+	"Maches #0" = -1
+	"Ordulf #1" = 10
+	"Philipp #1" = 10
+	"Ragnhild #0" = -1
+	"Sarunas #0" = 0
+	"Smertomara #0" = 0
+	"Sága #0" = -1
+	"Tectomaros #0" = 0
+	"Thankmar #0" = 0
+	"Waldemar #1" = 10
+	"Wienke #0" = -1
+	"Álgen #0" = -1
+	"Úlfhildr #0" = -1
+	"Þórðr #0" = 0
+}

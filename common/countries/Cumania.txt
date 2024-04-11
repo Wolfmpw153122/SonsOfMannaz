@@ -1,0 +1,117 @@
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 131 84 50 }
+historical_idea_groups = {
+	expansion_ideas
+	offensive_ideas
+	administrative_ideas
+	trade_ideas
+	economic_ideas
+	defensive_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+}
+historical_units = {
+	reformed_steppe_rifles
+	steppe_cavalry
+	steppe_footmen
+	steppe_infantry
+	steppe_lancers
+	steppe_mounted_raiders
+	steppe_musketeers
+	steppe_raiders
+	steppe_riders
+	steppe_rifles
+	steppe_uhlans
+}
+monarch_names = {
+	"Aepak #3" = 10
+	"Akgul #0" = -1
+	"Alatucca #0" = -1
+	"Ardil #0" = -1
+	"Asli #0" = -1
+	"Baytursun #1" = 10
+	"Begluk #2" = 10
+	"Beka #1" = 10
+	"Bönek #0" = 0
+	"Chemgura #1" = 10
+	"Eltut #0" = 0
+	"Geetika #0" = -1
+	"Gulçiçek #1" = -1
+	"Gundes #0" = -1
+	"Gunduz #0" = -1
+	"Ipek #0" = -1
+	"Ipekel #1" = -1
+	"Ituk #1" = 10
+	"Kolo #1" = 10
+	"Kuntuvdi #0" = 0
+	"Kutesk #1" = 10
+	"Kza #1" = 10
+	"Nyumina #0" = -1
+	"Otrok #0" = 0
+	"Sevilay #1" = -1
+	"Seyhan #0" = 0
+	"Sharukan #0" = 0
+	"Sigismund #0" = 0
+	"Sirin #0" = -1
+	"Taz #1" = 10
+	"Togortok #1" = 10
+	"Tyueykezhut #1" = 10
+	"Törtogul #1" = 10
+	"Uzluk #0" = 0
+	"Uzur #1" = 10
+	"Zabergan #1" = 10
+	"Zeyhan #1" = 10
+}
+leader_names = {
+	"Bayangge"
+	"Boke Temur"
+	"Bora Chinua"
+	"Chinuagene"
+	"Delger Bayar"
+	"Koke Burilgi"
+	"Nasange"
+	"Qutlugh Vachir"
+	"Qutughqan"
+	"Shria Gan"
+	"Suren Chinua"
+	"Surenchar"
+	"Temur-chi"
+	"Toluilun"
+}
+ship_names = {
+	"Abdallah"
+	"Baraq"
+	"Batu"
+	"Berdi Beg"
+	"Berke"
+	"Dawlat Berdi"
+	"Ediguh"
+	"Jabbar Berdi"
+	"Jalal ad-Din"
+	"Jani Beg"
+	"Karim Berdi"
+	"Kebek"
+	"Khidr"
+	"Mamai Khan"
+	"Mengu-Timur"
+	"Muhammad Bolak"
+	"Nawruz Beg"
+	"Nogai Khan"
+	"Polad Khan"
+	"Qulpa"
+	"Sartaq"
+	"Sayud Ahmad"
+	"Shadi Beg"
+	"Talabuga"
+	"TemÃ¼r"
+	"TemÃ¼r Qutlugh"
+	"Timur Khwaja"
+	"Tini Beg"
+	"Tokhta"
+	"Toqtamish"
+	"Tuda-Mengu"
+	"Ulaghchi"
+	"Ulugh Muhammad"
+	"Ã–z Beg"
+}

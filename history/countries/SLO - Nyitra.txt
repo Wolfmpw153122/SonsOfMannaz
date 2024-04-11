@@ -1,0 +1,55 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = western
+religion = catholic
+primary_culture = dynamic-gothic-culture-num5
+capital = 1772
+1444.11.11= {
+	monarch = {
+		name = "Marchild"
+		dynasty = "Gautur"
+		adm = 5
+		dip = 5
+		mil = 5
+		birth_date = 1392.12.14
+		female = yes
+		religion = catholic
+		culture = dynamic-gothic-culture-num5
+	}
+	add_ruler_personality = free_thinker_personality
+	add_ruler_personality = tactical_genius_personality
+	queen = {
+		name = "Hoger"
+		dynasty = "Ferrette"
+		adm = 4
+		dip = 4
+		mil = 4
+		country_of_origin = SLO
+		birth_date = 1390.8.10
+		death_date = 1450.8.10
+		religion = catholic
+		culture = dynamic-gothic-culture-num2
+	}
+	add_queen_personality = charismatic_negotiator_personality
+	add_queen_personality = strict_personality
+	heir = {
+		name = "Malo"
+		monarch_name = "Malo"
+		dynasty = "Gautur"
+		adm = 6
+		dip = 6
+		mil = 6
+		birth_date = 1413.8.30
+		death_date = 1478.8.30
+		claim = 89
+		religion = catholic
+		culture = dynamic-gothic-culture-num5
+	}
+	add_heir_personality = free_thinker_personality
+	add_heir_personality = strict_personality
+}
+1444.11.11= {
+	add_prestige = 91
+	add_treasury = 75
+}

@@ -1,0 +1,115 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 16 113 155 }
+revolutionary_colors = { 5 5 10 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+	diplomatic_ideas
+	religious_ideas
+	economic_ideas
+	innovativeness_ideas
+}
+historical_units = {
+	bardiche_infantry
+	eastern_carabinier
+	eastern_knights
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	muscovite_caracolle
+	muscovite_cossack
+	muscovite_musketeer
+	muscovite_soldaty
+	russian_cuirassier
+	russian_green_coat
+	russian_lancer
+	russian_mass
+	russian_petrine
+	slavic_stradioti
+}
+monarch_names = {
+	"Abo #1" = 10
+	"Adalbert #1" = 10
+	"Alatucca #0" = -1
+	"Ansgar #1" = 10
+	"Arngrímr #0" = 0
+	"Aryaske #1" = 10
+	"Aróc #0" = -1
+	"Audra #0" = -1
+	"Bertha #0" = -1
+	"Bulgak #1" = 10
+	"Candramukhe #1" = 10
+	"Caracate #1" = 10
+	"Elisabet #0" = -1
+	"Fróði #0" = 0
+	"Gayasirs #1" = 10
+	"Hadwig #0" = -1
+	"Hramhild #0" = -1
+	"Ingiríðr #0" = -1
+	"Katarina #0" = -1
+	"Kleo #0" = -1
+	"Kunigunde #0" = -1
+	"Laurentz #0" = 0
+	"Liawizo #0" = 0
+	"Lovernisca #0" = -1
+	"Luder #0" = 0
+	"Marcatrude #0" = -1
+	"Margareta #0" = -1
+	"Molon #0" = 0
+	"Prasamnake #1" = 10
+	"Reginbern #2" = 10
+	"Sara #0" = -1
+	"Sari #1" = -1
+	"Skarphéðinn #0" = 0
+	"Styrkár #0" = 0
+	"Theodora #0" = -1
+	"Thiedburga #0" = -1
+	"Tonke #1" = 10
+	"Veshnyak #1" = 10
+	"Vseslava #1" = -1
+	"Þorbrandr #0" = 0
+}
+leader_names = {
+	"Aladyin"
+	"Beznosov"
+	"Bokeev"
+	"Borovsky"
+	"Burukhin"
+	"Dalmatov"
+	"Dursky"
+	"Galisky"
+	"Galitsky"
+	"Izyaslavsky"
+	"Kisleevsky"
+	"Korobyin"
+	"Mozhaisky"
+	"Satin"
+	"Shemyakin"
+	"Shukalovsky"
+	"Travin"
+	"Tsyplyatev"
+	"Uglisky"
+	"Vereisky"
+	"Vitebsky"
+	"Vnukov"
+	"Volotsky"
+	"Zabolotsky"
+}
+ship_names = {
+	"Bolotovo"
+	"Chudskoye"
+	"Izborsk"
+	"Kulikovo"
+	"Ostrov"
+	"Pechory"
+	"Polotsk"
+	"Porhov"
+	"Pskovskoye"
+	"Rakovor"
+	"Sebezh"
+	"Velikaya"
+	"Velikiye Luki"
+}

@@ -1,0 +1,112 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 195 149 155 }
+revolutionary_colors = { 5 0 5 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	diplomatic_ideas
+	economic_ideas
+	spy_ideas
+	innovativeness_ideas
+	administrative_ideas
+}
+historical_units = {
+	bardiche_infantry
+	eastern_carabinier
+	eastern_knights
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	hungarian_hussar
+	polish_hussar
+	polish_musketeer
+	polish_tercio
+	polish_winged_hussar
+	russian_cuirassier
+	russian_lancer
+	russian_mass
+	slavic_stradioti
+}
+monarch_names = {
+	"Adalais #0" = -1
+	"Arbogais #0" = 0
+	"Aschild #0" = -1
+	"Ascogast #0" = 0
+	"Ascorand #0" = 0
+	"Balduin #0" = 0
+	"Böðvar #1" = 10
+	"Castiburg #0" = -1
+	"Cixillo #1" = -1
+	"Danko #0" = 0
+	"Eidsunne #0" = -1
+	"Erbo #0" = 0
+	"Ermenisinda #0" = -1
+	"Everd #1" = 10
+	"Genoram #0" = 0
+	"Gerolaik #0" = 0
+	"Gregorius #0" = 0
+	"Gundowald #0" = 0
+	"Gundrada #1" = -1
+	"Gundrauc #0" = 0
+	"Guðfríðr #0" = 0
+	"Hramleik #0" = 0
+	"Hramwald #0" = 0
+	"Hroco #0" = 0
+	"Illica #0" = -1
+	"Irmgard #0" = -1
+	"Mallovendus #0" = 0
+	"Malogast #0" = 0
+	"Marcobold #1" = 10
+	"Marobod #0" = 0
+	"Merten #1" = 10
+	"Oda #0" = -1
+	"Olympia #0" = -1
+	"Randrauc #0" = 0
+	"Segestes #0" = 0
+	"Sichar #1" = 10
+	"Sigact #0" = 0
+	"Sigbert #0" = 0
+	"Sigeid #0" = 0
+	"Sunger #0" = 0
+	"Theodogan #0" = 0
+	"Theodoric #0" = 0
+	"Thuribald #0" = 0
+	"Thuriseid #0" = 0
+	"Tomalaikiz #1" = 10
+	"Tractuilli #2" = -1
+	"Volkwin #1" = 10
+	"Vrtanes #0" = 0
+	"Walha #0" = 0
+	"Waltard #0" = 0
+	"Zosime #0" = -1
+}
+leader_names = {
+	"Jagiellon"
+	"Kedzierzawy"
+	"Leszczynski"
+	"Lubomirski"
+	"Piast"
+	"Poniatowski"
+	"Premyslid"
+	"Radziwill"
+	"Sapieha"
+	"Wisniowiecki"
+}
+ship_names = {
+	"Biebrza"
+	"Bug"
+	"Bzura"
+	"Kolno"
+	"Liwiec"
+	"Lowicz"
+	"Mlawa"
+	"Narew"
+	"Pilica"
+	"Radomka"
+	"Warszawa"
+	"Wisla"
+	"Wizna"
+	"Wkra"
+}

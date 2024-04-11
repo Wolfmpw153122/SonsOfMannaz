@@ -1,0 +1,114 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 130 168 224 }
+revolutionary_colors = { 1 0 1 }
+historical_idea_groups = {
+	defensive_ideas
+	religious_ideas
+	offensive_ideas
+	trade_ideas
+	spy_ideas
+	diplomatic_ideas
+	economic_ideas
+	administrative_ideas
+}
+historical_units = {
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_dragoon
+	muslim_mass_infantry
+	persian_cavalry_charge
+	persian_footsoldier
+	persian_rifle
+	persian_shamshir
+	qizilbash_cavalry_unit
+	tofongchis_musketeer
+	topchis_artillery
+}
+monarch_names = {
+	"Abulites #0" = 0
+	"Akha d'abuh' #1" = 10
+	"Amastris #1" = -1
+	"Apollodotos #1" = 10
+	"Aristophon #1" = 10
+	"Arsames #1" = 10
+	"Artanis #1" = -1
+	"Assad #0" = 0
+	"Astashpa #1" = 10
+	"Balinarayan #1" = 10
+	"Behrouz #1" = 10
+	"Bhogavati #0" = -1
+	"Charidemos #1" = 10
+	"Daryûš #0" = 0
+	"Dattadevi #0" = -1
+	"Devakhadga #0" = 0
+	"Dometa #0" = 0
+	"Ehmed #0" = 0
+	"Ekber #1" = 10
+	"Fatima #0" = -1
+	"Gelavêj #0" = -1
+	"Govindachandra #0" = 0
+	"Govindapala #0" = 0
+	"Goštasp #0" = 0
+	"Haldita #1" = 10
+	"Kalyanadevi #0" = -1
+	"Kotadevi #0" = -1
+	"Magyel #0" = -1
+	"Mamlan #0" = 0
+	"Masistes #1" = 10
+	"Mauakes #1" = 10
+	"Megabyzus #1" = 10
+	"Megapanos #1" = 10
+	"Menûçihr #0" = 0
+	"Mihika #0" = -1
+	"Murad #0" = 0
+	"Mêrdîn #0" = -1
+	"Naranarayan #1" = 10
+	"Nawid #0" = 0
+	"Nayanadevi #0" = -1
+	"Orxines #2" = 10
+	"Padma Singh #1" = 10
+	"Philoumene #1" = -1
+	"Pihu #0" = -1
+	"Pratapnarayanroy #0" = 0
+	"Pythodorida #0" = -1
+	"Rengîn #0" = -1
+	"Sina #0" = 0
+	"Sisines #1" = 10
+	"Surxap #0" = 0
+	"Tyulyush #0" = 0
+	"Utpalaka #0" = 0
+	"Vahhab #0" = 0
+	"Vashti #1" = -1
+	"Vasujyeshtha #0" = 0
+	"Vijay Sen #0" = 0
+	"Vijaysen #0" = 0
+	"Vina #0" = -1
+	"Vuvva #1" = 10
+	"Xatûn #1" = -1
+	"Šahab #0" = 0
+}
+leader_names = {
+	"Ali"
+	"Bali"
+	"Karawi"
+	"Khan"
+	"Mirza"
+	"Nawaz"
+	"Quli"
+	"Tadj"
+	"Wali"
+	"Zaman"
+}
+ship_names = {
+	"Badam"
+	"Bardeskan"
+	"Dasht"
+	"Deyhuk"
+	"Germi"
+	"Jandaq"
+	"Khvor"
+	"Kondor"
+	"Tabas"
+	"Torud"
+}

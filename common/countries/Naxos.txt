@@ -1,0 +1,90 @@
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 24 50 123 }
+revolutionary_colors = { 0 13 0 }
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	spy_ideas
+	trade_ideas
+	offensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	quality_ideas
+}
+historical_units = {
+	eastern_carabinier
+	eastern_knights
+	eastern_medieval_infantry
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	ottoman_lancer
+	ottoman_new_model
+	ottoman_nizami_cedid
+	ottoman_reformed_janissary
+	ottoman_reformed_spahi
+	ottoman_sekban
+	ottoman_spahi
+	ottoman_toprakli_dragoon
+	ottoman_toprakli_hit_and_run
+	slavic_stradioti
+}
+monarch_names = {
+	"Apollophanes #0" = 0
+	"Archagathos #0" = 0
+	"Cynna #1" = -1
+	"Daizo #0" = -1
+	"Damarate #2" = -1
+	"Demostrate #1" = -1
+	"Eirene #2" = -1
+	"Elpis #1" = -1
+	"Eutychis #1" = -1
+	"Hedyle #1" = -1
+	"Hipparchos #0" = 0
+	"Kellanthis #1" = -1
+	"Krates #1" = 10
+	"Leaina #0" = -1
+	"Marsyas #0" = 0
+	"Melitta #1" = -1
+	"Menandros #1" = 10
+	"Nagasene #1" = -1
+	"Nausistrate #1" = -1
+	"Nikesipolis #2" = -1
+	"Nysa #1" = -1
+	"Philemon #0" = 0
+	"Philokleia #1" = -1
+	"Polyeuktos #1" = 10
+	"Ptolema #0" = -1
+	"Tukik #1" = 10
+	"Vitasake #1" = -1
+}
+leader_names = {
+	"Crispo"
+	"Della Carceri"
+	"Gattilusi"
+	"Gavalas"
+	"Ghisi"
+	"Giustiniani"
+	"Loredano"
+	"Morosini"
+	"Pisani"
+	"Sanudo"
+	"Saudos"
+	"Sommarippa"
+	"Zeno"
+	"Zorzi"
+	"d'Anoe"
+}
+ship_names = {
+	"Apollon"
+	"Crispo"
+	"Donoussa"
+	"Francis"
+	"Kastraki"
+	"Keros"
+	"Koufonisi"
+	"Mesaria"
+	"Moutsouna"
+	"Naxos"
+}

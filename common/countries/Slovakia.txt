@@ -1,0 +1,105 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 34 131 193 }
+revolutionary_colors = { 0 15 16 }
+historical_idea_groups = {
+	economic_ideas
+	defensive_ideas
+	diplomatic_ideas
+	offensive_ideas
+	trade_ideas
+	innovativeness_ideas
+	religious_ideas
+	spy_ideas
+}
+historical_units = {
+	bardiche_infantry
+	eastern_carabinier
+	eastern_knights
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	germanized_pike
+	hungarian_hussar
+	polish_hussar
+	polish_musketeer
+	polish_tercio
+	polish_winged_hussar
+	slavic_stradioti
+}
+monarch_names = {
+	"Agenaric #1" = 10
+	"Ascaric #1" = 10
+	"Ascoht #0" = 0
+	"Baldogast #1" = 10
+	"Cantisena #0" = -1
+	"Camma #1" = 10
+	"Diomedes #1" = 10
+	"Eidrand #1" = 10
+	"Frírekr #0" = 0
+	"Geriburg #0" = -1
+	"Gertrud #0" = -1
+	"Gunborg #0" = -1
+	"Haer #0" = -1
+	"Hildborg #1" = -1
+	"Hoger #0" = 0
+	"Hramhild #1" = -1
+	"Hraugric #2" = 10
+	"Laighild #0" = -1
+	"Leigmund #1" = 10
+	"Liemar #0" = 0
+	"Malogan #0" = 0
+	"Marchild #1" = -1
+	"Mero #1" = 10
+	"Olorix #1" = 10
+	"Refr #1" = 10
+	"Sigact #1" = 10
+	"Sigigais #2" = 10
+	"Sigihild #1" = -1
+	"Sigimar #1" = 10
+	"Styrkár #0" = 0
+	"Sunnogast #1" = 10
+	"Sunnorauc #0" = 0
+	"Theothild #2" = -1
+	"Thordis #1" = -1
+	"Thuriseid #0" = 0
+	"Tuombald #2" = 10
+	"Álfgeir #0" = 0
+	"Úlfhéðinn #1" = 10
+}
+leader_names = {
+	"Balaša"
+	"Beckovský"
+	"Bel"
+	"Benyovszky"
+	"Bosniak"
+	"Elefánthy"
+	"Hatnanský"
+	"Jesenský"
+	"Kollar"
+	"Podmanický"
+	"Pongrac"
+	"Pongrácz"
+	"Stibor"
+	"Veseléni"
+	"Wesselényi"
+}
+ship_names = {
+	"Bebrava"
+	"Belá"
+	"Blava"
+	"Bodrog"
+	"Bodva"
+	"Cierna voda"
+	"Dunajec"
+	"Hornád"
+	"Ipel"
+	"Latorica"
+	"Morava"
+	"Ondava"
+	"Poprad"
+	"Rimava"
+	"Slaná"
+	"Torysa"
+	"Žitava"
+}

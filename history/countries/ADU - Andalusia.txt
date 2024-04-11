@@ -1,0 +1,40 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 3
+technology_group = western
+religion = catholic
+primary_culture = moroccan
+capital = 334
+1444.11.11= {
+	monarch = {
+		name = "Günther"
+		dynasty = "Guadix"
+		adm = 6
+		dip = 3
+		mil = 6
+		birth_date = 1369.2.6
+		religion = catholic
+		culture = dynamic-norse-lower_saxon-culture-num2
+	}
+	add_ruler_personality = entrepreneur_personality
+	add_ruler_personality = scholar_personality
+	heir = {
+		name = "Günther"
+		monarch_name = "Günther"
+		dynasty = "Guadix"
+		adm = 4
+		dip = 5
+		mil = 5
+		birth_date = 1406.1.8
+		death_date = 1471.1.8
+		claim = 89
+		religion = catholic
+		culture = dynamic-norse-lower_saxon-culture-num2
+	}
+	add_heir_personality = free_thinker_personality
+	add_heir_personality = infertile_personality
+}
+1444.11.11= {
+	add_prestige = 136
+	add_treasury = 105
+}

@@ -1,0 +1,158 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 97 209 251 }
+revolutionary_colors = { 0 5 13 }
+historical_idea_groups = {
+	maritime_ideas
+	defensive_ideas
+	administrative_ideas
+	offensive_ideas
+	trade_ideas
+	economic_ideas
+	innovativeness_ideas
+	quality_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	italian_condotta
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	spanish_tercio
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adiatorix #1" = 10
+	"Aife #0" = -1
+	"Amulia #1" = -1
+	"Balduin #0" = 0
+	"Bitorix #0" = 0
+	"Brigida #0" = -1
+	"Brogimaros #1" = 10
+	"Catissena #0" = -1
+	"Domneiu #1" = 10
+	"Eponi #0" = 0
+	"Frederik #0" = 0
+	"Gallus #1" = 10
+	"Gnaeus #3" = 10
+	"Hásteinn #0" = 0
+	"Leaina #0" = -1
+	"Maeve #1" = -1
+	"Magunna #0" = -1
+	"Oconea #0" = -1
+	"Olorix #1" = 10
+	"Richardis #0" = -1
+	"Senila #1" = -1
+	"Smertomara #0" = 0
+	"Tectomaros #2" = 10
+	"Tiberia #0" = -1
+	"Waldered #1" = 10
+}
+leader_names = {
+	"Alfieri"
+	"Arborio Mella"
+	"Asinari"
+	"Balbo"
+	"Benso"
+	"Boncompagni Ludovisi"
+	"Borromeo"
+	"Bosco"
+	"Botta"
+	"Broglia"
+	"Cacherano"
+	"Cafasso"
+	"Carignano"
+	"Casati"
+	"Chiodo"
+	"Cisa Asinari"
+	"Cottolengo"
+	"Delitalia"
+	"Doria di Cirié"
+	"Facchinetti de Nuce"
+	"Ferrero-Fiesco"
+	"Gaetani dell'Aquila"
+	"Galletti"
+	"Gioberti"
+	"Homo dei Moura"
+	"Lascaris"
+	"Ludovisi"
+	"Luserna Campiglione"
+	"Micca"
+	"Ossorio"
+	"Pallavicini"
+	"Pignatelli"
+	"Solaro"
+	"Taparelli"
+	"Tassoni"
+	"Trivulzio"
+	"Vico"
+	"d'Acaja"
+	"d'Appiani d'Aragona"
+	"d'Attalaya"
+	"d'Incisa"
+	"d'Ottaiano"
+	"de Bette"
+	"de Maretta"
+	"de Tutavila"
+	"del Carreto"
+	"del Marco"
+	"del Vasto"
+	"della Torre"
+	"di Busca"
+	"di Cardé"
+	"di Cavour"
+	"di Challant"
+	"di Luserna"
+	"di Paesana"
+	"di Savoia"
+}
+ship_names = {
+	"Aguila"
+	"Alceste"
+	"Aurora"
+	"Azzardoso"
+	"Beata Margherita"
+	"Bella Genovese"
+	"Beroldo"
+	"Capitana"
+	"Carlo"
+	"Carloforte"
+	"Colombo"
+	"Commerce di Genova"
+	"Cristina"
+	"Daino"
+	"Diana"
+	"Eridano"
+	"Euridice"
+	"Falco"
+	"Felice"
+	"Generoso"
+	"Haute Combe"
+	"Maria Teresa"
+	"Neireide"
+	"Patrona"
+	"Prima"
+	"Regina"
+	"Rondinella"
+	"San Carlo"
+	"San Michele"
+	"San Vittore"
+	"San Vittorio"
+	"Santa Anna"
+	"Santa Barbara"
+	"Santa Teresa"
+	"Staffetta"
+	"Tirsi"
+	"Tritone"
+	"Veloce"
+	"Vigilante"
+	"Vittorio Emanuele"
+	"Zeffiro"
+}

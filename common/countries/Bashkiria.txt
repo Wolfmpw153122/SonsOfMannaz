@@ -1,0 +1,107 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 131 202 12 }
+revolutionary_colors = { 15 0 9 }
+historical_idea_groups = {
+	administrative_ideas
+	trade_ideas
+	quantity_ideas
+	expansion_ideas
+	offensive_ideas
+	economic_ideas
+	defensive_ideas
+	religious_ideas
+}
+historical_units = {
+	reformed_steppe_rifles
+	steppe_cavalry
+	steppe_footmen
+	steppe_infantry
+	steppe_lancers
+	steppe_mounted_raiders
+	steppe_musketeers
+	steppe_raiders
+	steppe_riders
+	steppe_rifles
+	steppe_uhlans
+}
+monarch_names = {
+	"Akgul #0" = -1
+	"Almish #1" = 10
+	"Alzek #1" = 10
+	"Amastris #0" = -1
+	"Anzi #0" = 0
+	"Apskhih #0" = 0
+	"Aydar #1" = 10
+	"Batbayan #0" = 0
+	"Belkermak #1" = 10
+	"Bulger #0" = 0
+	"Dengizikh #1" = 10
+	"Eggerd #0" = 0
+	"Esin #0" = -1
+	"Ilme #0" = -1
+	"Ispor #0" = 0
+	"Korkutan #1" = 10
+	"Kotrag #1" = 10
+	"Krovat #1" = 10
+	"Kurt #0" = 0
+	"Kälaç #1" = 10
+	"Kätyarikka #0" = -1
+	"Lari #0" = 0
+	"Noumea #0" = 0
+	"Nuyat #1" = 10
+	"Okhsi #1" = 10
+	"Okhsun #0" = 0
+	"Onika #1" = 10
+	"Organa #0" = 0
+	"Paväl #0" = 0
+	"Sabin #1" = 10
+	"Samatu #0" = 0
+	"Sartäç #1" = 10
+	"Shilki #1" = 10
+	"Tarasiy #1" = 10
+	"Tatra #1" = 10
+	"Tervel #1" = 10
+	"Toro #0" = 0
+	"Tyueykezhut #1" = 10
+	"Umay #0" = -1
+	"Uturgur #1" = 10
+	"Yeldem #1" = -1
+}
+leader_names = {
+	"Arinin"
+	"Aven"
+	"Balna"
+	"Kanin"
+	"Maimbava"
+	"Ravna"
+	"Salmiianov"
+	"Taiborey"
+	"Tsoy"
+	"Vylka"
+}
+ship_names = {
+	"Baraq"
+	"Bayan"
+	"Chimtai"
+	"Devlat Berdi"
+	"Ghengis Khan"
+	"Ilbasan"
+	"Jabbar Berdi"
+	"Jalal Ad-Din"
+	"Karim Berdi"
+	"Kebek"
+	"Kochu"
+	"Mubarrak Kwaja"
+	"Orda"
+	"Pulad"
+	"Sasibuga"
+	"Sayyid Ahmad"
+	"Shadi Beg"
+	"Timur Malik"
+	"Timur Qutlugh"
+	"Toqtamish"
+	"Tuqtaqiya"
+	"Ulugh Muhammad"
+	"Urus"
+}

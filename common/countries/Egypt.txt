@@ -1,0 +1,113 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 255 220 104 }
+revolutionary_colors = { 5 0 1 }
+historical_idea_groups = {
+	maritime_ideas
+	defensive_ideas
+	religious_ideas
+	trade_ideas
+	offensive_ideas
+	administrative_ideas
+	economic_ideas
+	expansion_ideas
+}
+historical_units = {
+	ali_bey_reformed_infantry
+	mamluk_archer
+	mamluk_cavalry_charge
+	mamluk_duel
+	mamluk_musket_charge
+	muslim_dragoon
+	muslim_mass_infantry
+}
+monarch_names = {
+	"Amyrteos #1" = 10
+	"Antiphates #1" = 10
+	"Antisthenes #1" = 10
+	"Aristokrateia #1" = -1
+	"Arsinoe #1" = -1
+	"Damarate #1" = -1
+	"Deriades #1" = 10
+	"Eirene #1" = -1
+	"Erigyios #1" = 10
+	"Eukratides #0" = 0
+	"Euthalia #1" = -1
+	"Gisela #0" = -1
+	"Glóð #0" = -1
+	"Hýsingr #0" = 0
+	"Isidora #1" = -1
+	"Lysistratos #1" = 10
+	"Nicias #1" = 10
+	"Onomastos #1" = 10
+	"Osorkon #1" = 10
+	"Polemon #1" = 10
+	"Simonides #1" = 10
+	"Snorri #0" = 0
+	"Sophytes #1" = 10
+	"Stasanor #1" = 10
+	"Stratonice #0" = -1
+	"Telesphoros #0" = 0
+	"Theodotos #1" = 10
+	"Wulfhild #0" = -1
+	"Xenokrates #1" = 10
+	"Zosime #1" = -1
+}
+leader_names = {
+	"Ali"
+	"Aybak"
+	"Baibars"
+	"Bay"
+	"Bey"
+	"Bugha"
+	"Inâl"
+	"Kansur"
+	"Sayfuddin"
+	"Zangi"
+}
+ship_names = {
+	"Ad-Däkhilah"
+	"Adl"
+	"Ahmen Muyaid"
+	"Al-Ali"
+	"Al-Bahriyah"
+	"Al-Farafirah"
+	"Al-Kharijah"
+	"Alim"
+	"Ashraf Barsbay"
+	"Aziz"
+	"Aziz Gamal"
+	"Bari"
+	"Basir"
+	"Basit"
+	"Ben Barqooq"
+	"Farag Ben Barqooq"
+	"Fattah"
+	"Ghaffar"
+	"Hakam"
+	"Jabbar"
+	"Khafid"
+	"Khaliq"
+	"Malik"
+	"Mu'izz"
+	"Mu'min"
+	"Mudhill"
+	"Muhaymin"
+	"Musawwir"
+	"Mutakabbir"
+	"Muyaid Sheikh"
+	"Nahr an-Nil"
+	"Nasser Muhamed"
+	"Qabid"
+	"Qahhar"
+	"Quddus"
+	"Rafi"
+	"Rahim"
+	"Rahman"
+	"Razzaq"
+	"Salam"
+	"Sami"
+	"Wahhab"
+	"Zaher Barqooq"
+	"Zaher Tatar"
+}

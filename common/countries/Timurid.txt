@@ -1,0 +1,120 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 213 0 39 }
+revolutionary_colors = { 1 5 1 }
+historical_idea_groups = {
+	administrative_ideas
+	religious_ideas
+	defensive_ideas
+	trade_ideas
+	economic_ideas
+	offensive_ideas
+	maritime_ideas
+	quantity_ideas
+}
+historical_units = {
+	reformed_steppe_rifles
+	steppe_cavalry
+	steppe_footmen
+	steppe_infantry
+	steppe_lancers
+	steppe_mounted_raiders
+	steppe_musketeers
+	steppe_raiders
+	steppe_riders
+	steppe_rifles
+	steppe_uhlans
+}
+monarch_names = {
+	"Ariaspes #0" = 0
+	"Arppakhu #1" = 10
+	"Chinnambike #0" = -1
+	"Derzîn #0" = -1
+	"Devapala #0" = 0
+	"Ekber #0" = 0
+	"Erdešîr #0" = 0
+	"Gazî #0" = -1
+	"Ghosha #2" = 10
+	"Godarz #0" = 0
+	"Gomulfus #0" = 0
+	"Gopal #2" = 10
+	"Hidarnes #2" = 10
+	"Himadrija #1" = -1
+	"Hypatia #0" = -1
+	"Indranarayan #2" = 10
+	"Kanchani #0" = -1
+	"Kephisophon #0" = 0
+	"Kevî #0" = -1
+	"Kleagora #0" = -1
+	"Kumarapala #1" = 10
+	"Lalaka #1" = 10
+	"Mahindranarayan #1" = 10
+	"Malika #0" = -1
+	"Megaira #0" = -1
+	"Megasthenes #0" = 0
+	"Mnesistrate #0" = -1
+	"Nard #0" = 0
+	"Nawid #0" = 0
+	"Nayanadevi #1" = -1
+	"Nikagora #0" = -1
+	"Parmys #0" = -1
+	"Phraates #0" = 0
+	"Puppadevi #0" = -1
+	"Rambhadra Singh Dev #1" = 10
+	"Roshanak #0" = -1
+	"Sabr #0" = 0
+	"Safiatou #0" = -1
+	"Sahtiya #0" = 0
+	"Sanghamitta #1" = -1
+	"Shanibhangar #1" = 10
+	"Simharaja #1" = 10
+	"Sinke #0" = 0
+	"Sudarse #0" = 0
+	"Traillokyachandra #1" = 10
+	"Utpalaksha #1" = 10
+	"Vahhab #0" = 0
+	"Vahid #0" = 0
+	"Vajraditya #1" = 10
+	"Vapyata #1" = 10
+	"Vashti #0" = -1
+	"Virajdendranarayan #1" = 10
+	"Vitasake #0" = -1
+	"Zahak #0" = 0
+}
+leader_names = {
+	"Abbâs"
+	"Abû"
+	"Akbar"
+	"Bakr"
+	"Jahagir"
+	"Jalâl"
+	"Jâmî"
+	"Khalil"
+	"Mohsin"
+	"Zaman"
+	"ud-Dîn"
+}
+ship_names = {
+	"Ardabil"
+	"Bakhura"
+	"Balkh"
+	"Baluches"
+	"Herat"
+	"Ispahan"
+	"Kandahar"
+	"Kharesm"
+	"Kirman"
+	"Kish"
+	"Lahore"
+	"Merv"
+	"Nishupur"
+	"Ormuz"
+	"Rustam"
+	"Samarqand"
+	"Sebzewar"
+	"Shah Rukh"
+	"Sikandar"
+	"Slurax"
+	"Tahriz"
+	"Tamerlane"
+}

@@ -1,0 +1,76 @@
+country_decisions = {
+	hellenic_melting_pot = {
+		potential = {
+			religion = converted_dynamic_faith_142
+			NOT = {
+				has_country_modifier = hellenic_melting_pot
+			}
+		}
+		allow = {
+			adm_tech = 3
+			religion = converted_dynamic_faith_142
+		}
+		effect = {
+			if = {
+				limit = {
+					capital_scope = {
+						can_have_center_of_reformation_trigger = {
+							RELIGION = converted_dynamic_faith_142
+						}
+					}
+				}
+				add_country_modifier = {
+					name = hellenic_melting_pot
+					duration = 9000
+				}
+				capital_scope = {
+					change_religion = converted_dynamic_faith_142
+					add_reform_center = converted_dynamic_faith_142
+					add_permanent_province_modifier = {
+						name = "religious_zeal_at_conv"
+						duration = 9000
+					}
+
+				}
+			}
+			else = {
+				add_country_modifier = {
+					name = hellenic_melting_pot
+					duration = 9000
+				}
+				random_owned_province = {
+					limit = {
+						can_have_center_of_reformation_trigger = {
+							RELIGION = converted_dynamic_faith_142
+						}
+					}
+					change_religion = converted_dynamic_faith_142
+					add_reform_center = converted_dynamic_faith_142
+					add_permanent_province_modifier = {
+						name = "religious_zeal_at_conv"
+						duration = 9000
+					}
+					
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 1
+				NOT = {
+					full_idea_group = religious_ideas
+				}
+				NOT = {
+					government = theocracy
+				}
+			}
+		}
+	}
+}
+
+
+
+
+

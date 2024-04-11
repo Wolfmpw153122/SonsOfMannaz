@@ -1,0 +1,103 @@
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 49 185 191 }
+revolutionary_colors = { 1 5 1 }
+historical_idea_groups = {
+	administrative_ideas
+	religious_ideas
+	defensive_ideas
+	trade_ideas
+	economic_ideas
+	offensive_ideas
+	maritime_ideas
+	quantity_ideas
+}
+historical_units = {
+	reformed_steppe_rifles
+	steppe_cavalry
+	steppe_footmen
+	steppe_infantry
+	steppe_lancers
+	steppe_mounted_raiders
+	steppe_musketeers
+	steppe_raiders
+	steppe_riders
+	steppe_rifles
+	steppe_uhlans
+}
+monarch_names = {
+	"Aepak #0" = 0
+	"Amyntas #1" = 10
+	"Ariston #0" = 0
+	"Aristoteles #0" = 0
+	"Arunavati #0" = -1
+	"Asheri #1" = 10
+	"Asina #2" = 10
+	"Ayus #1" = 10
+	"Caiytiska #2" = 10
+	"Demokrateia #0" = -1
+	"Dharmawarme #1" = 10
+	"Dilar #0" = -1
+	"Diogenes #0" = 0
+	"Dipankar #1" = 10
+	"Echekrates #0" = 0
+	"Epokillos #0" = 0
+	"Erasistratos #0" = 0
+	"Hjálmar #0" = 0
+	"Kumaradevi #0" = -1
+	"Leaina #0" = -1
+	"Lykurgos #1" = 10
+	"Machanidas #0" = 0
+	"Mala #0" = -1
+	"Mardonios #1" = 10
+	"Meleagros #0" = 0
+	"Menelaos #1" = 10
+	"Neoptolemos #1" = 10
+	"Niphates #3" = 10
+	"Nysa #0" = -1
+	"Pantordanos #0" = 0
+	"Punyasene #1" = -1
+	"Sarasike #1" = 10
+	"Sari #1" = -1
+	"Smerdomenes #1" = 10
+	"Sthulananda #0" = -1
+	"Thessalonike #0" = -1
+	"Yonge #1" = 10
+}
+leader_names = {
+	"Abbâs"
+	"Abû"
+	"Akbar"
+	"Bakr"
+	"Jahagir"
+	"Jalâl"
+	"Jâmî"
+	"Khalil"
+	"Mohsin"
+	"Zaman"
+	"ud-Dîn"
+}
+ship_names = {
+	"Ardabil"
+	"Bakhura"
+	"Balkh"
+	"Baluches"
+	"Herat"
+	"Ispahan"
+	"Kandahar"
+	"Kharesm"
+	"Kirman"
+	"Kish"
+	"Lahore"
+	"Merv"
+	"Nishupur"
+	"Ormuz"
+	"Rustam"
+	"Samarqand"
+	"Sebzewar"
+	"Shah Rukh"
+	"Sikandar"
+	"Slurax"
+	"Tahriz"
+	"Tamerlane"
+}

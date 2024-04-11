@@ -1,0 +1,57 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2
+technology_group = sub_saharan
+religion = coptic
+primary_culture = dynamic-zaghawa-culture-num1
+capital = 1152
+add_accepted_culture = nupe
+set_country_flag = ZZZ_generated_converter_nation
+1444.11.11= {
+	monarch = {
+		name = "Ku"
+		dynasty = "City-Idoma"
+		adm = 3
+		dip = 3
+		mil = 3
+		birth_date = 1403.4.29
+		religion = coptic
+		culture = dynamic-zaghawa-culture-num1
+	}
+	add_ruler_personality = lawgiver_personality
+	add_ruler_personality = naive_personality
+	queen = {
+		name = "Mariam"
+		dynasty = "Abbaid"
+		adm = 4
+		dip = 3
+		mil = 4
+		country_of_origin = Z0P
+		birth_date = 1404.2.17
+		death_date = 1464.2.17
+		female = yes
+		religion = coptic
+		culture = dynamic-zaghawa-culture-num1
+	}
+	add_queen_personality = calm_personality
+	add_queen_personality = charismatic_negotiator_personality
+	heir = {
+		name = "Gilding"
+		monarch_name = "Gilding"
+		dynasty = "City-Idoma"
+		adm = 6
+		dip = 2
+		mil = 6
+		birth_date = 1422.6.14
+		death_date = 1487.6.14
+		claim = 89
+		religion = coptic
+		culture = dynamic-zaghawa-culture-num1
+	}
+	add_heir_personality = industrious_personality
+	add_heir_personality = midas_touched_personality
+}
+1444.11.11= {
+	add_prestige = 83
+	add_treasury = 77
+}

@@ -1,0 +1,111 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 152 85 92 }
+revolutionary_colors = { 5 0 10 }
+historical_idea_groups = {
+	economic_ideas
+	defensive_ideas
+	diplomatic_ideas
+	offensive_ideas
+	trade_ideas
+	innovativeness_ideas
+	religious_ideas
+	spy_ideas
+}
+historical_units = {
+	bardiche_infantry
+	eastern_carabinier
+	eastern_knights
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	germanized_pike
+	hungarian_hussar
+	polish_hussar
+	polish_musketeer
+	polish_tercio
+	polish_winged_hussar
+	slavic_stradioti
+}
+monarch_names = {
+	"Agathon #1" = 10
+	"Amphoteros #1" = 10
+	"Archagathos #1" = 10
+	"Bertrada #1" = -1
+	"Bithild #0" = -1
+	"Chares #1" = 10
+	"Deinippos #1" = 10
+	"Demochares #1" = 10
+	"Dentoubrisa #1" = 10
+	"Empedokles #1" = 10
+	"Eptezenis #1" = 10
+	"Helgi #0" = 0
+	"Herberd #0" = 0
+	"Hierax #1" = 10
+	"Ilik #0" = 0
+	"Iphikrates #1" = 10
+	"Mala #0" = -1
+	"Manisvare #1" = 10
+	"Nikomachos #1" = 10
+	"Okors #0" = 0
+	"Olorix #0" = 0
+	"Oshi #1" = 10
+	"Pakhtiyar #0" = 0
+	"Sinke #1" = 10
+	"Smertomara #3" = 10
+	"Telec #0" = 0
+	"Uturgur #0" = 0
+	"Yavantey #1" = 10
+	"Zieisis #1" = 10
+}
+leader_names = {
+	"Alvinczy"
+	"Andrássy"
+	"Batthyány"
+	"Beleznay"
+	"Benovský"
+	"Bethlen"
+	"Bocskay"
+	"Báthory"
+	"Csák"
+	"Dessewffy"
+	"Esterházy"
+	"Festetics"
+	"Frangepán"
+	"Garay"
+	"Hadik"
+	"Horthy"
+	"Hunyadi"
+	"Kemeny"
+	"Kinizsi"
+	"Kán"
+	"Károlyi"
+	"Lackovic'"
+	"Losonci"
+	"Milványi"
+	"Mészáros"
+	"Nadasdy"
+	"Ozoray"
+	"Rozgonyi"
+	"Rákóczi"
+	"Széchenyi"
+	"Teleki"
+	"Thököly"
+	"Zichy"
+	"Zrinski"
+	"Zápolya"
+	"de Kovats"
+	"Šubic'"
+}
+ship_names = {
+	"Aranybulla"
+	"Arpad"
+	"Hunyadi Matyas"
+	"Kalman"
+	"Karoly Robert"
+	"Laszlo"
+	"Magyar"
+	"Nagy Lajos"
+	"Sigismund"
+	"Szent Istvan kiraly"
+}

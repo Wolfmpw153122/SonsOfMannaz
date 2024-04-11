@@ -1,0 +1,127 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 61 136 66 }
+revolutionary_colors = { 14 0 14 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	innovativeness_ideas
+	offensive_ideas
+	economic_ideas
+	maritime_ideas
+	quality_ideas
+	administrative_ideas
+}
+historical_units = {
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	prussian_frederickian
+	prussian_uhlan
+	swedish_arme_blanche
+	swedish_caroline
+	swedish_gallop
+	swedish_gustavian
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adaltrude #1" = -1
+	"Adosinda #0" = -1
+	"Arnfast #1" = 10
+	"Austro #1" = 10
+	"Bersi #1" = 10
+	"Bijás #0" = 0
+	"Brunechildis #0" = -1
+	"Burchard #1" = 10
+	"Buðli #2" = 10
+	"Bárðr #0" = 0
+	"Bóthildr #0" = -1
+	"Cecilía #0" = -1
+	"Dýri #0" = 0
+	"Emundr #0" = 0
+	"Ermenisinda #0" = -1
+	"Freyr #0" = 0
+	"Friedenando #1" = 10
+	"Gautlindis #1" = -1
+	"Gealá #0" = -1
+	"Gundhild #0" = -1
+	"Huld #0" = -1
+	"Ida #0" = -1
+	"Ingiríðr #0" = -1
+	"Mær #0" = -1
+	"Odolric #1" = 10
+	"Otker #2" = 10
+	"Petro #0" = 0
+	"Radulfo #0" = 0
+	"Riciberga #0" = -1
+	"Sicland #1" = 10
+	"Signý #0" = -1
+	"Styrkár #0" = 0
+	"Suniefredo #0" = 0
+	"Sveinn #0" = 0
+	"Vigfús #1" = 10
+	"Ástríðr #1" = -1
+	"Ívar #0" = 0
+}
+leader_names = {
+	"Behm"
+	"Beyse"
+	"Grosch"
+	"Heidmann"
+	"Jürgens"
+	"Krumtum"
+	"Kurzmann"
+	"Meuseling"
+	"Miercke"
+	"Normann"
+	"Rähl"
+	"Stellmacher"
+	"Wessel"
+	"Witt"
+	"von Borcke"
+	"von Cammin"
+	"von Eickstedt"
+	"von Greifswald"
+	"von Kolberg"
+	"von Krockows"
+	"von Lettows"
+	"von Neubrandenburg"
+	"von Neustettin"
+	"von Neustreliz"
+	"von Peglows"
+	"von Prenzlau"
+	"von Ramin"
+	"von Rügen"
+	"von Schwerin"
+	"von Stettin"
+	"von Stolp"
+	"von Stralsund"
+	"von Strelows"
+	"von Szczecin"
+	"von Wolgast"
+	"von Wolgatz"
+	"von Wolin"
+	"von Zitzewitzes"
+	"von und zu Stargard"
+}
+ship_names = {
+	"Anklam"
+	"Cammin"
+	"Demmin"
+	"Fräulein von Rügen"
+	"Greifswald"
+	"Herzog Bogislaw"
+	"Herzog Kasimir"
+	"Herzog Otto"
+	"Neustettin"
+	"Pommern"
+	"Rostock"
+	"Stettin Herzog Barnim"
+	"Stralsund"
+	"Wismar"
+	"Wolgast"
+}
