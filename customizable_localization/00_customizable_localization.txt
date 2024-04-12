@@ -7120,3 +7120,4 @@ defined_text = {
 	name = per_qizilbash_loyalty_desc
 	text = { localisation_key = per_qizilbash_loyalty_desc_qizilbash trigger = { not = { religion_group = zoroastrian_group } } }
 	text = { localisation_key = per_qizilbash_loyalty_desc_aswaran trigger = { religion_group = zoroastrian_group } }
+}

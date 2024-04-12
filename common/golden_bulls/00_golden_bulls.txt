@@ -96,7 +96,7 @@ odin = {
 njord = {
 	modifier = {
 		global_ship_trade_power = 0.2
-		movement_speed_in_fleet_modifier = 1
+		naval_tradition_from_trade = 0.2
 		land_attrition = 0.1
 	}
 	potential = {
@@ -128,11 +128,11 @@ njord = {
         }
         modifier = {
             factor = 0.5
-            navy_size = 50
+			num_of_light_ship = 20
         }
         modifier = {
             factor = 0.5
-            navy_size = 75
+            navy_size = 50
         }
         modifier = {
             factor = 0.5

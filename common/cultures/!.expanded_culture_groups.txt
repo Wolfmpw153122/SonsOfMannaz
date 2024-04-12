@@ -35,8 +35,6 @@ germanic = {
 	kurlander = { primary = KUR }
 	lothringian = { primary = LOT }
 	new_english = { primary = GER }
-	luxemburgish = { primary = LUX }
-	hanseatic = { primary = HSA }
 }
 scandinavian = {
 	norse = { #Moves it from Lost Cultures to here, added in "Lions of the North" to vanilla
