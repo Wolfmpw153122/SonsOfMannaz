@@ -1,5 +1,5 @@
-owner = LIT
-controller = LIT
+owner = MOS
+controller = MOS
 capital = "Murom"
 is_city = yes
 culture = dynamic-meshchera-scythian-culture-num1
@@ -9,7 +9,7 @@ hre = yes
 base_tax = 5
 base_production = 4
 base_manpower = 3
-add_core = LIT
+add_core = MOS
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

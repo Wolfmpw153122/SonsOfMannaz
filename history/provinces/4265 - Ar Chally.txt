@@ -1,5 +1,5 @@
-owner = 
-controller = 
+owner = Z0R
+controller = Z0R
 capital = "Ar-Chally"
 is_city = yes
 culture = dynamic-parthian-culture-num3
@@ -8,7 +8,7 @@ trade_goods = grain
 base_tax = 5
 base_production = 2
 base_manpower = 2
-add_core = 
+add_core = Z0R
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

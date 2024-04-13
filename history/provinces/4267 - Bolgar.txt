@@ -1,5 +1,5 @@
-owner = BYZ
-controller = BYZ
+owner = Z0R
+controller = Z0R
 capital = "Bolgar"
 is_city = yes
 culture = kazani
@@ -8,7 +8,7 @@ trade_goods = iron
 base_tax = 5
 base_production = 3
 base_manpower = 3
-add_core = BYZ
+add_core = Z0R
 add_core = KAZ
 discovered_by = east_african
 discovered_by = eastern

@@ -1,5 +1,5 @@
-owner = nap
-controller = nap
+owner = NAP
+controller = NAP
 capital = "Gao"
 is_city = yes
 culture = dynamic-mali-senegambian-culture-num1
@@ -10,7 +10,7 @@ base_production = 3
 base_manpower = 5
 extra_cost = 8
 center_of_trade = 1
-add_core = nap
+add_core = NAP
 add_permanent_claim = SON
 discovered_by = east_african
 discovered_by = eastern

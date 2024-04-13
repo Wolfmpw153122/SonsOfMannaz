@@ -17,6 +17,101 @@ pagan = {
 		heir_chance = 0.5
 	
 }
+allowed_center_conversion = {
+	catholic
+}
+will_get_center = {
+	#Refered to even for initial CoR Spawn
+	any_owned_province = {
+		can_have_center_of_reformation_trigger = {
+			RELIGION = converted_dynamic_faith_138
+		}
+	}
+}
+on_convert = {
+	change_religion = converted_dynamic_faith_138
+	add_prestige = -100
+	remove_country_modifier = counter_reformation
+	remove_country_modifier = the_statue_in_restraint_of_appeals
+	remove_country_modifier = revocation_of_restraint_of_appeals
+	remove_country_modifier = bavarian_jesuits
+	remove_country_modifier = the_societas_jesu
+	remove_country_modifier = the_declaration_of_indulgence
+	remove_country_modifier = de_heretico_comburendo
+	remove_country_modifier = the_conventicle_act
+	if = {
+		limit = {
+			has_country_flag = reformation_money
+			NOT = {
+				calc_true_if = {
+					all_province = {
+						religion = converted_dynamic_faith_138
+						is_reformation_center = yes
+					}
+					amount = 3
+				}
+			}
+		}
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					can_have_center_of_reformation_trigger = {
+						RELIGION = converted_dynamic_faith_138
+					}
+				}
+				change_religion = converted_dynamic_faith_138
+				add_reform_center = converted_dynamic_faith_138
+			}
+		}
+		custom_tooltip = CENTER_OF_REFORMATION_POSSIBLE
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = reformation_money
+			}
+			NOT = {
+				calc_true_if = {
+					all_province = {
+						religion = converted_dynamic_faith_138
+						is_reformation_center = yes
+					}
+					amount = 3
+				}
+			}
+		}
+		add_years_of_income = 1
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					can_have_center_of_reformation_trigger = {
+						RELIGION = converted_dynamic_faith_138
+					}
+				}
+				change_religion = converted_dynamic_faith_138
+				add_reform_center = converted_dynamic_faith_138
+			}
+		}
+		custom_tooltip = CENTER_OF_REFORMATION_POSSIBLE
+	}
+	add_country_modifier = {
+		name = "conversion_zeal"
+		duration = 3650
+	}
+	set_country_flag = reformation_money
+	every_known_country = {
+		limit = {
+			reverse_has_opinion_modifier = {
+				who = ROOT
+				modifier = opinion_demote_pope
+			}
+		}
+		reverse_remove_opinion = {
+			who = ROOT
+			modifier = opinion_demote_pope
+		}
+	}
+}
 		country_as_secondary = {
  
 		tolerance_own = 1
