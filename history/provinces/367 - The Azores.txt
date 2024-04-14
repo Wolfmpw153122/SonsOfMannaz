@@ -1,5 +1,5 @@
-owner = MOR
-controller = MOR
+owner = ADU
+controller = ADU
 capital = "The Azores"
 is_city = yes
 culture = berber
@@ -8,7 +8,7 @@ trade_goods = fish
 base_tax = 1
 base_production = 1
 base_manpower = 2
-add_core = MOR
+add_core = ADU
 add_core = TLC
 discovered_by = east_african
 discovered_by = eastern
