@@ -1,0 +1,228 @@
+namespace = jt_culture_spread
+#This will add a province modifier which drastically reduces the cost to change culture
+#Same culture group converts more often, higher adm converts more often.
+#Colonies will get this event more often
+#Spread event activated by the province where the change culture modifier will occur
+province_event = {
+	id = jt_culture_spread.1
+	title = "jt_CultureSpreadTitle"
+	desc = "jt_CultureSpreadDesc"
+	picture = Culture_eventPicture
+	fire_only_once = no
+	trigger = {
+		not = {
+			has_province_modifier = "jt_spread_culture"
+		}
+		has_owner_culture = no
+		not = {
+			has_construction = culture
+		}
+		# no forceful culture conversion
+		tolerance_to_this = 0		# the religion of the province has to be tolerated
+		is_core = owner		# province must be cored
+		controlled_by = owner		# province must not be occupied
+		not = {
+			nationalism = 1
+		}
+		not = {
+			local_autonomy = 85
+		}
+		not = {
+			
+		}
+		any_neighbor_province = {
+			# at least 1 neighboring province of the owner must already be of the new culture
+			has_owner_culture = yes
+			owned_by = PREV
+			is_core = PREV
+			controlled_by = PREV
+			not = {
+				nationalism = 1
+			}
+			# spreading province must be happy with the nation
+		}
+	}
+	mean_time_to_happen = {
+		months = 1		# 50 years (2 generations)
+		#higher factor increase the amount of time it takes for the event to fire.
+		modifier = {
+			# convert much faster if all neighbors are of correct culture
+			factor = 0.65
+			all_neighbor_province = {
+				has_owner_culture = yes
+				controlled_by = PREV
+			}
+		}
+		modifier = {
+			factor = 0.85
+			is_in_capital_area = yes
+		}
+		modifier = {
+			#religious ideas help to fire the event more often
+			factor = 0.9
+			owner = {
+				has_idea = inquisition
+			}
+		}
+		modifier = {
+			# accepted cultures convert slower 
+			factor = 2
+			has_owner_accepted_culture = yes
+		}
+		modifier = {
+			# provinces from a different culture group convert slower
+			factor = 1.5
+			not = {
+				culture_group = owner
+			}
+		}
+		# Higher autonomy decreases chance of event
+		# No autonomy slightly increases chance of event
+		modifier = {
+			factor = 0.99
+			not = {
+				local_autonomy = 1
+			}
+		}
+		modifier = {
+			factor = 1.05
+			local_autonomy = 10
+		}
+		modifier = {
+			#decreasing chance of event firing based on autonomy
+			factor = 1.06
+			local_autonomy = 20
+		}
+		modifier = {
+			factor = 1.07
+			local_autonomy = 30
+		}
+		modifier = {
+			factor = 1.08
+			local_autonomy = 40
+		}
+		modifier = {
+			factor = 1.1
+			local_autonomy = 50
+		}
+		modifier = {
+			factor = 1.12
+			local_autonomy = 60
+		}
+		modifier = {
+			factor = 1.1
+			local_autonomy = 70
+		}
+		modifier = {
+			factor = 2.5
+			local_autonomy = 80
+		}
+		modifier = {
+			# increased chance of event firing if we have high tolerance to foreign religion
+			factor = 0.9
+			tolerance_to_this = 2
+		}
+		modifier = {
+			factor = 0.9
+			tolerance_to_this = 4
+		}
+		modifier = {
+			# increased chance of event firing if we have high prestige and stab
+			factor = 0.95
+			owner = {
+				prestige = 95
+				stability = 2
+			}
+		}
+		### development ###
+		modifier = {
+			# decreased chance of event firing in low dev
+			factor = 2.5
+			not = {
+				development = 10
+			}
+		}
+		modifier = {
+			# decreasing chance of event firing based on high dev
+			factor = 1.1
+			development = 22
+		}
+		modifier = {
+			factor = 1.1
+			development = 32
+		}
+		modifier = {
+			factor = 1.2
+			development = 42
+		}
+		modifier = {
+			#get some help
+			factor = 2.5
+			development = 52
+		}
+		modifier = {
+			#Decreased chance of event firing if in harsh terrain
+			factor = 2.5
+			not = {
+				development = 12
+			}
+			# Decreased chance of event firing if we have decent development
+			or = {
+				has_terrain = mountain
+				has_terrain = hills
+				has_terrain = jungle
+				has_terrain = marsh
+				has_terrain = glacier
+			}
+		}
+		modifier = {
+			# Decreased chance of event firing if in harsh terrain
+			factor = 1.5
+			not = {
+				# harsh terrain penalty ignored if we have roads
+				development = 21
+			}
+			or = {
+				has_terrain = mountain
+				has_terrain = hills
+				has_terrain = jungle
+				has_terrain = marsh
+				has_terrain = glacier
+			}
+		}
+		modifier = {
+			factor = 0.95
+			has_port = yes
+		}
+		modifier = {
+			factor = 0.25
+			owner = {
+				is_colonial_nation = yes
+			}
+		}
+		modifier = {
+			# to hinder quick assimilation in trade companies
+			factor = 2.5
+			is_owned_by_trade_company = yes
+		}
+	}
+	option = {
+		name = "jt_ApproveSpread"
+		ai_chance = {
+			factor = 100
+		}
+		if = {
+			limit = {
+				owner_is_colonial_nation = yes
+			}
+			change_culture = owner
+		} 
+		else = {
+			add_province_modifier = {
+				name = "jt_spread_culture"
+				duration = 3650
+				
+			}
+		}
+	}
+}

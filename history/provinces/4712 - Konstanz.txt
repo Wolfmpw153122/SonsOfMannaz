@@ -11,6 +11,7 @@ base_production = 3
 base_manpower = 5
 center_of_trade = 1
 add_core = SWA
+add_core = WBG
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

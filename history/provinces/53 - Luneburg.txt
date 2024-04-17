@@ -1,6 +1,6 @@
 owner = Z1J
 controller = Z1J
-capital = "Lüneburg"
+capital = "Lï¿½neburg"
 is_city = yes
 culture = swabian
 religion = catholic
@@ -11,6 +11,7 @@ base_tax = 7
 base_production = 5
 base_manpower = 6
 add_core = Z1J
+add_core = LUN
 add_permanent_claim = HOL
 discovered_by = east_african
 discovered_by = eastern

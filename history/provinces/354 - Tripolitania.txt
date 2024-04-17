@@ -12,6 +12,7 @@ base_manpower = 2
 extra_cost = 16
 center_of_trade = 2
 add_core = NAP
+add_core = Z14
 add_permanent_claim = EGY
 discovered_by = east_african
 discovered_by = eastern

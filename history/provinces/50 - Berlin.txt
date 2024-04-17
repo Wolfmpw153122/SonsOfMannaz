@@ -1,6 +1,6 @@
 owner = PRU
 controller = PRU
-capital = "Berlin-Cölln"
+capital = "Berlin-Cï¿½lln"
 is_city = yes
 culture = swabian
 religion = catholic
@@ -12,6 +12,7 @@ base_manpower = 2
 extra_cost = 8
 center_of_trade = 1
 add_core = PRU
+add_core = BRA
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

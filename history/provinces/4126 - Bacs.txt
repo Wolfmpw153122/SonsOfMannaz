@@ -1,6 +1,6 @@
-owner = HUN
-controller = HUN
-capital = "Bács"
+owner = CRO
+controller = CRO
+capital = "Bï¿½cs"
 is_city = yes
 culture = dacian
 religion = catholic
@@ -8,6 +8,7 @@ trade_goods = livestock
 base_tax = 5
 base_production = 1
 base_manpower = 2
+add_core = CRO
 add_core = HUN
 add_core = RMN
 add_permanent_claim = CRO

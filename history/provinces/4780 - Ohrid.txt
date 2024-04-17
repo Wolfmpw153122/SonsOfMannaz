@@ -9,6 +9,7 @@ base_tax = 4
 base_production = 4
 base_manpower = 4
 add_core = BUL
+add_core = ALB
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

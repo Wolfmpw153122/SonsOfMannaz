@@ -8,6 +8,7 @@ trade_goods = naval_supplies
 base_tax = 1
 base_production = 1
 base_manpower = 1
+add_core = SER
 add_core = DAL
 discovered_by = east_african
 discovered_by = eastern

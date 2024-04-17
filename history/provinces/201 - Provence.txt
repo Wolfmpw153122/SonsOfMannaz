@@ -12,6 +12,7 @@ base_manpower = 5
 extra_cost = 10
 center_of_trade = 1
 add_core = GEN
+add_core = PRO
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

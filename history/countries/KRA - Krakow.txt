@@ -3,7 +3,7 @@ add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = eastern
 religion = catholic
-primary_culture = polish
+primary_culture = vandal
 capital = 262
 fixed_capital = 262
 1530.1.1= { set_legacy_government = administrative_monarchy }

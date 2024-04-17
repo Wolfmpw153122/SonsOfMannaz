@@ -3,7 +3,7 @@ add_government_reform = leading_clergy_reform
 government_rank = 1
 technology_group = western
 religion = catholic
-primary_culture = franconian
+primary_culture = dynamic-norse-lower_saxon-culture-num7
 capital = 79
 fixed_capital = 79
 1372.1.1= {
@@ -79,14 +79,14 @@ fixed_capital = 79
 }
 1519.2.6= {
 	monarch = {
-		name = "Konrad von Thüngen"
+		name = "Konrad von Thï¿½ngen"
 		birth_date = 1466.1.1
 		adm = 0
 		dip = 2
 		mil = 4
 	}
 }
-1524.8.1= { leader = {	name = "Thomas Müntzer"		type = general	fire = 1	shock = 2	manuever = 3	siege = 0	death_date = 1525.5.15 } }
+1524.8.1= { leader = {	name = "Thomas Mï¿½ntzer"		type = general	fire = 1	shock = 2	manuever = 3	siege = 0	death_date = 1525.5.15 } }
 1524.8.1= {
 	monarch = {
 		name = "Heinrich Pfeiffer"
@@ -98,7 +98,7 @@ fixed_capital = 79
 }
 1525.5.15= {
 	monarch = {
-		name = "Konrad von Thüngen"
+		name = "Konrad von Thï¿½ngen"
 		birth_date = 1466.1.1
 		adm = 0
 		dip = 2
@@ -174,7 +174,7 @@ add_government_reform = autocracy_reform }
 }
 1642.7.30= {
 	monarch = {
-		name = "Johann von Schönborn"
+		name = "Johann von Schï¿½nborn"
 		birth_date = 1605.8.6
 		culture = hessian
 		adm = 3
@@ -250,7 +250,7 @@ add_government_reform = autocracy_reform }
 }
 1729.3.26= {
 	monarch = {
-		name = "Friedrich von Schönborn"
+		name = "Friedrich von Schï¿½nborn"
 		culture = hessian
 		birth_date = 1674.3.3
 		adm = 0

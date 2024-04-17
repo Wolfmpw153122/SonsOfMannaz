@@ -13,6 +13,7 @@ base_manpower = 4
 extra_cost = 10
 add_core = FEO
 add_core = PRU
+add_core = POM
 add_permanent_claim = PRU
 discovered_by = east_african
 discovered_by = eastern

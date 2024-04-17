@@ -3,7 +3,7 @@ add_government_reform = margraviate_reform
 government_rank = 1
 technology_group = western
 religion = catholic
-primary_culture = swabian
+primary_culture = dynamic-norse-lower_saxon-culture-num7
 capital = 4714
 1372.1.1= {
 	monarch = {
@@ -12,7 +12,7 @@ capital = 4714
 		adm = 3
 		dip = 2
 		mil = 1
-		dynasty = "von Zähringen"		
+		dynasty = "von Zï¿½hringen"		
 	}
 }
 1407.3.1= {
@@ -25,7 +25,7 @@ capital = 4714
 		adm = 1
 		dip = 2
 		mil = 3
-		dynasty = "von Zähringen"		
+		dynasty = "von Zï¿½hringen"		
 	}
 }
 1431.5.6= {
@@ -35,7 +35,7 @@ capital = 4714
 		adm = 1
 		dip = 2
 		mil = 3
-		dynasty = "von Zähringen"
+		dynasty = "von Zï¿½hringen"
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = just_personality
@@ -51,7 +51,7 @@ capital = 4714
 		adm = 1
 		dip = 1
 		mil = 1
-		dynasty = "von Zähringen"		
+		dynasty = "von Zï¿½hringen"		
 	}
 }
 1453.10.14= {
@@ -61,7 +61,7 @@ capital = 4714
 		adm = 1
 		dip = 1
 		mil = 1
-		dynasty = "von Zähringen"		
+		dynasty = "von Zï¿½hringen"		
 	}
 }
 1453.10.14= {
@@ -74,7 +74,7 @@ capital = 4714
 		adm = 2
 		dip = 0
 		mil = 1
-		dynasty = "von Zähringen"
+		dynasty = "von Zï¿½hringen"
 	}
 }
 1458.7.13= {
@@ -84,7 +84,7 @@ capital = 4714
 		adm = 2
 		dip = 0
 		mil = 1
-		dynasty = "von Zähringen"
+		dynasty = "von Zï¿½hringen"
 	}
 }
 1458.7.13= {
@@ -97,7 +97,7 @@ capital = 4714
 		adm = 4
 		dip = 4
 		mil = 0
-		dynasty = "von Zähringen"
+		dynasty = "von Zï¿½hringen"
 	}
 }
 1475.2.23= {
@@ -107,7 +107,7 @@ capital = 4714
 		adm = 4
 		dip = 4
 		mil = 0
-		dynasty = "von Zähringen"
+		dynasty = "von Zï¿½hringen"
 	}
 }
 1475.2.23= {
@@ -120,7 +120,7 @@ capital = 4714
 		adm = 0
 		dip = 1
 		mil = 2
-		dynasty = "von Zähringen"
+		dynasty = "von Zï¿½hringen"
 	}
 }
 1515.4.20= {
@@ -130,7 +130,7 @@ capital = 4714
 		adm = 0
 		dip = 1
 		mil = 2
-		dynasty = "von Zähringen"
+		dynasty = "von Zï¿½hringen"
 	}
 }
 1519.1.1= { leader = {	name = "Georg Truchsess"       	type = general	fire = 1	shock = 2	manuever = 3	siege = 1	death_date = 1531.5.29 } }
@@ -144,7 +144,7 @@ capital = 4714
 		adm = 3
 		dip = 0
 		mil = 3
-		dynasty = "von Zähringen"
+		dynasty = "von Zï¿½hringen"
 	}
 }
 1536.6.30= {
@@ -154,7 +154,7 @@ capital = 4714
 		adm = 3
 		dip = 0
 		mil = 3
-		dynasty = "von Zähringen"
+		dynasty = "von Zï¿½hringen"
 	}
 }
 1559.2.19= {
@@ -167,7 +167,7 @@ capital = 4714
 		adm = 1
 		dip = 3
 		mil = 2
-		dynasty = "von Zähringen"
+		dynasty = "von Zï¿½hringen"
 	}
 }
 1569.10.4= {
@@ -177,7 +177,7 @@ capital = 4714
 		adm = 1
 		dip = 3
 		mil = 2
-		dynasty = "von Zähringen"
+		dynasty = "von Zï¿½hringen"
 	}
 }
 1569.10.4= {
@@ -190,7 +190,7 @@ capital = 4714
 		adm = 0
 		dip = 3
 		mil = 3
-		dynasty = "von Zähringen"
+		dynasty = "von Zï¿½hringen"
 	}
 }
 1588.6.12= {
@@ -200,7 +200,7 @@ capital = 4714
 		adm = 0
 		dip = 3
 		mil = 0
-		dynasty = "von Zähringen"
+		dynasty = "von Zï¿½hringen"
 	}
 }
 1588.6.12= {
@@ -213,7 +213,7 @@ capital = 4714
 		adm = 2
 		dip = 1
 		mil = 4
-		dynasty = "von Zähringen"
+		dynasty = "von Zï¿½hringen"
 	}
 }
 1596.1.1= {
@@ -223,7 +223,7 @@ capital = 4714
 		adm = 2
 		dip = 1
 		mil = 4
-		dynasty = "von Zähringen"
+		dynasty = "von Zï¿½hringen"
 	}
 	queen = {
 		country_of_origin = EFR
@@ -247,7 +247,7 @@ capital = 4714
 		adm = 4
 		dip = 1
 		mil = 4
-		dynasty = "von Zähringen"
+		dynasty = "von Zï¿½hringen"
 	}
 }
 1604.4.15= {
@@ -257,7 +257,7 @@ capital = 4714
 		adm = 4
 		dip = 1
 		mil = 4
-		dynasty = "von Zähringen"
+		dynasty = "von Zï¿½hringen"
 	}
 }
 1604.4.15= {
@@ -270,7 +270,7 @@ capital = 4714
 		adm = 3
 		dip = 1
 		mil = 3
-		dynasty = "von Zähringen"
+		dynasty = "von Zï¿½hringen"
 	}
 }
 1622.4.13= {
@@ -280,7 +280,7 @@ capital = 4714
 		adm = 3
 		dip = 1
 		mil = 3
-		dynasty = "von Zähringen"
+		dynasty = "von Zï¿½hringen"
 	}
 }
 1655.4.8= {
@@ -293,7 +293,7 @@ capital = 4714
 		adm = 2
 		dip = 4
 		mil = 4
-		dynasty = "von Zähringen"		
+		dynasty = "von Zï¿½hringen"		
 		leader = { 
 			name = "Ludwig-Wilhelm I"
 			type = general
@@ -312,7 +312,7 @@ capital = 4714
 		dip = 4
 		mil = 4
 		leader = { name = "Ludwig-Wilhelm I"	type = general	fire = 2	shock = 3	manuever = 2	siege = 0}
-		dynasty = "von Zähringen"
+		dynasty = "von Zï¿½hringen"
 	}
 }
 1702.6.7= {
@@ -325,7 +325,7 @@ capital = 4714
 		adm = 3
 		dip = 3
 		mil = 1
-		dynasty = "von Zähringen"
+		dynasty = "von Zï¿½hringen"
 	}
 }
 1707.1.5= {
@@ -335,7 +335,7 @@ capital = 4714
 		adm = 3
 		dip = 3
 		mil = 1
-		dynasty = "von Zähringen"
+		dynasty = "von Zï¿½hringen"
 	}
 }
 1707.1.5= {
@@ -348,7 +348,7 @@ capital = 4714
 		adm = 2
 		dip = 5
 		mil = 0
-		dynasty = "von Zähringen"
+		dynasty = "von Zï¿½hringen"
 	}
 }
 1761.10.23= {
@@ -358,7 +358,7 @@ capital = 4714
 		adm = 2
 		dip = 5
 		mil = 0
-		dynasty = "von Zähringen"
+		dynasty = "von Zï¿½hringen"
 	}
 }
 1761.10.23= {
@@ -371,7 +371,7 @@ capital = 4714
 		adm = 2
 		dip = 5
 		mil = 0
-		dynasty = "von Zähringen"
+		dynasty = "von Zï¿½hringen"
 	}
 }
 1771.10.22= {
@@ -381,7 +381,7 @@ capital = 4714
 		adm = 2
 		dip = 5
 		mil = 0
-		dynasty = "von Zähringen"
+		dynasty = "von Zï¿½hringen"
 	}
 }
 1786.6.8= {
@@ -394,7 +394,7 @@ capital = 4714
 		adm = 4
 		dip = 3
 		mil = 1
-		dynasty = "von Zähringen"
+		dynasty = "von Zï¿½hringen"
 	}
 }
 1811.6.11= {
@@ -404,7 +404,7 @@ capital = 4714
 		adm = 4
 		dip = 3
 		mil = 1
-		dynasty = "von Zähringen"
+		dynasty = "von Zï¿½hringen"
 	}
 }
 1811.6.11= {
@@ -417,7 +417,7 @@ capital = 4714
 		adm = 4
 		dip = 4
 		mil = 1
-		dynasty = "von Zähringen"
+		dynasty = "von Zï¿½hringen"
 	}
 }
 1818.12.5= {
@@ -427,7 +427,7 @@ capital = 4714
 		adm = 4
 		dip = 4
 		mil = 1
-		dynasty = "von Zähringen"
+		dynasty = "von Zï¿½hringen"
 	}
 }
 1818.12.5= {
@@ -440,6 +440,6 @@ capital = 4714
 		adm = 4
 		dip = 4
 		mil = 1
-		dynasty = "von Zähringen"
+		dynasty = "von Zï¿½hringen"
 	}
 }

@@ -1,0 +1,4 @@
+jt_spread_culture= {
+	local_culture_conversion_cost = -0.5
+    local_culture_conversion_time = -0.5
+}

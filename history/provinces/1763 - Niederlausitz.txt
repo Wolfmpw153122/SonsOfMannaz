@@ -12,6 +12,7 @@ base_production = 4
 base_manpower = 3
 add_core = BOH
 add_core = FEO
+add_core = SOR
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

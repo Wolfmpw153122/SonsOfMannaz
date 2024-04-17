@@ -1,6 +1,6 @@
 owner = POL
 controller = POL
-capital = "Tarnów"
+capital = "Tarnï¿½w"
 is_city = yes
 culture = vandal
 religion = catholic
@@ -9,7 +9,7 @@ hre = yes
 base_tax = 4
 base_production = 2
 base_manpower = 2
-add_core = AFR
+add_core = KRA
 add_core = POL
 discovered_by = east_african
 discovered_by = eastern

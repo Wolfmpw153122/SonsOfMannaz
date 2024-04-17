@@ -1,6 +1,6 @@
 owner = DAL
 controller = DAL
-capital = "Kruševac"
+capital = "Kruï¿½evac"
 is_city = yes
 culture = dynamic-albanian-illyrian-roman-culture-num1
 religion = catholic
@@ -9,6 +9,7 @@ base_tax = 2
 base_production = 1
 base_manpower = 5
 add_core = DAL
+add_core = SER
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

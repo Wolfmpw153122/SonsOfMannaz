@@ -3,5 +3,5 @@ add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = western
 religion = catholic
-primary_culture = sorbian
+primary_culture = dynamic-suebi-culture-num1
 capital = 60

@@ -3,7 +3,7 @@ add_government_reform = serbian_despotate_reform
 government_rank = 1
 technology_group = eastern
 religion = orthodox
-primary_culture = serbian
+primary_culture = dynamic-albanian-illyrian-roman-culture-num5
 capital = 4176
 historical_friend = BOS
 1389.1.1= {
@@ -21,8 +21,8 @@ historical_friend = BOS
 }
 1397.6.24= {
 	heir = {
-		name = "Ðurad"
-		monarch_name = "Ðurad I"
+		name = "ï¿½urad"
+		monarch_name = "ï¿½urad I"
 		dynasty = "Brankovic"
 		birth_date = 1377.1.1
 		death_date = 1456.12.24
@@ -37,7 +37,7 @@ historical_friend = BOS
 }
 1427.7.20= {
 	monarch = {
-		name = "Ðurad I"
+		name = "ï¿½urad I"
 		dynasty = "Brankovic"
 		birth_date = 1377.1.1		
 		adm = 2
@@ -124,7 +124,7 @@ historical_friend = BOS
 }
 1459.4.9= {
 	monarch = {
-		name = "Stjepan Tomaševic"
+		name = "Stjepan Tomaï¿½evic"
 		dynasty = "Kotromanic"
 		birth_date = 1438.1.1
 		adm = 3
@@ -146,7 +146,7 @@ historical_friend = BOS
 1781.1.1= { leader = {	name = "Peter I"               	type = general	fire = 2	shock = 3	manuever = 3	siege = 1	death_date = 1830.10.18 } }
 1804.2.14= {
 	monarch = {
-		name = "Ðorde I Petrovic"
+		name = "ï¿½orde I Petrovic"
 		dynasty = "Karadordevic"
 		birth_date = 1762.11.16	
 		adm = 5

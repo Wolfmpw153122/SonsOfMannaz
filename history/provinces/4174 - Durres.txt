@@ -1,6 +1,6 @@
 owner = DAL
 controller = DAL
-capital = "Durrës"
+capital = "Durrï¿½s"
 is_city = yes
 culture = dynamic-albanian-illyrian-roman-culture-num3
 religion = catholic
@@ -12,6 +12,7 @@ base_manpower = 3
 extra_cost = 8
 center_of_trade = 1
 add_core = DAL
+add_core = ALB
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

@@ -12,6 +12,7 @@ base_manpower = 3
 extra_cost = 26
 center_of_trade = 2
 add_core = Z1J
+add_core = HAM
 add_permanent_claim = HOL
 discovered_by = east_african
 discovered_by = eastern
