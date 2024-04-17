@@ -43,7 +43,7 @@ province_event = {
 		}
 	}
 	mean_time_to_happen = {
-		months = 1		# 50 years (2 generations)
+		months = 600		# 50 years (2 generations)
 		#higher factor increase the amount of time it takes for the event to fire.
 		modifier = {
 			# convert much faster if all neighbors are of correct culture
