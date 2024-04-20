@@ -1,5 +1,5 @@
-owner = ADU
-controller = ADU
+owner = TMB
+controller = TMB
 capital = "Timbuktu"
 is_city = yes
 culture = dynamic-berber-mali-culture-num1
@@ -10,7 +10,7 @@ base_production = 4
 base_manpower = 3
 extra_cost = 16
 center_of_trade = 2
-add_core = ADU
+add_core = TMB
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

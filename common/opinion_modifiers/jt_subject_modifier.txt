@@ -1,0 +1,3 @@
+vesterland_satrapy{
+opinion = 25
+}

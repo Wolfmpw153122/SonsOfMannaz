@@ -1,5 +1,5 @@
-owner = ADU
-controller = ADU
+owner = JNN
+controller = JNN
 capital = "Tingrela"
 is_city = yes
 culture = dynamic-mali-culture-num1
@@ -9,7 +9,7 @@ fort_15th = yes
 base_tax = 6
 base_production = 3
 base_manpower = 4
-add_core = ADU
+add_core = JNN
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

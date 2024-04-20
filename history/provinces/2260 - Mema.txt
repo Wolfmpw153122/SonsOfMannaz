@@ -1,5 +1,5 @@
-owner = Z0N
-controller = Z0N
+owner = TMB
+controller = TMB
 capital = "Tendirma"
 is_city = yes
 culture = bozo
@@ -9,7 +9,7 @@ base_tax = 4
 base_production = 4
 base_manpower = 2
 add_core = JNN
-add_core = Z0N
+add_core = TMB
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

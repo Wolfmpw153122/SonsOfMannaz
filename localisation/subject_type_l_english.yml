@@ -67,3 +67,11 @@
  dummy_title_plural:0 "Dummies"
  dummy_is_our:0 "§Y$NAME$§! is our Dummy."
  dummy_long_desc:1 "A Dummy is a model of the human body used for various purposes."
+
+ vesterland_satrapy_title:0 "Satrapy"
+ vesterland_satrapy_plural:0 "Satrapies"
+ vesterland_satrapy_is_our:0 "§Y$NAME$§! is our Satrapy."
+ vesterland_satrapy_long_desc:1 "A Vesterland Satrapy will not follow their overlorad to war without being promised favor, cannot make certain diplomatic actions and will pay a fraction of his income to his overlord. Vesterland Satrapies can also fight each other."
+
+
+
