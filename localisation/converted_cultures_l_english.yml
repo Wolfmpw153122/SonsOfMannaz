@@ -274,6 +274,11 @@
  venetic:0 "Venetic"
  siculian:0 "Siculian"
  
+ american:0 "New English"
+ hanseatic:0 "Hanseatic"
+ luxemburgish:0 "Luxemburgish"
+ vinlander:0 "Vinlander"
+ 
   # RICE
  yeniseian:0 "Yeniseian"
  brahui:0 "Brahui"
