@@ -1,5 +1,5 @@
-owner = HOL
-controller = HOL
+owner = FRI
+controller = FRI
 capital = "Groningen"
 is_city = yes
 culture = dynamic-norse-lower_saxon-culture-num4
@@ -9,7 +9,6 @@ hre = yes
 base_tax = 5
 base_production = 4
 base_manpower = 2
-add_core = HOL
 add_core = FRI
 discovered_by = east_african
 discovered_by = eastern

@@ -1,5 +1,5 @@
-owner = HOL
-controller = HOL
+owner = FRI
+controller = FRI
 capital = "Kleves"
 is_city = yes
 culture = dynamic-norse-lower_saxon-culture-num4
@@ -9,7 +9,8 @@ hre = yes
 base_tax = 1
 base_production = 3
 base_manpower = 1
-add_core = HOL
+add_core = FRI
+add_core = GEL
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian
