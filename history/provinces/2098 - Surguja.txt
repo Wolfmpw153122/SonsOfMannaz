@@ -5,6 +5,7 @@ is_city = yes
 culture = dynamic-bengali-culture-num4
 religion = hinduism
 trade_goods = cotton
+fort_15th = yes
 base_tax = 7
 base_production = 6
 base_manpower = 4

@@ -1,5 +1,5 @@
-owner = Z1J
-controller = Z1J
+owner = BRU
+controller = BRU
 capital = "Bielefeld"
 is_city = yes
 culture = swabian
@@ -10,7 +10,7 @@ base_tax = 6
 base_production = 4
 base_manpower = 3
 add_core = Z18
-add_core = Z1J
+add_core = BRU
 add_permanent_claim = HOL
 discovered_by = east_african
 discovered_by = eastern

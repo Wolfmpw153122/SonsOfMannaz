@@ -2009,7 +2009,7 @@ cb_spread_the_true_faith = {
 
 	war_goal = superiority_spread_the_true_faith
 }
-################### Jt_subject_cb
+################### Jt_cb
 cb_disloyal_vesterland_satrapy = {
 	valid_for_subject = no
 
@@ -2017,4 +2017,14 @@ cb_disloyal_vesterland_satrapy = {
 	months = 120
 
 	war_goal = take_capital_disloyal
+}
+
+cb_consolidate = {
+
+	prerequisites = {
+		always = no
+		#core_claim = FROM
+	}
+
+	war_goal = take_core_consolidate
 }

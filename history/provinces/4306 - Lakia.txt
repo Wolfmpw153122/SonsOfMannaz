@@ -5,6 +5,7 @@ is_city = yes
 culture = dynamic-greek-culture-num13
 religion = catholic
 trade_goods = iron
+fort_15th = yes
 base_tax = 5
 base_production = 1
 base_manpower = 2

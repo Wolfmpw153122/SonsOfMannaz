@@ -5,6 +5,7 @@ is_city = yes
 culture = kurdish
 religion = converted_dynamic_faith_142
 trade_goods = incense
+fort_15th = yes
 base_tax = 1
 base_production = 1
 base_manpower = 1

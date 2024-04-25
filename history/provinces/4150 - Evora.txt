@@ -1,6 +1,6 @@
 owner = ADU
 controller = ADU
-capital = "Évora"
+capital = "ï¿½vora"
 is_city = yes
 culture = tagonian
 religion = catholic

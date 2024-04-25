@@ -3,7 +3,7 @@ add_government_reform = steppe_horde
 government_rank = 1
 technology_group = nomad_group
 religion = tengri_pagan
-primary_culture = oirats
+primary_culture = parthian
 capital = 718
 add_accepted_culture = khalkha
 1399.1.1= {
@@ -123,7 +123,7 @@ add_accepted_culture = khalkha
 1586.1.1= { religion = vajrayana }
 1590.1.1= {
 	monarch = {
-		name = "Güshi"
+		name = "Gï¿½shi"
 		dynasty = "Choros"
 		adm = 1
 		dip = 1
@@ -153,7 +153,7 @@ add_accepted_culture = khalkha
 	}
 }
 1623.1.1= { capital = 714 }
-1630.1.1= {leader = {	name = "Güshi Khan"              	type = general	fire = 4	shock = 4	manuever = 5	siege = 0	death_date = 1655.1.1 } }
+1630.1.1= {leader = {	name = "Gï¿½shi Khan"              	type = general	fire = 4	shock = 4	manuever = 5	siege = 0	death_date = 1655.1.1 } }
 1634.1.1= {
 	monarch = {
 		name = "Erdeni Batur"

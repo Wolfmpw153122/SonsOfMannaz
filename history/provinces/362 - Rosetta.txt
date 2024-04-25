@@ -11,6 +11,7 @@ base_manpower = 4
 extra_cost = 23
 center_of_trade = 1
 add_core = EGY
+add_core = ALO
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

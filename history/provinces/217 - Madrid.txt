@@ -6,6 +6,7 @@ culture = dynamic-gaulish-culture-num16
 religion = catholic
 trade_goods = cloth
 hre = yes
+fort_15th = yes
 base_tax = 1
 base_production = 2
 base_manpower = 1

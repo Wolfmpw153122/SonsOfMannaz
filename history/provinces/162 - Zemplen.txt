@@ -5,6 +5,7 @@ is_city = yes
 culture = dacian
 religion = catholic
 trade_goods = grain
+fort_15th = yes
 base_tax = 6
 base_production = 3
 base_manpower = 5

@@ -1,0 +1,3 @@
+jt_buff_admin_capacity = {
+    governing_capacity_modifier = 0.50
+}

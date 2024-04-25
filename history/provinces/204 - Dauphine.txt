@@ -6,6 +6,7 @@ culture = arelatian
 religion = catholic
 trade_goods = wool
 hre = yes
+fort_15th = yes
 base_tax = 4
 base_production = 3
 base_manpower = 3

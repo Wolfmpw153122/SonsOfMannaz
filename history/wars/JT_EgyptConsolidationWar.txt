@@ -1,0 +1,46 @@
+name = "War of Egyptian Rule"           # Name of the war in the war screen
+war_goal = {
+    type = take_core_consolidate     # The wargoal to use from 00_wargoals.txt
+    casus_belli = cb_consolidate      # The cb to use from 00_cb_types.txt
+    province = 2316
+}
+
+# Used to start the war at the specified date
+1444.10.11 = {
+    add_attacker = ALO   # Adds a country to the attackers side
+    add_attacker = Z1C   # Adds a country to the attackers side
+    add_defender = EGY    # Adds a country to the defenders side
+}
+
+#Used to add ongoing battles 
+# 1444.11.11 = {
+#     batle = { 
+#         name = "Battle of the Nile"   # Name of province
+#         location = 1231    # Province the battle is in
+        
+#         attacker = {
+#             commander = "Karsus"  # Leader of the attacker's army
+#             infantry = 22        # Number of infantry. 1 equals 1 soldier
+#             cavalry = 4         # Number of cavalry
+#             artillery = 0      # Number of artillery
+#             losses = 20       # How many of the forces are already dead
+#             country = ALO         # The country that is attacking
+#         }
+        
+#         defender = {
+#             commander = "Mohmed"  # Leader of the defender's army
+#             infantry = 31        # Number of infantry. 1 equals 1 soldier
+#             cavalry = 4         # Number of cavalry
+#             artillery = 0       # Number of artillery
+#             losses = 54       # How many of the forces are already dead
+#             country = EGY         # The country that is defending
+#         }
+#     }
+# }
+
+
+# Used to end the war at the specified date
+1464.11.11 = {
+    rem_attacker = ALO   # Adds a country to the attackers side
+    rem_defender = EGY   # Removes a country to the defenders side
+}

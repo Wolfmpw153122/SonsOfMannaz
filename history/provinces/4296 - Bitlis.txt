@@ -5,6 +5,7 @@ is_city = yes
 culture = dynamic-armenian-greek-culture-num2
 religion = catholic
 trade_goods = wool
+fort_15th = yes
 base_tax = 9
 base_production = 7
 base_manpower = 7

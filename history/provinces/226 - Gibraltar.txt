@@ -5,6 +5,7 @@ is_city = yes
 culture = baetican
 religion = catholic
 trade_goods = fish
+fort_15th = yes
 base_tax = 5
 base_production = 4
 base_manpower = 3

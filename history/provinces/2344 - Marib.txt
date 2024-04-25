@@ -1,5 +1,5 @@
-owner = Z1T
-controller = Z1T
+owner = Z15
+controller = Z15
 capital = "Marib"
 is_city = yes
 culture = yemeni_culture
@@ -9,7 +9,7 @@ base_tax = 3
 base_production = 5
 base_manpower = 1
 add_core = ADE
-add_core = Z1T
+add_core = Z15
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

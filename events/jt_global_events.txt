@@ -1,0 +1,21 @@
+namespace = jt_global_events
+country_event = {
+	id = jt_global_event.1
+	title = jt_buff_admin_cap
+	desc = jt_global_desc.1.d
+	picture = TRADEGOODS_eventPicture
+	
+    is_triggered_only = yes
+	major = no
+    option = {
+        name = "jt_ApproveGoverningCapacity"
+		ai_chance = {
+			factor = 100
+		}
+        add_country_modifier = {
+            name = jt_buff_admin_capacity
+            duration = 3600
+        }
+    }
+
+}

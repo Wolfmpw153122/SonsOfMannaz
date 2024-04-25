@@ -1,7 +1,71 @@
-# dependency= {
-#     subject_type = "vesterland_satrapy"
-#     first = ADU
-#     second = CAS
-#     start_date = 1444.1.1
-#     end_date=1836.1.1
-# }
+dependency = {
+	subject_type = "vesterland_satrapy"
+	first = ADU
+	second = FUL
+	start_date = 1444.1.1
+	end_date = 1836.1.1
+}
+
+dependency = {
+	subject_type = "vesterland_satrapy"
+	first = ADU
+	second = TMB
+	start_date = 1444.1.1
+	end_date = 1836.1.1
+}
+
+dependency = {
+	subject_type = "vesterland_satrapy"
+	first = ADU
+	second = JNN
+	start_date = 1444.1.1
+	end_date = 1836.1.1
+}
+
+dependency = {
+	subject_type = "vesterland_satrapy"
+	first = ADU
+	second = JOL
+	start_date = 1444.1.1
+	end_date = 1836.1.1
+}
+
+dependency = {
+	subject_type = "vesterland_satrapy"
+	first = ADU
+	second = MAL
+	start_date = 1444.1.1
+	end_date = 1836.1.1
+}
+
+dependency = {
+	subject_type = "vesterland_satrapy"
+	first = ADU
+	second = KNG
+	start_date = 1444.1.1
+	end_date = 1836.1.1
+}
+
+dependency = {
+	subject_type = "vesterland_satrapy"
+	first = ADU
+	second = Z1U
+	start_date = 1444.1.1
+	end_date = 1836.1.1
+}
+
+dependency = {
+	subject_type = "vesterland_satrapy"
+	first = ADU
+	second = GUR
+	start_date = 1444.1.1
+	end_date = 1836.1.1
+}
+
+dependency = {
+	subject_type = "vesterland_satrapy"
+	first = ADU
+	second = AFR
+	start_date = 1444.1.1
+	end_date = 1836.1.1
+}

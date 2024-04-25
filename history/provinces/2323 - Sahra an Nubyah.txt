@@ -1,6 +1,6 @@
 owner = EGY
 controller = EGY
-capital = "Sahra an Nübyah"
+capital = "Sahra an Nï¿½byah"
 is_city = yes
 culture = greek
 religion = converted_dynamic_faith_142
@@ -9,6 +9,7 @@ base_tax = 5
 base_production = 3
 base_manpower = 3
 add_core = EGY
+add_core = ALO
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

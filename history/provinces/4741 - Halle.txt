@@ -1,5 +1,5 @@
-owner = Z1J
-controller = Z1J
+owner = ANH
+controller = ANH
 capital = "Halle"
 is_city = yes
 culture = swabian
@@ -9,7 +9,7 @@ hre = yes
 base_tax = 6
 base_production = 5
 base_manpower = 4
-add_core = Z1J
+add_core = LUN
 add_core = ANH
 add_permanent_claim = FKN
 discovered_by = east_african

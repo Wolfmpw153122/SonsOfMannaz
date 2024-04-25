@@ -1,5 +1,5 @@
-owner = HAB
-controller = HAB
+owner = CRO
+controller = CRO
 capital = "Sopron"
 is_city = yes
 culture = dynamic-norwegian-lower_saxon-culture-num2
@@ -9,7 +9,7 @@ hre = yes
 base_tax = 6
 base_production = 3
 base_manpower = 3
-add_core = HAB
+add_core = CRO
 add_permanent_claim = CRO
 discovered_by = east_african
 discovered_by = eastern

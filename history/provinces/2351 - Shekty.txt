@@ -1,5 +1,5 @@
-owner = Z0J
-controller = Z0J
+owner = Z0R
+controller = Z0R
 capital = "Shekty"
 is_city = yes
 culture = parthian
@@ -9,7 +9,7 @@ base_tax = 5
 base_production = 4
 base_manpower = 2
 add_core = PRA
-add_core = Z0J
+add_core = Z0R
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

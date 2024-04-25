@@ -1,5 +1,5 @@
-owner = Z0T
-controller = Z0T
+owner = OIR
+controller = OIR
 capital = "Hotan"
 is_city = yes
 culture = parthian
@@ -11,7 +11,7 @@ base_manpower = 10
 extra_cost = 8
 center_of_trade = 1
 add_core = PRA
-add_core = Z0T
+add_core = OIR
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

@@ -1,5 +1,5 @@
-owner = Z10
-controller = Z10
+owner = ALO
+controller = ALO
 capital = "Al-Junaynahr"
 is_city = yes
 culture = daju
@@ -9,7 +9,8 @@ base_tax = 6
 base_production = 5
 base_manpower = 4
 add_core = DAR
-add_core = Z10
+add_core = ALO
+add_core = EGY
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

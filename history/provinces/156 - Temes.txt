@@ -1,10 +1,11 @@
 owner = HUN
 controller = HUN
-capital = "Temesvár"
+capital = "Temesvï¿½r"
 is_city = yes
 culture = dacian
 religion = catholic
 trade_goods = wool
+fort_15th = yes
 base_tax = 2
 base_production = 1
 base_manpower = 3

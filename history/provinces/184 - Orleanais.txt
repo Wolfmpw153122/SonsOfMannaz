@@ -1,11 +1,12 @@
 owner = SAV
 controller = SAV
-capital = "Orléans"
+capital = "Orlï¿½ans"
 is_city = yes
 culture = lutetian
 religion = catholic
 trade_goods = grain
 hre = yes
+fort_15th = yes
 base_tax = 4
 base_production = 4
 base_manpower = 2

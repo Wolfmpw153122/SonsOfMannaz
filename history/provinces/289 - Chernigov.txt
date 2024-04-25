@@ -5,6 +5,7 @@ is_city = yes
 culture = dynamic-meshchera-scythian-culture-num1
 religion = catholic
 trade_goods = iron
+fort_15th = yes
 base_tax = 4
 base_production = 3
 base_manpower = 4

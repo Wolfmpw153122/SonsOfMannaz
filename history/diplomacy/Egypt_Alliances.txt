@@ -1,0 +1,7 @@
+dependency = {
+	subject_type = "vassal"
+	first = ALO
+	second = Z1C
+	start_date = 1444.1.1
+	end_date = 1836.1.1
+}

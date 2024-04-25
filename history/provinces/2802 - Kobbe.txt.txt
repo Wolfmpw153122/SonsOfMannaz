@@ -1,5 +1,5 @@
-owner = Z10
-controller = Z10
+owner = ALO
+controller = ALO
 capital = "Kobbe"
 is_city = yes
 culture = daju
@@ -9,7 +9,8 @@ base_tax = 5
 base_production = 4
 base_manpower = 2
 add_core = DAR
-add_core = Z10
+add_core = ALO
+add_core = EGY
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

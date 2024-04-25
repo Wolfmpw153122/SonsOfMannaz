@@ -1,5 +1,5 @@
-owner = Z1J
-controller = Z1J
+owner = LUN
+controller = LUN
 capital = "Brandenburg an der Havel"
 is_city = yes
 culture = swabian
@@ -9,7 +9,7 @@ hre = yes
 base_tax = 6
 base_production = 3
 base_manpower = 4
-add_core = Z1J
+add_core = LUN
 add_permanent_claim = PRU
 discovered_by = east_african
 discovered_by = eastern
