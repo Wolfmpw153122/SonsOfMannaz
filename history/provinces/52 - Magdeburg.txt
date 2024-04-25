@@ -1,5 +1,5 @@
-owner = Z1J
-controller = Z1J
+owner = LUN
+controller = LUN
 capital = "Magdeburg"
 is_city = yes
 culture = swabian
@@ -11,7 +11,7 @@ base_production = 4
 base_manpower = 2
 extra_cost = 16
 center_of_trade = 2
-add_core = Z1J
+add_core = LUN
 add_core = MAG
 add_permanent_claim = FKN
 discovered_by = east_african

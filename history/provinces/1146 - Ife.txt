@@ -1,5 +1,5 @@
-owner = Z02
-controller = Z02
+owner = SON
+controller = SON
 capital = "Ife Ile"
 is_city = yes
 culture = yorumba
@@ -9,7 +9,7 @@ base_tax = 10
 base_production = 4
 base_manpower = 2
 add_core = OYO
-add_core = Z02
+add_core = SON
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

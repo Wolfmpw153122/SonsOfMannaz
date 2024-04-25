@@ -1,5 +1,5 @@
-owner = ADU
-controller = ADU
+owner = AFR
+controller = AFR
 capital = "Msila"
 is_city = yes
 culture = dynamic-berber-carthaginian-culture-num1
@@ -8,7 +8,7 @@ trade_goods = salt
 base_tax = 1
 base_production = 2
 base_manpower = 1
-add_core = ADU
+add_core = AFR
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

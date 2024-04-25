@@ -1,5 +1,5 @@
-owner = Z0P
-controller = Z0P
+owner = SON
+controller = SON
 capital = "Warri"
 is_city = yes
 culture = yorumba
@@ -9,7 +9,7 @@ base_tax = 5
 base_production = 3
 base_manpower = 2
 add_core = OYO
-add_core = Z0P
+add_core = SON
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

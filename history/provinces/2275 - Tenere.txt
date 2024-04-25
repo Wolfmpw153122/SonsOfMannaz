@@ -1,5 +1,5 @@
-owner = NAP
-controller = NAP
+owner = SON
+controller = SON
 capital = "Aghram"
 is_city = yes
 culture = zaghawa
@@ -9,7 +9,7 @@ base_tax = 4
 base_production = 3
 base_manpower = 2
 add_core = AIR
-add_core = NAP
+add_core = SON
 add_core = Z0V
 discovered_by = east_african
 discovered_by = eastern

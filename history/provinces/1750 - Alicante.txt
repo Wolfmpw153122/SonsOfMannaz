@@ -1,11 +1,10 @@
 owner = ADU
 controller = ADU
-capital = "Alàcant"
+capital = "Alï¿½cant"
 is_city = yes
 culture = dynamic-gaulish-culture-num16
 religion = catholic
 trade_goods = salt
-fort_15th = yes
 base_tax = 1
 base_production = 3
 base_manpower = 1

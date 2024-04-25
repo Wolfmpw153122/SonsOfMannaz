@@ -1,11 +1,12 @@
 owner = CAS
 controller = CAS
-capital = "Tàrrega"
+capital = "Tï¿½rrega"
 is_city = yes
 culture = dynamic-basque-gaulish-culture-num1
 religion = catholic
 trade_goods = wool
 hre = yes
+fort_15th = yes
 base_tax = 4
 base_production = 4
 base_manpower = 1

@@ -6,6 +6,7 @@ culture = dynamic-basque-gaulish-culture-num1
 religion = catholic
 trade_goods = wine
 hre = yes
+fort_15th = yes
 base_tax = 7
 base_production = 4
 base_manpower = 5

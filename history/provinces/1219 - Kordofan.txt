@@ -1,5 +1,5 @@
-owner = Z10
-controller = Z10
+owner = ALO
+controller = ALO
 capital = "Al-Fashir"
 is_city = yes
 culture = daju
@@ -11,7 +11,8 @@ base_manpower = 2
 extra_cost = 8
 center_of_trade = 1
 add_core = DAR
-add_core = Z10
+add_core = ALO
+add_core = EGY
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

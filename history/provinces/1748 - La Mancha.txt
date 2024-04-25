@@ -1,10 +1,11 @@
 owner = ADU
 controller = ADU
-capital = "Jaén"
+capital = "Jaï¿½n"
 is_city = yes
 culture = dynamic-gaulish-culture-num18
 religion = catholic
 trade_goods = wool
+fort_15th = yes
 base_tax = 7
 base_production = 5
 base_manpower = 4

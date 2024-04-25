@@ -6,6 +6,7 @@ culture = vandal
 religion = catholic
 trade_goods = iron
 hre = yes
+fort_15th = yes
 base_tax = 6
 base_production = 3
 base_manpower = 6

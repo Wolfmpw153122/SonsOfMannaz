@@ -1,5 +1,5 @@
-owner = BYZ
-controller = BYZ
+owner = RUM
+controller = RUM
 capital = "Ankara"
 is_city = yes
 culture = dynamic-gaulish-hittite-culture-num1
@@ -10,6 +10,7 @@ base_tax = 3
 base_production = 4
 base_manpower = 2
 add_core = BYZ
+add_core = RUM
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

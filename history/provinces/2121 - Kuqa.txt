@@ -1,5 +1,5 @@
-owner = Z0T
-controller = Z0T
+owner = OIR
+controller = OIR
 capital = "Kuqa"
 is_city = yes
 culture = parthian
@@ -9,7 +9,7 @@ base_tax = 2
 base_production = 22
 base_manpower = 4
 add_core = PRA
-add_core = Z0T
+add_core = OIR
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

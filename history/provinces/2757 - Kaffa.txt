@@ -1,5 +1,5 @@
-owner = Z10
-controller = Z10
+owner = ALO
+controller = ALO
 capital = "Anderaccha"
 is_city = yes
 culture = sidamo
@@ -10,7 +10,8 @@ base_production = 3
 base_manpower = 3
 add_core = DAM
 add_core = KAF
-add_core = Z10
+add_core = ALO
+add_core = EGY
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

@@ -1,5 +1,5 @@
-owner = Z0F
-controller = Z0F
+owner = TRS
+controller = TRS
 capital = "Khujand"
 is_city = yes
 culture = alexandrine
@@ -8,7 +8,7 @@ trade_goods = silk
 base_tax = 5
 base_production = 4
 base_manpower = 3
-add_core = Z0F
+add_core = TRS
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

@@ -2,20 +2,20 @@ government = monarchy
 add_government_reform = iqta
 government_rank = 1
 technology_group = muslim
-religion = sunni
-primary_culture = tunisian
+religion = coptic
+primary_culture = dynamic-berber-culture-num1
 capital = 354
 fixed_capital = 354
 religious_school = maliki_school
 1503.1.1= {
 	monarch = {
-		name = "Oruç Reis"
+		name = "Oruï¿½ Reis"
 		dynasty = "Yakubid"
 		culture = greek
 		adm = 2
 		dip = 4
 		mil = 5
-		leader = {	name = "Oruç Reis"            	type = admiral	fire = 1	shock = 4	manuever = 5	siege = 0	death_date = 1516.1.1 }
+		leader = {	name = "Oruï¿½ Reis"            	type = admiral	fire = 1	shock = 4	manuever = 5	siege = 0	death_date = 1516.1.1 }
 	}
 	capital = 353	# Djerba
 }
@@ -425,8 +425,8 @@ add_government_reform = autocracy_reform
 }
 1745.11.4= {
 	heir = {
-		name = "'Alî"
-		monarch_name = "'Alî I"
+		name = "'Alï¿½"
+		monarch_name = "'Alï¿½ I"
 		dynasty = "Karamanli"
 		birth_date = 1730.1.1
 		death_date = 1793.7.30
@@ -438,7 +438,7 @@ add_government_reform = autocracy_reform
 }
 1754.7.25= {
 	monarch = {
-		name = "'Alî I"
+		name = "'Alï¿½ I"
 		dynasty = "Karamanli"
 		adm = 3
 		dip = 1
@@ -447,8 +447,8 @@ add_government_reform = autocracy_reform
 }
 1754.7.25= {
 	heir = {
-		name = "'Alî Borgul"
-		monarch_name = "'Alî Borgul"
+		name = "'Alï¿½ Borgul"
+		monarch_name = "'Alï¿½ Borgul"
 		dynasty = "Karamanli"
 		birth_date = 1750.1.1
 		death_date = 1795.1.22
@@ -460,7 +460,7 @@ add_government_reform = autocracy_reform
 }
 1793.7.30= {
 	monarch = {
-		name = "'Alî Borgul"
+		name = "'Alï¿½ Borgul"
 		dynasty = "Karamanli"
 		adm = 1
 		dip = 2

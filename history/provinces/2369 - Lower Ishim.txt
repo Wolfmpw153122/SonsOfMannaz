@@ -1,5 +1,5 @@
-owner = Z0R
-controller = Z0R
+owner = CMN
+controller = CMN
 capital = "Zhanibek"
 is_city = yes
 culture = nogaybak
@@ -9,7 +9,7 @@ base_tax = 4
 base_production = 2
 base_manpower = 3
 add_core = NOG
-add_core = Z0R
+add_core = CMN
 add_permanent_claim = CMN
 discovered_by = east_african
 discovered_by = eastern

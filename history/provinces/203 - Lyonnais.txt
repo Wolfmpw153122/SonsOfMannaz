@@ -5,7 +5,6 @@ is_city = yes
 culture = dynamic-gaulish-culture-num8
 religion = catholic
 trade_goods = paper
-fort_15th = yes
 hre = yes
 base_tax = 5
 base_production = 3

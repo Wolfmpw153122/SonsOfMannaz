@@ -5,6 +5,7 @@ is_city = yes
 culture = dynamic-greek-culture-num14
 religion = converted_dynamic_faith_142
 trade_goods = livestock
+fort_15th = yes
 base_tax = 7
 base_production = 6
 base_manpower = 7

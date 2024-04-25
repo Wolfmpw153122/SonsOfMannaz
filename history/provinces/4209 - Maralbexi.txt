@@ -1,5 +1,5 @@
-owner = Z0T
-controller = Z0T
+owner = OIR
+controller = OIR
 capital = "Maralbexi"
 is_city = yes
 culture = tocharian
@@ -9,7 +9,7 @@ base_tax = 10
 base_production = 11
 base_manpower = 10
 add_core = KAS
-add_core = Z0T
+add_core = OIR
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

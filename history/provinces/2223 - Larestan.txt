@@ -5,6 +5,7 @@ is_city = yes
 culture = dynamic-parthian-culture-num4
 religion = converted_dynamic_faith_142
 trade_goods = iron
+fort_15th = yes
 base_tax = 4
 base_production = 3
 base_manpower = 2

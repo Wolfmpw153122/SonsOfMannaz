@@ -5,6 +5,7 @@ is_city = yes
 culture = mazandarani
 religion = converted_dynamic_faith_142
 trade_goods = silk
+fort_15th = yes
 base_tax = 7
 base_production = 5
 base_manpower = 3

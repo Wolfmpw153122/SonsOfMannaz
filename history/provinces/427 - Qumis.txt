@@ -1,5 +1,5 @@
-owner = Z1I
-controller = Z1I
+owner = QAR
+controller = QAR
 capital = "Damghan"
 is_city = yes
 culture = dynamic-parthian-culture-num2
@@ -8,7 +8,7 @@ trade_goods = wool
 base_tax = 5
 base_production = 5
 base_manpower = 3
-add_core = Z1I
+add_core = QAR
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

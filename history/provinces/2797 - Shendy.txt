@@ -9,6 +9,7 @@ base_tax = 6
 base_production = 4
 base_manpower = 4
 add_core = EGY
+add_core = ALO
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

@@ -1,11 +1,12 @@
 owner = CAS
 controller = CAS
-capital = "León"
+capital = "Leï¿½n"
 is_city = yes
 culture = dynamic-gaulish-culture-num17
 religion = catholic
 trade_goods = livestock
 hre = yes
+fort_15th = yes
 base_tax = 1
 base_production = 8
 base_manpower = 1

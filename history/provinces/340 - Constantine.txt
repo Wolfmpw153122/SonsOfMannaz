@@ -1,5 +1,5 @@
-owner = NAP
-controller = NAP
+owner = AFR
+controller = AFR
 capital = "Constantine"
 is_city = yes
 culture = algerian
@@ -9,7 +9,6 @@ base_tax = 1
 base_production = 5
 base_manpower = 1
 add_core = ALG
-add_core = NAP
 add_core = AFR
 discovered_by = east_african
 discovered_by = eastern

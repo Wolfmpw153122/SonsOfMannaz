@@ -1,5 +1,5 @@
-owner = Z0T
-controller = Z0T
+owner = OIR
+controller = OIR
 capital = "Kashgar"
 is_city = yes
 culture = dynamic-parthian-culture-num1
@@ -11,7 +11,7 @@ base_production = 5
 base_manpower = 3
 extra_cost = 16
 center_of_trade = 2
-add_core = Z0T
+add_core = OIR
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

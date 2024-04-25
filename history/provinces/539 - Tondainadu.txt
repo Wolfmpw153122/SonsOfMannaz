@@ -5,7 +5,6 @@ is_city = yes
 culture = dynamic-marathi-tamil-culture-num1
 religion = hinduism
 trade_goods = cloth
-fort_15th = yes
 base_tax = 6
 base_production = 11
 base_manpower = 3

@@ -27,11 +27,12 @@ vesterland_satrapy = {
 	requires_is_allowed = no # Whether it is required to be specifically allowed by a cb (such as restoration of union). If no, unjustified demands is applied.
 	
 	is_visible = { #when is this option viewable
-		always = no
-		
+		always = yes
+		primary_culture = moroccan
 	}
 	is_allowed = { #when is this option allowed/selectable
-		always = no
+		always = yes
+		primary_culture = moroccan
 	}
 	effect = { # effect of peace 
 		create_subject = {

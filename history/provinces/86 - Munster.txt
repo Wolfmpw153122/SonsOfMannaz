@@ -1,6 +1,6 @@
 owner = WES
 controller = WES
-capital = "Münster"
+capital = "Mï¿½nster"
 is_city = yes
 culture = dynamic-norse-lower_saxon-culture-num5
 religion = catholic

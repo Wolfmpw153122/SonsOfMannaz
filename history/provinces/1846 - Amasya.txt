@@ -5,6 +5,7 @@ is_city = yes
 culture = dynamic-gaulish-hittite-culture-num1
 religion = catholic
 trade_goods = paper
+fort_15th = yes
 base_tax = 6
 base_production = 6
 base_manpower = 3

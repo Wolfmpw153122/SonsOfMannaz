@@ -1,5 +1,5 @@
-owner = Z0T
-controller = Z0T
+owner = OIR
+controller = OIR
 capital = "Qarqan"
 is_city = yes
 culture = chihan
@@ -9,7 +9,7 @@ base_tax = 6
 base_production = 4
 base_manpower = 4
 add_core = YAN
-add_core = Z0T
+add_core = OIR
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

@@ -6,6 +6,7 @@ culture = dynamic-norwegian-lower_saxon-culture-num3
 religion = catholic
 trade_goods = livestock
 hre = yes
+fort_15th = yes
 base_tax = 1
 base_production = 5
 base_manpower = 2

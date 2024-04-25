@@ -5,7 +5,6 @@ is_city = yes
 culture = georgian
 religion = catholic
 trade_goods = wine
-fort_15th = yes
 base_tax = 6
 base_production = 5
 base_manpower = 5

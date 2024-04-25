@@ -12,6 +12,7 @@ base_manpower = 2
 extra_cost = 24
 center_of_trade = 3
 add_core = HAB
+add_core = VEN
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

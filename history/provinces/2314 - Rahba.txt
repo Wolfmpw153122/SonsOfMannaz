@@ -5,6 +5,7 @@ is_city = yes
 culture = dynamic-assyrian-greek-culture-num4
 religion = catholic
 trade_goods = grain
+fort_15th = yes
 base_tax = 7
 base_production = 5
 base_manpower = 5

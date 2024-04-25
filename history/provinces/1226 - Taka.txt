@@ -1,5 +1,5 @@
-owner = Z10
-controller = Z10
+owner = ALO
+controller = ALO
 capital = "Qoz Rajab"
 is_city = yes
 culture = greek
@@ -8,7 +8,8 @@ trade_goods = livestock
 base_tax = 4
 base_production = 1
 base_manpower = 2
-add_core = Z10
+add_core = ALO
+add_core = EGY
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

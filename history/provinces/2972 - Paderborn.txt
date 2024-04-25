@@ -1,5 +1,5 @@
-owner = WES
-controller = WES
+owner = BRU
+controller = BRU
 capital = "Paderborn"
 is_city = yes
 culture = dynamic-frankish-norwegian-lower_saxon-culture-num1
@@ -9,7 +9,7 @@ hre = yes
 base_tax = 6
 base_production = 4
 base_manpower = 4
-add_core = WES
+add_core = BRU
 add_permanent_claim = HOL
 discovered_by = east_african
 discovered_by = eastern
