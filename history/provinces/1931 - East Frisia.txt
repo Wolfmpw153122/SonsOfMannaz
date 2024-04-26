@@ -1,5 +1,5 @@
-owner = HOL
-controller = HOL
+owner = EFR
+controller = EFR
 capital = "Emden"
 is_city = yes
 culture = dynamic-norse-lower_saxon-culture-num4
@@ -10,7 +10,7 @@ base_tax = 5
 base_production = 4
 base_manpower = 2
 extra_cost = 10
-add_core = HOL
+add_core = FRI
 add_core = EFR
 discovered_by = east_african
 discovered_by = eastern

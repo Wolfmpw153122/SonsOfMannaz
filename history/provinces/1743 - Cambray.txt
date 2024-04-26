@@ -1,5 +1,5 @@
-owner = HOL
-controller = HOL
+owner = HAI
+controller = HAI
 capital = "Cambray"
 is_city = yes
 culture = dynamic-norse-lower_saxon-culture-num4
@@ -9,7 +9,7 @@ hre = yes
 base_tax = 6
 base_production = 5
 base_manpower = 3
-add_core = HOL
+add_core = HAI
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian
