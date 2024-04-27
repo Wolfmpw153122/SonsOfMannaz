@@ -1,5 +1,5 @@
-owner = PRU
-controller = PRU
+owner = DNZ
+controller = DNZ
 capital = "Danzig"
 is_city = yes
 culture = gothic
@@ -11,6 +11,7 @@ base_production = 5
 base_manpower = 7
 extra_cost = 26
 center_of_trade = 2
+add_core = DNZ
 add_core = FEO
 add_core = PRU
 discovered_by = east_african

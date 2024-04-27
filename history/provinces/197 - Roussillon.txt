@@ -12,6 +12,7 @@ base_manpower = 3
 add_core = GUY
 add_core = Z1F
 add_permanent_claim = GEN
+add_permanent_claim = ADU
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

@@ -10,6 +10,7 @@ base_tax = 7
 base_production = 4
 base_manpower = 5
 add_core = CAS
+add_permanent_claim = ADU
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

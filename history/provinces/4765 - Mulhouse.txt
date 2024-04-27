@@ -1,6 +1,6 @@
 owner = ALS
 controller = ALS
-capital = "Mülhausen"
+capital = "Mï¿½lhausen"
 is_city = yes
 culture = dynamic-norse-lower_saxon-culture-num8
 religion = catholic
@@ -10,7 +10,7 @@ base_tax = 5
 base_production = 1
 base_manpower = 2
 add_core = ALS
-add_permanent_claim = SAV
+add_permanent_claim = FRA
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

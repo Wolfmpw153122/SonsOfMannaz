@@ -1,5 +1,5 @@
-owner = HSA
-controller = HSA
+owner = BRE
+controller = BRE
 capital = "Bremen"
 is_city = yes
 culture = dynamic-norse-culture-num2
@@ -11,7 +11,7 @@ base_production = 3
 base_manpower = 5
 extra_cost = 18
 center_of_trade = 1
-add_core = HSA
+add_core = BRE
 add_permanent_claim = HOL
 discovered_by = east_african
 discovered_by = eastern

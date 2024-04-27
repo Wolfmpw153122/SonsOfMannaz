@@ -1,5 +1,5 @@
-owner = ADU
-controller = ADU
+owner = POR
+controller = POR
 capital = "Porto"
 is_city = yes
 culture = tagonian
@@ -10,8 +10,8 @@ base_production = 5
 base_manpower = 4
 extra_cost = 18
 center_of_trade = 1
-add_core = ADU
 add_core = POR
+add_permanent_claim = ADU
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

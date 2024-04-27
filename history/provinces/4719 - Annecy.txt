@@ -1,5 +1,5 @@
-owner = SAV
-controller = SAV
+owner = FRA
+controller = FRA
 capital = "Bourg-en-Bresse"
 is_city = yes
 culture = arelatian
@@ -10,7 +10,7 @@ base_tax = 8
 base_production = 5
 base_manpower = 6
 add_core = PRO
-add_core = SAV
+add_core = FRA
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

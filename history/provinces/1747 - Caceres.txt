@@ -11,6 +11,7 @@ base_tax = 5
 base_production = 5
 base_manpower = 3
 add_core = Z2C
+add_permanent_claim = ADU
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

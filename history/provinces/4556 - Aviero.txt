@@ -1,5 +1,5 @@
-owner = ADU
-controller = ADU
+owner = POR
+controller = POR
 capital = "Aveiro"
 is_city = yes
 culture = tagonian
@@ -8,8 +8,8 @@ trade_goods = salt
 base_tax = 5
 base_production = 5
 base_manpower = 2
-add_core = ADU
 add_core = POR
+add_permanent_claim = ADU
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

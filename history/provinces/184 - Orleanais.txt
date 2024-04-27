@@ -1,5 +1,5 @@
-owner = SAV
-controller = SAV
+owner = FRA
+controller = FRA
 capital = "Orl�ans"
 is_city = yes
 culture = lutetian
@@ -12,7 +12,7 @@ base_production = 4
 base_manpower = 2
 center_of_trade = 1
 add_core = ORL
-add_core = SAV
+add_core = FRA
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

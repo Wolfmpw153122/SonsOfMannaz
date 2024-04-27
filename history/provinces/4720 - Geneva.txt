@@ -1,5 +1,5 @@
-owner = SAV
-controller = SAV
+owner = FRA
+controller = FRA
 capital = "Geneva"
 is_city = yes
 culture = helvetian
@@ -9,7 +9,7 @@ hre = yes
 base_tax = 7
 base_production = 4
 base_manpower = 5
-add_core = SAV
+add_core = FRA
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

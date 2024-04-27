@@ -11,6 +11,7 @@ base_production = 3
 base_manpower = 1
 add_core = ADU
 add_core = LON
+add_permanent_claim = ADU
 add_permanent_claim = CAS
 discovered_by = east_african
 discovered_by = eastern

@@ -1,5 +1,5 @@
-owner = SAV
-controller = SAV
+owner = ENG
+controller = ENG
 capital = "Le Mans"
 is_city = yes
 culture = dynamic-gaulish-culture-num11
@@ -9,7 +9,8 @@ hre = yes
 base_tax = 2
 base_production = 4
 base_manpower = 5
-add_core = SAV
+add_core = ENG
+add_core = FRA
 add_permanent_claim = WLS
 discovered_by = east_african
 discovered_by = eastern

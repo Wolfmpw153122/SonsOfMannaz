@@ -1,5 +1,5 @@
-owner = ADU
-controller = ADU
+owner = LON
+controller = LON
 capital = "Zamora"
 is_city = yes
 culture = dynamic-gaulish-culture-num17
@@ -9,7 +9,8 @@ hre = yes
 base_tax = 1
 base_production = 6
 base_manpower = 1
-add_core = ADU
+add_core = LON
+add_permanent_claim = ADU
 add_permanent_claim = CAS
 discovered_by = east_african
 discovered_by = eastern

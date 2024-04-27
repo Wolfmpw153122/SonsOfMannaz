@@ -1,6 +1,6 @@
 owner = ALS
 controller = ALS
-capital = "Straßburg"
+capital = "Straï¿½burg"
 is_city = yes
 culture = dynamic-norse-lower_saxon-culture-num8
 religion = catholic
@@ -13,7 +13,7 @@ base_manpower = 3
 extra_cost = 8
 center_of_trade = 1
 add_core = ALS
-add_permanent_claim = SAV
+add_permanent_claim = FRA
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

@@ -1,5 +1,5 @@
-owner = SAV
-controller = SAV
+owner = FRA
+controller = FRA
 capital = "Grenoble"
 is_city = yes
 culture = arelatian
@@ -11,7 +11,7 @@ base_tax = 4
 base_production = 3
 base_manpower = 3
 add_core = PRO
-add_core = SAV
+add_core = FRA
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

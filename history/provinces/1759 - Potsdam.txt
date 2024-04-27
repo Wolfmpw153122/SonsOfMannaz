@@ -1,5 +1,5 @@
-owner = BOH
-controller = BOH
+owner = SAX
+controller = SAX
 capital = "Potsdam"
 is_city = yes
 culture = dynamic-norse-culture-num1
@@ -9,7 +9,7 @@ hre = yes
 base_tax = 2
 base_production = 5
 base_manpower = 3
-add_core = BOH
+add_core = SAX
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

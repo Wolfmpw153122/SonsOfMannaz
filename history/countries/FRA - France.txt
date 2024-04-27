@@ -7,7 +7,9 @@ primary_culture = cosmopolitan_french
 capital = 183
 add_accepted_culture = gascon
 add_accepted_culture = occitain
+elector = yes
 historical_rival = HAB
+historical_rival = ENG
 national_focus = DIP
 1380.9.16= {
 	monarch = {
@@ -56,7 +58,7 @@ national_focus = DIP
 		mil = 4
 	}
 }
-1418.1.1= { leader = {	name = "Étienne de Vignolles"	type = general	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1443.1.11 } }
+1418.1.1= { leader = {	name = "ï¿½tienne de Vignolles"	type = general	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1443.1.11 } }
 1422.10.22= {
 	monarch = {
 		name = "Charles VII"
@@ -191,11 +193,11 @@ national_focus = DIP
 	add_queen_personality = fertile_personality
 	add_heir_personality = calm_personality
 }
-1488.7.27= { leader = { name = "Louis de la Trémoille"	type = general	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1525.2.24 } }
+1488.7.27= { leader = { name = "Louis de la Trï¿½moille"	type = general	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1525.2.24 } }
 1488.9.10= { add_accepted_culture = breton }
 1495.1.1= { leader = {	name = "Jacques de La Palice"	type = general	fire = 2	shock = 3	manuever = 3	siege = 0	death_date = 1525.2.24 } }
 1495.1.1= { leader = { name = "Louis d'Armagnac"	type = general	fire = 3	shock = 3 manuever = 2	siege = 0 death_date = 1503.4.28 } }
-1497.1.1= { leader = {	name = "Prégent de Bidoux"	type = admiral	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1528.8.1 } }
+1497.1.1= { leader = {	name = "Prï¿½gent de Bidoux"	type = admiral	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1528.8.1 } }
 1498.4.7= {
 	monarch = {
 		name = "Louis XII"
@@ -206,8 +208,8 @@ national_focus = DIP
 		mil = 2
 	}
 	heir = {
-		name = "François"
-		monarch_name = "François I"
+		name = "Franï¿½ois"
+		monarch_name = "Franï¿½ois I"
 		dynasty = "de Valois"
 		birth_date = 1494.9.12
 		death_date = 1547.3.31
@@ -253,7 +255,7 @@ add_government_reform = autocracy_reform }
 1515.1.1= { leader = { name = "Pedro Navarro"		type = general	fire = 3	shock = 2	manuever = 2	siege = 3	death_date = 1528.8.28 } }
 1515.1.1= {
 	monarch = {
-		name = "François I"
+		name = "Franï¿½ois I"
 		dynasty = "de Valois"
 		birth_date = 1494.9.12
 		adm = 4
@@ -322,8 +324,8 @@ add_government_reform = autocracy_reform }
 		mil = 3
 	}
 	heir = {
-		name = "François"
-		monarch_name = "François II"
+		name = "Franï¿½ois"
+		monarch_name = "Franï¿½ois II"
 		dynasty = "de Valois"
 		birth_date = 1544.1.19
 		death_date = 1560.12.5
@@ -348,12 +350,12 @@ add_government_reform = autocracy_reform }
 	add_ruler_personality = lawgiver_personality
 	add_ruler_personality = zealot_personality
 }
-1552.1.1= { leader = {	name = "Louis de Condé"	type = general	fire = 2	shock = 3	manuever = 4	siege = 0	death_date = 1562.1.1 } }
-1552.1.1= { leader = { name = "François de Guise"	type = general	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1563.2.18 } }
+1552.1.1= { leader = {	name = "Louis de Condï¿½"	type = general	fire = 2	shock = 3	manuever = 4	siege = 0	death_date = 1562.1.1 } }
+1552.1.1= { leader = { name = "Franï¿½ois de Guise"	type = general	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1563.2.18 } }
 1553.1.1= { leader = {	name = "Nicolas de Villegagnon"	type = explorer	fire = 3	shock = 1	manuever = 4	siege = 0	death_date = 1557.1.1 } }
 1559.7.10= {
 	monarch = {
-		name = "François II"
+		name = "Franï¿½ois II"
 		dynasty = "de Valois"
 		birth_date = 1544.1.19
 		adm = 0
@@ -489,7 +491,7 @@ add_government_reform = autocracy_reform }
 	add_ruler_personality = well_advised_personality
 	add_ruler_personality = expansionist_personality
 }
-1589.8.3= { leader = { name = "François de Bonne"	type = general	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1626.9.21 } }
+1589.8.3= { leader = { name = "Franï¿½ois de Bonne"	type = general	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1626.9.21 } }
 1589.8.8= { government = monarchy
 add_government_reform = autocracy_reform }
 1598.4.13= { clr_country_flag = religious_turmoil clr_country_flag = religious_intolerance  decision = enact_edict_de_nantes }
@@ -553,7 +555,7 @@ add_government_reform = autocracy_reform }
 }
 1630.1.1= { leader = {	name = "Henri de Turenne"	type = general	fire = 5	shock = 5	manuever = 5	siege = 1	death_date = 1675.7.27 } }
 1634.1.1= { leader = {	name = "Jean Nicollet"		type = conquistador	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1642.11.1 } }
-1635.1.1= { leader = {	name = "Jean Armand de Maillé"          	type = admiral	fire = 3	shock = 4	manuever = 3	siege = 0	death_date = 1646.6.14 } }
+1635.1.1= { leader = {	name = "Jean Armand de Maillï¿½"          	type = admiral	fire = 3	shock = 4	manuever = 3	siege = 0	death_date = 1646.6.14 } }
 1635.1.1= { leader = {	name = "Henri de Sourdis"	type = admiral	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1641.1.1 } }
 1635.1.1= { leader = {	name = "Henri d'Harcourt"	type = general	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1666.7.25 } }
 1635.1.1= { leader = {	name = "Bernard de Saxe-Weimar"	type = general	fire = 3	shock = 4	manuever = 3	siege = 0	death_date = 1639.7.18 } }
@@ -574,7 +576,7 @@ add_government_reform = autocracy_reform }
 		mil = 6
 	}
 }
-1640.1.1= { leader = {	name = "Louis II de Condé"	type = general	fire = 4	shock = 4	manuever = 4	siege = 0	death_date = 1675.1.1 } }
+1640.1.1= { leader = {	name = "Louis II de Condï¿½"	type = general	fire = 4	shock = 4	manuever = 4	siege = 0	death_date = 1675.1.1 } }
 1643.5.14= {
 	monarch = {
 		name = "Louis XIV"
@@ -596,12 +598,12 @@ add_government_reform = autocracy_reform }
 }
 1650.1.1= { leader = {	name = "Abraham Duquesne"	type = admiral	fire = 4	shock = 4	manuever = 4	siege = 0	death_date = 1684.12.31 } }
 1653.1.1= { leader = {	name = "Jean de Gabaret"	type = admiral	fire = 2	shock = 3	manuever = 3	siege = 0	death_date = 1693.1.1 } }
-1654.1.1= { leader = {	name = "Médard des Groseilliers"	type = conquistador	fire = 3	shock = 2	manuever = 3	siege = 0	death_date = 1669.1.1 } }
-1660.1.1= { leader = {	name = "François de Vendôme"	type = admiral	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1669.6.25 } }
+1654.1.1= { leader = {	name = "Mï¿½dard des Groseilliers"	type = conquistador	fire = 3	shock = 2	manuever = 3	siege = 0	death_date = 1669.1.1 } }
+1660.1.1= { leader = {	name = "Franï¿½ois de Vendï¿½me"	type = admiral	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1669.6.25 } }
 1660.6.9= {
     queen = {
         country_of_origin = SPA
-        name = "María Teresa"
+        name = "Marï¿½a Teresa"
         dynasty = "von Habsburg"
         birth_date = 1639.9.10
         death_date = 1683.7.30
@@ -614,21 +616,21 @@ add_government_reform = autocracy_reform }
 }
 1665.1.1= { leader = {	name = "Jean-Baptiste de Valbelle"		type = admiral	fire = 2	shock = 3	manuever = 2	siege = 0	death_date = 1690.1.1 } }
 1667.5.24= { leader = { name = "F. de Luxembourg"	type = general	fire = 3	shock = 4	manuever = 4	siege = 1	death_date = 1695.1.4 } }
-1669.1.1= { leader = {	name = "René-Robert de La Salle"	type = conquistador	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1687.3.19 } }
+1669.1.1= { leader = {	name = "Renï¿½-Robert de La Salle"	type = conquistador	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1687.3.19 } }
 1670.1.1= { leader = {	name = "Ferdinand de Relingue"		type = admiral	fire = 2	shock = 3	manuever = 4	siege = 0	death_date = 1704.8.24 } }
-1672.1.1= { leader = {	name = "François-Louis de Châteaurenault"	type = admiral	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1716.1.1 } }
+1672.1.1= { leader = {	name = "Franï¿½ois-Louis de Chï¿½teaurenault"	type = admiral	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1716.1.1 } }
 1672.1.1= { leader = {	name = "Thomas-Claude d'Amblimont"	type = admiral	fire = 4	shock = 4	manuever = 2	siege = 0	death_date = 1694.1.1 } }
 1672.9.12= { leader = { name = "Louis de Frontenac"	type = conquistador	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1689.11.28 } }
-1673.1.1= { leader = {	name = "Jean-François Hertel"	type = conquistador	fire = 1	shock = 2	manuever = 4	siege = 0	death_date = 1722.3.22 } }
+1673.1.1= { leader = {	name = "Jean-Franï¿½ois Hertel"	type = conquistador	fire = 1	shock = 2	manuever = 4	siege = 0	death_date = 1722.3.22 } }
 1673.5.1= { leader = {	name = "Louis Jolliet"		type = conquistador	fire = 2	shock = 2	manuever = 4	siege = 0	death_date = 1700.5.1 } }
-1675.1.1= { leader = {	name = "François de La Feuillade"	type = general	fire = 2	shock = 2	manuever = 2	siege = 0	death_date = 1691.1.1 } }
+1675.1.1= { leader = {	name = "Franï¿½ois de La Feuillade"	type = general	fire = 2	shock = 2	manuever = 2	siege = 0	death_date = 1691.1.1 } }
 1675.1.1= { leader = {	name = "Louis-Victor de Vivonne"	type = admiral	fire = 4	shock = 4	manuever = 2	siege = 0	death_date = 1688.3.1 } }
-1675.1.26= { leader = { name = "Alain de Coëtlogon"	type = admiral	fire = 3	shock = 4	manuever = 3	siege = 0	death_date = 1730.6.7 } }
+1675.1.26= { leader = { name = "Alain de Coï¿½tlogon"	type = admiral	fire = 3	shock = 4	manuever = 3	siege = 0	death_date = 1730.6.7 } }
 1682.5.1= { decision = move_the_court_to_versailles }
 1683.10.9= {
 	queen = {
 		country_of_origin = FRA
-		name = "Françoise"
+		name = "Franï¿½oise"
 		dynasty = "de Maintenon"
 		birth_date = 1635.11.26
 		death_date = 1719.4.15
@@ -659,8 +661,8 @@ add_government_reform = autocracy_reform }
 		mil = 3
 	}
 }
-1711.9.21= { leader = { name = "René Duguay-Trouin"	type = admiral	fire = 3	shock = 4	manuever = 5	siege = 0	death_date = 1736.9.27 } }
-1714.1.1= { leader = {	name = "Étienne de Bourgmont"  	type = conquistador	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1724.1.1 } }
+1711.9.21= { leader = { name = "Renï¿½ Duguay-Trouin"	type = admiral	fire = 3	shock = 4	manuever = 5	siege = 0	death_date = 1736.9.27 } }
+1714.1.1= { leader = {	name = "ï¿½tienne de Bourgmont"  	type = conquistador	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1724.1.1 } }
 1715.9.1= {
 	monarch = {
 		name = "Louis XV"
@@ -689,13 +691,13 @@ add_government_reform = autocracy_reform }
     }
     add_queen_personality = calm_personality
 }
-1727.7.21= { leader = { name = "Pierre-Benoît Dumas"	type = conquistador	fire = 1	shock = 1	manuever = 5	siege = 0	death_date = 1735.7.11 } }
-1731.1.1= { leader = {	name = "Pierre Gaultier de la Vérendrye"	type = conquistador	fire = 2	shock = 2	manuever = 4	siege = 0	death_date = 1749.12.5 } }
+1727.7.21= { leader = { name = "Pierre-Benoï¿½t Dumas"	type = conquistador	fire = 1	shock = 1	manuever = 5	siege = 0	death_date = 1735.7.11 } }
+1731.1.1= { leader = {	name = "Pierre Gaultier de la Vï¿½rendrye"	type = conquistador	fire = 2	shock = 2	manuever = 4	siege = 0	death_date = 1749.12.5 } }
 1734.8.1= { leader = {	name = "Maurice de Saxe"	type = general	fire = 4	shock = 5	manuever = 4	siege = 1	death_date = 1750.12.30 } }
 1741.1.1= { leader = {	name = "L. F. de Bourbon"	type = general	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1747.1.1 } }
 1748.1.1= { leader = {	name = "Emmanuel d'Aiguillon"	type = general	fire = 2	shock = 3	manuever = 5	siege = 0	death_date = 1753.1.1 } }
 1748.1.1= { leader = {	name = "Thomas de Lally-Tollendal"	type = general	fire = 3	shock = 4	manuever = 4	siege = 0	death_date = 1761.1.16 } }
-1748.1.1= { leader = {	name = "Victor-François de Broglie"	type = general	fire = 4	shock = 4	manuever = 4	siege = 0	death_date = 1761.1.1 } }
+1748.1.1= { leader = {	name = "Victor-Franï¿½ois de Broglie"	type = general	fire = 4	shock = 4	manuever = 4	siege = 0	death_date = 1761.1.1 } }
 1750.1.1= { set_country_flag = haiti_nationalism }
 1750.1.1= { leader = {	name = "Jean-Armand Dieskau"	type = general	fire = 3	shock = 4	manuever = 3	siege = 0	death_date = 1755.1.1 } }
 1754.8.23= {
@@ -761,7 +763,7 @@ add_government_reform = autocracy_reform }
 		mil = 1
 	}
 }
-1785.8.1= { leader = {	name = "Jean-François de La Pérouse"	type = explorer	fire = 1	shock = 1	manuever = 5	siege = 0	death_date = 1788.1.26 } }
+1785.8.1= { leader = {	name = "Jean-Franï¿½ois de La Pï¿½rouse"	type = explorer	fire = 1	shock = 1	manuever = 5	siege = 0	death_date = 1788.1.26 } }
 1786.5.5= { set_country_flag = financial_crisis }
 1788.12.27= { set_country_flag = road_to_bankruptcy }
 1789.7.14= { #Storming of the Bastille
@@ -786,7 +788,7 @@ add_government_reform = autocracy_reform }
 	}
 }
 1793.1.1= { leader = {	name = "Claude-Victor Perrin"	type = general	fire = 4	shock = 3	manuever = 3	siege = 1	death_date = 1814.4.6 } }
-1793.6.1= { leader = {	name = "Napoléon Bonaparte"	type = general	fire = 6	shock = 6	manuever = 6	siege = 2	death_date = 1799.11.10 } }
+1793.6.1= { leader = {	name = "Napolï¿½on Bonaparte"	type = general	fire = 6	shock = 6	manuever = 6	siege = 2	death_date = 1799.11.10 } }
 1794.1.1= { leader = { name = "Jean-de-Dieu Soult"		type = general	fire = 4	shock = 3	manuever = 3	siege = 1	death_date = 1851.11.26 } }
 1794.1.1= { leader = { name = "Jean-Baptiste Bernadotte"	type = general	fire = 4	shock = 4	manuever = 3	siege = 0	death_date = 1810.11.2 } }
 1794.1.1= { leader = { name = "Laurent de Gouvion-Saint-Cyr"	type = general	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1814.4.6 } }
@@ -801,35 +803,35 @@ add_government_reform = autocracy_reform }
 }
 1796.1.1= { leader = {	name = "Pierre Charles Silvestre de Villeneuve" type = admiral	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1805.10.21 } }
 1796.8.1= { leader = {	name = "Michel Ney"		type = general	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1815.12.7 } }
-1797.1.1= { leader = { name = "Étienne Macdonald"	type = general	fire = 3	shock = 3	manuever = 4	siege = 1	death_date = 1814.4.11 } }
-1797.1.1= { leader = { name = "François-Joseph Lefebvre"	type = general	fire = 3	shock = 3	manuever = 3	siege = 2	death_date = 1807.7.9 } }
-1799.1.1= { leader = { name = "Édouard Mortier"	type = general	fire = 5	shock = 4	manuever = 4	siege = 1	death_date = 1835.7.28 } }
+1797.1.1= { leader = { name = "ï¿½tienne Macdonald"	type = general	fire = 3	shock = 3	manuever = 4	siege = 1	death_date = 1814.4.11 } }
+1797.1.1= { leader = { name = "Franï¿½ois-Joseph Lefebvre"	type = general	fire = 3	shock = 3	manuever = 3	siege = 2	death_date = 1807.7.9 } }
+1799.1.1= { leader = { name = "ï¿½douard Mortier"	type = general	fire = 5	shock = 4	manuever = 4	siege = 1	death_date = 1835.7.28 } }
 1799.11.9= { leader = { name = "Joachim Murat"		type = general	fire = 4	shock = 4	manuever = 6	siege = 2	death_date = 1806.1.1 } }
 1799.11.9= { leader = { name = "Jean Lannes"		type = general	fire = 4	shock = 5	manuever = 4	siege = 2	death_date = 1809.5.31 } }
 1799.11.10= {
 	monarch = {
-		name = "Napoléon I"
+		name = "Napolï¿½on I"
 		adm = 6
 		dip = 6
 		mil = 6
 		culture = sardinian #Corsican
 		dynasty = "Bonaparte"
 		birth_date = 1769.8.15
-		leader = { name = "Napoléon"	type = general	fire = 6	shock = 6	manuever = 6	siege = 2 }
+		leader = { name = "Napolï¿½on"	type = general	fire = 6	shock = 6	manuever = 6	siege = 2 }
 	}
 	add_army_professionalism = 0.4
 	clear_scripted_personalities = yes
 	add_ruler_personality = inspiring_leader_personality
 	add_ruler_personality = calm_personality
 }
-1800.1.1= { leader = {	name = "Auguste-Frédéric-Louis Viesse de Marmont"	type = general	fire = 3	shock = 3	manuever = 5	siege = 2	death_date = 1814.4.6 } }
-1802.1.1= { leader = {	name = "Jean-Baptiste Bessières"	type = general	fire = 3	shock = 2	manuever = 4	siege = 1	death_date = 1813.5.1 } }
+1800.1.1= { leader = {	name = "Auguste-Frï¿½dï¿½ric-Louis Viesse de Marmont"	type = general	fire = 3	shock = 3	manuever = 5	siege = 2	death_date = 1814.4.6 } }
+1802.1.1= { leader = {	name = "Jean-Baptiste Bessiï¿½res"	type = general	fire = 3	shock = 2	manuever = 4	siege = 1	death_date = 1813.5.1 } }
 1804.5.18= {
 	government = monarchy
 	add_government_reform = revolutionary_empire_reform
     queen = {
         country_of_origin = FRA
-        name = "Joséphine"
+        name = "Josï¿½phine"
         dynasty = "de Beauharnais"
         birth_date = 1763.6.23
         death_date = 1810.1.10 #Death: 1814.5.29
@@ -856,8 +858,8 @@ add_government_reform = autocracy_reform }
 }
 1811.3.20= {
 	heir = {
-		name = "Napoléon"
-		monarch_name = "Napoléon II"
+		name = "Napolï¿½on"
+		monarch_name = "Napolï¿½on II"
 		dynasty = "Bonaparte"
 		birth_date = 1811.3.20
 		death_date = 1832.7.22

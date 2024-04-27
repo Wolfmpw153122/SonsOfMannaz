@@ -1,6 +1,6 @@
 owner = QAR
 controller = QAR
-capital = "Savah"
+capital = "FRAah"
 is_city = yes
 culture = kurdish
 religion = converted_dynamic_faith_142

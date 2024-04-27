@@ -1,8 +1,8 @@
 owner = SWI
 controller = SWI
-capital = "Zürich"
+capital = "Zï¿½rich"
 is_city = yes
-culture = dynamic-norwegian-lower_saxon-culture-num4
+culture = helvetian
 religion = catholic
 trade_goods = wool
 fort_15th = yes

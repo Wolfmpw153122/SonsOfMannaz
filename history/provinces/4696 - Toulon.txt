@@ -1,5 +1,5 @@
-owner = GEN
-controller = GEN
+owner = PRO
+controller = PRO
 capital = "Toulon"
 is_city = yes
 culture = dynamic-gaulish-culture-num6
