@@ -36,7 +36,7 @@ capital = 2957
 	heir = {
 		name = "Bitorix"
 		monarch_name = "Bitorix"
-		dynasty = "München"
+		dynasty = "Woolhiser"
 		adm = 6
 		dip = 6
 		mil = 6
@@ -44,7 +44,7 @@ capital = 2957
 		death_date = 1450.10.10
 		claim = 89
 		religion = catholic
-		culture = gaulish
+		culture = dynamic-norse-lower_saxon-culture-num6
 	}
 	add_heir_personality = malevolent_personality
 	add_heir_personality = obsessive_perfectionist_personality
