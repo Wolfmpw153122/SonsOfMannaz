@@ -1297,6 +1297,10 @@ lost_cultures_group = {
 	atlantean = {
 		primary = ATL
 	}
+
+}
+##There are references to the old punic group in some scripts/triggers.  
+punic_group = {
 	old_egyptian = {
 		primary = KEM
 	}
