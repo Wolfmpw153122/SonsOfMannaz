@@ -1,7 +1,7 @@
 name = "Converted - EngForreal"
 path = "mod/EngForreal"
 normal_or_historical_nations = yes
-supported_version = "1.36.*"
+supported_version = "1.37.*"
 replace_path = "history/countries/"
 replace_path = "history/provinces/"
 replace_path = "history/diplomacy/"
