@@ -5,8 +5,8 @@ namespace = jt_culture_spread
 #Spread event activated by the province where the change culture modifier will occur
 province_event = {
 	id = jt_culture_spread.1
-	title = "jt_CultureSpreadTitle"
-	desc = "jt_CultureSpreadDesc"
+	title = "jt_CultureSpread_Title"
+	desc = "jt_CultureSpread_Desc"
 	picture = Culture_eventPicture
 	fire_only_once = no
 	trigger = {

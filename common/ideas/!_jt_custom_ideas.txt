@@ -1,0 +1,51 @@
+#Nations take the first set of ideas they can find. This means we want the "!" in the name so we load before region/culture/generic ideas
+PRZ_ideas = {
+	start = {
+        national_focus_years = -15
+		
+		all_estate_influence_modifier = -0.1
+	}
+	
+	bonus = {
+		advisor_cost = -0.15
+	}
+	
+	trigger = {
+		tag = PRZ
+	}
+	free = yes
+
+	prz_souvenir_plot_defense = {
+		defensiveness = 0.20
+	} 
+
+	prz_wide_as_the_sea = {
+		garrison_size = 0.25
+		candidate_random_bonus = 1
+	}
+
+	prz_government_friendly_suggestions = {
+		possible_policy = 1
+	}
+
+	prz_cities_on_the_walls = {
+		development_cost_in_primary_culture = -0.1
+        global_unrest = -0.5
+	}
+
+	prz_noble_intentions = {
+		transfer_trade_power_reasons = 25
+		reverse_relation_with_heretic_religion = 25
+	}
+
+	prz_merchant_wagons_of_war = {
+		cavalry_fire = 0.5
+		cav_to_inf_ratio = 0.15 
+	}
+	#people of united standing
+	prz_pous = {
+		development_cost_modifier = -0.1
+	}
+
+
+}

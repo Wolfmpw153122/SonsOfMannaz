@@ -1,6 +1,6 @@
 ﻿l_english:
-jt_CultureSpreadTitle:0 "An Enthusiastic Populace"
-jt_CultureSpreadDesc:0 "After years of living alongside us, the people of [Root.GetName] feel nearly as comfortable with our culture as they do their own. This will no doubt make for a smooth transition if we wish to integrate them further."
+jt_CultureSpread_Title:0 "An Enthusiastic Populace"
+jt_CultureSpread_Desc:0 "After years of living alongside us, the people of [Root.GetName] feel nearly as comfortable with our culture as they do their own. This will no doubt make for a smooth transition if we wish to integrate them further."
 jt_ApproveSpread:0"I knew they would come around!"
 
 jt_spread_culture:0 "An enthusiastic populace."

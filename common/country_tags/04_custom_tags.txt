@@ -1,1 +1,2 @@
 GFR	= "countries/GreatFriesland.txt"
+PRZ = "countries/Prague.txt"

@@ -1,5 +1,5 @@
-owner = SON
-controller = SON
+owner = AIR
+controller = AIR
 capital = "Aghram"
 is_city = yes
 culture = zaghawa
