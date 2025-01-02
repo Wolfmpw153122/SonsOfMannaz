@@ -1,0 +1,43 @@
+#Prague upgraded city gaurd
+merc_prz_vault_guard = {
+    regiments_per_development = 0.02 #1 regiment every 50 dev. Reaches max at 400 dev.
+	max_size = 8
+	min_size = 4
+	no_additional_manpower_from_max_size = yes
+    home_province = 266 # Prague
+	cavalry_weight = 0 #Pure infantry
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	cavalry_cap = 0 
+	sprites = { dlc006_byz_sprite_pack easterngfx_sprite_pack }
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		adm_tech = 10
+        tag = PRZ
+        #mission_completed = BYZ_varangian_guard
+	}
+	modifier = { 
+		fire_damage_received = -0.33 #very powerful, but very limited numbers.
+		shock_damage_received = -0.33
+		morale_damage_received = -0.33
+	}
+}
+
+merc_prz_city_guard = {
+    regiments_per_development = 0.01
+	max_size = 8 
+	min_size = 4
+	no_additional_manpower_from_max_size = yes
+	mercenary_desc_key = FREE_OF_FORCELIMIT_COST
+	cost_modifier = 1.25
+	counts_towards_force_limit = no 
+    home_province = 266 # Prague
+	cavalry_weight = 0 #Pure infantry
+	cavalry_cap = 0 
+	sprites = { dlc006_byz_sprite_pack easterngfx_sprite_pack }
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		tag = PRZ
+	}
+	modifier = { 
+	}
+}

@@ -1,0 +1,14 @@
+dependency = {
+	subject_type = "vassal"
+	first = SON
+	second = AIR
+	start_date = 1444.1.1
+	end_date = 1836.1.1
+}
+dependency = {
+	subject_type = "vassal"
+	first = SON
+	second = Z1U
+	start_date = 1444.1.1
+	end_date = 1836.1.1
+}

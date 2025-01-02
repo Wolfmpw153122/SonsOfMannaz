@@ -1,0 +1,136 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 45 139 106 }
+revolutionary_colors = { 0 4 15 }
+historical_idea_groups = {
+	economic_ideas
+	defensive_ideas
+	diplomatic_ideas
+	offensive_ideas
+	innovativeness_ideas
+	quantity_ideas
+	administrative_ideas
+	religious_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Athanaricho #0" = 0
+	"Aurelio #0" = 0
+	"Austragardiz #1" = -1
+	"Balthawiniz #1" = 10
+	"Bernd #1" = 10
+	"Brunechildis #0" = -1
+	"Catugnatus #1" = 10
+	"Cenabrida #1" = -1
+	"Cixillo #0" = -1
+	"Camma #2" = 10
+	"Domahraukaz #1" = 10
+	"Domneiu #2" = 10
+	"Elduara #0" = -1
+	"Gauzberto #1" = 10
+	"Gyla #0" = -1
+	"Harald #0" = 0
+	"Hramis #1" = -1
+	"Hramnariks #1" = 10
+	"Kollr #1" = 10
+	"Lucidio #0" = 0
+	"Matheo #0" = 0
+	"Mauregato #0" = 0
+	"Monnio #2" = 10
+	"Petro #0" = 0
+	"Ragimiro #1" = 10
+	"Sahsa #1" = 10
+	"Sans #0" = 0
+	"Satyra #0" = -1
+	"Sigur�r #1" = 10
+	"Suanhilde #1" = -1
+	"Suavarius #1" = 10
+	"Suneario #0" = 0
+	"Tectomaros #1" = 10
+	"Theudigislo #2" = 10
+	"Urraca #0" = -1
+	"Witariks #1" = 10
+	"Wulfilaz #1" = 10
+	"�ra #1" = 10
+}
+leader_names = {
+	"Berka"
+	"Capek"
+	"Harant"
+	"Jiskra"
+	"Kaspar"
+	"Kolowrat"
+	"Mansfeld"
+	"Purkyne"
+	"P�ka"
+	"Reiner"
+	"Schwarzenberg"
+	"Sokol"
+	"Syrov�"
+	"Thurn"
+	"Velen"
+	"Velik�"
+	"Zaj�c"
+	"Zelezn�"
+	"z Brand�sa"
+	"z Falkensteina"
+	"z Husi"
+	"z Mitrovic"
+	"z Otradovic"
+	"z Pardubic"
+	"z Polzic"
+	"z Rozmberka"
+	"z Rozmit�lu"
+	"z Vartemberka"
+	"z Veleslav�na"
+	"ze Lvovic"
+	"ze Svamberka"
+	"ze Zerot�na"
+}
+ship_names = {
+	"Bystr�"
+	"Cechy"
+	"Ctirad"
+	"Hvezda"
+	"Jan Hus"
+	"Jan Zizka"
+	"Kn�ze Bretislav"
+	"Kr�l Boleslav"
+	"Kr�l Karel"
+	"Kr�l Premysl"
+	"Libuse"
+	"Morava"
+	"Nejsvetejs� Trojice"
+	"Neporaziteln�"
+	"Odv�zn�"
+	"Orel"
+	"Panna Maria Vitezn�"
+	"Premysl Orac"
+	"Prokop Hol�"
+	"Rychl�"
+	"Sipka"
+	"Slezsko"
+	"Sokol"
+	"Svat� Anezk�"
+	"Svat� Ludmila"
+	"Svat� Jan Nepomuck�"
+	"Svat� Jir�"
+	"Svat� Mikul�s"
+	"Svat� Vaclav"
+}
+preferred_religion = Hussite

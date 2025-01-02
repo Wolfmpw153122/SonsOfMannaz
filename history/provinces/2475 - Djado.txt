@@ -1,5 +1,5 @@
-owner = SON
-controller = SON
+owner = AIR
+controller = AIR
 capital = "Djado"
 is_city = yes
 culture = berber
@@ -10,7 +10,7 @@ base_tax = 6
 base_production = 4
 base_manpower = 4
 add_core = SON
-add_core = TLC
+add_core = AIR
 add_core = Z0V
 discovered_by = east_african
 discovered_by = eastern

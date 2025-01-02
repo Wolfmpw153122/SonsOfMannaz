@@ -1,5 +1,5 @@
-owner = SON
-controller = SON
+owner = AIR
+controller = AIR
 capital = "Kawar"
 is_city = yes
 culture = dynamic-zaghawa-culture-num1
@@ -8,7 +8,7 @@ trade_goods = salt
 base_tax = 5
 base_production = 3
 base_manpower = 2
-add_core = SON
+add_core = AIR
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

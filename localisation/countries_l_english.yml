@@ -1399,5 +1399,9 @@
  TOR_ADJ:0 "Tortugan"
  MRK:0 "Marrakesh"
  MRK_ADJ:0 "Marrakesh"
+
+## Custom Nations 
  GFR:0 "Great Friesland"
  GFR_ADJ:0 "Frisian"
+ PRZ:0 "Prague"
+ PRZ_ADJ:0 "Prahan"
