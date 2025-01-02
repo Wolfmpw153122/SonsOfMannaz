@@ -78,6 +78,7 @@ scandinavian = {
 	serklandic = { } # No primary because it's truly a joke
 	romsborgian = { primary = ITA }
 	vinlander = { }
+	mikkelborger = {primary  = MKL}
 	
 	#Royal Court Additions
 	cooler_norwegian = {
