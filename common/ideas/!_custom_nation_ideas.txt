@@ -1,0 +1,47 @@
+GFR_ideas = {
+	start = {
+		production_efficiency = 0.1
+		development_cost = -0.1
+	}
+	
+	bonus = {
+		trade_efficiency = 0.15
+	}
+	
+	amsterdam_wisselbank = {
+		inflation_reduction = 0.1
+	}
+	
+	fri_coastal_industry = {
+		global_ship_trade_power = 0.1
+	}
+	
+	fri_zuiderzee_settlements = {
+		build_cost = -0.1
+		build_time = -0.1
+	}
+	
+	fri_flooding_polders = {
+		defensiveness = 0.15
+	}
+	
+	british_bill_of_rights = {
+		years_of_nationalism = -5
+		num_of_parliament_issues = 1
+	}
+	
+	eng_red_coats = {
+		fire_damage = 0.1
+		allowed_marine_fraction = 0.25
+	}
+	
+	the_saxon_circle = {
+		discipline = 0.05
+	}
+	
+	trigger = {
+		tag = GFR
+	}
+	free = yes		#will be added at load.
+
+}

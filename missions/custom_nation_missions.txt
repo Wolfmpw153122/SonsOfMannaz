@@ -1,0 +1,184 @@
+greater_friesland_missions_1 = {
+
+	slot = 1										#
+
+	has_country_shield = yes
+	generic = no
+	ai = yes
+
+	potential = {
+		Or = {
+			tag = GFR
+			tag = FRI
+			tag = EFR
+			}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	GFR_Ald_Fryslan = {
+		icon = mission_landsknecht_soldier
+		position = 1
+
+		trigger = {  
+			OR = {
+				army_size_percentage = 1
+				army_size = 15
+			}
+		} 
+		
+		effect = {
+			give_claims = { area = frisia_area }
+			add_claim = 55
+			add_claim = 2975
+		}
+	
+	}
+	
+	GFR_Reclaim_Munster = {
+		icon = mission_landsknecht_soldier
+		position = 2
+		required_missions = { GFR_Ald_Fryslan }
+		provinces_to_highlight = {
+			OR = {
+				area = frisia_area
+				province_id = 55
+				province_id = 2975
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger {
+			frisia_area = {
+				type = all
+				owned_by = ROOT
+			}
+			owns_core_province = 55
+			owns_core_province = 2975
+		}
+		
+		effect = {
+			add_claim = 56
+			add_claim = 2973
+			add_claim = 86
+		}
+	}
+	
+	GFR_Fries_City = {
+		icon = mission_landsknecht_soldier
+		position = 2
+		required_missions = { GFR_Ald_Fryslan }
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1874
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger {
+			frisia_area = {
+				type = all
+				owned_by = ROOT
+			}
+			owns_core_province = 55
+			owns_core_province = 2975
+		}
+		effect = {
+			add_claim = 1874
+		}
+	}
+	
+	GFR_The_Weser = {
+		icon = mission_landsknecht_soldier
+		position = 2
+		required_missions = { GFR_Reclaim_Munster }
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2971
+				province_id = 1758
+				province_id = 4775
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger {
+			owns_core_province = 56
+			owns_core_province = 2973
+			owns_core_province = 86
+		}
+		effect = {
+			add_claim = 2971
+			add_claim = 1758
+			add_claim = 4775
+		}
+	}
+	
+	GFR_The_Elbe = {
+		icon = mission_landsknecht_soldier
+		position = 2
+		required_missions = { GFR_Fries_City }
+		provinces_to_highlight = {
+			OR = {
+				area = weser_area
+				province_id = 53
+				province_id = 4772
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger {
+			owns_core_province = 1874
+		}
+		effect = {
+			give_claims = { area = weser_area }
+			add_claim = 53
+			add_claim = 4772
+		}
+	}
+	
+	GFR_Ald_Fryslan_United = {
+		icon = mission_landsknecht_soldier
+		position = 3
+		required_missions = { GFR_The_Elbe, GFR_The_Weser }
+		provinces_to_highlight = {
+			OR = {
+				area = weser_area
+				area = frisia_area
+				province_id = 53
+				province_id = 4772
+				province_id = 2971
+				province_id = 1758
+				province_id = 4775
+				province_id = 55
+				province_id = 2975
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger {
+			owns_core_province = 53
+			owns_core_province = 4772
+			owns_core_province = 2971
+			owns_core_province = 1758
+			owns_core_province = 4775
+			owns_core_province = 55
+			owns_core_province = 2975
+			frisia_area = {
+				type = all
+				owned_by = ROOT
+			}
+			weser_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			
+		}
+	}
+}
