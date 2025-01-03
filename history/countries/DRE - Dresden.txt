@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = western
+religion = catholic
+primary_culture = dynamic-norse-culture-num1
+capital = 62
+1444.1.1= {
+	monarch = {
+		name = "Rudolf"
+		dynasty = "Askanier"
+		birth_date = 1400.1.1
+		dip = 2
+		adm = 4
+		mil = 2
+	}
+}

@@ -1,2 +1,5 @@
 GFR	= "countries/GreatFriesland.txt"
 PRZ = "countries/Prague.txt"
+DRE = "countries/Dresden.txt"
+ERF = "countries/Erfurt.txt"
+BLN = "countries/Berlin.txt"

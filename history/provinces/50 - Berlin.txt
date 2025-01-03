@@ -1,5 +1,5 @@
-owner = PRU
-controller = PRU
+owner = BLN
+controller = BLN
 capital = "Berlin-C�lln"
 is_city = yes
 culture = swabian
@@ -13,6 +13,7 @@ extra_cost = 8
 center_of_trade = 1
 add_core = PRU
 add_core = BRA
+add_core = BLN
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian
