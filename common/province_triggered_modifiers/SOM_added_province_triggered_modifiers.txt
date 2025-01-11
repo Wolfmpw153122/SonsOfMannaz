@@ -1,0 +1,21 @@
+prz_autonomy_updater = {
+	potential = {
+        always = yes
+	}
+
+	trigger = {	
+        AND = {
+            OR = {
+                has_province_modifier = prz_autonomy_modifier_0
+                has_province_modifier = prz_autonomy_modifier_25
+                
+            }
+        }
+	}
+	on_activation = {
+		remove_province_modifier = prz_autonomy_modifier_25
+        remove_province_modifier = prz_autonomy_modifier_0
+		
+	}
+	#icon = 9
+}

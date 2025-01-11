@@ -1865,12 +1865,12 @@ country_event = {
 					higher_development_than = 118									#Rome
 				}
 				OR = {
-					province_id = 225
-					higher_development_than = 225									#Cordoba
+					province_id = 41
+					higher_development_than = 41									#Konigsberg
 				}
 				OR = {
-					province_id = 97
-					higher_development_than = 97									#Amsterdam
+					province_id = 134
+					higher_development_than = 134									#Vienna
 				}
 				OR = {
 					province_id = 183
@@ -1881,12 +1881,12 @@ country_event = {
 					higher_development_than = 121									#Naples
 				}
 				OR = {
-					province_id = 266
-					higher_development_than = 266									#Prague
+					province_id = 262
+					higher_development_than = 262									#Krakau
 				}
 				OR = {
-					province_id = 104
-					higher_development_than = 104									#Milan
+					province_id = 6
+					higher_development_than = 6										#Skane
 				}
 				OR = {
 					province_id = 151

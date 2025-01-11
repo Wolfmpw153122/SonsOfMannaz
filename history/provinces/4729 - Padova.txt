@@ -1,5 +1,5 @@
-owner = HAB
-controller = HAB
+owner = VRN
+controller = VRN
 capital = "Padova"
 is_city = yes
 culture = dynamic-norse-lower_saxon-culture-num2
@@ -9,6 +9,7 @@ hre = yes
 base_tax = 6
 base_production = 3
 base_manpower = 4
+add_core = VRN
 add_core = HAB
 add_core = VEN
 discovered_by = east_african

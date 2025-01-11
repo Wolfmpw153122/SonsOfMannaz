@@ -1,0 +1,86 @@
+# default options are 0-based
+# In console, can use imperial_incident [key] to immediately begin an incident
+
+incident_prague = {
+	event = incident_prague.2
+	default_option = 0
+	
+	can_stop = {
+		OR = {
+			NOT = { exists = PRZ }
+			PRZ = { is_emperor = yes }
+			PRZ = { is_subject = yes }
+			PRZ = { is_part_of_hre = yes }
+			emperor = { war_with = PRZ }
+			emperor = {
+				is_in_war = {
+					defenders = PRZ
+					defenders = emperor
+				}
+			}
+			emperor = {
+				is_in_war = {
+					attackers = PRZ
+					attackers = emperor
+				}
+			}
+		}
+	}
+	
+	0 = { # PRZ is left alone
+		factor = 2
+		modifier = {
+			factor = 100
+			OR = {
+				ai_attitude = {
+					who = PRZ
+					attitude = attitude_friendly
+				}
+				ai_attitude = {
+					who = PRZ
+					attitude = attitude_loyal
+				}
+				ai_attitude = {
+					who = PRZ
+					attitude = attitude_allied
+				}
+				PRZ = {
+					religion = catholic
+				}
+			}
+		}
+	}
+	
+	1 = { # emperor attacks
+		factor = 1
+		modifier = {
+			factor = 100
+			OR = {
+				ai_attitude = {
+					who = PRZ
+					attitude = attitude_rivalry
+				}
+				ai_attitude = {
+					who = PRZ
+					attitude = attitude_hostile
+				}
+				ai_attitude = {
+					who = PRZ
+					attitude = attitude_threatened
+				}
+				ai_attitude = {
+					who = PRZ
+					attitude = attitude_outraged
+				}
+				ai_attitude = {
+					who = PRZ
+					attitude = attitude_disloyal
+				}
+				ai_attitude = {
+					who = PRZ
+					attitude = attitude_rebellious
+				}
+			}
+		}
+	}
+}

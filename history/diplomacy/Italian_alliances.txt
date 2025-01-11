@@ -1,0 +1,21 @@
+alliance = {
+	first = VRN
+	second = FER
+	trade_league = 1
+	start_date = 1380.1.1
+	end_date = 1581.1.1
+}
+alliance = {
+	first = VRN
+	second = Z1K
+	trade_league = 1
+	start_date = 1380.1.1
+	end_date = 1581.1.1
+}
+alliance = {
+	first = VRN
+	second = MOD
+	trade_league = 1
+	start_date = 1380.1.1
+	end_date = 1581.1.1
+}
