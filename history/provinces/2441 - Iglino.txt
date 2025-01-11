@@ -1,15 +1,11 @@
-owner = Z0R
-controller = Z0R
 capital = "Iglino"
 is_city = yes
 culture = dynamic-parthian-culture-num3
-religion = hinduism
-trade_goods = fur
+religion = animism
+trade_goods = unknown
 base_tax = 5
 base_production = 3
 base_manpower = 3
-add_core = Z0I
-add_core = Z0R
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

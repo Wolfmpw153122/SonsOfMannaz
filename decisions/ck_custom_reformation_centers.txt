@@ -5,6 +5,10 @@ country_decisions = {
 			NOT = {
 				has_country_modifier = hellenic_melting_pot
 			}
+			any_country = {
+				has_country_modifier = hellenic_melting_pot
+				NOT = {amount = 3}
+			}
 		}
 		allow = {
 			adm_tech = 3

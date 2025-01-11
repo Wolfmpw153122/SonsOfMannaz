@@ -14,6 +14,7 @@ center_of_trade = 2
 add_core = LUN
 add_core = MAG
 add_permanent_claim = FKN
+add_province_triggered_modifier = prz_autonomy_updater
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

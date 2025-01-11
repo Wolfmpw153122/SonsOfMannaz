@@ -1,5 +1,4 @@
-owner = 
-controller = 
+
 capital = "Pelym"
 is_city = yes
 culture = mishary
@@ -9,8 +8,7 @@ base_tax = 4
 base_production = 4
 base_manpower = 2
 add_core = GOL
-add_core = 
-add_permanent_claim = 
+add_core = add_permanent_claim
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian
@@ -22,3 +20,5 @@ discovered_by = western
 native_size = 50
 native_ferocity = 2
 native_hostileness = 5
+religion = animism
+trade_goods = unknown

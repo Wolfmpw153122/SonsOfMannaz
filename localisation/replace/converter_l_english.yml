@@ -1155,6 +1155,7 @@
  dynamic-gaulish-culture-num9:0 "Žatec"
  dynamic-gaulish-greek-culture-num1:0 "Scordisco-Macedonian"
  dynamic-gaulish-norwegian-lower_saxon-culture-num1:0 "Helveconian"
+ som_prague_culture:0 "Prahan"
  dynamic-highland_scottish-norse-culture-num1:0 "Norse-Gael"
  dynamic-irish-norse-culture-num1:0 "Hiberno-Norse"
  dynamic-norwegian-lower_saxon-culture-num3:0 "Gallo-Saxons"
@@ -2226,3 +2227,8 @@
  dynamic-gothic-culture-num5_ideas:0 "Nitran Ideas"
  dynamic-gothic-culture-num5_ideas_start:0 "Nitran Traditions"
  dynamic-gothic-culture-num5_ideas_bonus:0 "Nitran Ambitions"
+
+### SOM Custom cultures added to converter cultures.
+ som_prague_culture_ideas:0 "Prahan Ideas"
+ som_prague_culture_ideas_start:0 "Prahan Traditions"
+ som_prague_culture_ideas_bonus:0 "Prahan Ambitions"

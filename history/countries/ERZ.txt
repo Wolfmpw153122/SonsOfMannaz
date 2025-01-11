@@ -1,0 +1,51 @@
+government = republic
+add_government_reform = free_city
+government_rank = 2
+technology_group = western
+religion = catholic
+primary_culture = dynamic-gaulish-norwegian-lower_saxon-culture-num1
+capital = 1771
+1444.11.11= {
+	monarch = {
+		name = "Dagobert"
+		dynasty = "Ician"
+		adm = 3
+		dip = 3
+		mil = 3
+		birth_date = 1376.3.14
+		religion = catholic
+		culture = dynamic-gaulish-norwegian-lower_saxon-culture-num1
+	}
+	add_ruler_personality = industrious_personality
+	add_ruler_personality = tactical_genius_personality
+	queen = {
+		name = "Ingir��r"
+		dynasty = "Ferrette"
+		adm = 5
+		dip = 2
+		mil = 5
+		country_of_origin = FKN
+		birth_date = 1375.12.24
+		death_date = 1435.12.24
+		female = yes
+		religion = catholic
+		culture = dynamic-gaulish-norwegian-lower_saxon-culture-num1
+	}
+	add_queen_personality = charismatic_negotiator_personality
+	add_queen_personality = lawgiver_personality
+	heir = {
+		name = "Feremund"
+		monarch_name = "Feremund"
+		dynasty = "Ician"
+		adm = 6
+		dip = 5
+		mil = 6
+		birth_date = 1402.1.8
+		death_date = 1467.1.8
+		claim = 89
+		religion = catholic
+		culture = frankish
+	}
+	add_heir_personality = lawgiver_personality
+	add_heir_personality = navigator_personality
+}
