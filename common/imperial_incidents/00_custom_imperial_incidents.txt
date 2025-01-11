@@ -3,14 +3,13 @@
 
 incident_prague = {
 	event = incident_prague.2
-	default_option = 0
+	default_option = 1
 	
 	can_stop = {
 		OR = {
 			NOT = { exists = PRZ }
 			PRZ = { is_emperor = yes }
 			PRZ = { is_subject = yes }
-			PRZ = { is_part_of_hre = yes }
 			emperor = { war_with = PRZ }
 			emperor = {
 				is_in_war = {
