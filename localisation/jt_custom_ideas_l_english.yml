@@ -22,3 +22,24 @@ prz_merchant_wagons_of_war: "Wagons of War"
 	
 prz_pous: "Rights of Unusual Standings" 
   prz_pous_desc: "Although much of our populace would not consider their origins to be from Prague. With every man able to plant the flag of their ancestors at our city foundation, we have torn walls down like no other known nation."
+
+
+################ Santuario
+SAN_ideas: "Santuario Ideas"
+SAN_ideas_start: "Santuario Traditions"
+SAN_ideas_bonus: "Santuario Ambitions"
+
+san_sink_or_swim: "Sink or Swim"
+  san_sink_or_swim_desc: "The story of our exile is a tragedy, a lesson on the perils of close-minded fools cliung to dogma. We have taken this to heart. Our new refuge is one where all may speak their minds. In this swirling maelstrom, the best ideas will survive where all others sink to the depths of obscurity."
+san_shipwrecked_shipwrights: "Shipwrecked Shipwrights"
+  san_shipwrecked_shipwrights_desc: "We came to these shores with little more that what we could fit in the vessals that carried us through sea and storm. With limited resources we became expert of improvision. The shipyards of old may lie beyond the horizon, but this new world has reources aplenty. We shall sail forever!"
+san_council_of_captains: "Council of Captains"
+  san_council_of_captains_desc: "The old world was on of kings and lords. Tyrants all! Just as each ship is led by a captain chosen from amongst its crew so must be the ship of state. The Lord Admiral chosen from amongsth these captains shall represent us all. Under their guidance doe we sail towards new horizons and brighter shores."
+san_come_hell_or_high_water: "Come Hell or High Water"
+  san_come_hell_or_high_water_desc: "All our history, we have been set upon, opressed, and pushed west. Be it by Romans, by Vikings, by our own people. No more! Here we make our home. Let them come. We have mastered this new battlefield, the sea shall be our ally allowing us to land and slip away. Our wrath moves with the tides. Let our enemies be dashed upon the rocks!"
+san_gateway_to_the_world: "Gateway to the World"
+  san_gateway_to_the_world_desc: "As the world grows ever more interconnected, commerce thribes and profits grow. Santuario's ports provide excellent places for merchants to resupply and repair. Its markets bustle with goods and peoples from all seven seas. Everyone who sekks to capitilize on this great new age evertually finds their ways to our shores."
+san_here_be_dragons: "Here Be Dragons"
+  san_here_be_dragons_desc: "With the advancement of anval warfare and the continued construction of more ships, the need for cannong grew at an uprecedented pace. In order to mee demand, Santuario put great effort into not only the construction and expansion of foundries but the design of cannon for their unique needs as well. New world cannon and firearms soon` began to set the standard for naval equipment the world over"
+san_bastions_of_sea_and_stone: "Bastions of Sea and Stone"
+  san_bastions_of_sea_and_stone_desc: "International trade grew the great port cities of Santuario to be beacons of prosperity and commerce, but such wealth made them a ripe target for piracy and invastion. To combat this, the Admiralty launch massived projects reinforcing the settlements. Immigrant engineers and tactitians brought the pinacle of modern defensive strategy and extend naval patrols extended the nation's reach. The Caribbean became reknown for both the safety of its shipping lands and Santuario's tight grip upon its commerce"

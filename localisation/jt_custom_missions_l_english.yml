@@ -1,24 +1,5 @@
 ﻿l_english:
-PRZ_ideas: "Prague Ideas"
-PRZ_ideas_start: "Prague Traditions"
-PRZ_ideas_bonus: "Prague Ambitions"
+####################### Portugal
+gc_por_iberian_question_title: "The Iberian Question"
+gc_por_iberian_question_desc: "For too long have our wayward countrymen clung to the old faith in the city of Porto thinking themselves beyond our reach. It is time to set this right."
 
-prz_souvenir_plot_defense: "Souvenir Plot Defense"
-	prz_souvenir_plot_defense_desc: "We have sold tiny plots in a ring around the city walls, making each owner a technical noble of Prague. Since anyone from any nation can purchase these plots of land, we have, in effect, created a second wall made of paperwork around our fair city, creating a political and administrative nightmare for any would-be attacker who need trespass."
-prz_wide_as_the_sea: "Wide as the sea"
-  prz_wide_as_the_sea_desc: "Many of the nobles that come to tour their newly purchased land in our fair city never leave. This has resulted in hundreds of 'qualifying' candidates looking to make a name for themselves each election cycle, campaigning in every street, business, and alleyway."
-
-prz_government_friendly_suggestions: "Friendly Suggestions"
-  prz_government_friendly_suggestions_desc: "In our fair city, it is not uncommon to see dozens of would-be mayoral candidates debating policy in the same tavern on any given night. With such an open discussion on city policy, we've found ways to cut corners in just the right way to stretch ourselves further than most governments."
-	
-prz_cities_on_the_walls: "Cities on the Walls"
-  prz_cities_on_the_walls_desc: "With our unusual practice of selling lands around our cities, it has forced our development to sprawl tall rather than wide. This upward growth has expanded onto the walls themselves. With our wall patrols and garrison now taking place in the city proper, we kill two birds with one stone. Protecting the populace and demonstrating our capabilities to patrol such a developing labyrinth."
-	
-prz_noble_intentions: "Noble Intentions"
-  prz_noble_intentions_desc: "With the Empire distracted with the violent rise of the Reformation and the ever-present threat of Hellenism. Now would be the perfect time to demonstrate that any man can build his castle in Prague for the right price."
-
-prz_merchant_wagons_of_war: "Wagons of War" 
-  prz_merchant_wagons_of_war_desc: "We've discovered that while our enemies may be able to hit the broadside of a barn, there is little they can do if that barn has a sheet of metal and wheels attached to it. This has allowed our riflemen to shoot from near point-blank distances with little repercussion."
-	
-prz_pous: "Rights of Unusual Standings" 
-  prz_pous_desc: "Although much of our populace would not consider their origins to be from Prague. With every man able to plant the flag of their ancestors at our city foundation, we have torn walls down like no other known nation."

@@ -1,14 +1,10 @@
-owner = AZT
-controller = AZT
 capital = "Canimar"
 culture = mayan
 religion = mesoamerican_religion
-trade_goods = tobacco
+trade_goods = unknown
 base_tax = 5
 base_production = 3
 base_manpower = 3
-add_core = AZT
-add_core = MAY
 discovered_by = ARW
 discovered_by = CAB
 discovered_by = andean
