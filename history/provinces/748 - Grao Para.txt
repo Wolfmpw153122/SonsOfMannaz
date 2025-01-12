@@ -1,15 +1,11 @@
-owner = PTG
-controller = PTG
 capital = "Ilheus"
 is_city = yes
 culture = tupinamba
 religion = animism
-trade_goods = cocoa
+trade_goods = unknown
 base_tax = 2
 base_production = 2
 base_manpower = 3
-add_core = PTG
-add_core = TPA
 discovered_by = high_american
 discovered_by = mesoamerican
 discovered_by = north_american
