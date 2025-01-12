@@ -5,3 +5,10 @@ jt_ApproveSpread:0"I knew they would come around!"
 
 jt_spread_culture:0 "An enthusiastic populace."
 
+
+############## Portugal
+iberian_exodus.1.t:0 "The Iberian Exodus"
+iberian_exodus.1.d:0 "The heathens in Porto have escaped to the docks and are starting to sail away. Should we stop them?"
+iberian_exodus_arrest:0 "Arrest those thieves!"
+iberian_exodus_exile:0 "Good riddance!"
+iberian_exodus_travel:0 "To the edge of the world!"
