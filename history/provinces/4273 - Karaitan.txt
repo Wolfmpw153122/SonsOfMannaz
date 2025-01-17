@@ -1,5 +1,5 @@
-owner = Z08
-controller = Z08
+owner = SHM
+controller = SHM
 capital = "Kariatan"
 is_city = yes
 culture = dynamic-greek-culture-num6
@@ -8,7 +8,7 @@ trade_goods = livestock
 base_tax = 6
 base_production = 4
 base_manpower = 4
-add_core = Z08
+add_core = SHM
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

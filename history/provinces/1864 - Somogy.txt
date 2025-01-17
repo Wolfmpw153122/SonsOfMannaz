@@ -17,6 +17,7 @@ discovered_by = nomad_group
 discovered_by = ottoman
 discovered_by = sub_saharan
 discovered_by = western
-latent_trade_goods = {
-	coal
-}
+owner = HUN
+controller = HUN
+add_core = HUN
+latent_trade_goods = { coal }

@@ -1,14 +1,10 @@
-owner = AZT
-controller = AZT
 capital = "Camaguey"
 culture = mayan
 religion = mesoamerican_religion
-trade_goods = sugar
+trade_goods = unknown
 base_tax = 2
 base_production = 2
 base_manpower = 2
-add_core = AZT
-add_core = MAY
 discovered_by = ARW
 discovered_by = CAB
 discovered_by = andean

@@ -1,5 +1,5 @@
-owner = DAL
-controller = DAL
+owner = SER
+controller = SER
 capital = "Zabljak"
 is_city = yes
 culture = dynamic-albanian-illyrian-roman-culture-num1
@@ -9,7 +9,7 @@ fort_15th = yes
 base_tax = 6
 base_production = 1
 base_manpower = 3
-add_core = DAL
+add_core = SER
 add_core = SER
 discovered_by = east_african
 discovered_by = eastern

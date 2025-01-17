@@ -1,5 +1,5 @@
-owner = QAR
-controller = QAR
+owner = ALH
+controller = ALH
 capital = "Sila"
 is_city = yes
 culture = gulf_arabic

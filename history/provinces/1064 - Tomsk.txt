@@ -1,5 +1,4 @@
-owner = 
-controller = 
+
 capital = "Tomsk"
 is_city = yes
 culture = dynamic-ostyaki-kirgiz-culture-num1
@@ -8,8 +7,7 @@ trade_goods = unknown
 base_tax = 4
 base_production = 4
 base_manpower = 2
-add_core = 
-discovered_by = east_african
+add_core = discovered_by
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim
@@ -20,3 +18,5 @@ discovered_by = western
 native_size = 5
 native_ferocity = 2
 native_hostileness = 3
+religion = animism
+trade_goods = unknown

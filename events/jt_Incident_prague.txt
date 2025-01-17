@@ -1,0 +1,145 @@
+### prague leaves the HRE ###
+### By Daniel Tolman ###
+
+namespace = incident_prague_event
+
+country_event = {
+	id = incident_prague_event.1
+	title = incident_prague_event.1.t
+	desc = incident_prague_event.1.d
+	picture = GOOD_WITH_MONARCH_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_dlc = "Emperor"
+		tag = PRZ
+		religion = hussite
+		is_part_of_hre = yes
+		is_emperor = no
+		is_subject = no
+		NOT = { active_imperial_incident = any }
+		is_at_war = no
+		OR = {
+			266 = {
+				trade_share = {
+					country = PRZ
+					share = 35
+				}
+			}
+
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 5
+			}
+			
+		}
+
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+	}
+	
+	immediate = {
+		set_country_flag = prz_empire_incident_flag
+	}
+	
+	option = { # leave the empire
+		name = incident_prague_event.1.a
+		ai_chance = { factor = 75 }
+		set_imperial_incident = incident_prague_event
+		custom_tooltip = przxit_tt
+		hidden_effect = { 
+			every_owned_province = {
+				limit = {
+					is_part_of_hre = yes
+				}
+				add_claim = emperor
+			}
+		}
+		emperor = {
+			add_opinion = {
+				who = ROOT
+				modifier = hre_country_left
+			}
+		}
+		capital_scope = {
+			add_reform_center = hussite
+		}
+		add_prestige = 50
+		add_dip_power = 100
+	}
+	option = { # remain in the empire
+		name = incident_prague_event.1.b
+		ai_chance = { 
+			factor = 25 
+			modifier = {
+				factor = 1000
+				emperor = {
+					alliance_with = ROOT
+				}
+			}
+		}
+		ROOT = {
+			change_religion = catholic
+		}
+		add_prestige = -30
+	}
+}
+
+# dummy incident for the emperor
+country_event = {
+	id = incident_prague_event.2
+	title = incident_prague_event.2.t
+	desc = incident_prague_event.2.d
+	picture = GOOD_WITH_MONARCH_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	major = yes
+	
+	trigger = {
+		is_emperor = yes
+		is_part_of_hre = yes
+	}
+	option = { # let them leave
+		name = incident_prague_event.2.a
+		ai_chance = { 
+			factor = 1 
+			modifier = {
+				factor = 5
+			is_at_war = yes
+			}
+		}
+		add_imperial_influence = -10
+		custom_tooltip = emperor_ignores_prague_tt
+		hidden_effect = {
+			every_province = {
+				limit = {
+					owned_by = PRZ
+					is_claim = ROOT
+				}
+				remove_claim = ROOT
+			}
+
+		}
+	}
+	option = { # no deal!
+		name = incident_prague_event.2.b
+		ai_chance = {
+			factor = 2
+			modifier = {
+				factor = 10
+				OR = {
+					is_rival = PRZ
+					PRZ = { is_rival = ROOT }
+				}
+			}
+		}
+		declare_war_with_cb = {
+			who = PRZ
+			casus_belli = cb_war_against_heresy
+		}
+		
+	}
+}

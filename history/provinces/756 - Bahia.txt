@@ -1,5 +1,3 @@
-owner = TPQ
-controller = TPQ
 capital = "Ilheus"
 is_city = yes
 culture = tupinamba
@@ -10,7 +8,6 @@ base_production = 10
 base_manpower = 4
 extra_cost = 8
 center_of_trade = 1
-add_core = TPQ
 discovered_by = high_american
 discovered_by = mesoamerican
 discovered_by = north_american

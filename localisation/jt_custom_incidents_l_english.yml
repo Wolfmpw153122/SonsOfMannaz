@@ -1,0 +1,20 @@
+﻿ l_english:
+
+  # Prague Converts
+ incident_prague_event:0 "Prague, Hussite, and the Empire"
+ incident_prague_event_member_alert:0 "We have a Pragulem! With the end of the great religious upheaval that engulfed not only the Empire but also much of Europe, the Empire is in turmoil once again now that a new form of Christianity now known as Hussite is taking hold within Europe once again. "
+ incident_prague_event_emperor_alert:0 "With the end of the great religious upheaval that engulfed not only the Empire but also much of Europe, the Empire is in turmoil once again now that a new form of Christianity now known as Hussite is taking hold within Europe once again. With each emerging city of this new trade league, it spreads it's wicked whispers of conversion."
+ emperor_ignores_prague_tt:0 "§YThe Empire is no longer invested in the intrests of one trade league.§!"
+ # Prague incident
+ incident_prague_event.1.t:0 "Prague, Hussite, and the Empire"
+ incident_prague_event.1.d:1 "With the end of the great religious upheaval that engulfed not only the Empire but also much of Europe, the Empire is in turmoil once again now that a new form of Christianity now known as Hussite is taking hold within Europe once again. With each emerging city of this new trade league, it spreads it's wicked whispers of conversion."
+ incident_prague_event.1.a:0 "It is our right to worship unmolested."
+ incident_prague_event.1.b:0 "The Emperor is right, it is time to return to the fold."
+ przxit_tt:1 "§YThe Emperor gets a claim on our cities!§!\n§YThe Emperor may respond violently to this decision.§!"
+ incident_prague_event.2.t:0 "Prague, Hussite, and the Empire"
+ incident_prague_event.2.d:1 "Prague has abandoned the ideals held by the Empire! Driven by dissatisfaction with the religious status quo, as well as weakening ties with Imperial institutions, the Prahan have abandoned the gods and have taken up worhsip as heretics."
+ incident_prague_event.2.a:0 "We have seen Heresy before, they will get their punishment in the next life."
+ incident_prague_event.2.b:0 "Odin rewards those who are diligent..."
+
+
+  # Switzerland incident

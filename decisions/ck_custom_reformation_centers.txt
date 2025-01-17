@@ -11,6 +11,12 @@ country_decisions = {
 			religion = converted_dynamic_faith_142
 		}
 		effect = {
+
+			add_country_modifier = {
+				name = hellenic_melting_pot
+				duration = 9000
+			}
+
 			if = {
 				limit = {
 					capital_scope = {
@@ -19,10 +25,7 @@ country_decisions = {
 						}
 					}
 				}
-				add_country_modifier = {
-					name = hellenic_melting_pot
-					duration = 9000
-				}
+
 				capital_scope = {
 					change_religion = converted_dynamic_faith_142
 					add_reform_center = converted_dynamic_faith_142
@@ -34,10 +37,6 @@ country_decisions = {
 				}
 			}
 			else = {
-				add_country_modifier = {
-					name = hellenic_melting_pot
-					duration = 9000
-				}
 				random_owned_province = {
 					limit = {
 						can_have_center_of_reformation_trigger = {
@@ -53,19 +52,10 @@ country_decisions = {
 					
 				}
 			}
+R			
 		}
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-				factor = 1
-				NOT = {
-					full_idea_group = religious_ideas
-				}
-				NOT = {
-					government = theocracy
-				}
-			}
 		}
 	}
 }

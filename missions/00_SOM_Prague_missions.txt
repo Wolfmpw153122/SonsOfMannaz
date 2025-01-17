@@ -1,0 +1,1035 @@
+prague_internal_slot_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = PRZ }
+	prz_dip_rep= {
+		icon = mission_wine_monopolies
+		position = 1
+		required_missions = { }
+		provinces_to_highlight = {
+			owned_by = PRZ
+		}
+		trigger = {
+			ROOT = {
+				diplomatic_reputation = 2
+			}
+		}
+		effect = {
+			ROOT = {
+				add_country_modifier = {
+					name = prz_dip_rep_1
+					duration = 3650
+				}
+			}		
+		}
+	}
+	
+	prz_support_independence_1 = {
+		icon = mission_wine_monopolies
+		position = 2
+		required_missions = { prz_dip_rep }
+		provinces_to_highlight = {
+			owned_by = SIL
+		}
+		trigger = {
+			SIL = {
+				has_opinion = {
+					who = ROOT
+					value = 105
+				}
+			}
+		}
+		effect = {
+			if = {
+				limit = {exists = SIL}
+				SIL = {
+					support_independence_of = PRZ
+				}
+			}			
+		}
+	}
+	
+	prz_curry_favor = {
+		icon = mission_wine_monopolies
+		position = 3
+		required_missions = { prz_support_independence_1 prz_support_independence_2 prz_improve_relations }
+		provinces_to_highlight = {
+			owned_by = PRZ
+		}
+		trigger = {
+			prestige = 50
+		}
+		effect = {
+			ROOT = {
+				add_country_modifier = {
+					name = prz_curry_favor
+					duration = 1825
+				}
+			}		
+		}
+	}
+	
+	prz_establish_second_sister_city = {
+		icon = mission_wine_monopolies
+		position = 5
+		required_missions = { prz_establish_first_sister_city }
+		provinces_to_highlight = {
+			province_id = 61
+		}
+		trigger = {
+
+			OR = {
+				AND = {
+					NOT = {exists = DRE}
+					owns = 61
+				}
+				DRE = {
+					is_in_trade_league_with = ROOT
+					has_opinion = {
+						who = ROOT
+						value = 190
+					}
+					owns = 61
+					trust = {
+						who = ROOT 
+						value = 60 
+					}
+				}	
+			}
+		}
+		effect = {
+			simple_dynamic_effect = {
+				first_custom_tooltip = PRZ_if_done_via_conquest
+				first_limit =  "				
+					NOT = {exists = DRE}
+					owns = 61
+				"
+				first_effect = "
+					61 = {
+						cede_province = DRE
+					}
+					ROOT = {
+						create_subject = {
+						subject_type = vassal
+						subject = DRE
+						}
+					}
+					add_mil_power = 100
+				"
+				second_custom_tooltip = PRZ_if_done_via_league
+				second_limit = "				
+					DRE = {
+						is_in_trade_league_with = ROOT
+						has_opinion = {
+							who = ROOT
+							value = 150
+						}
+						owns = 61
+						trust = {
+							who = ROOT 
+							value = 60 
+						}
+					}
+				"
+				second_effect = "
+					ROOT = {
+						create_subject = {
+							subject_type = vassal
+							subject = DRE
+						}
+					}
+					add_dip_power = 100
+				"
+			}
+			hidden_effect = {
+				set_country_flag = "prz-break-free-DRE"
+			}
+			
+		}
+	}
+
+##### Skip to Spot 7
+
+	prz_religous_fervor_1 = {
+		icon = mission_wine_monopolies
+		position = 7
+		required_missions = { }
+		provinces_to_highlight = {
+			owned_by = PRZ
+		}
+		trigger = {
+			religion = hussite
+			266 = {
+				is_reformation_center = yes
+			}
+		}
+		effect = {
+			ROOT = {
+				add_country_modifier = {
+					name = prz_religous_1
+					duration = 1825
+				}
+			}		
+		}
+	}
+
+	prz_religous_fervor_2 = {
+		icon = mission_wine_monopolies
+		position = 8
+		required_missions = { prz_religous_fervor_1 }
+		provinces_to_highlight = {
+			owned_by = PRZ
+		}
+		trigger = {
+			religion = hussite
+			is_defender_of_faith_of_tier = 3
+		}
+		effect = {
+			ROOT = {
+				add_country_modifier = {
+					name = prz_religous_2
+					duration = -1
+				}
+			}		
+		}
+	}
+
+}
+prague_internal_slot_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = PRZ }
+	prz_support_independence_2 = {
+		icon = mission_wine_monopolies
+		position = 2
+		required_missions = { prz_dip_rep }
+		provinces_to_highlight = {
+			owned_by = PRU
+		}
+		trigger = {
+			PRU = {
+				has_opinion = {
+					who = ROOT
+					value = 105
+				}
+			}
+		}
+		effect = {
+			if = {
+				limit = {exists = PRU}
+				PRU = {
+					support_independence_of = PRZ
+				}
+			}			
+		}
+	}
+	
+	prz_establish_first_sister_city = {
+		icon = mission_wine_monopolies
+		position = 4
+		required_missions = { prz_break_free }
+		provinces_to_highlight = {
+			province_id = 1771
+		}
+		trigger = {
+			1771 = {
+				owner = {
+					country = PRZ
+				}
+			}
+		}
+
+		effect = {
+			1771 = {
+				cede_province = ERZ
+			}
+			if = {
+				limit = {exists = BLN}
+				add_historical_friend = BLN
+
+			}
+			if = {
+				limit = {exists = DRE}
+				add_historical_friend = DRE
+
+			}
+			if = {
+				limit = {exists = ERF}
+				add_historical_friend = ERF
+
+			}
+			ROOT = {
+				add_historical_friend = ERZ
+			}
+			ROOT = {
+				create_subject = {
+					subject_type = vassal
+					subject = ERZ
+				}
+			}
+
+
+			hidden_effect = {
+				1771 = {
+					add_core = ERZ
+				}
+				BLN = {
+					add_historical_friend = PRZ	
+				}
+				DRE = {
+					add_historical_friend = PRZ	
+				}
+				ERZ = {
+					add_historical_friend = PRZ	
+				}
+				ERF = {
+					add_historical_friend = PRZ	
+				}
+			}
+			#THIS WILL ALLOW YOU TO DEFINE CUSTOM NATIONS AS THE CREATE_SUBJECT TARGET.
+			# 1771 = {
+			# 	owner = {
+			# 		is_subject = no
+			# 		overlord = ROOT
+			# 		ROOT = {
+			# 			create_subject = {
+			# 				subject_type = vassal
+			# 				subject = PREV
+			# 			}
+			# 		}
+			# 	}
+			# }
+		}
+	}
+	
+	prz_establish_third_sister_city = {
+		icon = mission_wine_monopolies
+		position = 5
+		required_missions = { prz_establish_first_sister_city }
+		provinces_to_highlight = {
+			province_id = 63
+		}
+		trigger = {
+
+			OR = {
+				AND = {
+					NOT = {exists = ERF}
+					owns = 63
+				}
+				ERF = {
+					is_in_trade_league_with = ROOT
+					has_opinion = {
+						who = ROOT
+						value = 190
+					}
+					owns = 63
+					trust = {
+						who = ROOT 
+						value = 60 
+					}
+				}	
+			}
+		}
+		effect = {
+			simple_dynamic_effect = {
+				first_custom_tooltip = PRZ_if_done_via_conquest
+				first_limit =  "				
+					NOT = {exists = ERF}
+					owns = 63
+				"
+				first_effect = "
+					63 = {
+						cede_province = ERF
+					}
+					ROOT = {
+						create_subject = {
+						subject_type = vassal
+						subject = ERF
+						}
+					}
+					add_mil_power = 100
+				"
+				second_custom_tooltip = PRZ_if_done_via_league
+				second_limit = "				
+					ERF = {
+						is_in_trade_league_with = ROOT
+						has_opinion = {
+							who = ROOT
+							value = 150
+						}
+						owns = 63
+						trust = {
+							who = ROOT 
+							value = 60 
+						}
+					}
+				"
+				second_effect = "
+					ROOT = {
+						create_subject = {
+							subject_type = vassal
+							subject = ERF
+						}
+					}
+					add_dip_power = 100
+				"
+			}
+			hidden_effect = {
+				set_country_flag = "prz-break-free-ERF"
+			}
+		}
+	}
+	
+	prz_establish_fifth_sister_city = {
+		icon = mission_wine_monopolies
+		position = 6
+		required_missions = { prz_establish_second_sister_city prz_establish_third_sister_city prz_establish_fourth_sister_city}
+		provinces_to_highlight = {
+			province_id = 52
+		}
+		trigger = {
+
+			OR = {
+				AND = {
+					NOT = {exists = MAG}
+					owns = 52
+				}
+				MAG = {
+					is_in_trade_league_with = ROOT
+					has_opinion = {
+						who = ROOT
+						value = 190
+					}
+					owns = 52
+					trust = {
+						who = ROOT 
+						value = 60 
+					}
+				}	
+			}
+		}
+		effect = {
+
+			simple_dynamic_effect = {
+				first_custom_tooltip = PRZ_if_done_via_conquest
+				first_limit =  "				
+					NOT = {exists = MAG}
+					owns = 52
+				"
+				first_effect = "
+					52 = {
+						cede_province = MAG
+					}
+					ROOT = {
+						add_historical_friend = MAG
+						create_subject = {
+						subject_type = vassal
+						subject = MAG
+						}
+					}
+					add_mil_power = 100
+					266 = { 
+						add_province_modifier = {
+						name = prz_golden_toll
+						duration = -1
+						}
+					}
+				"
+				second_custom_tooltip = PRZ_if_done_via_league
+				second_limit = "				
+					MAG = {
+						is_in_trade_league_with = ROOT
+						has_opinion = {
+							who = ROOT
+							value = 150
+						}
+						owns = 52
+						trust = {
+							who = ROOT 
+							value = 60 
+						}
+					}
+				"
+				second_effect = "
+					ROOT = {
+						add_historical_friend = MAG
+						create_subject = {
+							subject_type = vassal
+							subject = MAG
+						}
+					}
+					add_dip_power = 200
+					266 = { 
+						add_province_modifier = {
+						name = prz_golden_toll
+						duration = -1
+						}
+					}
+				"
+			}
+			hidden_effect = {
+				set_country_flag = "prz-break-free-MAG"
+				MAG = {
+					add_historical_friend = PRZ
+				}
+			}
+
+		}
+	}
+	
+	prz_southern_trade_conquest = {
+		icon = mission_galleys_in_port
+		position = 8
+		required_missions = { prz_better_capital }
+		
+		provinces_to_highlight = {
+			province_id = 134
+		}
+		trigger = {
+			134 = {
+				trade_share = {
+					country = ROOT
+					share = 30
+				}
+			}
+		}
+		effect = {
+			every_province = {
+				limit = {
+					OR = {
+						province_id = 76
+						province_id = 134
+						province_id = 1872
+						province_id = 2957
+						province_id = 4712
+					}
+				}
+				add_permanent_claim = PRZ
+			}
+		}
+	}
+
+}
+prague_internal_slot_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = PRZ }
+
+	prz_dev_capital= {
+		icon = mission_unite_home_region
+		position = 1
+		required_missions = { }
+		provinces_to_highlight = {
+			is_capital_of = root
+		}
+
+		trigger = {
+			AND = {
+				capital_scope = {
+					development = 31
+				}
+				
+				has_institution = renaissance
+			}
+
+		}
+		effect = { 
+			change_primary_culture = som_prague_culture
+			capital_scope = {
+				change_culture = som_prague_culture
+				add_province_modifier = {
+					name = prz_city_goods
+					duration = -1
+				}
+			}
+		}
+	}
+
+	prz_improve_relations = {
+		icon = mission_wine_monopolies
+		position = 2
+		required_missions = { prz_dev_capital }
+		provinces_to_highlight = {
+			OR = {
+				owned_by = SOR
+				owned_by = SAX
+			}
+		}
+		trigger = {
+			AND = {
+				OR ={
+					NOT = {exists = SOR}
+					SOR = {
+						has_opinion = {
+							who = ROOT
+							value = 80
+						}
+					}
+				}
+				OR ={
+					NOT = {exists = SAX}
+					SAX = {
+						has_opinion = {
+							who = ROOT
+							value = 80
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			add_core = 1771
+			if = {
+				limit = {exists = SOR}
+				create_alliance = SOR
+				add_historical_friend = SOR
+			}			
+			if = {
+				limit = {exists = SAX}
+				create_alliance = SAX
+				add_historical_friend = SAX
+			}			
+			if = {
+				limit = {exists = SIL}
+				add_historical_friend = SIL
+			}
+			if = {
+				limit = {exists = PRU}
+				add_historical_friend = PRU
+			}			
+			hidden_effect = {
+				set_country_flag = "prz-improved-relations-1"
+				SAX = {
+					add_historical_friend = PRZ
+
+				}
+				SOR = {
+					add_historical_friend = PRZ
+
+				}
+				PRU = {
+					add_historical_friend = PRZ
+
+				}
+				SIL = {
+					add_historical_friend = SIL
+
+				}
+			}
+		}
+	}
+
+	prz_break_free = {
+		icon = mission_wine_monopolies
+		position = 3
+		required_missions = { prz_improve_relations }
+		provinces_to_highlight = {
+			AND = {
+				owner = {
+					overlord_of = ROOT
+				}
+				province_id = 1771
+			}
+
+			
+		}
+		trigger = {
+			is_subject = no
+			is_at_war = no
+		}
+		effect = {
+			ROOT = {
+				change_religion = hussite
+
+			}
+			266 = {
+				add_province_modifier = {
+					name = prz_city_defense
+					duration = -1
+				}
+				add_province_modifier = {
+					name = prz_city_recovery
+					duration = 1095 # 3 years
+				}
+			}
+			hidden_effect = {
+				set_country_flag = "prz-break-free-1"
+			}
+
+
+		}
+	}
+
+	prz_establish_fourth_sister_city = {
+		icon = mission_wine_monopolies
+		position = 5
+		required_missions = { prz_establish_first_sister_city }
+		provinces_to_highlight = {
+			province_id = 50
+		}
+		trigger = {
+
+			OR = {
+				AND = {
+					NOT = {exists = BLN}
+					owns = 50
+				}
+				BLN = {
+					is_in_trade_league_with = ROOT
+					has_opinion = {
+						who = ROOT
+						value = 190
+					}
+					owns = 50
+					trust = {
+						who = ROOT 
+						value = 60 
+					}
+				}	
+			}
+		}
+		effect = {
+			simple_dynamic_effect = {
+				first_custom_tooltip = PRZ_if_done_via_conquest
+				first_limit =  "				
+					NOT = {exists = BLN}
+					owns = 50
+				"
+				first_effect = "
+					50 = {
+						cede_province = BLN
+					}
+					ROOT = {
+						create_subject = {
+						subject_type = vassal
+						subject = BLN
+						}
+					}
+					add_mil_power = 100
+				"
+				second_custom_tooltip = PRZ_if_done_via_league
+				second_limit = "				
+					BLN = {
+						is_in_trade_league_with = ROOT
+						has_opinion = {
+							who = ROOT
+							value = 150
+						}
+						owns = 50
+						trust = {
+							who = ROOT 
+							value = 60 
+						}
+					}
+				"
+				second_effect = "
+					ROOT = {
+						create_subject = {
+							subject_type = vassal
+							subject = BLN
+						}
+					}
+					add_dip_power = 100
+				"
+			}
+			hidden_effect = {
+				set_country_flag = "prz-break-free-BLN"
+			}
+		}
+	}
+
+	prz_dev_control_1 = {
+		icon = mission_galleys_in_port
+		position = 6
+		required_missions = { prz_income }
+		
+		provinces_to_highlight = {
+			province_id = 266
+		}
+		trigger = {
+			266 = {
+				base_production = 15
+			}
+		}
+		effect = {
+			266 = {
+				add_province_modifier = {
+					name = prz_efficient_production_1
+					duration = -1
+				}
+			}
+		}
+	}
+
+	prz_better_capital = {
+		icon = mission_galleys_in_port
+		position = 7
+		required_missions = { prz_dev_control_1 prz_dev_control_2 prz_dev_control_3 prz_establish_fifth_sister_city }
+
+		provinces_to_highlight = {
+			is_capital_of = root
+		}
+
+		trigger = {
+			AND = {
+				capital_scope = {
+					development = 50
+					has_building = temple
+					has_building = marketplace
+					has_building = workshop
+					has_building = barracks
+				}
+
+			}
+
+		}
+		effect = { 
+			add_government_reform = prz_reform_2
+			add_country_modifier = {
+				name = prz_better_capital
+				duration = 1825
+			}
+
+			set_country_flag = "can-rule-cities"
+		}
+	}
+
+	prz_pest_trade_conquest = {
+		icon = mission_galleys_in_port
+		position = 9
+		required_missions = { prz_eastern_trade_conquest prz_southern_trade_conquest}
+		
+		provinces_to_highlight = {
+			province_id = 153
+		}
+		trigger = {
+			153 = {
+				trade_share = {
+					country = ROOT
+					share = 30
+				}
+			}
+		}
+		effect = {
+			every_province = {
+				limit = {
+					OR = {
+						province_id = 153
+						province_id = 161
+						province_id = 1772
+						province_id = 4127
+					}
+				}
+				add_permanent_claim = PRZ
+			}
+		}
+	}
+	
+}
+prague_internal_slot_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = PRZ }
+
+	prz_trade_control_1 = {
+		icon = mission_galleys_in_port
+		position = 1
+		required_missions = { }
+		
+		provinces_to_highlight = {
+				province_id = 266
+		}
+		trigger = {
+			266 = {
+				trade_share = {
+					country = ROOT
+					share = 25
+				}
+			}
+		}
+		effect = {
+			add_mercantilism = 5
+			266 = {
+				add_province_modifier = {
+					name = prz_efficient_ledgers_1
+					duration = -1
+				}
+			}
+		}
+	}
+
+	prz_trade_control_2 = {
+		icon = mission_galleys_in_port
+		position = 2
+		required_missions = { prz_trade_control_1 }
+		
+		provinces_to_highlight = {
+			province_id = 266
+		}
+		trigger = {
+			266 = {
+				
+				trade_share = {
+					country = ROOT
+					share = 50
+				}
+			}
+		}
+		effect = {
+			add_mercantilism = 5
+			266 = {
+				add_province_modifier = {
+					name = prz_efficient_ledgers_2
+					duration = -1
+				}
+			}
+		}
+	}
+
+	prz_income = {
+		icon = reform_the_monte
+		required_missions = { prz_reform_the_monte }
+		position = 5
+		provinces_to_highlight = {
+		}
+		trigger = {
+			monthly_income= 20
+		}
+		effect = {
+			add_country_modifier = {
+				name = prz_income
+				duration = 7300
+			}
+		}
+	}
+	
+	prz_dev_control_3 = {
+		icon = mission_galleys_in_port
+		position = 6
+		required_missions = { prz_income }
+		
+		provinces_to_highlight = {
+			province_id = 266
+		}
+		trigger = {
+			266 = {
+				base_manpower = 15
+			}
+		}
+		effect = {
+			266 = {
+				add_province_modifier = {
+					name = prz_efficient_men_1
+					duration = -1
+				}
+			}
+		}
+	}
+
+	###Skip to 8
+
+	prz_eastern_trade_conquest = {
+		icon = mission_galleys_in_port
+		position = 8
+		required_missions = { prz_better_capital }
+		
+		provinces_to_highlight = {
+			province_id = 262
+		}
+		trigger = {
+			262 = {
+				trade_share = {
+					country = ROOT
+					share = 30
+				}
+			}
+		}
+		effect = {
+			every_province = {
+				limit = {
+					OR = {
+						province_id = 257
+						province_id = 262
+						province_id = 264
+						province_id = 1859
+						province_id = 2961
+					}
+				}
+				add_permanent_claim = PRZ
+			}
+		}
+	}
+}
+prague_internal_slot_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = PRZ }
+
+	prz_personal_diplomacy = {
+		icon = personal_diplomacy
+		required_missions = {  }
+		position = 1
+		provinces_to_highlight = {
+		}
+		trigger = {
+			monthly_dip = 12
+			NOT = { num_of_loans = 1 }
+		}
+		effect = {
+			add_country_modifier = {
+				name = "lan_affable_leadership"
+				duration = 5475
+			}
+		}
+	}
+
+	prz_reform_the_monte = {
+		icon = reform_the_monte
+		required_missions = { prz_personal_diplomacy }
+		position = 4
+		provinces_to_highlight = {
+		}
+		trigger = {
+			treasury = 500
+		}
+		effect = {
+			add_country_modifier = {
+				name = "lan_secure_public_funds"
+				duration = 7300
+			}
+		}
+	}
+
+	prz_dev_control_2 = {
+		icon = mission_galleys_in_port
+		position = 6
+		required_missions = { prz_income }
+		
+		provinces_to_highlight = {
+			province_id = 266
+		}
+		trigger = {
+			266 = {
+				base_tax = 15
+			}
+		}
+		effect = {
+			266 = {
+				add_province_modifier = {
+					name = prz_efficient_tax_1
+					duration = -1
+				}
+			}
+		}
+	}
+}

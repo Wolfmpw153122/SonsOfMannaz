@@ -1,13 +1,10 @@
-owner = TPQ
-controller = TPQ
 capital = "Rio de Contas"
 culture = tupinamba
 religion = animism
-trade_goods = cocoa
+trade_goods = unkown
 base_tax = 5
 base_production = 1
 base_manpower = 7
-add_core = TPQ
 discovered_by = andean
 discovered_by = high_american
 discovered_by = mesoamerican

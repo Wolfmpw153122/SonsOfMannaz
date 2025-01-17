@@ -1,5 +1,5 @@
-owner = CRO
-controller = CRO
+owner = Z1M
+controller = Z1M
 capital = "Mitrovica"
 is_city = yes
 culture = dynamic-gothic-culture-num4
@@ -8,8 +8,7 @@ trade_goods = grain
 base_tax = 2
 base_production = 2
 base_manpower = 4
-add_core = CRO
-add_core = Z0C
+add_core = Z1M
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

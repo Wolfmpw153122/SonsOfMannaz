@@ -1,5 +1,5 @@
-owner = QAR
-controller = QAR
+owner = SHM
+controller = SHM
 capital = "Ha'il"
 is_city = yes
 culture = dynamic-greek-culture-num6
@@ -10,7 +10,7 @@ base_production = 3
 base_manpower = 5
 extra_cost = 8
 center_of_trade = 1
-add_core = QAR
+add_core = SHM
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

@@ -1,5 +1,3 @@
-owner = 
-controller = 
 capital = "Bashgird"
 is_city = yes
 culture = bashkir
@@ -10,7 +8,6 @@ base_tax = 2
 base_production = 1
 base_manpower = 1
 add_core = BSH
-add_core = 
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

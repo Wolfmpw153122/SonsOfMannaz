@@ -1,6 +1,6 @@
-owner = FKN
-controller = FKN
-capital = "Nürnberg"
+owner = NUM
+controller = NUM
+capital = "Nï¿½rnberg"
 is_city = yes
 culture = agilolfingian
 religion = catholic

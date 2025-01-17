@@ -1,14 +1,11 @@
-owner = TPQ
-controller = TPQ
 capital = "Ilheus"
 is_city = yes
 culture = tupinamba
 religion = animism
-trade_goods = tropical_wood
+trade_goods = unknown
 base_tax = 7
 base_production = 3
 base_manpower = 2
-add_core = TPQ
 discovered_by = high_american
 discovered_by = mesoamerican
 discovered_by = north_american

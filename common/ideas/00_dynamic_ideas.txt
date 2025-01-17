@@ -7786,3 +7786,42 @@ dynamic-gothic-culture-num5_ideas = {
 }
 
 
+## SOM Custom Culture Ideas
+som_prague_culture = {
+	start = {
+		 monarch_lifespan = 0.1
+		 all_estate_loyalty_equilibrium = 0.05
+	}
+	trigger = {
+		culture = dynamic-gaulish-norwegian-lower_saxon-culture-num1
+	}
+	free = yes
+
+	tradition_hit_and_run = {
+		movement_speed = 0.10
+		cav_to_inf_ratio = 0.05
+	}
+	tradition_adaptive_skirmishing = {
+		discipline = 0.05
+	}
+	tradition_formation_fighting = {
+		reserves_organisation = 0.10
+	}
+	tradition_forest_folk = {
+		development_cost = -0.1
+	}
+	tradition_chivalry = {
+		leader_land_shock = 1
+		nobles_loyalty_modifier = 0.05
+	}
+	tradition_seafaring = {
+		naval_forcelimit_modifier = 0.1
+	}
+	tradition_fp1_coastal_warriors = {
+		global_sailors_modifier = 0.1
+		sailors_recovery_speed = 0.1
+	}
+	bonus = {
+		prestige = 1
+	}
+}

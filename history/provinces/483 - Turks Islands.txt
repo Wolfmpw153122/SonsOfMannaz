@@ -1,15 +1,10 @@
-owner = AZT
-controller = AZT
 capital = "Grand Turk"
 culture = carib
 religion = totemism
-trade_goods = cotton
+trade_goods = unknown
 base_tax = 3
 base_production = 3
 base_manpower = 1
-add_core = AZT
-add_core = CAB
-add_core = CRE
 discovered_by = andean
 discovered_by = high_american
 discovered_by = mesoamerican

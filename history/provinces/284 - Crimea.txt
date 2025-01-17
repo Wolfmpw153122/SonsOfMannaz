@@ -1,5 +1,5 @@
-owner = BYZ
-controller = BYZ
+owner = CRI
+controller = CRI
 capital = "Qirq-Yer"
 is_city = yes
 culture = dynamic-meshchera-scythian-culture-num1
@@ -8,7 +8,7 @@ trade_goods = salt
 base_tax = 1
 base_production = 3
 base_manpower = 2
-add_core = BYZ
+add_core = CRI
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

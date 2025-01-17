@@ -1,5 +1,5 @@
-owner = HUN
-controller = HUN
+owner = WAL
+controller = WAL
 capital = "Tîrgoviste"
 is_city = yes
 culture = dynamic-avar-culture-num2
@@ -11,7 +11,7 @@ base_production = 2
 base_manpower = 3
 extra_cost = 8
 center_of_trade = 1
-add_core = HUN
+add_core = WAL
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

@@ -1,5 +1,5 @@
-owner = FKN
-controller = FKN
+owner = GOS
+controller = GOS
 capital = "Goslar"
 is_city = yes
 culture = austrasian

@@ -1,5 +1,4 @@
-owner = 
-controller = 
+
 capital = "Tara"
 is_city = yes
 culture = ostyaki
@@ -8,8 +7,7 @@ trade_goods = fur
 base_tax = 5
 base_production = 2
 base_manpower = 3
-add_core = 
-add_permanent_claim = SIB
+add_core = add_permanent_claim
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian
@@ -18,3 +16,5 @@ discovered_by = nomad_group
 discovered_by = ottoman
 discovered_by = sub_saharan
 discovered_by = western
+religion = animism
+trade_goods = unknown

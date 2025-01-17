@@ -1,0 +1,23 @@
+
+
+dependency = {
+	subject_type = "hereditary_pronoia_subject_type"
+	first = BYZ
+	second = CRI
+	start_date = 1444.1.1
+	end_date = 1836.1.1
+}
+dependency = {
+	subject_type = "hereditary_pronoia_subject_type"
+	first = BYZ
+	second = CIR
+	start_date = 1444.1.1
+	end_date = 1836.1.1
+}
+dependency = {
+	subject_type = "hereditary_pronoia_subject_type"
+	first = BYZ
+	second = AST
+	start_date = 1444.1.1
+	end_date = 1836.1.1
+}
