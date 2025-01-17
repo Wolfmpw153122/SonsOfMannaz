@@ -158,9 +158,4 @@ wonder_underground_city_petra = {
 }
 ######################
 
-hellenic_melting_pot = {
-	global_missionary_strength = 0.05
-	embracement_cost = 0.1
-	religion = yes
-}
 

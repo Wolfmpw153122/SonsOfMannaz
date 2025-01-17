@@ -1,5 +1,5 @@
-owner = HUN
-controller = HUN
+owner = WAL
+controller = WAL
 capital = "Craiova"
 is_city = yes
 culture = dynamic-avar-culture-num2
@@ -8,7 +8,7 @@ trade_goods = copper
 base_tax = 5
 base_production = 3
 base_manpower = 3
-add_core = HUN
+add_core = WAL
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

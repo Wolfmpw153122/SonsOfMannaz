@@ -1,5 +1,5 @@
-owner = BYZ
-controller = BYZ
+owner = GRE
+controller = GRE
 capital = "Biga"
 is_city = yes
 culture = dynamic-greek-culture-num8
@@ -9,7 +9,7 @@ fort_15th = yes
 base_tax = 2
 base_production = 18
 base_manpower = 3
-add_core = BYZ
+add_core = GRE
 add_permanent_claim = NAX
 discovered_by = east_african
 discovered_by = eastern

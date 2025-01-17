@@ -1,5 +1,5 @@
-owner = QAR
-controller = QAR
+owner = ALH
+controller = ALH
 capital = "Al-Qatif"
 is_city = yes
 culture = dynamic-babylonian-greek-culture-num1
@@ -11,7 +11,7 @@ base_production = 9
 base_manpower = 3
 extra_cost = 8
 center_of_trade = 1
-add_core = QAR
+add_core = ALH
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

@@ -173,12 +173,14 @@ country_decisions = {
         potential = {
             tag = PRZ
             mission_completed = prz_better_capital
-            NOT = {has_country_flag = "can-rule-cities"}
+            has_country_flag = "can-rule-cities"
         }
         allow = {
-            ROOT = {
+            if = {
                 OR = {
                     any_owned_province = {
+                        NOT = {has_province_modifier = prz_autonomy_modifier_0}
+                        is_capital = no
                         province_has_center_of_trade_of_level = 2
                         development = 45
                         has_building = temple
@@ -189,6 +191,13 @@ country_decisions = {
                     }
 
                     any_owned_province = {
+                        NOT = {
+                            OR = {
+                            has_province_modifier = prz_autonomy_modifier_25
+                            has_province_modifier = prz_autonomy_modifier_0
+                            }
+                        }
+                        is_capital = no
                         province_has_center_of_trade_of_level = 1
                         development = 30
                         has_building = temple
@@ -196,48 +205,49 @@ country_decisions = {
                         has_building = workshop
                         has_building = barracks
                     }
-                }
-
+                
+                } 
             }
-
         }
         effect = {
-            ROOT = {
-                every_owned_province = {
-                    if = {
-                        limit = {
-                            province_has_center_of_trade_of_level = 2
-                            development = 45
-                            has_building = temple
-                            has_building = marketplace
-                            has_building = workshop
-                            has_building = barracks
-                            has_province_modifier = prz_autonomy_modifier_25
-                            NOT = {has_province_modifier = prz_autonomy_modifier_0}
-                        }
-                        add_province_modifier = {
-                            name = prz_autonomy_modifier_0
-                            duration = -1
-                        }
-                        remove_province_modifier = prz_autonomy_modifier_25
-                    } 
-                    if = {
-                        limit = {                    
-                            province_has_center_of_trade_of_level = 1
-                            development = 30
-                            has_building = temple
-                            has_building = marketplace
-                            has_building = workshop
-                            has_building = barracks
-                            NOT = {has_province_modifier = prz_autonomy_modifier_25}
-                        }
-                        add_province_modifier = {
-                            name = prz_autonomy_modifier_25
-                            duration = -1
-                        }
+            every_owned_province = {
+                if = {
+                    limit = {
+                        is_capital = no
+                        province_has_center_of_trade_of_level = 2
+                        development = 45
+                        has_building = temple
+                        has_building = marketplace
+                        has_building = workshop
+                        has_building = barracks
+                        has_province_modifier = prz_autonomy_modifier_25
                     }
-
-
+                    remove_province_modifier = prz_autonomy_modifier_25
+                    add_province_modifier = {
+                        name = prz_autonomy_modifier_0
+                        duration = -1
+                    }
+                } 
+                else_if = {
+                    limit = { 
+                        NOT = {
+                            OR = {
+                            has_province_modifier = prz_autonomy_modifier_25
+                            has_province_modifier = prz_autonomy_modifier_0
+                            }
+                        }
+                        is_capital = no
+                        province_has_center_of_trade_of_level = 1
+                        development = 30
+                        has_building = temple
+                        has_building = marketplace
+                        has_building = workshop
+                        has_building = barracks
+                    }
+                    add_province_modifier = {
+                        name = prz_autonomy_modifier_25
+                        duration = -1
+                    }
                 }
             }
         }
