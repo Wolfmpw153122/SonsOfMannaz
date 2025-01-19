@@ -1,5 +1,5 @@
-owner = HUN
-controller = HUN
+owner = WAL
+controller = WAL
 capital = "Severin"
 is_city = yes
 culture = dynamic-avar-culture-num2
@@ -8,7 +8,7 @@ trade_goods = livestock
 base_tax = 6
 base_production = 4
 base_manpower = 5
-add_core = HUN
+add_core = WAL
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

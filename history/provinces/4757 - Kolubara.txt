@@ -1,5 +1,5 @@
-owner = DAL
-controller = DAL
+owner = SER
+controller = SER
 capital = "Valjevo"
 is_city = yes
 culture = dynamic-albanian-illyrian-roman-culture-num5
@@ -18,3 +18,9 @@ discovered_by = nomad_group
 discovered_by = ottoman
 discovered_by = sub_saharan
 discovered_by = western
+owner = CRO
+controller = CRO
+add_core = CRO
+add_core = SER
+owner = SER
+controller = SER

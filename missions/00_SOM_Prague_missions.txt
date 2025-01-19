@@ -150,6 +150,51 @@ prague_internal_slot_1 = {
 		}
 	}
 
+##### Skip to Spot 7
+
+	prz_religous_fervor_1 = {
+		icon = mission_wine_monopolies
+		position = 7
+		required_missions = { }
+		provinces_to_highlight = {
+			owned_by = PRZ
+		}
+		trigger = {
+			religion = hussite
+			266 = {
+				is_reformation_center = yes
+			}
+		}
+		effect = {
+			ROOT = {
+				add_country_modifier = {
+					name = prz_religous_1
+					duration = 1825
+				}
+			}		
+		}
+	}
+
+	prz_religous_fervor_2 = {
+		icon = mission_wine_monopolies
+		position = 8
+		required_missions = { prz_religous_fervor_1 }
+		provinces_to_highlight = {
+			owned_by = PRZ
+		}
+		trigger = {
+			religion = hussite
+			is_defender_of_faith_of_tier = 3
+		}
+		effect = {
+			ROOT = {
+				add_country_modifier = {
+					name = prz_religous_2
+					duration = -1
+				}
+			}		
+		}
+	}
 
 }
 prague_internal_slot_2 = {
@@ -182,6 +227,7 @@ prague_internal_slot_2 = {
 			}			
 		}
 	}
+	
 	prz_establish_first_sister_city = {
 		icon = mission_wine_monopolies
 		position = 4
@@ -259,6 +305,7 @@ prague_internal_slot_2 = {
 			# }
 		}
 	}
+	
 	prz_establish_third_sister_city = {
 		icon = mission_wine_monopolies
 		position = 5
@@ -336,6 +383,7 @@ prague_internal_slot_2 = {
 			}
 		}
 	}
+	
 	prz_establish_fifth_sister_city = {
 		icon = mission_wine_monopolies
 		position = 6
@@ -377,6 +425,7 @@ prague_internal_slot_2 = {
 						cede_province = MAG
 					}
 					ROOT = {
+						add_historical_friend = MAG
 						create_subject = {
 						subject_type = vassal
 						subject = MAG
@@ -388,9 +437,6 @@ prague_internal_slot_2 = {
 						name = prz_golden_toll
 						duration = -1
 						}
-					}
-					ROOT = {
-						add_historical_friend = ERZ
 					}
 				"
 				second_custom_tooltip = PRZ_if_done_via_league
@@ -410,9 +456,10 @@ prague_internal_slot_2 = {
 				"
 				second_effect = "
 					ROOT = {
+						add_historical_friend = MAG
 						create_subject = {
 							subject_type = vassal
-							subject = BLN
+							subject = MAG
 						}
 					}
 					add_dip_power = 200
@@ -426,11 +473,45 @@ prague_internal_slot_2 = {
 			}
 			hidden_effect = {
 				set_country_flag = "prz-break-free-MAG"
+				MAG = {
+					add_historical_friend = PRZ
+				}
 			}
 
 		}
 	}
-
+	
+	prz_southern_trade_conquest = {
+		icon = mission_galleys_in_port
+		position = 8
+		required_missions = { prz_better_capital }
+		
+		provinces_to_highlight = {
+			province_id = 134
+		}
+		trigger = {
+			134 = {
+				trade_share = {
+					country = ROOT
+					share = 30
+				}
+			}
+		}
+		effect = {
+			every_province = {
+				limit = {
+					OR = {
+						province_id = 76
+						province_id = 134
+						province_id = 1872
+						province_id = 2957
+						province_id = 4712
+					}
+				}
+				add_permanent_claim = PRZ
+			}
+		}
+	}
 
 }
 prague_internal_slot_3 = {
@@ -563,6 +644,10 @@ prague_internal_slot_3 = {
 			is_at_war = no
 		}
 		effect = {
+			ROOT = {
+				change_religion = hussite
+
+			}
 			266 = {
 				add_province_modifier = {
 					name = prz_city_defense
@@ -570,15 +655,16 @@ prague_internal_slot_3 = {
 				}
 				add_province_modifier = {
 					name = prz_city_recovery
-					duration = 1195 # 3 years
+					duration = 1095 # 3 years
 				}
 			}
 			hidden_effect = {
 				set_country_flag = "prz-break-free-1"
 			}
+
+
 		}
 	}
-
 
 	prz_establish_fourth_sister_city = {
 		icon = mission_wine_monopolies
@@ -693,7 +779,7 @@ prague_internal_slot_3 = {
 		trigger = {
 			AND = {
 				capital_scope = {
-					development = 45
+					development = 50
 					has_building = temple
 					has_building = marketplace
 					has_building = workshop
@@ -704,15 +790,48 @@ prague_internal_slot_3 = {
 
 		}
 		effect = { 
+			add_government_reform = prz_reform_2
 			add_country_modifier = {
 				name = prz_better_capital
 				duration = 1825
 			}
+
 			set_country_flag = "can-rule-cities"
 		}
 	}
-}
 
+	prz_pest_trade_conquest = {
+		icon = mission_galleys_in_port
+		position = 9
+		required_missions = { prz_eastern_trade_conquest prz_southern_trade_conquest}
+		
+		provinces_to_highlight = {
+			province_id = 153
+		}
+		trigger = {
+			153 = {
+				trade_share = {
+					country = ROOT
+					share = 30
+				}
+			}
+		}
+		effect = {
+			every_province = {
+				limit = {
+					OR = {
+						province_id = 153
+						province_id = 161
+						province_id = 1772
+						province_id = 4127
+					}
+				}
+				add_permanent_claim = PRZ
+			}
+		}
+	}
+	
+}
 prague_internal_slot_4 = {
 	slot = 4
 	generic = no
@@ -791,6 +910,7 @@ prague_internal_slot_4 = {
 			}
 		}
 	}
+	
 	prz_dev_control_3 = {
 		icon = mission_galleys_in_port
 		position = 6
@@ -810,6 +930,40 @@ prague_internal_slot_4 = {
 					name = prz_efficient_men_1
 					duration = -1
 				}
+			}
+		}
+	}
+
+	###Skip to 8
+
+	prz_eastern_trade_conquest = {
+		icon = mission_galleys_in_port
+		position = 8
+		required_missions = { prz_better_capital }
+		
+		provinces_to_highlight = {
+			province_id = 262
+		}
+		trigger = {
+			262 = {
+				trade_share = {
+					country = ROOT
+					share = 30
+				}
+			}
+		}
+		effect = {
+			every_province = {
+				limit = {
+					OR = {
+						province_id = 257
+						province_id = 262
+						province_id = 264
+						province_id = 1859
+						province_id = 2961
+					}
+				}
+				add_permanent_claim = PRZ
 			}
 		}
 	}
@@ -855,7 +1009,6 @@ prague_internal_slot_5 = {
 			}
 		}
 	}
-
 
 	prz_dev_control_2 = {
 		icon = mission_galleys_in_port

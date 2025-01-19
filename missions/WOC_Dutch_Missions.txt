@@ -542,7 +542,6 @@ NED_2 = {
 			tag = BRB
 			tag = GEL
 			tag = UTR
-			tag = FRI
 			tag = FLA
 		}
 	} 
@@ -1363,7 +1362,6 @@ NED_3 = {
 			tag = BRB
 			tag = GEL
 			tag = UTR
-			tag = FRI
 			tag = FLA
 		}
 	} 
@@ -2003,7 +2001,6 @@ NED_4 = {
 			tag = BRB
 			tag = GEL
 			tag = UTR
-			tag = FRI
 			tag = FLA
 		}
 	} 
@@ -2776,7 +2773,6 @@ NED_5 = {
 			tag = BRB
 			tag = GEL
 			tag = UTR
-			tag = FRI
 			tag = FLA
 		}
 	} 

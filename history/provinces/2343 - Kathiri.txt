@@ -1,5 +1,5 @@
-owner = QAR
-controller = QAR
+owner = Z16
+controller = Z16
 capital = "Say'un"
 is_city = yes
 culture = mahri_culture
@@ -8,7 +8,7 @@ trade_goods = livestock
 base_tax = 8
 base_production = 7
 base_manpower = 5
-add_core = MHR
+add_core = Z16
 add_core = QAR
 add_core = Z13
 discovered_by = east_african

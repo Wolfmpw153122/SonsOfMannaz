@@ -1,5 +1,5 @@
-owner = CRO
-controller = CRO
+owner = HUN
+controller = HUN
 capital = "Szolnok"
 is_city = yes
 culture = dynamic-gothic-culture-num4
@@ -9,7 +9,7 @@ fort_15th = yes
 base_tax = 5
 base_production = 2
 base_manpower = 3
-add_core = CRO
+add_core = HUN
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

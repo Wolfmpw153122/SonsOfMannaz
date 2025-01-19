@@ -1,5 +1,5 @@
-owner = QAR
-controller = QAR
+owner = SHM
+controller = SHM
 capital = "Maan"
 is_city = yes
 culture = dynamic-coptic-greek-culture-num1
@@ -9,7 +9,7 @@ fort_15th = yes
 base_tax = 1
 base_production = 3
 base_manpower = 2
-add_core = QAR
+add_core = SHM
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

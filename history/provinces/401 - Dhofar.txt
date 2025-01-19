@@ -1,5 +1,5 @@
-owner = QAR
-controller = QAR
+owner = MHR
+controller = MHR
 capital = "Salalah"
 is_city = yes
 culture = dynamic-bedouin_arabic-bolghar-yemeni_culture-culture-num1
@@ -8,7 +8,7 @@ trade_goods = incense
 base_tax = 1
 base_production = 6
 base_manpower = 1
-add_core = QAR
+add_core = MHR
 add_core = Z13
 discovered_by = east_african
 discovered_by = eastern

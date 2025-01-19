@@ -1,5 +1,5 @@
-owner = Z08
-controller = Z08
+owner = ALH
+controller = ALH
 capital = "al-Hauta"
 is_city = yes
 culture = dynamic-greek-culture-num6
@@ -8,7 +8,7 @@ trade_goods = grain
 base_tax = 4
 base_production = 4
 base_manpower = 2
-add_core = Z08
+add_core = ALH
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

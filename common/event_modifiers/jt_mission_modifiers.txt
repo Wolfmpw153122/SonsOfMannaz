@@ -1,3 +1,12 @@
+#### Global Modifiers
+### Religous modifers
+hellenic_melting_pot = {
+	global_missionary_strength = 0.05
+	embracement_cost = 0.1
+	religion = yes
+}
+#### Country Modifiers
+### Prague Mission Modifiers
 prz_city_goods = {
 	trade_goods_size = 1
 }
@@ -7,7 +16,7 @@ prz_city_defense = {
 }
 
 prz_city_recovery = {
-	local_defensiveness = 0.15
+	manpower_recovery_speed = 0.33
 }
 
 prz_loyal_cities = {
@@ -19,11 +28,11 @@ prz_golden_toll = {
 }
 
 prz_autonomy_modifier_25 = {
-	min_local_autonomy = -65
+	local_autonomy = -7.5 
 }
 
 prz_autonomy_modifier_0 = {
-	min_local_autonomy = -90
+	local_autonomy = -10.5 
 }
 
 prz_efficient_ledgers_1 = {
@@ -47,6 +56,7 @@ prz_efficient_ledgers_3 = {
 
 prz_better_capital = {
 	diplomatic_annexation_cost = -0.5
+	development_cost_in_primary_culture = -0.1
 }
 prz_income = {
 	adm_advisor_cost = -0.25
@@ -59,4 +69,13 @@ prz_dip_rep_1 = {
 }
 prz_curry_favor = {
 	monthly_favor_modifier = 0.1
+}
+prz_religous_1 = {
+	global_missionary_strength = 0.01
+	embracement_cost = -0.1
+	religion = yes
+}
+
+prz_religous_2 = {
+	reduced_liberty_desire_on_same_continent = 15
 }
