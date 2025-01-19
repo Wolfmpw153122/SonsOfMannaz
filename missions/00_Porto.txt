@@ -1,0 +1,30 @@
+porto_internal_slot_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = POR }
+
+	gc_por_iberian_question = {
+		icon = mission_establish_jesuit_missions
+		required_missions = {}
+		position = 1
+		
+		provinces_to_highlight = {
+			province_id = 231
+		}
+
+		trigger = {
+			231 = {
+				religion = ROOT
+			}
+		}
+
+		effect = {
+			country_event = { 
+				id = iberian_exodus.1
+			}
+		}
+	}
+	
+}

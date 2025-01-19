@@ -196,9 +196,60 @@ country_event = {
 		option = {
 				name = "iberian_exodus_exile"
 				ai_chance = { factor = 0 }
+				hidden_effect = {
+					484 = {
+						add_core = PTR
+						cede_province = PTR
+						change_culture = portugese
+						change_religion = catholic
+						change_province_name = "Porto Livre"
+						rename_capital = "Porto Livre"
+					}
+					cuba_area = {
+						discover_country = PTR
+					}
+					east_cuba_area = {
+						discover_country = PTR
+					}
+					bahama_channel_area = {
+						discover_country = PTR
+					}
+					caribbean_sea_area = {
+						discover_country = PTR
+					}
+					PTR = { 
+						apply_sprite_pack = dlc098_nss_sprite_pack
+					}
+				}
 			}
 		option = {
 				name = "iberian_exodus_travel"
 				ai_chance = { factor = 0 }
+				hidden_effect = {
+					484 = {
+						add_core = PTR
+						cede_province = PTR
+						change_culture = portugese
+						change_religion = catholic
+						change_province_name = "Porto Livre"
+						rename_capital = "Porto Livre"
+					}
+					cuba_area = {
+						discover_country = PTR
+					}
+					east_cuba_area = {
+						discover_country = PTR
+					}
+					bahama_channel_area = {
+						discover_country = PTR
+					}
+					caribbean_sea_area = {
+						discover_country = PTR
+					}
+					PTR = { 
+						apply_sprite_pack = dlc098_nss_sprite_pack
+					}
+				}
+				switch_tag = PTR
 			}
 }

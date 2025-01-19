@@ -94,6 +94,55 @@ PRZ_ideas = {
 		development_cost_modifier = -0.1
 	}
 
+}
+
+PTR_ideas = {
+	start = {
+        development_cost_modifier = -0.1
+		no_religion_penalty = yes
+	}
+	
+	bonus = {
+		naval_forcelimit_modifier = 0.5
+	}
+	
+	trigger = {
+		tag = PTR
+	}
+	free = yes
+
+	ptr_sink_or_swim = {
+		idea_cost = -0.1
+		innovativeness_gain = 0.5
+	} 
+
+	ptr_shipwrecked_shipwrights = {
+		ship_durability = 0.05
+		light_ship_cost = -0.1
+	}
+
+	ptr_council_of_captains = {
+		republican_tradition = 0.2
+	}
+
+	ptr_come_hell_or_high_water = {
+		sailors_recovery_speed = 0.10
+		allowed_marine_fraction = 0.5
+	}
+
+	ptr_gateway_to_the_world = {
+		global_ship_trade_power = 0.35
+		reverse_relation_with_heathen_religion = 25
+	}
+
+	ptr_here_be_dragons = {
+		heavy_ship_power = 0.10
+		leader_naval_fire = 1
+	}
+	ptr_bastions_of_sea_and_stone = {
+		own_coast_naval_combat_bonus = 1
+		fort_maintenance_modifier = -0.10
+	}
 
 }
 
