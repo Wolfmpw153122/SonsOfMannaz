@@ -5,6 +5,7 @@ technology_group = western
 religion = catholic
 primary_culture = dynamic-norse-lower_saxon-culture-num4
 capital = 100
+historical_friend = BRE
 1444.11.11= {
 	monarch = {
 		name = "Alfred"
