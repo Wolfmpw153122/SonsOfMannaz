@@ -132,3 +132,20 @@ dutch_republic = {
 	}
 	duration = 4
 }
+
+# university_reform = {
+# 	icon = "politician"
+# 	allow_normal_conversion = NO
+# 	modifiers = {
+# 		max_absolutism = -10
+# 		merchants = 1
+#         min_autonomy = 90
+#         can_not_declare_war = yes
+# 	}
+# 	lock_level_when_selected = yes
+# 	valid_for_nation_designer = yes
+# 	nation_designer_cost = 40
+# 	potential = {
+#         tag = OUH
+# 	}
+# }

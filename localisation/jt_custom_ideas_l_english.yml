@@ -42,4 +42,9 @@ san_gateway_to_the_world: "Gateway to the World"
 san_here_be_dragons: "Here Be Dragons"
   san_here_be_dragons_desc: "With the advancement of anval warfare and the continued construction of more ships, the need for cannong grew at an uprecedented pace. In order to mee demand, Santuario put great effort into not only the construction and expansion of foundries but the design of cannon for their unique needs as well. New world cannon and firearms soon` began to set the standard for naval equipment the world over"
 san_bastions_of_sea_and_stone: "Bastions of Sea and Stone"
-  san_bastions_of_sea_and_stone_desc: "International trade grew the great port cities of Santuario to be beacons of prosperity and commerce, but such wealth made them a ripe target for piracy and invastion. To combat this, the Admiralty launch massived projects reinforcing the settlements. Immigrant engineers and tactitians brought the pinacle of modern defensive strategy and extend naval patrols extended the nation's reach. The Caribbean became reknown for both the safety of its shipping lands and Santuario's tight grip upon its commerce"
+san_bastions_of_sea_and_stone_desc: "International trade grew the great port cities of Santuario to be beacons of prosperity and commerce, but such wealth made them a ripe target for piracy and invastion. To combat this, the Admiralty launch massived projects reinforcing the settlements. Immigrant engineers and tactitians brought the pinacle of modern defensive strategy and extend naval patrols extended the nation's reach. The Caribbean became reknown for both the safety of its shipping lands and Santuario's tight grip upon its commerce"
+
+################# University of Heidelberg
+OUH_ideas: "University Ideas"
+OUH_ideas_start: "University Traditions"
+OUH_ideas_bonus: "University Ambitions"
