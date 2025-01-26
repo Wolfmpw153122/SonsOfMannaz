@@ -1,5 +1,5 @@
-owner = SWA
-controller = SWA
+owner = BAD
+controller = BAD
 capital = "Reutlingen"
 is_city = yes
 culture = dynamic-norse-lower_saxon-culture-num7
@@ -10,8 +10,7 @@ hre = yes
 base_tax = 2
 base_production = 4
 base_manpower = 3
-add_core = SWA
-add_core = WBG
+add_core = BAD
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

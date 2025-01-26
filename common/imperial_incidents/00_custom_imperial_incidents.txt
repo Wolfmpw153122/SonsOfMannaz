@@ -10,18 +10,11 @@ incident_prague_event = {
 			NOT = { exists = PRZ }
 			PRZ = { is_emperor = yes }
 			PRZ = { is_subject = yes }
-			PRZ = { set_country_flag = "prz_causing_an_incident"}
 			emperor = { war_with = PRZ }
 			emperor = {
 				is_in_war = {
 					defenders = PRZ
 					defenders = emperor
-				}
-			}
-			emperor = {
-				is_in_war = {
-					attackers = PRZ
-					attackers = emperor
 				}
 			}
 		}
@@ -78,6 +71,88 @@ incident_prague_event = {
 				}
 				ai_attitude = {
 					who = PRZ
+					attitude = attitude_rebellious
+				}
+			}
+		}
+	}
+}
+
+
+incident_bremen_event = {
+	event = incident_bremen_event.2
+	default_option = 1
+	
+	can_stop = {
+		OR = {
+			NOT = { exists = BRE }
+			FRI = { is_emperor = yes }
+			GFR = { is_emperor = yes }
+			emperor = { war_with = FRI }
+			emperor = {
+				is_in_war = {
+					defenders = FRI
+					defenders = emperor
+				}
+			}
+			emperor = { war_with = GFR }
+			emperor = {
+				is_in_war = {
+					defenders = GFR
+					defenders = emperor
+				}
+			}
+		}
+	}
+	
+	0 = { # Accept The Bribe
+		factor = 1
+		modifier = {
+			factor = 100
+			OR = {
+				ai_attitude = {
+					who = FRI
+					attitude = attitude_friendly
+				}
+				ai_attitude = {
+					who = FRI
+					attitude = attitude_loyal
+				}
+				ai_attitude = {
+					who = FRI
+					attitude = attitude_allied
+				}
+			}
+		}
+	}
+	
+	1 = { # Freedom isn't Free
+		factor = 1
+		modifier = {
+			factor = 100
+			OR = {
+				ai_attitude = {
+					who = FRI
+					attitude = attitude_rivalry
+				}
+				ai_attitude = {
+					who = FRI
+					attitude = attitude_hostile
+				}
+				ai_attitude = {
+					who = FRI
+					attitude = attitude_threatened
+				}
+				ai_attitude = {
+					who = FRI
+					attitude = attitude_outraged
+				}
+				ai_attitude = {
+					who = FRI
+					attitude = attitude_disloyal
+				}
+				ai_attitude = {
+					who = FRI
 					attitude = attitude_rebellious
 				}
 			}

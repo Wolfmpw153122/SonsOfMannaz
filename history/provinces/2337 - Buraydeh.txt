@@ -1,5 +1,5 @@
-owner = Z08
-controller = Z08
+owner = SHM
+controller = SHM
 capital = "Buraydeh"
 is_city = yes
 culture = dynamic-greek-culture-num6
@@ -9,7 +9,7 @@ fort_15th = yes
 base_tax = 8
 base_production = 5
 base_manpower = 8
-add_core = Z08
+add_core = SHM
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

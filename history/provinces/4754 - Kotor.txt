@@ -1,5 +1,5 @@
-owner = DAL
-controller = DAL
+owner = RAG
+controller = RAG
 capital = "Kotor"
 is_city = yes
 culture = dynamic-albanian-illyrian-roman-culture-num1
@@ -9,7 +9,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 add_core = SER
-add_core = DAL
+add_core = RAG
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

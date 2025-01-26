@@ -64,6 +64,7 @@ on_startup = {
 			NOT = { tag = GBR }
 			NOT = { tag = ENG }
 			NOT = { tag = AVE }			#angevins
+			NOT = { tag = FRI }	
 		}
 		country_event = { id = plati_ck_new_flavor.10 }
 	}

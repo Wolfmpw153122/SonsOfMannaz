@@ -22,7 +22,5 @@ discovered_by = nomad_group
 discovered_by = ottoman
 discovered_by = sub_saharan
 discovered_by = western
-add_permanent_province_modifier = {
-	name = elbe_estuary_modifier
-	duration = -1
-}
+culture = saxisc
+add_permanent_province_modifier = { name = elbe_estuary_modifier duration = -1 } 

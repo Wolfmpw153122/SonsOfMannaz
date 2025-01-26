@@ -62,27 +62,28 @@ PRZ_ideas = {
 	}
 	free = yes
 
-	prz_souvenir_plot_defense = {
-		defensiveness = 0.20
-	} 
+	prz_cities_on_the_walls = {
+		development_cost_in_primary_culture = -0.1
+        global_unrest = -0.5
+	}
+
 
 	prz_wide_as_the_sea = {
 		garrison_size = 0.25
 		candidate_random_bonus = 1
 	}
 
-	prz_government_friendly_suggestions = {
-		possible_policy = 1
-	}
-
-	prz_cities_on_the_walls = {
-		development_cost_in_primary_culture = -0.1
-        global_unrest = -0.5
-	}
-
+	prz_souvenir_plot_defense = {
+		defensiveness = 0.20
+	} 
 	prz_noble_intentions = {
 		transfer_trade_power_reasons = 25
 		reverse_relation_with_heretic_religion = 25
+	}
+
+	prz_government_friendly_suggestions = {
+		possible_policy = 1
+		max_absolutism = 20
 	}
 
 	prz_merchant_wagons_of_war = {
@@ -94,10 +95,6 @@ PRZ_ideas = {
 		development_cost_modifier = -0.1
 	}
 
-
-}
-
-PRZ_vassal_ideas {
 
 }
 
