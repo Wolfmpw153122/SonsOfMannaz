@@ -96,7 +96,7 @@ british = {
 		dynasty_names = { "Ambonid" "Auarosian" "Audaxian" "Carosian" "Culchian" "Leukian" "Mandonian" "Punician" "Tautalid" "Correian" "Divicid" "Duratian" "Elitovian" "Galbid" "Iacid" "Marganid" "Sinatid" "Vodenosian" "Indutian" "Dumnid" "Epatticid" "Teutomalian" "Viridorrian" "Magunnid" "Brennid" "Boian" "Tannid" "Iccian" "Galanid" "Adler" "Adrabaecampi" "Baemoi" "Batin" "Daimler" "Dengler" "Eberle" "Elser" "Ensselin" "Groner" "Hegelin" "Heinkelin" "Holderelin" "Idanha" "Kepler" "Kiesinger" "Laemmle" "Lugo" "Marcomanni" "Naristi" "Ourense" "Racatria" "Rommelin" "Sudini" "Suiones" "Tui" "Viseu" "Wekerle" }
 	}
 	
-	dynamic-lower_saxon-culture-num1 = {
+	hollander = {
 		male_names = { "Ernst" "Adolf" "Alfred" "August" "Christian" "Eduard" "Friedrich" "Georg" "Karl" "Philipp" "Maximilian" "Octavius" "Wilhelm" "Alexander" "Alois" "Anton" "Bruno" "Clemens" "Denis" "Gerfried" "Gottfried" "G�nther" "Helmut" "Herbert" "Ignatz" "Isidor" "Konstantin" "Kuno" "Markus" "Martin" "Oskar" "Reinhard" "Silvester" "Stefan" "Waldemar" "Jakob" }
 		female_names = { "Amanda" "Beate" "Debora" "Sara" "Anne" "Saga" "Sibyl" "Joanna" "Joanne" "Adele" "Adelgunde" "Adelheid" "Adolfine" "Agatha" "Agnes" "Alexandra" "Alice" "Alina" "Aline" "Alma" "Alwina" "Alwine" "Amalia" "Amalie" }
 	}

@@ -187,31 +187,6 @@ greater_friesland_missions_2 = {
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
-	
-	gfr_a_frisian_port {
-		icon = mission_dominate_home_trade_node
-		position = 1
-		provinces_to_highlight = {
-		}
-		trigger = {
-			1931 = {
-				owned_by = ROOT
-				NOT = { num_free_building_slots = 1 }
-				development = 24
-			}
-		}
-		effect = {
-			1931 = {
-				add_base_tax = 2
-				add_base_production = 2
-				add_base_manpower = 2
-				center_of_trade = 2
-			}
-		}
-		ai_weight = {
-			factor = 75	#Default
-		}
-	}
 
 	gfr_to_the_elbe = {
 		icon = mission_landsknecht_soldier
@@ -583,9 +558,95 @@ greater_friesland_missions_4 = {
 		NOT = { map_setup = map_setup_random }
 	}
 
+	
+
+	gfr_the_south_march = {
+		icon = mission_unite_home_region
+		position = 3
+		required_missions = {
+			gfr_up_the_meuse
+		}
+		provinces_to_highlight = { 
+			OR = {
+				area = north_brabant_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = { 
+			north_brabant_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			custom_tooltip = NED_LOSE_10_AE_WITH_HRE
+
+			add_casus_belli = {
+				target = LUX
+				type = cb_vassalize_mission
+				months = 120
+			}
+			give_claims = { area = wallonia_area }
+
+			hidden_effect = {
+				every_known_country = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					add_aggressive_expansion = {
+						who = ROOT
+						value = -10
+					}
+				}
+			}
+		}
+	}
+}
+
+greater_friesland_missions_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		Or = {
+			tag = GFR
+			tag = FRI
+			tag = EFR
+			}
+		NOT = { map_setup = map_setup_random }
+	}
+
+	gfr_a_frisian_port {
+		icon = mission_dominate_home_trade_node
+		position = 1
+		provinces_to_highlight = {
+		}
+		trigger = {
+			1931 = {
+				owned_by = ROOT
+				NOT = { num_free_building_slots = 1 }
+				development = 24
+			}
+		}
+		effect = {
+			1931 = {
+				add_base_tax = 2
+				add_base_production = 2
+				add_base_manpower = 2
+				center_of_trade = 2
+			}
+		}
+		ai_weight = {
+			factor = 75	#Default
+		}
+	}
+
 	gfr_muenster_the_army = {
 		icon = mission_landsknecht_soldier
-		position = 1
+		position = 2
 
 		provinces_to_highlight = {
 			OR = {
@@ -635,47 +696,4 @@ greater_friesland_missions_4 = {
 		}
 	}
 
-	gfr_the_south_march = {
-		icon = mission_unite_home_region
-		position = 3
-		required_missions = {
-			gfr_up_the_meuse
-		}
-		provinces_to_highlight = { 
-			OR = {
-				area = north_brabant_area
-			}
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-		}
-		trigger = { 
-			north_brabant_area = {
-				type = all
-				owned_by = ROOT
-			}
-		}
-		effect = {
-			custom_tooltip = NED_LOSE_10_AE_WITH_HRE
-
-			add_casus_belli = {
-				target = LUX
-				type = cb_vassalize_mission
-				months = 120
-			}
-			give_claims = { area = wallonia_area }
-
-			hidden_effect = {
-				every_known_country = {
-					limit = {
-						is_part_of_hre = yes
-					}
-					add_aggressive_expansion = {
-						who = ROOT
-						value = -10
-					}
-				}
-			}
-		}
-	}
 }
