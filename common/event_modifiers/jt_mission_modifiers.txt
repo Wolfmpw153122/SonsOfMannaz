@@ -80,3 +80,16 @@ prz_religous_1 = {
 prz_religous_2 = {
 	reduced_liberty_desire_on_same_continent = 15
 }
+
+#Frisian mission modifiers
+ald_fryslan_united_autonomy = {
+    global_autonomy = -0.05
+}
+
+muenster_the_army = {
+    local_manpower_modifier = 0.25
+}
+
+nij_fryslan_united = {
+    local_production_efficiency = 0.1
+}

@@ -10,7 +10,6 @@ base_tax = 5
 base_production = 4
 base_manpower = 2
 extra_cost = 10
-add_claim = FRI
 add_core = EFR
 discovered_by = east_african
 discovered_by = eastern

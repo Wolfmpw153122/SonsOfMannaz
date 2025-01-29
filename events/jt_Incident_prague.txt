@@ -143,3 +143,86 @@ country_event = {
 		
 	}
 }
+
+
+
+namespace = incident_bremen_event
+
+country_event = {
+	id = incident_bremen_event.1
+	title = incident_bremen_event.1.t
+	desc = incident_bremen_event.1.d
+	picture = GOOD_WITH_MONARCH_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	# Purchase Bremen
+	option = {
+		name = incident_bremen_event.1.a
+		ai_chance = { factor = 75 }
+		set_imperial_incident = incident_bremen_event
+		ROOT = {
+			vassalize = BRE
+			add_treasury = -500
+		}
+			emperor = { add_treasury = 500 }
+			
+	}
+	
+	# It's not worth the cost
+	option = {
+	name = incident_bremen_event.1.b
+	ai_chance = { factor = 25 }
+		add_prestige = -20
+		
+	}
+}
+
+# dummy incident for the emperor
+country_event = {
+	id = incident_bremen_event.2
+	title = incident_bremen_event.2.t
+	desc = incident_bremen_event.2.d
+	picture = GOOD_WITH_MONARCH_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	major = yes
+	
+	trigger = {
+		is_emperor = yes
+		is_part_of_hre = yes
+	}
+	option = { # accept the bribe
+		name = incident_bremen_event.2.a
+		ai_chance = { 
+			factor = 1 
+			modifier = {
+				factor = 5
+			is_at_war = yes
+			}
+		}
+		add_imperial_influence = -10
+		custom_tooltip = emperor_ignores_bremen_tt
+	}
+	option = { # We'll Take their money, and we'll take our city!
+		name = incident_bremen_event.2.b
+		ai_chance = {
+			factor = 2
+			modifier = {
+				factor = 10
+				OR = {
+					is_rival = FRI
+					FRI = { is_rival = ROOT }
+				}
+			}
+		}
+		declare_war_with_cb = {
+			who = BRE
+			casus_belli = cb_annex
+		}
+		
+	}
+}
+	

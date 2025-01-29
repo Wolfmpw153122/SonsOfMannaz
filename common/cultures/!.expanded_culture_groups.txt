@@ -204,240 +204,250 @@ british = {
 			�thelburh Seaxburh Wihtburh
 		}
 	}
-	mercian = {
-		primary = MRC
-		dynasty_names = {
-			Godhelming Beorming Eorling �bbing H�sting �lling Eadricing Eadwulfing Leodwalding
-			�thelfrithing Yffing Ingving Offing Oswalding Cerdicing Wiglafing Coenwalhing
-			Beorning Iceling Wuffing Wihtgilsing Ross Ciesla Rowe Borthwick
-		}
-		male_names = {
-			Arncytel Balthere Beorhtfrith Beorhthelm Beorhtm�r Beorhtnoth Beorhtric Beorhtsige Beorhtwine Beorn Beornr�d Beornwulf
-			Burgheard Byrhtnoth Cearl Cenfus Cenr�d Cenwulf Ceolwulf Cerdic Copsige
-			Cuthberht Cuthr�d Cynehelm Cynewulf Cytelbearn Eadberht Eadfrith Eadgar Eadmund Eadm�r Eadric
-			Eadr�d Eadsige Eadulf Eadweald Eadweard Eadwig Eadwine Eadwulf Ealdhun Ealdmund Ealdr�d Ealdwine
-			Ealdwulf Eanberht Eanfrith Eanhere Eardwulf Eastmund Ecgberht Ecgfrith Gamall Godwine Gospatric Guthfrith Guthmund
-			Gyrth Hacon Harold Heahberht Hereberht Hereweald Hereweard Hlothere Hrodberht Inw�r Leofheah Leofhelm
-			Leofric Leofweald Leofwine Maccus Morcar M�rleswegn Offa Onlaf Ordgar
-			Oscytel Oshere Osmund Osric Osr�d Osulf Osweald Oswine Oswulf Peter R�dwulf R�genweald Scule
-			Sigeberht Sigehelm Sigeric Siger�d Sighere Siweard Stigand Swegn Swithelm Swithr�d Sw�fr�d S�bert S�lr�d S�weald
-			S�xbald S�xr�d Thor�d Thurcytel Thurfrith Tostig Uhtr�d Ulfcytel Waltheof Werestan Wiglaf Wihtr�d
-			Wistan Wulf Wulfgar Wulfgeat Wulfhelm Wulfhere Wulfm�r Wulfnoth Wulfstan �lfgar �lfm�r �lfnoth �lfric �lfr�d �lfsige
-			�lfstan �lfwald �lfweard �lfwig �lfwine �lle �thelbald �thelberht �thelfrith �thelhere �thelm�r
-			�thelric �thelr�d �thelsige �thelstan �thelweald �thelweard �thelwine �thelwold �thelwulf
-			Eormenred Eorcenberht Eormenric Eadbald R�dwald
-		}
-		female_names = {
-			Agatha Balthild Beorhtfl�d Beorhtgifu Beorhtgyth Beorhtwaru Beorhtwynn Beornfl�d Beorngyth Bl�ja Burgfl�d Ceolfl�d Cristina
-			Cuthburg Cwenburg Cyneburg Cynegyth Cynehild Cyneswith Cynethryth Eadburg Eadfl�d Eadgifu Eadgyth Eadhburh Eadhild Ealdgyth
-			Ealhfl�d Ealhswith Eanswith Ecgfrida Ecgwyn Godgifu Gunhilda Gytha Helga Heregyth Hereswith Hextilda Hungifu Judith
-			Leoffl�d Leofgifu Leofrun Leofwaru Leofwynn Margaret Maud Matilda Mildrith Octreda Siffl�d Sigrid S�thryth Wulffl�d Wulfgifu
-			Wulfgyth Wulfhild Wulfrun Wulfthryth Wulfwaru Wulfwynn Wynnfl�d W�rburg �bba �lffl�d �lfgifu �lfgyth �lfl�da �lfrida
-			�lfswith �lfthryth �lfwynn �thelburg �thelfl�d �thelgifu �thelhild �thelr�da �thelswith �thelthryth
-			�thelburh Seaxburh Wihtburh
-		}
-	}
-	wessexian = {
-		primary = WSX
-		dynasty_names = {
-			Godhelming Beorming Eorling �bbing H�sting �lling Eadricing Eadwulfing Leodwalding
-			�thelfrithing Yffing Ingving Offing Oswalding Cerdicing Wiglafing Coenwalhing
-			Beorning Iceling Wuffing Wihtgilsing Ross Ciesla Rowe Borthwick
-		}
-		male_names = {
-			Arncytel Balthere Beorhtfrith Beorhthelm Beorhtm�r Beorhtnoth Beorhtric Beorhtsige Beorhtwine Beorn Beornr�d Beornwulf
-			Burgheard Byrhtnoth Cearl Cenfus Cenr�d Cenwulf Ceolwulf Cerdic Copsige
-			Cuthberht Cuthr�d Cynehelm Cynewulf Cytelbearn Eadberht Eadfrith Eadgar Eadmund Eadm�r Eadric
-			Eadr�d Eadsige Eadulf Eadweald Eadweard Eadwig Eadwine Eadwulf Ealdhun Ealdmund Ealdr�d Ealdwine
-			Ealdwulf Eanberht Eanfrith Eanhere Eardwulf Eastmund Ecgberht Ecgfrith Gamall Godwine Gospatric Guthfrith Guthmund
-			Gyrth Hacon Harold Heahberht Hereberht Hereweald Hereweard Hlothere Hrodberht Inw�r Leofheah Leofhelm
-			Leofric Leofweald Leofwine Maccus Morcar M�rleswegn Offa Onlaf Ordgar
-			Oscytel Oshere Osmund Osric Osr�d Osulf Osweald Oswine Oswulf Peter R�dwulf R�genweald Scule
-			Sigeberht Sigehelm Sigeric Siger�d Sighere Siweard Stigand Swegn Swithelm Swithr�d Sw�fr�d S�bert S�lr�d S�weald
-			S�xbald S�xr�d Thor�d Thurcytel Thurfrith Tostig Uhtr�d Ulfcytel Waltheof Werestan Wiglaf Wihtr�d
-			Wistan Wulf Wulfgar Wulfgeat Wulfhelm Wulfhere Wulfm�r Wulfnoth Wulfstan �lfgar �lfm�r �lfnoth �lfric �lfr�d �lfsige
-			�lfstan �lfwald �lfweard �lfwig �lfwine �lle �thelbald �thelberht �thelfrith �thelhere �thelm�r
-			�thelric �thelr�d �thelsige �thelstan �thelweald �thelweard �thelwine �thelwold �thelwulf
-			Eormenred Eorcenberht Eormenric Eadbald R�dwald
-		}
-		female_names = {
-			Agatha Balthild Beorhtfl�d Beorhtgifu Beorhtgyth Beorhtwaru Beorhtwynn Beornfl�d Beorngyth Bl�ja Burgfl�d Ceolfl�d Cristina
-			Cuthburg Cwenburg Cyneburg Cynegyth Cynehild Cyneswith Cynethryth Eadburg Eadfl�d Eadgifu Eadgyth Eadhburh Eadhild Ealdgyth
-			Ealhfl�d Ealhswith Eanswith Ecgfrida Ecgwyn Godgifu Gunhilda Gytha Helga Heregyth Hereswith Hextilda Hungifu Judith
-			Leoffl�d Leofgifu Leofrun Leofwaru Leofwynn Margaret Maud Matilda Mildrith Octreda Siffl�d Sigrid S�thryth Wulffl�d Wulfgifu
-			Wulfgyth Wulfhild Wulfrun Wulfthryth Wulfwaru Wulfwynn Wynnfl�d W�rburg �bba �lffl�d �lfgifu �lfgyth �lfl�da �lfrida
-			�lfswith �lfthryth �lfwynn �thelburg �thelfl�d �thelgifu �thelhild �thelr�da �thelswith �thelthryth
-			�thelburh Seaxburh Wihtburh
-		}
-	}
-	essexian = {
-		primary = ESX
-		dynasty_names = {
-			Godhelming Beorming Eorling �bbing H�sting �lling Eadricing Eadwulfing Leodwalding
-			�thelfrithing Yffing Ingving Offing Oswalding Cerdicing Wiglafing Coenwalhing
-			Beorning Iceling Wuffing Wihtgilsing Ross Ciesla Rowe Borthwick
-		}
-		male_names = {
-			Arncytel Balthere Beorhtfrith Beorhthelm Beorhtm�r Beorhtnoth Beorhtric Beorhtsige Beorhtwine Beorn Beornr�d Beornwulf
-			Burgheard Byrhtnoth Cearl Cenfus Cenr�d Cenwulf Ceolwulf Cerdic Copsige
-			Cuthberht Cuthr�d Cynehelm Cynewulf Cytelbearn Eadberht Eadfrith Eadgar Eadmund Eadm�r Eadric
-			Eadr�d Eadsige Eadulf Eadweald Eadweard Eadwig Eadwine Eadwulf Ealdhun Ealdmund Ealdr�d Ealdwine
-			Ealdwulf Eanberht Eanfrith Eanhere Eardwulf Eastmund Ecgberht Ecgfrith Gamall Godwine Gospatric Guthfrith Guthmund
-			Gyrth Hacon Harold Heahberht Hereberht Hereweald Hereweard Hlothere Hrodberht Inw�r Leofheah Leofhelm
-			Leofric Leofweald Leofwine Maccus Morcar M�rleswegn Offa Onlaf Ordgar
-			Oscytel Oshere Osmund Osric Osr�d Osulf Osweald Oswine Oswulf Peter R�dwulf R�genweald Scule
-			Sigeberht Sigehelm Sigeric Siger�d Sighere Siweard Stigand Swegn Swithelm Swithr�d Sw�fr�d S�bert S�lr�d S�weald
-			S�xbald S�xr�d Thor�d Thurcytel Thurfrith Tostig Uhtr�d Ulfcytel Waltheof Werestan Wiglaf Wihtr�d
-			Wistan Wulf Wulfgar Wulfgeat Wulfhelm Wulfhere Wulfm�r Wulfnoth Wulfstan �lfgar �lfm�r �lfnoth �lfric �lfr�d_Alfred �lfsige
-			�lfstan �lfwald �lfweard �lfwig �lfwine �lle �thelbald �thelberht �thelfrith �thelhere �thelm�r
-			�thelric �thelr�d �thelsige �thelstan �thelweald �thelweard �thelwine �thelwold �thelwulf
-			Eormenred Eorcenberht Eormenric Eadbald R�dwald
-		}
-		female_names = {
-			Agatha Balthild Beorhtfl�d Beorhtgifu Beorhtgyth Beorhtwaru Beorhtwynn Beornfl�d Beorngyth Bl�ja Burgfl�d Ceolfl�d Cristina
-			Cuthburg Cwenburg Cyneburg Cynegyth Cynehild Cyneswith Cynethryth Eadburg Eadfl�d Eadgifu Eadgyth Eadhburh Eadhild Ealdgyth
-			Ealhfl�d Ealhswith Eanswith Ecgfrida Ecgwyn Godgifu Gunhilda Gytha Helga Heregyth Hereswith Hextilda Hungifu Judith
-			Leoffl�d Leofgifu Leofrun Leofwaru Leofwynn Margaret_Margaret Maud Matilda Mildrith Octreda Siffl�d Sigrid S�thryth Wulffl�d Wulfgifu
-			Wulfgyth Wulfhild Wulfrun Wulfthryth Wulfwaru Wulfwynn Wynnfl�d W�rburg �bba �lffl�d �lfgifu �lfgyth �lfl�da �lfrida
-			�lfswith �lfthryth �lfwynn �thelburg �thelfl�d �thelgifu �thelhild �thelr�da �thelswith �thelthryth
-			�thelburh Seaxburh Wihtburh
-		}
-	}
-	east_anglian = {
-		primary = ENG
-		dynasty_names = {
-			Godhelming Beorming Eorling �bbing H�sting �lling Eadricing Eadwulfing Leodwalding
-			�thelfrithing Yffing Ingving Offing Oswalding Cerdicing Wiglafing Coenwalhing
-			Beorning Iceling Wuffing Wihtgilsing Ross Ciesla Rowe Borthwick
-		}
-		male_names = {
-			Arncytel Balthere Beorhtfrith Beorhthelm Beorhtm�r Beorhtnoth Beorhtric Beorhtsige Beorhtwine Beorn Beornr�d Beornwulf
-			Burgheard Byrhtnoth Cearl Cenfus Cenr�d Cenwulf Ceolwulf Cerdic Copsige
-			Cuthberht Cuthr�d Cynehelm Cynewulf Cytelbearn Eadberht Eadfrith Eadgar Eadmund Eadm�r Eadric
-			Eadr�d Eadsige Eadulf Eadweald Eadweard Eadwig Eadwine Eadwulf Ealdhun Ealdmund Ealdr�d Ealdwine
-			Ealdwulf Eanberht Eanfrith Eanhere Eardwulf Eastmund Ecgberht Ecgfrith Gamall Godwine Gospatric Guthfrith Guthmund
-			Gyrth Hacon Harold Heahberht Hereberht Hereweald Hereweard Hlothere Hrodberht Inw�r Leofheah Leofhelm
-			Leofric Leofweald Leofwine Maccus Morcar M�rleswegn Offa Onlaf Ordgar
-			Oscytel Oshere Osmund Osric Osr�d Osulf Osweald Oswine Oswulf Peter R�dwulf R�genweald Scule
-			Sigeberht Sigehelm Sigeric Siger�d Sighere Siweard Stigand Swegn Swithelm Swithr�d Sw�fr�d S�bert S�lr�d S�weald
-			S�xbald S�xr�d Thor�d Thurcytel Thurfrith Tostig Uhtr�d Ulfcytel Waltheof Werestan Wiglaf Wihtr�d
-			Wistan Wulf Wulfgar Wulfgeat Wulfhelm Wulfhere Wulfm�r Wulfnoth Wulfstan �lfgar �lfm�r �lfnoth �lfric �lfr�d �lfsige
-			�lfstan �lfwald �lfweard �lfwig �lfwine �lle �thelbald �thelberht �thelfrith �thelhere �thelm�r
-			�thelric �thelr�d �thelsige �thelstan �thelweald �thelweard �thelwine �thelwold �thelwulf
-			Eormenred Eorcenberht Eormenric Eadbald R�dwald
-		}
-		female_names = {
-			Agatha Balthild Beorhtfl�d Beorhtgifu Beorhtgyth Beorhtwaru Beorhtwynn Beornfl�d Beorngyth Bl�ja Burgfl�d Ceolfl�d Cristina
-			Cuthburg Cwenburg Cyneburg Cynegyth Cynehild Cyneswith Cynethryth Eadburg Eadfl�d Eadgifu Eadgyth Eadhburh Eadhild Ealdgyth
-			Ealhfl�d Ealhswith Eanswith Ecgfrida Ecgwyn Godgifu Gunhilda Gytha Helga Heregyth Hereswith Hextilda Hungifu Judith
-			Leoffl�d Leofgifu Leofrun Leofwaru Leofwynn Margaret Maud Matilda Mildrith Octreda Siffl�d Sigrid S�thryth Wulffl�d Wulfgifu
-			Wulfgyth Wulfhild Wulfrun Wulfthryth Wulfwaru Wulfwynn Wynnfl�d W�rburg �bba �lffl�d �lfgifu �lfgyth �lfl�da �lfrida
-			�lfswith �lfthryth �lfwynn �thelburg �thelfl�d �thelgifu �thelhild �thelr�da �thelswith �thelthryth
-			�thelburh Seaxburh Wihtburh
-		}
-	}
-	ecgfrithian = {
-		primary = IRE
-		dynasty_names = {
-			Godhelming Beorming Eorling �bbing H�sting �lling Eadricing Eadwulfing Leodwalding
-			�thelfrithing Yffing Ingving Offing Oswalding Cerdicing Wiglafing Coenwalhing
-			Beorning Iceling Wuffing Wihtgilsing Ross Ciesla Rowe Borthwick
-		}
-		male_names = {
-			Arncytel Balthere Beorhtfrith Beorhthelm Beorhtm�r Beorhtnoth Beorhtric Beorhtsige Beorhtwine Beorn Beornr�d Beornwulf
-			Burgheard Byrhtnoth Cearl Cenfus Cenr�d Cenwulf Ceolwulf Cerdic Copsige
-			Cuthberht Cuthr�d Cynehelm Cynewulf Cytelbearn Eadberht Eadfrith Eadgar Eadmund Eadm�r Eadric
-			Eadr�d Eadsige Eadulf Eadweald Eadweard Eadwig Eadwine Eadwulf Ealdhun Ealdmund Ealdr�d Ealdwine
-			Ealdwulf Eanberht Eanfrith Eanhere Eardwulf Eastmund Ecgberht Ecgfrith Gamall Godwine Gospatric Guthfrith Guthmund
-			Gyrth Hacon Harold Heahberht Hereberht Hereweald Hereweard Hlothere Hrodberht Inw�r Leofheah Leofhelm
-			Leofric Leofweald Leofwine Maccus Morcar M�rleswegn Offa Onlaf Ordgar
-			Oscytel Oshere Osmund Osric Osr�d Osulf Osweald Oswine Oswulf Peter R�dwulf R�genweald Scule
-			Sigeberht Sigehelm Sigeric Siger�d Sighere Siweard Stigand Swegn Swithelm Swithr�d Sw�fr�d S�bert S�lr�d S�weald
-			S�xbald S�xr�d Thor�d Thurcytel Thurfrith Tostig Uhtr�d Ulfcytel Waltheof Werestan Wiglaf Wihtr�d
-			Wistan Wulf Wulfgar Wulfgeat Wulfhelm Wulfhere Wulfm�r Wulfnoth Wulfstan �lfgar �lfm�r �lfnoth �lfric �lfr�d �lfsige
-			�lfstan �lfwald �lfweard �lfwig �lfwine �lle �thelbald �thelberht �thelfrith �thelhere �thelm�r
-			�thelric �thelr�d �thelsige �thelstan �thelweald �thelweard �thelwine �thelwold �thelwulf
-			Eormenred Eorcenberht Eormenric Eadbald R�dwald
-		}
-		female_names = {
-			Agatha Balthild Beorhtfl�d Beorhtgifu Beorhtgyth Beorhtwaru Beorhtwynn Beornfl�d Beorngyth Bl�ja Burgfl�d Ceolfl�d Cristina
-			Cuthburg Cwenburg Cyneburg Cynegyth Cynehild Cyneswith Cynethryth Eadburg Eadfl�d Eadgifu Eadgyth Eadhburh Eadhild Ealdgyth
-			Ealhfl�d Ealhswith Eanswith Ecgfrida Ecgwyn Godgifu Gunhilda Gytha Helga Heregyth Hereswith Hextilda Hungifu Judith
-			Leoffl�d Leofgifu Leofrun Leofwaru Leofwynn Margaret Maud Matilda Mildrith Octreda Siffl�d Sigrid S�thryth Wulffl�d Wulfgifu
-			Wulfgyth Wulfhild Wulfrun Wulfthryth Wulfwaru Wulfwynn Wynnfl�d W�rburg �bba �lffl�d �lfgifu �lfgyth �lfl�da �lfrida
-			�lfswith �lfthryth �lfwynn �thelburg �thelfl�d �thelgifu �thelhild �thelr�da �thelswith �thelthryth
-			�thelburh Seaxburh Wihtburh
-		}
-	}
-	anglosaxon = {
-		primary = ENG
-		dynasty_names = {
-			Godhelming Beorming Eorling �bbing H�sting �lling Eadricing Eadwulfing Leodwalding
-			�thelfrithing Yffing Ingving Offing Oswalding Cerdicing Wiglafing Coenwalhing
-			Beorning Iceling Wuffing Wihtgilsing Ross Ciesla Rowe Borthwick
-		}
-		male_names = {
-			Arncytel Balthere Beorhtfrith Beorhthelm Beorhtm�r Beorhtnoth Beorhtric Beorhtsige Beorhtwine Beorn Beornr�d Beornwulf
-			Burgheard Byrhtnoth Cearl Cenfus Cenr�d Cenwulf Ceolwulf Cerdic Copsige
-			Cuthberht Cuthr�d Cynehelm Cynewulf Cytelbearn Eadberht Eadfrith Eadgar Eadmund Eadm�r Eadric
-			Eadr�d Eadsige Eadulf Eadweald Eadweard Eadwig Eadwine Eadwulf Ealdhun Ealdmund Ealdr�d Ealdwine
-			Ealdwulf Eanberht Eanfrith Eanhere Eardwulf Eastmund Ecgberht Ecgfrith Gamall Godwine Gospatric Guthfrith Guthmund
-			Gyrth Hacon Harold Heahberht Hereberht Hereweald Hereweard Hlothere Hrodberht Inw�r Leofheah Leofhelm
-			Leofric Leofweald Leofwine Maccus Morcar M�rleswegn Offa Onlaf Ordgar
-			Oscytel Oshere Osmund Osric Osr�d Osulf Osweald Oswine Oswulf Peter R�dwulf R�genweald Scule
-			Sigeberht Sigehelm Sigeric Siger�d Sighere Siweard Stigand Swegn Swithelm Swithr�d Sw�fr�d S�bert S�lr�d S�weald
-			S�xbald S�xr�d Thor�d Thurcytel Thurfrith Tostig Uhtr�d Ulfcytel Waltheof Werestan Wiglaf Wihtr�d
-			Wistan Wulf Wulfgar Wulfgeat Wulfhelm Wulfhere Wulfm�r Wulfnoth Wulfstan �lfgar �lfm�r �lfnoth �lfric �lfr�d �lfsige
-			�lfstan �lfwald �lfweard �lfwig �lfwine �lle �thelbald �thelberht �thelfrith �thelhere �thelm�r
-			�thelric �thelr�d �thelsige �thelstan �thelweald �thelweard �thelwine �thelwold �thelwulf
-			Eormenred Eorcenberht Eormenric Eadbald R�dwald
-		}
-		female_names = {
-			Agatha Balthild Beorhtfl�d Beorhtgifu Beorhtgyth Beorhtwaru Beorhtwynn Beornfl�d Beorngyth Bl�ja Burgfl�d Ceolfl�d Cristina
-			Cuthburg Cwenburg Cyneburg Cynegyth Cynehild Cyneswith Cynethryth Eadburg Eadfl�d Eadgifu Eadgyth Eadhburh Eadhild Ealdgyth
-			Ealhfl�d Ealhswith Eanswith Ecgfrida Ecgwyn Godgifu Gunhilda Gytha Helga Heregyth Hereswith Hextilda Hungifu Judith
-			Leoffl�d Leofgifu Leofrun Leofwaru Leofwynn Margaret Maud Matilda Mildrith Octreda Siffl�d Sigrid S�thryth Wulffl�d Wulfgifu
-			Wulfgyth Wulfhild Wulfrun Wulfthryth Wulfwaru Wulfwynn Wynnfl�d W�rburg �bba �lffl�d �lfgifu �lfgyth �lfl�da �lfrida
-			�lfswith �lfthryth �lfwynn �thelburg �thelfl�d �thelgifu �thelhild �thelr�da �thelswith �thelthryth
-			�thelburh Seaxburh Wihtburh
-		}
-	} # Fallback
+	# mercian = {
+	# 	primary = MRC
+	# 	dynasty_names = {
+	# 		Godhelming Beorming Eorling �bbing H�sting �lling Eadricing Eadwulfing Leodwalding
+	# 		�thelfrithing Yffing Ingving Offing Oswalding Cerdicing Wiglafing Coenwalhing
+	# 		Beorning Iceling Wuffing Wihtgilsing Ross Ciesla Rowe Borthwick
+	# 	}
+	# 	male_names = {
+	# 		Arncytel Balthere Beorhtfrith Beorhthelm Beorhtm�r Beorhtnoth Beorhtric Beorhtsige Beorhtwine Beorn Beornr�d Beornwulf
+	# 		Burgheard Byrhtnoth Cearl Cenfus Cenr�d Cenwulf Ceolwulf Cerdic Copsige
+	# 		Cuthberht Cuthr�d Cynehelm Cynewulf Cytelbearn Eadberht Eadfrith Eadgar Eadmund Eadm�r Eadric
+	# 		Eadr�d Eadsige Eadulf Eadweald Eadweard Eadwig Eadwine Eadwulf Ealdhun Ealdmund Ealdr�d Ealdwine
+	# 		Ealdwulf Eanberht Eanfrith Eanhere Eardwulf Eastmund Ecgberht Ecgfrith Gamall Godwine Gospatric Guthfrith Guthmund
+	# 		Gyrth Hacon Harold Heahberht Hereberht Hereweald Hereweard Hlothere Hrodberht Inw�r Leofheah Leofhelm
+	# 		Leofric Leofweald Leofwine Maccus Morcar M�rleswegn Offa Onlaf Ordgar
+	# 		Oscytel Oshere Osmund Osric Osr�d Osulf Osweald Oswine Oswulf Peter R�dwulf R�genweald Scule
+	# 		Sigeberht Sigehelm Sigeric Siger�d Sighere Siweard Stigand Swegn Swithelm Swithr�d Sw�fr�d S�bert S�lr�d S�weald
+	# 		S�xbald S�xr�d Thor�d Thurcytel Thurfrith Tostig Uhtr�d Ulfcytel Waltheof Werestan Wiglaf Wihtr�d
+	# 		Wistan Wulf Wulfgar Wulfgeat Wulfhelm Wulfhere Wulfm�r Wulfnoth Wulfstan �lfgar �lfm�r �lfnoth �lfric �lfr�d �lfsige
+	# 		�lfstan �lfwald �lfweard �lfwig �lfwine �lle �thelbald �thelberht �thelfrith �thelhere �thelm�r
+	# 		�thelric �thelr�d �thelsige �thelstan �thelweald �thelweard �thelwine �thelwold �thelwulf
+	# 		Eormenred Eorcenberht Eormenric Eadbald R�dwald
+	# 	}
+	# 	female_names = {
+	# 		Agatha Balthild Beorhtfl�d Beorhtgifu Beorhtgyth Beorhtwaru Beorhtwynn Beornfl�d Beorngyth Bl�ja Burgfl�d Ceolfl�d Cristina
+	# 		Cuthburg Cwenburg Cyneburg Cynegyth Cynehild Cyneswith Cynethryth Eadburg Eadfl�d Eadgifu Eadgyth Eadhburh Eadhild Ealdgyth
+	# 		Ealhfl�d Ealhswith Eanswith Ecgfrida Ecgwyn Godgifu Gunhilda Gytha Helga Heregyth Hereswith Hextilda Hungifu Judith
+	# 		Leoffl�d Leofgifu Leofrun Leofwaru Leofwynn Margaret Maud Matilda Mildrith Octreda Siffl�d Sigrid S�thryth Wulffl�d Wulfgifu
+	# 		Wulfgyth Wulfhild Wulfrun Wulfthryth Wulfwaru Wulfwynn Wynnfl�d W�rburg �bba �lffl�d �lfgifu �lfgyth �lfl�da �lfrida
+	# 		�lfswith �lfthryth �lfwynn �thelburg �thelfl�d �thelgifu �thelhild �thelr�da �thelswith �thelthryth
+	# 		�thelburh Seaxburh Wihtburh
+	# 	}
+	# }
+	# wessexian = {
+	# 	primary = WSX
+	# 	dynasty_names = {
+	# 		Godhelming Beorming Eorling �bbing H�sting �lling Eadricing Eadwulfing Leodwalding
+	# 		�thelfrithing Yffing Ingving Offing Oswalding Cerdicing Wiglafing Coenwalhing
+	# 		Beorning Iceling Wuffing Wihtgilsing Ross Ciesla Rowe Borthwick
+	# 	}
+	# 	male_names = {
+	# 		Arncytel Balthere Beorhtfrith Beorhthelm Beorhtm�r Beorhtnoth Beorhtric Beorhtsige Beorhtwine Beorn Beornr�d Beornwulf
+	# 		Burgheard Byrhtnoth Cearl Cenfus Cenr�d Cenwulf Ceolwulf Cerdic Copsige
+	# 		Cuthberht Cuthr�d Cynehelm Cynewulf Cytelbearn Eadberht Eadfrith Eadgar Eadmund Eadm�r Eadric
+	# 		Eadr�d Eadsige Eadulf Eadweald Eadweard Eadwig Eadwine Eadwulf Ealdhun Ealdmund Ealdr�d Ealdwine
+	# 		Ealdwulf Eanberht Eanfrith Eanhere Eardwulf Eastmund Ecgberht Ecgfrith Gamall Godwine Gospatric Guthfrith Guthmund
+	# 		Gyrth Hacon Harold Heahberht Hereberht Hereweald Hereweard Hlothere Hrodberht Inw�r Leofheah Leofhelm
+	# 		Leofric Leofweald Leofwine Maccus Morcar M�rleswegn Offa Onlaf Ordgar
+	# 		Oscytel Oshere Osmund Osric Osr�d Osulf Osweald Oswine Oswulf Peter R�dwulf R�genweald Scule
+	# 		Sigeberht Sigehelm Sigeric Siger�d Sighere Siweard Stigand Swegn Swithelm Swithr�d Sw�fr�d S�bert S�lr�d S�weald
+	# 		S�xbald S�xr�d Thor�d Thurcytel Thurfrith Tostig Uhtr�d Ulfcytel Waltheof Werestan Wiglaf Wihtr�d
+	# 		Wistan Wulf Wulfgar Wulfgeat Wulfhelm Wulfhere Wulfm�r Wulfnoth Wulfstan �lfgar �lfm�r �lfnoth �lfric �lfr�d �lfsige
+	# 		�lfstan �lfwald �lfweard �lfwig �lfwine �lle �thelbald �thelberht �thelfrith �thelhere �thelm�r
+	# 		�thelric �thelr�d �thelsige �thelstan �thelweald �thelweard �thelwine �thelwold �thelwulf
+	# 		Eormenred Eorcenberht Eormenric Eadbald R�dwald
+	# 	}
+	# 	female_names = {
+	# 		Agatha Balthild Beorhtfl�d Beorhtgifu Beorhtgyth Beorhtwaru Beorhtwynn Beornfl�d Beorngyth Bl�ja Burgfl�d Ceolfl�d Cristina
+	# 		Cuthburg Cwenburg Cyneburg Cynegyth Cynehild Cyneswith Cynethryth Eadburg Eadfl�d Eadgifu Eadgyth Eadhburh Eadhild Ealdgyth
+	# 		Ealhfl�d Ealhswith Eanswith Ecgfrida Ecgwyn Godgifu Gunhilda Gytha Helga Heregyth Hereswith Hextilda Hungifu Judith
+	# 		Leoffl�d Leofgifu Leofrun Leofwaru Leofwynn Margaret Maud Matilda Mildrith Octreda Siffl�d Sigrid S�thryth Wulffl�d Wulfgifu
+	# 		Wulfgyth Wulfhild Wulfrun Wulfthryth Wulfwaru Wulfwynn Wynnfl�d W�rburg �bba �lffl�d �lfgifu �lfgyth �lfl�da �lfrida
+	# 		�lfswith �lfthryth �lfwynn �thelburg �thelfl�d �thelgifu �thelhild �thelr�da �thelswith �thelthryth
+	# 		�thelburh Seaxburh Wihtburh
+	# 	}
+	# }
+	# essexian = {
+	# 	primary = ESX
+	# 	dynasty_names = {
+	# 		Godhelming Beorming Eorling �bbing H�sting �lling Eadricing Eadwulfing Leodwalding
+	# 		�thelfrithing Yffing Ingving Offing Oswalding Cerdicing Wiglafing Coenwalhing
+	# 		Beorning Iceling Wuffing Wihtgilsing Ross Ciesla Rowe Borthwick
+	# 	}
+	# 	male_names = {
+	# 		Arncytel Balthere Beorhtfrith Beorhthelm Beorhtm�r Beorhtnoth Beorhtric Beorhtsige Beorhtwine Beorn Beornr�d Beornwulf
+	# 		Burgheard Byrhtnoth Cearl Cenfus Cenr�d Cenwulf Ceolwulf Cerdic Copsige
+	# 		Cuthberht Cuthr�d Cynehelm Cynewulf Cytelbearn Eadberht Eadfrith Eadgar Eadmund Eadm�r Eadric
+	# 		Eadr�d Eadsige Eadulf Eadweald Eadweard Eadwig Eadwine Eadwulf Ealdhun Ealdmund Ealdr�d Ealdwine
+	# 		Ealdwulf Eanberht Eanfrith Eanhere Eardwulf Eastmund Ecgberht Ecgfrith Gamall Godwine Gospatric Guthfrith Guthmund
+	# 		Gyrth Hacon Harold Heahberht Hereberht Hereweald Hereweard Hlothere Hrodberht Inw�r Leofheah Leofhelm
+	# 		Leofric Leofweald Leofwine Maccus Morcar M�rleswegn Offa Onlaf Ordgar
+	# 		Oscytel Oshere Osmund Osric Osr�d Osulf Osweald Oswine Oswulf Peter R�dwulf R�genweald Scule
+	# 		Sigeberht Sigehelm Sigeric Siger�d Sighere Siweard Stigand Swegn Swithelm Swithr�d Sw�fr�d S�bert S�lr�d S�weald
+	# 		S�xbald S�xr�d Thor�d Thurcytel Thurfrith Tostig Uhtr�d Ulfcytel Waltheof Werestan Wiglaf Wihtr�d
+	# 		Wistan Wulf Wulfgar Wulfgeat Wulfhelm Wulfhere Wulfm�r Wulfnoth Wulfstan �lfgar �lfm�r �lfnoth �lfric �lfr�d_Alfred �lfsige
+	# 		�lfstan �lfwald �lfweard �lfwig �lfwine �lle �thelbald �thelberht �thelfrith �thelhere �thelm�r
+	# 		�thelric �thelr�d �thelsige �thelstan �thelweald �thelweard �thelwine �thelwold �thelwulf
+	# 		Eormenred Eorcenberht Eormenric Eadbald R�dwald
+	# 	}
+	# 	female_names = {
+	# 		Agatha Balthild Beorhtfl�d Beorhtgifu Beorhtgyth Beorhtwaru Beorhtwynn Beornfl�d Beorngyth Bl�ja Burgfl�d Ceolfl�d Cristina
+	# 		Cuthburg Cwenburg Cyneburg Cynegyth Cynehild Cyneswith Cynethryth Eadburg Eadfl�d Eadgifu Eadgyth Eadhburh Eadhild Ealdgyth
+	# 		Ealhfl�d Ealhswith Eanswith Ecgfrida Ecgwyn Godgifu Gunhilda Gytha Helga Heregyth Hereswith Hextilda Hungifu Judith
+	# 		Leoffl�d Leofgifu Leofrun Leofwaru Leofwynn Margaret_Margaret Maud Matilda Mildrith Octreda Siffl�d Sigrid S�thryth Wulffl�d Wulfgifu
+	# 		Wulfgyth Wulfhild Wulfrun Wulfthryth Wulfwaru Wulfwynn Wynnfl�d W�rburg �bba �lffl�d �lfgifu �lfgyth �lfl�da �lfrida
+	# 		�lfswith �lfthryth �lfwynn �thelburg �thelfl�d �thelgifu �thelhild �thelr�da �thelswith �thelthryth
+	# 		�thelburh Seaxburh Wihtburh
+	# 	}
+	# }
+	# east_anglian = {
+	# 	primary = ENG
+	# 	dynasty_names = {
+	# 		Godhelming Beorming Eorling �bbing H�sting �lling Eadricing Eadwulfing Leodwalding
+	# 		�thelfrithing Yffing Ingving Offing Oswalding Cerdicing Wiglafing Coenwalhing
+	# 		Beorning Iceling Wuffing Wihtgilsing Ross Ciesla Rowe Borthwick
+	# 	}
+	# 	male_names = {
+	# 		Arncytel Balthere Beorhtfrith Beorhthelm Beorhtm�r Beorhtnoth Beorhtric Beorhtsige Beorhtwine Beorn Beornr�d Beornwulf
+	# 		Burgheard Byrhtnoth Cearl Cenfus Cenr�d Cenwulf Ceolwulf Cerdic Copsige
+	# 		Cuthberht Cuthr�d Cynehelm Cynewulf Cytelbearn Eadberht Eadfrith Eadgar Eadmund Eadm�r Eadric
+	# 		Eadr�d Eadsige Eadulf Eadweald Eadweard Eadwig Eadwine Eadwulf Ealdhun Ealdmund Ealdr�d Ealdwine
+	# 		Ealdwulf Eanberht Eanfrith Eanhere Eardwulf Eastmund Ecgberht Ecgfrith Gamall Godwine Gospatric Guthfrith Guthmund
+	# 		Gyrth Hacon Harold Heahberht Hereberht Hereweald Hereweard Hlothere Hrodberht Inw�r Leofheah Leofhelm
+	# 		Leofric Leofweald Leofwine Maccus Morcar M�rleswegn Offa Onlaf Ordgar
+	# 		Oscytel Oshere Osmund Osric Osr�d Osulf Osweald Oswine Oswulf Peter R�dwulf R�genweald Scule
+	# 		Sigeberht Sigehelm Sigeric Siger�d Sighere Siweard Stigand Swegn Swithelm Swithr�d Sw�fr�d S�bert S�lr�d S�weald
+	# 		S�xbald S�xr�d Thor�d Thurcytel Thurfrith Tostig Uhtr�d Ulfcytel Waltheof Werestan Wiglaf Wihtr�d
+	# 		Wistan Wulf Wulfgar Wulfgeat Wulfhelm Wulfhere Wulfm�r Wulfnoth Wulfstan �lfgar �lfm�r �lfnoth �lfric �lfr�d �lfsige
+	# 		�lfstan �lfwald �lfweard �lfwig �lfwine �lle �thelbald �thelberht �thelfrith �thelhere �thelm�r
+	# 		�thelric �thelr�d �thelsige �thelstan �thelweald �thelweard �thelwine �thelwold �thelwulf
+	# 		Eormenred Eorcenberht Eormenric Eadbald R�dwald
+	# 	}
+	# 	female_names = {
+	# 		Agatha Balthild Beorhtfl�d Beorhtgifu Beorhtgyth Beorhtwaru Beorhtwynn Beornfl�d Beorngyth Bl�ja Burgfl�d Ceolfl�d Cristina
+	# 		Cuthburg Cwenburg Cyneburg Cynegyth Cynehild Cyneswith Cynethryth Eadburg Eadfl�d Eadgifu Eadgyth Eadhburh Eadhild Ealdgyth
+	# 		Ealhfl�d Ealhswith Eanswith Ecgfrida Ecgwyn Godgifu Gunhilda Gytha Helga Heregyth Hereswith Hextilda Hungifu Judith
+	# 		Leoffl�d Leofgifu Leofrun Leofwaru Leofwynn Margaret Maud Matilda Mildrith Octreda Siffl�d Sigrid S�thryth Wulffl�d Wulfgifu
+	# 		Wulfgyth Wulfhild Wulfrun Wulfthryth Wulfwaru Wulfwynn Wynnfl�d W�rburg �bba �lffl�d �lfgifu �lfgyth �lfl�da �lfrida
+	# 		�lfswith �lfthryth �lfwynn �thelburg �thelfl�d �thelgifu �thelhild �thelr�da �thelswith �thelthryth
+	# 		�thelburh Seaxburh Wihtburh
+	# 	}
+	# }
+	# ecgfrithian = {
+	# 	primary = IRE
+	# 	dynasty_names = {
+	# 		Godhelming Beorming Eorling �bbing H�sting �lling Eadricing Eadwulfing Leodwalding
+	# 		�thelfrithing Yffing Ingving Offing Oswalding Cerdicing Wiglafing Coenwalhing
+	# 		Beorning Iceling Wuffing Wihtgilsing Ross Ciesla Rowe Borthwick
+	# 	}
+	# 	male_names = {
+	# 		Arncytel Balthere Beorhtfrith Beorhthelm Beorhtm�r Beorhtnoth Beorhtric Beorhtsige Beorhtwine Beorn Beornr�d Beornwulf
+	# 		Burgheard Byrhtnoth Cearl Cenfus Cenr�d Cenwulf Ceolwulf Cerdic Copsige
+	# 		Cuthberht Cuthr�d Cynehelm Cynewulf Cytelbearn Eadberht Eadfrith Eadgar Eadmund Eadm�r Eadric
+	# 		Eadr�d Eadsige Eadulf Eadweald Eadweard Eadwig Eadwine Eadwulf Ealdhun Ealdmund Ealdr�d Ealdwine
+	# 		Ealdwulf Eanberht Eanfrith Eanhere Eardwulf Eastmund Ecgberht Ecgfrith Gamall Godwine Gospatric Guthfrith Guthmund
+	# 		Gyrth Hacon Harold Heahberht Hereberht Hereweald Hereweard Hlothere Hrodberht Inw�r Leofheah Leofhelm
+	# 		Leofric Leofweald Leofwine Maccus Morcar M�rleswegn Offa Onlaf Ordgar
+	# 		Oscytel Oshere Osmund Osric Osr�d Osulf Osweald Oswine Oswulf Peter R�dwulf R�genweald Scule
+	# 		Sigeberht Sigehelm Sigeric Siger�d Sighere Siweard Stigand Swegn Swithelm Swithr�d Sw�fr�d S�bert S�lr�d S�weald
+	# 		S�xbald S�xr�d Thor�d Thurcytel Thurfrith Tostig Uhtr�d Ulfcytel Waltheof Werestan Wiglaf Wihtr�d
+	# 		Wistan Wulf Wulfgar Wulfgeat Wulfhelm Wulfhere Wulfm�r Wulfnoth Wulfstan �lfgar �lfm�r �lfnoth �lfric �lfr�d �lfsige
+	# 		�lfstan �lfwald �lfweard �lfwig �lfwine �lle �thelbald �thelberht �thelfrith �thelhere �thelm�r
+	# 		�thelric �thelr�d �thelsige �thelstan �thelweald �thelweard �thelwine �thelwold �thelwulf
+	# 		Eormenred Eorcenberht Eormenric Eadbald R�dwald
+	# 	}
+	# 	female_names = {
+	# 		Agatha Balthild Beorhtfl�d Beorhtgifu Beorhtgyth Beorhtwaru Beorhtwynn Beornfl�d Beorngyth Bl�ja Burgfl�d Ceolfl�d Cristina
+	# 		Cuthburg Cwenburg Cyneburg Cynegyth Cynehild Cyneswith Cynethryth Eadburg Eadfl�d Eadgifu Eadgyth Eadhburh Eadhild Ealdgyth
+	# 		Ealhfl�d Ealhswith Eanswith Ecgfrida Ecgwyn Godgifu Gunhilda Gytha Helga Heregyth Hereswith Hextilda Hungifu Judith
+	# 		Leoffl�d Leofgifu Leofrun Leofwaru Leofwynn Margaret Maud Matilda Mildrith Octreda Siffl�d Sigrid S�thryth Wulffl�d Wulfgifu
+	# 		Wulfgyth Wulfhild Wulfrun Wulfthryth Wulfwaru Wulfwynn Wynnfl�d W�rburg �bba �lffl�d �lfgifu �lfgyth �lfl�da �lfrida
+	# 		�lfswith �lfthryth �lfwynn �thelburg �thelfl�d �thelgifu �thelhild �thelr�da �thelswith �thelthryth
+	# 		�thelburh Seaxburh Wihtburh
+	# 	}
+	# }
+	# anglosaxon = {
+	# 	primary = ENG
+	# 	dynasty_names = {
+	# 		Godhelming Beorming Eorling �bbing H�sting �lling Eadricing Eadwulfing Leodwalding
+	# 		�thelfrithing Yffing Ingving Offing Oswalding Cerdicing Wiglafing Coenwalhing
+	# 		Beorning Iceling Wuffing Wihtgilsing Ross Ciesla Rowe Borthwick
+	# 	}
+	# 	male_names = {
+	# 		Arncytel Balthere Beorhtfrith Beorhthelm Beorhtm�r Beorhtnoth Beorhtric Beorhtsige Beorhtwine Beorn Beornr�d Beornwulf
+	# 		Burgheard Byrhtnoth Cearl Cenfus Cenr�d Cenwulf Ceolwulf Cerdic Copsige
+	# 		Cuthberht Cuthr�d Cynehelm Cynewulf Cytelbearn Eadberht Eadfrith Eadgar Eadmund Eadm�r Eadric
+	# 		Eadr�d Eadsige Eadulf Eadweald Eadweard Eadwig Eadwine Eadwulf Ealdhun Ealdmund Ealdr�d Ealdwine
+	# 		Ealdwulf Eanberht Eanfrith Eanhere Eardwulf Eastmund Ecgberht Ecgfrith Gamall Godwine Gospatric Guthfrith Guthmund
+	# 		Gyrth Hacon Harold Heahberht Hereberht Hereweald Hereweard Hlothere Hrodberht Inw�r Leofheah Leofhelm
+	# 		Leofric Leofweald Leofwine Maccus Morcar M�rleswegn Offa Onlaf Ordgar
+	# 		Oscytel Oshere Osmund Osric Osr�d Osulf Osweald Oswine Oswulf Peter R�dwulf R�genweald Scule
+	# 		Sigeberht Sigehelm Sigeric Siger�d Sighere Siweard Stigand Swegn Swithelm Swithr�d Sw�fr�d S�bert S�lr�d S�weald
+	# 		S�xbald S�xr�d Thor�d Thurcytel Thurfrith Tostig Uhtr�d Ulfcytel Waltheof Werestan Wiglaf Wihtr�d
+	# 		Wistan Wulf Wulfgar Wulfgeat Wulfhelm Wulfhere Wulfm�r Wulfnoth Wulfstan �lfgar �lfm�r �lfnoth �lfric �lfr�d �lfsige
+	# 		�lfstan �lfwald �lfweard �lfwig �lfwine �lle �thelbald �thelberht �thelfrith �thelhere �thelm�r
+	# 		�thelric �thelr�d �thelsige �thelstan �thelweald �thelweard �thelwine �thelwold �thelwulf
+	# 		Eormenred Eorcenberht Eormenric Eadbald R�dwald
+	# 	}
+	# 	female_names = {
+	# 		Agatha Balthild Beorhtfl�d Beorhtgifu Beorhtgyth Beorhtwaru Beorhtwynn Beornfl�d Beorngyth Bl�ja Burgfl�d Ceolfl�d Cristina
+	# 		Cuthburg Cwenburg Cyneburg Cynegyth Cynehild Cyneswith Cynethryth Eadburg Eadfl�d Eadgifu Eadgyth Eadhburh Eadhild Ealdgyth
+	# 		Ealhfl�d Ealhswith Eanswith Ecgfrida Ecgwyn Godgifu Gunhilda Gytha Helga Heregyth Hereswith Hextilda Hungifu Judith
+	# 		Leoffl�d Leofgifu Leofrun Leofwaru Leofwynn Margaret Maud Matilda Mildrith Octreda Siffl�d Sigrid S�thryth Wulffl�d Wulfgifu
+	# 		Wulfgyth Wulfhild Wulfrun Wulfthryth Wulfwaru Wulfwynn Wynnfl�d W�rburg �bba �lffl�d �lfgifu �lfgyth �lfl�da �lfrida
+	# 		�lfswith �lfthryth �lfwynn �thelburg �thelfl�d �thelgifu �thelhild �thelr�da �thelswith �thelthryth
+	# 		�thelburh Seaxburh Wihtburh
+	# 	}
+	# } # Fallback
 	
-	northerner = {
-		primary = NOL
-		dynasty_names = {
-			Godhelming Beorming Eorling �bbing H�sting �lling Eadricing Eadwulfing Leodwalding
-			�thelfrithing Yffing Ingving Offing Oswalding Cerdicing Wiglafing Coenwalhing
-			Beorning Iceling Wuffing Wihtgilsing Ross Ciesla Rowe Borthwick
-		}
-		male_names = {
-			Arncytel Balthere Beorhtfrith Beorhthelm Beorhtm�r Beorhtnoth Beorhtric Beorhtsige Beorhtwine Beorn Beornr�d Beornwulf
-			Burgheard Byrhtnoth Cearl Cenfus Cenr�d Cenwulf Ceolwulf Cerdic Copsige
-			Cuthberht Cuthr�d Cynehelm Cynewulf Cytelbearn Eadberht Eadfrith Eadgar Eadmund Eadm�r Eadric
-			Eadr�d Eadsige Eadulf Eadweald Eadweard Eadwig Eadwine Eadwulf Ealdhun Ealdmund Ealdr�d Ealdwine
-			Ealdwulf Eanberht Eanfrith Eanhere Eardwulf Eastmund Ecgberht Ecgfrith Gamall Godwine Gospatric Guthfrith Guthmund
-			Gyrth Hacon Harold Heahberht Hereberht Hereweald Hereweard Hlothere Hrodberht Inw�r Leofheah Leofhelm
-			Leofric Leofweald Leofwine Maccus Morcar M�rleswegn Offa Onlaf Ordgar
-			Oscytel Oshere Osmund Osric Osr�d Osulf Osweald Oswine Oswulf Peter R�dwulf R�genweald Scule
-			Sigeberht Sigehelm Sigeric Siger�d Sighere Siweard Stigand Swegn Swithelm Swithr�d Sw�fr�d S�bert S�lr�d S�weald
-			S�xbald S�xr�d Thor�d Thurcytel Thurfrith Tostig Uhtr�d Ulfcytel Waltheof Werestan Wiglaf Wihtr�d
-			Wistan Wulf Wulfgar Wulfgeat Wulfhelm Wulfhere Wulfm�r Wulfnoth Wulfstan �lfgar �lfm�r �lfnoth �lfric �lfr�d �lfsige
-			�lfstan �lfwald �lfweard �lfwig �lfwine �lle �thelbald �thelberht �thelfrith �thelhere �thelm�r
-			�thelric �thelr�d �thelsige �thelstan �thelweald �thelweard �thelwine �thelwold �thelwulf
-			Eormenred Eorcenberht Eormenric Eadbald R�dwald
-		}
-		female_names = {
-			Agatha Balthild Beorhtfl�d Beorhtgifu Beorhtgyth Beorhtwaru Beorhtwynn Beornfl�d Beorngyth Bl�ja Burgfl�d Ceolfl�d Cristina
-			Cuthburg Cwenburg Cyneburg Cynegyth Cynehild Cyneswith Cynethryth Eadburg Eadfl�d Eadgifu Eadgyth Eadhburh Eadhild Ealdgyth
-			Ealhfl�d Ealhswith Eanswith Ecgfrida Ecgwyn Godgifu Gunhilda Gytha Helga Heregyth Hereswith Hextilda Hungifu Judith
-			Leoffl�d Leofgifu Leofrun Leofwaru Leofwynn Margaret Maud Matilda Mildrith Octreda Siffl�d Sigrid S�thryth Wulffl�d Wulfgifu
-			Wulfgyth Wulfhild Wulfrun Wulfthryth Wulfwaru Wulfwynn Wynnfl�d W�rburg �bba �lffl�d �lfgifu �lfgyth �lfl�da �lfrida
-			�lfswith �lfthryth �lfwynn �thelburg �thelfl�d �thelgifu �thelhild �thelr�da �thelswith �thelthryth
-			�thelburh Seaxburh Wihtburh
-		}
-	}
+	# northerner = {
+	# 	primary = NOL
+	# 	dynasty_names = {
+	# 		Godhelming Beorming Eorling �bbing H�sting �lling Eadricing Eadwulfing Leodwalding
+	# 		�thelfrithing Yffing Ingving Offing Oswalding Cerdicing Wiglafing Coenwalhing
+	# 		Beorning Iceling Wuffing Wihtgilsing Ross Ciesla Rowe Borthwick
+	# 	}
+	# 	male_names = {
+	# 		Arncytel Balthere Beorhtfrith Beorhthelm Beorhtm�r Beorhtnoth Beorhtric Beorhtsige Beorhtwine Beorn Beornr�d Beornwulf
+	# 		Burgheard Byrhtnoth Cearl Cenfus Cenr�d Cenwulf Ceolwulf Cerdic Copsige
+	# 		Cuthberht Cuthr�d Cynehelm Cynewulf Cytelbearn Eadberht Eadfrith Eadgar Eadmund Eadm�r Eadric
+	# 		Eadr�d Eadsige Eadulf Eadweald Eadweard Eadwig Eadwine Eadwulf Ealdhun Ealdmund Ealdr�d Ealdwine
+	# 		Ealdwulf Eanberht Eanfrith Eanhere Eardwulf Eastmund Ecgberht Ecgfrith Gamall Godwine Gospatric Guthfrith Guthmund
+	# 		Gyrth Hacon Harold Heahberht Hereberht Hereweald Hereweard Hlothere Hrodberht Inw�r Leofheah Leofhelm
+	# 		Leofric Leofweald Leofwine Maccus Morcar M�rleswegn Offa Onlaf Ordgar
+	# 		Oscytel Oshere Osmund Osric Osr�d Osulf Osweald Oswine Oswulf Peter R�dwulf R�genweald Scule
+	# 		Sigeberht Sigehelm Sigeric Siger�d Sighere Siweard Stigand Swegn Swithelm Swithr�d Sw�fr�d S�bert S�lr�d S�weald
+	# 		S�xbald S�xr�d Thor�d Thurcytel Thurfrith Tostig Uhtr�d Ulfcytel Waltheof Werestan Wiglaf Wihtr�d
+	# 		Wistan Wulf Wulfgar Wulfgeat Wulfhelm Wulfhere Wulfm�r Wulfnoth Wulfstan �lfgar �lfm�r �lfnoth �lfric �lfr�d �lfsige
+	# 		�lfstan �lfwald �lfweard �lfwig �lfwine �lle �thelbald �thelberht �thelfrith �thelhere �thelm�r
+	# 		�thelric �thelr�d �thelsige �thelstan �thelweald �thelweard �thelwine �thelwold �thelwulf
+	# 		Eormenred Eorcenberht Eormenric Eadbald R�dwald
+	# 	}
+	# 	female_names = {
+	# 		Agatha Balthild Beorhtfl�d Beorhtgifu Beorhtgyth Beorhtwaru Beorhtwynn Beornfl�d Beorngyth Bl�ja Burgfl�d Ceolfl�d Cristina
+	# 		Cuthburg Cwenburg Cyneburg Cynegyth Cynehild Cyneswith Cynethryth Eadburg Eadfl�d Eadgifu Eadgyth Eadhburh Eadhild Ealdgyth
+	# 		Ealhfl�d Ealhswith Eanswith Ecgfrida Ecgwyn Godgifu Gunhilda Gytha Helga Heregyth Hereswith Hextilda Hungifu Judith
+	# 		Leoffl�d Leofgifu Leofrun Leofwaru Leofwynn Margaret Maud Matilda Mildrith Octreda Siffl�d Sigrid S�thryth Wulffl�d Wulfgifu
+	# 		Wulfgyth Wulfhild Wulfrun Wulfthryth Wulfwaru Wulfwynn Wynnfl�d W�rburg �bba �lffl�d �lfgifu �lfgyth �lfl�da �lfrida
+	# 		�lfswith �lfthryth �lfwynn �thelburg �thelfl�d �thelgifu �thelhild �thelr�da �thelswith �thelthryth
+	# 		�thelburh Seaxburh Wihtburh
+	# 	}
+	# }
 	arvorigeg = { primary = FRA }
 	dramor = { primary = KOJ }
+	flaamsk = { primary = FLA
+				male_names = { "A�alsteinn" "Aghi" "Agmundr" "Agnarr" "�ki" "�leifr" "Alfarr" "Alfvin" "Algautr" "Ari" "Arnfinnr" "�rni" "Arn�rr" "Arn��rr" "Arnvi�r" "�sbj�rn" "�sgeirr" "�sketill" "�smundr" "�svaldr" "Au�r" "Baggi" "B�r�r" "Birgir" "Bjarni" "Bjartr" "Bj�rn" "Brandr" "Br��ir" "Brynjarr" "B�i" "Dagfinnr" "Dagr" "Danr" "Egill" "Eileifr" "Einarr" "Eindri�i" "Eir�kr" "Erlendr" "Erlingr" "Eysteinn" "Eyvindr" "F�lagi" "Finnr" "Fl�mingr" "F�lki" "Fri��j�fr" "Fr��i" "Gauti" "Gautstafr" "Geirr" "G�rmr" "Gu�brandr" "Gu�fri�r" "Gu�ini" "Gu�leifr" "Gu�mundr" "Gulbrandr" "Gunnarr" "Gunni" "Gunnvaldr" "H�kon" "H�lfdan" "Hallbj�rn" "Halli" "Hallr" "Hallsteinn" "Hall��rr" "Hallvar�r" "Haraldr" "H�var�r" "Helgi" "Hemingr" "Herleifr" "Hildingr" "Hj�lmarr" "H�lmgeirr" "Hrafn" "Hrei�arr" "Hr�aldr" "Hr�arr" "Hr��geirr" "Hr���lfr" "Hr��valdr" "Hr�lfr" "Hr�rekr" "Hugleikr" "Ingi" "Ingim�rr" "Ing�lfr" "�varr" "Jarl" "J�steinn" "K�lfr" "K�ri" "Ketill" "Kn�tr" "K�ri" "Leifr" "Magni" "Mundi" "Nj�ll" "Oddbj�rn" "Oddr" "Oddvarr" "�lvir" "R���lfr" "Ragnarr" "Ragnvaldr" "Rand�lfr" "R�ni" "Sigfr��r" "Sigmundr" "Sigsteinn" "Sigur�r" "Sindri" "Snorri" "St�li" "Steinarr" "Steingr�mr" "Steinn" "St�gandr" "Stigr" "Sumarli�i" "Sundri" "Suni" "Svantepolk" "Sveinn" "Sverrir" "��rarinn" "��rbj�rn" "��rfastr" "��rfre�r" "��rgeirr" "��rg�sl" "��rgn�r" "��rir" "��rketill" "��rleifr" "��rleikr" "��rm��r" "��rsteinn" "��rvaldr" "�r�ndr" "T�fi" "T�ki" "Tryggvi" "�lfr" "Uni" "Valdim�rr" "V�gar�r" "Vetrli�i" "V�gi" "V�kingr" "Vragi" "Yngvarr" "Adhalsteinn" "Aghi" "Agmundr" "Agnarr" "�ki" "�leifr" "Alfarr" "Alfvin" "Algautr" "Ari" "Arnfinnr" "�rni" "Arn�rr" "Arnth�rr" "Arnvidhr" "�sbjorn" "�sgeirr" "�sketill" "�smundr" "�svaldr" "Audhr" "Baggi" "B�rdhr" "Birgir" "Bjarni" "Bjartr" "Bjorn" "Brandr" "Br�dhir" "Brynjarr" "B�i" "Dagfinnr" "Dagr" "Danr" "Egill" "Eileifr" "Einarr" "Eindridhi" "Eir�kr" "Erlendr" "Erlingr" "Eysteinn" "Eyvindr" "F�lagi" "Finnr" "Fl�mingr" "F�lki" "Fridhthj�fr" "Fr�dhi" "Gauti" "Gautstafr" "Geirr" "Gormr" "Gudhbrandr" "Gudhfridhr" "Gudhini" "Gudhleifr" "Gudhmundr" "Gulbrandr" "Gunnarr" "Gunni" "Gunnvaldr" "H�kon" "H�lfdan" "Hallbjorn" "Halli" "Hallr" "Hallsteinn" "Hallth�rr" "Hallvardhr" "Haraldr" "H�vardhr" "Helgi" "Hemingr" "Herleifr" "Hildingr" "Hj�lmarr" "H�lmgeirr" "Hrafn" "Hreidharr" "Hr�aldr" "Hr�arr" "Hr�dhgeirr" "Hr�dh�lfr" "Hr�dhvaldr" "Hr�lfr" "Hr�rekr" "Hugleikr" "Ingi" "Ingim�rr" "Ing�lfr" "�varr" "Jarl" "J�steinn" "K�lfr" "K�ri" "Ketill" "Kn�tr" "K�ri" "Leifr" "Magni" "Mundi" "Nj�ll" "Oddbjorn" "Oddr" "Oddvarr" "Olvir" "R�dh�lfr" "Ragnarr" "Ragnvaldr" "Rand�lfr" "R�ni" "Sigfr�dhr" "Sigmundr" "Sigsteinn" "Sigurdhr" "Sindri" "Snorri" "St�li" "Steinarr" "Steingr�mr" "Steinn" "St�gandr" "Stigr" "Sumarlidhi" "Sundri" "Suni" "Svantepolk" "Sveinn" "Sverrir" "Th�rarinn" "Th�rbjorn" "Th�rfastr" "Th�rfredhr" "Th�rgeirr" "Th�rg�sl" "Th�rgn�r" "Th�rir" "Th�rketill" "Th�rleifr" "Th�rleikr" "Th�rm�dhr" "Th�rsteinn" "Th�rvaldr" "Thr�ndr" "T�fi" "T�ki" "Tryggvi" "�lfr" "Uni" "Valdim�rr" "V�gardhr" "Vetrlidhi" "V�gi" "V�kingr" "Vragi" "Yngvarr" "Ernst" "Adolf" "Alfred" "August" "Christian" "Eduard" "Friedrich" "Georg" "Karl" "Philipp" "Maximilian" "Octavius" "Wilhelm" "Alexander" "Alois" "Anton" "Bruno" "Clemens" "Denis" "Gerfried" "Gottfried" "G�nther" "Helmut" "Herbert" "Ignatz" "Isidor" "Konstantin" "Kuno" "Markus" "Martin" "Oskar" "Reinhard" "Silvester" "Stefan" "Waldemar" "Jakob" }
+				female_names = { "Alfhildr" "�l�f" "Arnbj�rg" "�sa" "�sd�s" "�shildr" "�slaug" "�sta" "�str��r" "Au�r" "Au�rhildr" "Berglj�t" "Bj�rg" "Borghildr" "B��ildr" "Brynhildr" "Brynja" "Dagm�r" "Dagn�" "Dagr�n" "Edda" "Eyd�s" "Fr��a" "Gr�mhildr" "Gu�laug" "Gu�leif" "Gu�r��r" "Gu�r�n" "Gulla" "Gunna" "Gunnbj�rg" "Gunnhildr" "Gunnv�r" "Gy�a" "Hall��ra" "Helga" "Hildr" "Hj�rd�s" "Hl�f" "Hrafnhildr" "Hrei�unn" "I�unn" "Inga" "Ingibj�rg" "Ingiger�r" "Ingr��r" "Ingunn" "Ingvildr" "J�runnr" "Katla" "Ketilri�r" "Magnhildr" "Myrgj�l" "�laug" "Ragna" "Ragnbj�rg" "Ragnfr��r" "Ragnhei�r" "Ragnhildr" "R�na" "Sald�s" "Sign�" "Sigr��r" "Sigr�n" "S�lveig" "Steinunn" "Svanhildr" "�one" "��ra" "��rbj�rg" "��rd�s" "��rfr��r" "��rhildr" "��rn�" "��runn" "��rveig" "��rv�" "�rud" "�r��r" "��ri" "T�fa" "Unnr" "Vald�s" "V�gd�s" "Yngvildr" "Alfhildr" "�lof" "Arnbjorg" "�sa" "�sd�s" "�shildr" "�slaug" "�sta" "�str�dhr" "Audhr" "Audhrhildr" "Berglj�t" "Bjorg" "Borghildr" "B�thildr" "Brynhildr" "Brynja" "Dagm�r" "Dagn�" "Dagr�n" "Edda" "Eyd�s" "Fr�dha" "Gr�mhildr" "Gudhlaug" "Gudhleif" "Gudhr�dhr" "Gudhr�n" "Gulla" "Gunna" "Gunnbjorg" "Gunnhildr" "Gunnvor" "Gydha" "Hallth�ra" "Helga" "Hildr" "Hjord�s" "Hl�f" "Hrafnhildr" "Hreidhunn" "Idhunn" "Inga" "Ingibjorg" "Ingigerdhr" "Ingr�dhr" "Ingunn" "Ingvildr" "J�runnr" "Katla" "Ketilridhr" "Magnhildr" "Myrgjol" "�laug" "Ragna" "Ragnbjorg" "Ragnfr�dhr" "Ragnheidhr" "Ragnhildr" "R�na" "Sald�s" "Sign�" "Sigr�dhr" "Sigr�n" "S�lveig" "Steinunn" "Svanhildr" "Thone" "Th�ra" "Th�rbjorg" "Th�rd�s" "Th�rfr�dhr" "Th�rhildr" "Th�rn�" "Th�runn" "Th�rveig" "Th�rv�" "Thrud" "Thr�dhr" "Th�ri" "T�fa" "Unnr" "Vald�s" "V�gd�s" "Yngvildr" "Amanda" "Beate" "Debora" "Sara" "Anne" "Saga" "Sibyl" "Joanna" "Joanne" "Adele" "Adelgunde" "Adelheid" "Adolfine" "Agatha" "Agnes" "Alexandra" "Alice" "Alina" "Aline" "Alma" "Alwina" "Alwine" "Amalia" "Amalie" }
+				dynasty_names = { "�slaugsson" "�stri�arson" "�svaldsson" "Eindri�esson" "Eir�ksson" "Gormsson" "H�konarson" "Haraldsson" "Lo�brok" "Muns�" "Ragnarsson" "Sigur�arson" "Skj�ldung" "Snorrason" "��rgilsson" "��rsteinsson" "��rvaldsson" "Tryggvason" "V�lsung" "W�gmunding" "Ylfing" "Yngling" "�slaugsson" "�stridharson" "�svaldsson" "Eindridhesson" "Eir�ksson" "Gormsson" "H�konarson" "Haraldsson" "Lothbrok" "Muns�" "Ragnarsson" "Sigurdharson" "Skj�ldung" "Snorrason" "Th�rgilsson" "Th�rsteinsson" "Th�rvaldsson" "Tryggvason" "V�lsung" "Waegmunding" "Ylfing" "Yngling" }
+	 }
+	saxisc = {
+		male_names = { "A�alsteinn" "Aghi" "Agmundr" "Agnarr" "�ki" "�leifr" "Alfarr" "Alfvin" "Algautr" "Ari" "Arnfinnr" "�rni" "Arn�rr" "Arn��rr" "Arnvi�r" "�sbj�rn" "�sgeirr" "�sketill" "�smundr" "�svaldr" "Au�r" "Baggi" "B�r�r" "Birgir" "Bjarni" "Bjartr" "Bj�rn" "Brandr" "Br��ir" "Brynjarr" "B�i" "Dagfinnr" "Dagr" "Danr" "Egill" "Eileifr" "Einarr" "Eindri�i" "Eir�kr" "Erlendr" "Erlingr" "Eysteinn" "Eyvindr" "F�lagi" "Finnr" "Fl�mingr" "F�lki" "Fri��j�fr" "Fr��i" "Gauti" "Gautstafr" "Geirr" "G�rmr" "Gu�brandr" "Gu�fri�r" "Gu�ini" "Gu�leifr" "Gu�mundr" "Gulbrandr" "Gunnarr" "Gunni" "Gunnvaldr" "H�kon" "H�lfdan" "Hallbj�rn" "Halli" "Hallr" "Hallsteinn" "Hall��rr" "Hallvar�r" "Haraldr" "H�var�r" "Helgi" "Hemingr" "Herleifr" "Hildingr" "Hj�lmarr" "H�lmgeirr" "Hrafn" "Hrei�arr" "Hr�aldr" "Hr�arr" "Hr��geirr" "Hr���lfr" "Hr��valdr" "Hr�lfr" "Hr�rekr" "Hugleikr" "Ingi" "Ingim�rr" "Ing�lfr" "�varr" "Jarl" "J�steinn" "K�lfr" "K�ri" "Ketill" "Kn�tr" "K�ri" "Leifr" "Magni" "Mundi" "Nj�ll" "Oddbj�rn" "Oddr" "Oddvarr" "�lvir" "R���lfr" "Ragnarr" "Ragnvaldr" "Rand�lfr" "R�ni" "Sigfr��r" "Sigmundr" "Sigsteinn" "Sigur�r" "Sindri" "Snorri" "St�li" "Steinarr" "Steingr�mr" "Steinn" "St�gandr" "Stigr" "Sumarli�i" "Sundri" "Suni" "Svantepolk" "Sveinn" "Sverrir" "��rarinn" "��rbj�rn" "��rfastr" "��rfre�r" "��rgeirr" "��rg�sl" "��rgn�r" "��rir" "��rketill" "��rleifr" "��rleikr" "��rm��r" "��rsteinn" "��rvaldr" "�r�ndr" "T�fi" "T�ki" "Tryggvi" "�lfr" "Uni" "Valdim�rr" "V�gar�r" "Vetrli�i" "V�gi" "V�kingr" "Vragi" "Yngvarr" "Adhalsteinn" "Aghi" "Agmundr" "Agnarr" "�ki" "�leifr" "Alfarr" "Alfvin" "Algautr" "Ari" "Arnfinnr" "�rni" "Arn�rr" "Arnth�rr" "Arnvidhr" "�sbjorn" "�sgeirr" "�sketill" "�smundr" "�svaldr" "Audhr" "Baggi" "B�rdhr" "Birgir" "Bjarni" "Bjartr" "Bjorn" "Brandr" "Br�dhir" "Brynjarr" "B�i" "Dagfinnr" "Dagr" "Danr" "Egill" "Eileifr" "Einarr" "Eindridhi" "Eir�kr" "Erlendr" "Erlingr" "Eysteinn" "Eyvindr" "F�lagi" "Finnr" "Fl�mingr" "F�lki" "Fridhthj�fr" "Fr�dhi" "Gauti" "Gautstafr" "Geirr" "Gormr" "Gudhbrandr" "Gudhfridhr" "Gudhini" "Gudhleifr" "Gudhmundr" "Gulbrandr" "Gunnarr" "Gunni" "Gunnvaldr" "H�kon" "H�lfdan" "Hallbjorn" "Halli" "Hallr" "Hallsteinn" "Hallth�rr" "Hallvardhr" "Haraldr" "H�vardhr" "Helgi" "Hemingr" "Herleifr" "Hildingr" "Hj�lmarr" "H�lmgeirr" "Hrafn" "Hreidharr" "Hr�aldr" "Hr�arr" "Hr�dhgeirr" "Hr�dh�lfr" "Hr�dhvaldr" "Hr�lfr" "Hr�rekr" "Hugleikr" "Ingi" "Ingim�rr" "Ing�lfr" "�varr" "Jarl" "J�steinn" "K�lfr" "K�ri" "Ketill" "Kn�tr" "K�ri" "Leifr" "Magni" "Mundi" "Nj�ll" "Oddbjorn" "Oddr" "Oddvarr" "Olvir" "R�dh�lfr" "Ragnarr" "Ragnvaldr" "Rand�lfr" "R�ni" "Sigfr�dhr" "Sigmundr" "Sigsteinn" "Sigurdhr" "Sindri" "Snorri" "St�li" "Steinarr" "Steingr�mr" "Steinn" "St�gandr" "Stigr" "Sumarlidhi" "Sundri" "Suni" "Svantepolk" "Sveinn" "Sverrir" "Th�rarinn" "Th�rbjorn" "Th�rfastr" "Th�rfredhr" "Th�rgeirr" "Th�rg�sl" "Th�rgn�r" "Th�rir" "Th�rketill" "Th�rleifr" "Th�rleikr" "Th�rm�dhr" "Th�rsteinn" "Th�rvaldr" "Thr�ndr" "T�fi" "T�ki" "Tryggvi" "�lfr" "Uni" "Valdim�rr" "V�gardhr" "Vetrlidhi" "V�gi" "V�kingr" "Vragi" "Yngvarr" "Ernst" "Adolf" "Alfred" "August" "Christian" "Eduard" "Friedrich" "Georg" "Karl" "Philipp" "Maximilian" "Octavius" "Wilhelm" "Alexander" "Alois" "Anton" "Bruno" "Clemens" "Denis" "Gerfried" "Gottfried" "G�nther" "Helmut" "Herbert" "Ignatz" "Isidor" "Konstantin" "Kuno" "Markus" "Martin" "Oskar" "Reinhard" "Silvester" "Stefan" "Waldemar" "Jakob" }
+		female_names = { "Alfhildr" "�l�f" "Arnbj�rg" "�sa" "�sd�s" "�shildr" "�slaug" "�sta" "�str��r" "Au�r" "Au�rhildr" "Berglj�t" "Bj�rg" "Borghildr" "B��ildr" "Brynhildr" "Brynja" "Dagm�r" "Dagn�" "Dagr�n" "Edda" "Eyd�s" "Fr��a" "Gr�mhildr" "Gu�laug" "Gu�leif" "Gu�r��r" "Gu�r�n" "Gulla" "Gunna" "Gunnbj�rg" "Gunnhildr" "Gunnv�r" "Gy�a" "Hall��ra" "Helga" "Hildr" "Hj�rd�s" "Hl�f" "Hrafnhildr" "Hrei�unn" "I�unn" "Inga" "Ingibj�rg" "Ingiger�r" "Ingr��r" "Ingunn" "Ingvildr" "J�runnr" "Katla" "Ketilri�r" "Magnhildr" "Myrgj�l" "�laug" "Ragna" "Ragnbj�rg" "Ragnfr��r" "Ragnhei�r" "Ragnhildr" "R�na" "Sald�s" "Sign�" "Sigr��r" "Sigr�n" "S�lveig" "Steinunn" "Svanhildr" "�one" "��ra" "��rbj�rg" "��rd�s" "��rfr��r" "��rhildr" "��rn�" "��runn" "��rveig" "��rv�" "�rud" "�r��r" "��ri" "T�fa" "Unnr" "Vald�s" "V�gd�s" "Yngvildr" "Alfhildr" "�lof" "Arnbjorg" "�sa" "�sd�s" "�shildr" "�slaug" "�sta" "�str�dhr" "Audhr" "Audhrhildr" "Berglj�t" "Bjorg" "Borghildr" "B�thildr" "Brynhildr" "Brynja" "Dagm�r" "Dagn�" "Dagr�n" "Edda" "Eyd�s" "Fr�dha" "Gr�mhildr" "Gudhlaug" "Gudhleif" "Gudhr�dhr" "Gudhr�n" "Gulla" "Gunna" "Gunnbjorg" "Gunnhildr" "Gunnvor" "Gydha" "Hallth�ra" "Helga" "Hildr" "Hjord�s" "Hl�f" "Hrafnhildr" "Hreidhunn" "Idhunn" "Inga" "Ingibjorg" "Ingigerdhr" "Ingr�dhr" "Ingunn" "Ingvildr" "J�runnr" "Katla" "Ketilridhr" "Magnhildr" "Myrgjol" "�laug" "Ragna" "Ragnbjorg" "Ragnfr�dhr" "Ragnheidhr" "Ragnhildr" "R�na" "Sald�s" "Sign�" "Sigr�dhr" "Sigr�n" "S�lveig" "Steinunn" "Svanhildr" "Thone" "Th�ra" "Th�rbjorg" "Th�rd�s" "Th�rfr�dhr" "Th�rhildr" "Th�rn�" "Th�runn" "Th�rveig" "Th�rv�" "Thrud" "Thr�dhr" "Th�ri" "T�fa" "Unnr" "Vald�s" "V�gd�s" "Yngvildr" "Amanda" "Beate" "Debora" "Sara" "Anne" "Saga" "Sibyl" "Joanna" "Joanne" "Adele" "Adelgunde" "Adelheid" "Adolfine" "Agatha" "Agnes" "Alexandra" "Alice" "Alina" "Aline" "Alma" "Alwina" "Alwine" "Amalia" "Amalie" }
+		dynasty_names = { "�slaugsson" "�stri�arson" "�svaldsson" "Eindri�esson" "Eir�ksson" "Gormsson" "H�konarson" "Haraldsson" "Lo�brok" "Muns�" "Ragnarsson" "Sigur�arson" "Skj�ldung" "Snorrason" "��rgilsson" "��rsteinsson" "��rvaldsson" "Tryggvason" "V�lsung" "W�gmunding" "Ylfing" "Yngling" "�slaugsson" "�stridharson" "�svaldsson" "Eindridhesson" "Eir�ksson" "Gormsson" "H�konarson" "Haraldsson" "Lothbrok" "Muns�" "Ragnarsson" "Sigurdharson" "Skj�ldung" "Snorrason" "Th�rgilsson" "Th�rsteinsson" "Th�rvaldsson" "Tryggvason" "V�lsung" "Waegmunding" "Ylfing" "Yngling" }
+	}
 }
 gaelic = {
 	coigriche = { primary = KOJ }
