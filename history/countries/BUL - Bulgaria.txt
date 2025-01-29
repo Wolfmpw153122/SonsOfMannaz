@@ -6,6 +6,7 @@ religion = catholic
 primary_culture = albanian
 capital = 3001
 add_accepted_culture = dynamic-albanian-greek-culture-num1
+add_accepted_culture = dynamic-avar-culture-num2
 1444.11.11= {
 	monarch = {
 		name = "Steffen"

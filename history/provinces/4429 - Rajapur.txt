@@ -1,5 +1,5 @@
-owner = MER
-controller = MER
+owner = Z00
+controller = Z00
 capital = "Rajapur"
 is_city = yes
 culture = tamil
@@ -8,7 +8,7 @@ trade_goods = spices
 base_tax = 8
 base_production = 5
 base_manpower = 6
-add_core = MAD
+add_core = Z00
 add_core = MER
 discovered_by = chinese
 discovered_by = east_african

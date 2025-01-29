@@ -1,5 +1,5 @@
-owner = MNG
-controller = MNG
+owner = TIB
+controller = TIB
 capital = "Gyegu"
 is_city = yes
 culture = sumpa

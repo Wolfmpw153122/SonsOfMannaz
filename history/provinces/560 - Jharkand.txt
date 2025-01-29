@@ -1,5 +1,5 @@
-owner = MER
-controller = MER
+owner = ORI
+controller = ORI
 capital = "Palamau"
 is_city = yes
 culture = dynamic-bengali-culture-num4
@@ -9,7 +9,7 @@ fort_15th = yes
 base_tax = 2
 base_production = 5
 base_manpower = 4
-add_core = MER
+add_core = ORI
 discovered_by = chinese
 discovered_by = east_african
 discovered_by = eastern

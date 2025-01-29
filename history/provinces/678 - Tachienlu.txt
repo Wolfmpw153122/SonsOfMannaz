@@ -1,5 +1,5 @@
-owner = MNG
-controller = MNG
+owner = TIB
+controller = TIB
 capital = "Tachienlu"
 is_city = yes
 culture = dynamic-sumpa-culture-num2
@@ -8,7 +8,7 @@ trade_goods = tea
 base_tax = 7
 base_production = 5
 base_manpower = 4
-add_core = MNG
+add_core = TIB
 discovered_by = chinese
 discovered_by = east_african
 discovered_by = eastern

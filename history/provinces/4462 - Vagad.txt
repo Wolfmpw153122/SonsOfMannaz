@@ -1,5 +1,5 @@
-owner = DLH
-controller = DLH
+owner = MER
+controller = MER
 capital = "Dungarpur"
 is_city = yes
 culture = gujarati
@@ -8,7 +8,7 @@ trade_goods = copper
 base_tax = 8
 base_production = 5
 base_manpower = 6
-add_core = DLH
+add_core = MER
 discovered_by = chinese
 discovered_by = east_african
 discovered_by = eastern

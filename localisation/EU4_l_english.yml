@@ -4925,6 +4925,7 @@
  PRODUCTION_MODIFIER_EXCEPTION:0 "This province produces §Y$NAME$§! which is not impacted by production modifiers."
  NOREDUCE_INFLATION_NO_POINTS:0 "You need §Y$COST$§W £adm£ to reduce Inflation, and you only have §Y$VAL$§W."
  CAN_RELEASE_CN_WE_ARE_AT_WAR:0 "§R- We are at war§!"
+ CAN_CLAIM_DEFENDER_OF_FAITH:0 "It needs to be the age of Reformation!"
  CONTINUE_GAME:0 "Continue Game"
  OPEN_SIEGE_VIEW:0 "Open Siege View"
  THIS_WILL_COST:0 "This will cost $VAL|Y$ $UNIT$."

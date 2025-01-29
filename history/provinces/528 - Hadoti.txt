@@ -1,5 +1,5 @@
-owner = DLH
-controller = DLH
+owner = MLW
+controller = MLW
 capital = "Kota"
 is_city = yes
 culture = vindhyan
@@ -9,6 +9,7 @@ fort_15th = yes
 base_tax = 7
 base_production = 4
 base_manpower = 4
+add_core = MLW
 add_core = BND
 add_core = DLH
 add_core = RJP

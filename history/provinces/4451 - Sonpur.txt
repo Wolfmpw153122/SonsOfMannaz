@@ -1,5 +1,5 @@
-owner = MER
-controller = MER
+owner = BAH
+controller = BAH
 capital = "Sonpur"
 is_city = yes
 culture = oriya
@@ -9,7 +9,7 @@ fort_15th = yes
 base_tax = 10
 base_production = 1
 base_manpower = 3
-add_core = MER
+add_core = BAH
 add_core = ORI
 discovered_by = chinese
 discovered_by = east_african

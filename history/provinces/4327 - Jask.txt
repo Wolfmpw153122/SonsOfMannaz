@@ -1,5 +1,5 @@
-owner = Z03
-controller = Z03
+owner = TIM
+controller = TIM
 capital = "Jask"
 is_city = yes
 culture = alexandrine
@@ -8,7 +8,7 @@ trade_goods = fish
 base_tax = 7
 base_production = 3
 base_manpower = 5
-add_core = Z03
+add_core = TIM
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

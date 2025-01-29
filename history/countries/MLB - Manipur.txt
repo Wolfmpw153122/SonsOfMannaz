@@ -1,9 +1,9 @@
-government = tribal
-add_government_reform = tribal_kingdom
+government = monarchy
+add_government_reform = daimyo
 government_rank = 1
 technology_group = indian
-religion = animism
-primary_culture = chin
+religion = catholic
+primary_culture = dynamic-bengali-burmese-culture-num1
 capital = 2041
 fixed_capital = 2041
 1399.1.1= {

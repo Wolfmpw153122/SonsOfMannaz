@@ -1,5 +1,5 @@
-owner = MER
-controller = MER
+owner = BAH
+controller = BAH
 capital = "Baroda"
 is_city = yes
 culture = mewari
@@ -8,7 +8,7 @@ trade_goods = dyes
 base_tax = 7
 base_production = 5
 base_manpower = 3
-add_core = DHU
+add_core = BAH
 add_core = MER
 discovered_by = chinese
 discovered_by = east_african

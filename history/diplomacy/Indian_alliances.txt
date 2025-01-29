@@ -1,0 +1,171 @@
+
+
+
+vassal = { 
+	first = JNP
+	second = JML
+	start_date = 1444.11.11
+	end_date = 1573.7.1
+}
+
+vassal = { 
+	first = JNP
+	second = MYA
+	start_date = 1444.11.11
+	end_date = 1573.7.1
+}
+
+vassal = { 
+	first = JNP
+	second = MBL
+	start_date = 1444.11.11
+	end_date = 1573.7.1
+}
+vassal = { 
+	first = JNP
+	second = ARK
+	start_date = 1444.11.11
+	end_date = 1573.7.1
+}
+vassal = { 
+	first = JNP
+	second = TPR
+	start_date = 1444.11.11
+	end_date = 1573.7.1
+}
+vassal = { 
+	first = JNP
+	second = KAC
+	start_date = 1444.11.11
+	end_date = 1573.7.1
+}
+vassal = { 
+	first = JNP
+	second = KJH
+	start_date = 1444.11.11
+	end_date = 1573.7.1
+}
+vassal = { 
+	first = JNP
+	second = MLB
+	start_date = 1444.11.11
+	end_date = 1573.7.1
+}
+vassal = { 
+	first = JNP
+	second = ASS
+	start_date = 1444.11.11
+	end_date = 1573.7.1
+}
+vassal = { 
+	first = JNP
+	second = KMT
+	start_date = 1444.11.11
+	end_date = 1573.7.1
+}
+vassal = { 
+	first = JNP
+	second = PHA
+	start_date = 1444.11.11
+	end_date = 1573.7.1
+}
+vassal = { 
+	first = JNP
+	second = LWA
+	start_date = 1444.11.11
+	end_date = 1573.7.1
+}
+vassal = { 
+	first = JNP
+	second = MKA
+	start_date = 1444.11.11
+	end_date = 1573.7.1
+}
+vassal = { 
+	first = JNP
+	second = BPR
+	start_date = 1444.11.11
+	end_date = 1573.7.1
+}
+vassal = { 
+	first = JNP
+	second = TAU
+	start_date = 1444.11.11
+	end_date = 1573.7.1
+}
+vassal = { 
+	first = JNP
+	second = Z0H
+	start_date = 1444.11.11
+	end_date = 1573.7.1
+}
+vassal = { 
+	first = JNP
+	second = LDK
+	start_date = 1444.11.11
+	end_date = 1573.7.1
+}
+vassal = { 
+	first = JNP
+	second = PEG
+	start_date = 1444.11.11
+	end_date = 1573.7.1
+}
+
+
+alliance = {
+	first = MKA
+	second = MYA
+	start_date = 1444.11.11
+	end_date = 1568.1.1
+}
+alliance = {
+	first = PHA
+	second = LWA
+	start_date = 1444.11.11
+	end_date = 1568.1.1
+}
+alliance = {
+	first = PHA
+	second = KMT
+	start_date = 1444.11.11
+	end_date = 1568.1.1
+}
+
+alliance = {
+	first = KAC
+	second = ASS
+	start_date = 1444.11.11
+	end_date = 1568.1.1
+}
+alliance = {
+	first = KAC
+	second = TPR
+	start_date = 1444.11.11
+	end_date = 1568.1.1
+}
+alliance = {
+	first = KAC
+	second = KJH
+	start_date = 1444.11.11
+	end_date = 1568.1.1
+}
+
+alliance = {
+	first = TAU
+	second = BPR
+	start_date = 1444.11.11
+	end_date = 1568.1.1
+}
+alliance = {
+	first = TAU
+	second = AVA
+	start_date = 1444.11.11
+	end_date = 1568.1.1
+}
+alliance = {
+	first = TAU
+	second = LDK
+	start_date = 1444.11.11
+	end_date = 1568.1.1
+}

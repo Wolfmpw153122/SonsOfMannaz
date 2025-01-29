@@ -1,5 +1,5 @@
-owner = BNG
-controller = BNG
+owner = JML
+controller = JML
 capital = "Sonargaon"
 is_city = yes
 culture = dynamic-bengali-culture-num5
@@ -8,8 +8,7 @@ trade_goods = cloth
 base_tax = 10
 base_production = 5
 base_manpower = 9
-add_core = AVA
-add_core = BNG
+add_core = JML
 discovered_by = chinese
 discovered_by = east_african
 discovered_by = eastern

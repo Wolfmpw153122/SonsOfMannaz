@@ -1,5 +1,5 @@
-owner = BNG
-controller = BNG
+owner = BPR
+controller = BPR
 capital = "Pathein"
 is_city = yes
 culture = arakanese
@@ -10,7 +10,7 @@ base_production = 5
 base_manpower = 3
 extra_cost = 5
 add_core = AVA
-add_core = BNG
+add_core = BPR
 add_core = PEG
 discovered_by = chinese
 discovered_by = east_african

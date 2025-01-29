@@ -1,9 +1,9 @@
-government = tribal
-add_government_reform = tribal_kingdom
+government = monarchy
+add_government_reform = daimyo
 government_rank = 1
 technology_group = indian
-religion = hinduism
-primary_culture = garjati
+religion = catholic
+primary_culture = nepali
 capital = 4450
 1444.1.1= {
 	monarch = {

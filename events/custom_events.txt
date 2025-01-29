@@ -176,29 +176,3 @@ country_event = {
 				add_dip_power  = 100
 			}
 }
-
-country_event = {
-	id = iberian_exodus.1
-	title = iberian_exodus.1.t
-	desc = iberian_exodus.1.d
-	picture = HRE_eventPicture
-	#fire_only_once = yes
-	is_triggered_only = yes
-	
-		option = {
-				name = "iberian_exodus_arrest"
-				
-				ai_chance = { factor = 1 }
-					
-				add_prestige = 5
-				
-			}
-		option = {
-				name = "iberian_exodus_exile"
-				ai_chance = { factor = 0 }
-			}
-		option = {
-				name = "iberian_exodus_travel"
-				ai_chance = { factor = 0 }
-			}
-}
