@@ -23,3 +23,6 @@ discovered_by = western
 add_province_triggered_modifier = catholic_rome
 add_province_triggered_modifier = non_catholic_rome
 add_province_triggered_modifier = religious_center
+owner = SIC
+controller = SIC
+add_core = SIC
