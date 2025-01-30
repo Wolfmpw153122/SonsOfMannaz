@@ -1,9 +1,9 @@
 government = monarchy
-add_government_reform = indian_sultanate_reform
+add_government_reform = shogunate
 government_rank = 1
 technology_group = indian
-religion = sunni
-primary_culture = avadhi
+religion = catholic
+primary_culture = dynamic-bengali-culture-num5
 capital = 555
 fixed_capital = 555
 religious_school = hanafi_school

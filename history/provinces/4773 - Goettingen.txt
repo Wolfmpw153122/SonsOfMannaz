@@ -1,5 +1,5 @@
-owner = FKN
-controller = FKN
+owner = BRU
+controller = BRU
 capital = "Göttingen"
 is_city = yes
 culture = austrasian
@@ -9,7 +9,7 @@ hre = yes
 base_tax = 4
 base_production = 1
 base_manpower = 2
-add_core = FKN
+add_core = BRU
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

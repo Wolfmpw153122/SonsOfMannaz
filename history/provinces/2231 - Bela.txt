@@ -1,5 +1,5 @@
-owner = Z03
-controller = Z03
+owner = TIM
+controller = TIM
 capital = "Bela"
 is_city = yes
 culture = dynamic-baluchi-bengali-culture-num1
@@ -9,7 +9,7 @@ fort_15th = yes
 base_tax = 9
 base_production = 5
 base_manpower = 10
-add_core = Z03
+add_core = TIM
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

@@ -1,5 +1,5 @@
-owner = MER
-controller = MER
+owner = BAH
+controller = BAH
 capital = "Jagdalpur"
 is_city = yes
 culture = dynamic-marathi-tamil-culture-num1
@@ -8,7 +8,7 @@ trade_goods = tropical_wood
 base_tax = 2
 base_production = 5
 base_manpower = 5
-add_core = MER
+add_core = BAH
 discovered_by = chinese
 discovered_by = east_african
 discovered_by = eastern

@@ -1,5 +1,5 @@
-owner = MER
-controller = MER
+owner = BAH
+controller = BAH
 capital = "Kherla"
 is_city = yes
 culture = mewari
@@ -9,7 +9,7 @@ fort_15th = yes
 base_tax = 9
 base_production = 11
 base_manpower = 8
-add_core = DHU
+add_core = BAH
 add_core = MER
 discovered_by = chinese
 discovered_by = east_african

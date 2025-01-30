@@ -1,8 +1,8 @@
 government = monarchy
-add_government_reform = autocracy_reform
+add_government_reform = daimyo
 government_rank = 1
 technology_group = indian
-religion = hinduism
+religion = catholic
 primary_culture = assamese
 capital = 566
 1397.1.1= {

@@ -1,5 +1,5 @@
-owner = MER
-controller = MER
+owner = BAH
+controller = BAH
 capital = "Soumelpur"
 is_city = yes
 culture = dynamic-bengali-culture-num4
@@ -8,7 +8,7 @@ trade_goods = iron
 base_tax = 2
 base_production = 5
 base_manpower = 4
-add_core = MER
+add_core = BAH
 discovered_by = chinese
 discovered_by = east_african
 discovered_by = eastern

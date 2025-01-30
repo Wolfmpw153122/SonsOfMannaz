@@ -1,5 +1,5 @@
-owner = Z0H
-controller = Z0H
+owner = ORI
+controller = ORI
 capital = "Cuttack"
 is_city = yes
 culture = oriya

@@ -1,5 +1,5 @@
-owner = TIM
-controller = TIM
+owner = PUN
+controller = PUN
 capital = "Shorkot"
 is_city = yes
 culture = dynamic-bengali-culture-num2
@@ -9,7 +9,7 @@ fort_15th = yes
 base_tax = 8
 base_production = 6
 base_manpower = 4
-add_core = TIM
+add_core = PUN
 discovered_by = chinese
 discovered_by = east_african
 discovered_by = eastern

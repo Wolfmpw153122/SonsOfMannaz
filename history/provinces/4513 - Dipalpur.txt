@@ -1,5 +1,5 @@
-owner = TIM
-controller = TIM
+owner = PUN
+controller = PUN
 capital = "Dipalpur"
 is_city = yes
 culture = panjabi
@@ -8,7 +8,7 @@ trade_goods = silk
 base_tax = 11
 base_production = 6
 base_manpower = 11
-add_core = TIM
+add_core = PUN
 discovered_by = chinese
 discovered_by = east_african
 discovered_by = eastern

@@ -1,5 +1,5 @@
-owner = BNG
-controller = BNG
+owner = TIB
+controller = TIB
 capital = "Lhasa"
 is_city = yes
 culture = sumpa
@@ -10,7 +10,7 @@ base_tax = 9
 base_production = 5
 base_manpower = 8
 center_of_trade = 2
-add_core = BNG
+add_core = TIB
 add_core = PHA
 add_core = TIB
 discovered_by = chinese

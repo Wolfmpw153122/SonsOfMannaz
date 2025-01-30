@@ -1,5 +1,5 @@
-owner = DLH
-controller = DLH
+owner = Z1E
+controller = Z1E
 capital = "Gorakhpur"
 is_city = yes
 culture = dynamic-bengali-culture-num9
@@ -8,7 +8,7 @@ trade_goods = grain
 base_tax = 8
 base_production = 4
 base_manpower = 5
-add_core = DLH
+add_core = Z1E
 add_core = ODH
 discovered_by = chinese
 discovered_by = east_african

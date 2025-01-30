@@ -1,5 +1,5 @@
-owner = BNG
-controller = BNG
+owner = MKA
+controller = MKA
 capital = "Sadiya"
 is_city = yes
 culture = assamese
@@ -8,7 +8,7 @@ trade_goods = tea
 base_tax = 6
 base_production = 5
 base_manpower = 3
-add_core = ASS
+add_core = MKA
 add_core = AVA
 add_core = BNG
 discovered_by = chinese

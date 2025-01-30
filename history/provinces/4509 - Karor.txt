@@ -1,5 +1,5 @@
-owner = TIM
-controller = TIM
+owner = PUN
+controller = PUN
 capital = "Karor"
 is_city = yes
 culture = dynamic-baluchi-bengali-culture-num1
@@ -8,7 +8,7 @@ trade_goods = iron
 base_tax = 9
 base_production = 5
 base_manpower = 7
-add_core = TIM
+add_core = PUN
 add_permanent_claim = PUN
 discovered_by = chinese
 discovered_by = east_african

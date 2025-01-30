@@ -30,145 +30,7 @@ country_decisions = {
         }
         
     }
-    prz_sister_city_DRE_1D = {
-        potential = {
-            tag = PRZ
-            NOT = {has_country_flag = "prz-break-free-DRE"}
-        }
-        allow = {
-            NOT = {has_country_flag = "prz-break-free-DRE"}
-            owns_or_non_sovereign_subject_of = 1771
-            treasury = 1000
-        }
-        effect = {
-            if = {
-                limit = { NOT = {owns = 61}}
-                add_treasury = -1000
 
-                61 = {
-                    owner = {
-                        add_treasury = 1000
-                    }
-                    cede_province = PRZ
-                }
-
-
-            } else = {
-                add_prestige = 1
-            }
-            set_country_flag = "prz-break-free-DRE"
-        }
-        ai_will_do = {
-            factor = 1
-        }
-        
-    }
-
-    prz_sister_city_ERF_1D = {
-        potential = {
-            tag = PRZ
-            NOT = {has_country_flag = "prz-break-free-ERF"}
-        }
-        allow = {
-            NOT = {has_country_flag = "prz-break-free-ERF"}
-            owns_or_non_sovereign_subject_of = 1771
-            treasury = 1000
-        }
-        effect = {
-            if = {
-                limit = { NOT = {owns = 63}}
-                add_treasury = -1000
-
-                63 = {
-                    owner = {
-                        add_treasury = 1000
-                    }
-                    cede_province = PRZ
-                }
-
-
-            } else = {
-                add_prestige = 1
-            }
-            set_country_flag = "prz-break-free-ERF"
-        }
-        ai_will_do = {
-            factor = 1
-        }
-        
-    }
-
-    prz_sister_city_BLN_1D = {
-        potential = {
-            tag = PRZ
-            NOT = {has_country_flag = "prz-break-free-BLN"}
-        }
-        allow = {
-            NOT = {has_country_flag = "prz-break-free-BLN"}
-            owns_or_non_sovereign_subject_of = 1771
-            treasury = 1000
-        }
-        effect = {
-            if = {
-                limit = { NOT = {owns = 50}}
-                add_treasury = -1000
-
-                50 = {
-                    owner = {
-                        add_treasury = 1000
-                    }
-                    cede_province = PRZ
-                }
-
-
-            } else = {
-                add_prestige = 1
-            }
-            set_country_flag = "prz-break-free-BLN"
-        }
-        ai_will_do = {
-            factor = 1
-        }
-        
-    }
-
-    prz_sister_city_MAG_1D = {
-        potential = {
-            tag = PRZ
-            NOT = {has_country_flag = "prz-break-free-MAG"}
-        }
-        allow = {
-            NOT = {has_country_flag = "prz-break-free-MAG"}
-            mission_completed = prz_establish_second_sister_city
-            mission_completed = prz_establish_third_sister_city
-            mission_completed = prz_establish_fourth_sister_city
-            treasury = 1000
-        }
-        effect = {
-            if = {
-                limit = { NOT = {owns = 52}}
-                add_treasury = -1000
-
-                52 = {
-                    owner = {
-                        add_treasury = 1000
-                    }
-                    cede_province = PRZ
-                }
-
-
-            } else = {
-                ROOT = {
-                    add_prestige = 1
-                }
-            }
-            set_country_flag = "prz-break-free-MAG"
-        }
-        ai_will_do = {
-            factor = 1
-        }
-        
-    }
     prz_can_rule_cities_1 = {
         potential = {
             tag = PRZ
@@ -255,6 +117,154 @@ country_decisions = {
             factor = 1
         }
     }
+    prz_sister_city_DRE_1D = {
+        potential = {
+            tag = PRZ
+            NOT = {has_country_flag = "prz-break-free-DRE"}
+            owns_or_non_sovereign_subject_of = 1771
+        }
+        allow = {
+            NOT = {has_country_flag = "prz-break-free-DRE"}
+            owns_or_non_sovereign_subject_of = 1771
+            treasury = 1000
+        }
+        effect = {
+            if = {
+                limit = { NOT = {owns = 61}}
+                add_treasury = -1000
+
+                61 = {
+                    owner = {
+                        add_treasury = 1000
+                    }
+                    cede_province = PRZ
+                }
+
+
+            } else = {
+                add_prestige = 1
+            }
+            set_country_flag = "prz-break-free-DRE"
+        }
+        ai_will_do = {
+            factor = 1
+        }
+        
+    }
+
+    prz_sister_city_ERF_1D = {
+        potential = {
+            tag = PRZ
+            NOT = {has_country_flag = "prz-break-free-ERF"}
+            owns_or_non_sovereign_subject_of = 1771
+
+        }
+        allow = {
+            NOT = {has_country_flag = "prz-break-free-ERF"}
+            owns_or_non_sovereign_subject_of = 1771
+            treasury = 1000
+        }
+        effect = {
+            if = {
+                limit = { NOT = {owns = 63}}
+                add_treasury = -1000
+
+                63 = {
+                    owner = {
+                        add_treasury = 1000
+                    }
+                    cede_province = PRZ
+                }
+
+
+            } else = {
+                add_prestige = 1
+            }
+            set_country_flag = "prz-break-free-ERF"
+        }
+        ai_will_do = {
+            factor = 1
+        }
+        
+    }
+
+    prz_sister_city_BLN_1D = {
+        potential = {
+            tag = PRZ
+            owns_or_non_sovereign_subject_of = 1771
+            NOT = {has_country_flag = "prz-break-free-BLN"}
+        }
+        allow = {
+            NOT = {has_country_flag = "prz-break-free-BLN"}
+            owns_or_non_sovereign_subject_of = 1771
+            treasury = 1000
+        }
+        effect = {
+            if = {
+                limit = { NOT = {owns = 50}}
+                add_treasury = -1000
+
+                50 = {
+                    owner = {
+                        add_treasury = 1000
+                    }
+                    cede_province = PRZ
+                }
+
+
+            } else = {
+                add_prestige = 1
+            }
+            set_country_flag = "prz-break-free-BLN"
+        }
+        ai_will_do = {
+            factor = 1
+        }
+        
+    }
+
+    prz_sister_city_MAG_1D = {
+        potential = {
+            tag = PRZ
+            mission_completed = prz_establish_second_sister_city
+            mission_completed = prz_establish_third_sister_city
+            mission_completed = prz_establish_fourth_sister_city
+            NOT = {has_country_flag = "prz-break-free-MAG"}
+        }
+        allow = {
+            NOT = {has_country_flag = "prz-break-free-MAG"}
+            mission_completed = prz_establish_second_sister_city
+            mission_completed = prz_establish_third_sister_city
+            mission_completed = prz_establish_fourth_sister_city
+            treasury = 1000
+        }
+        effect = {
+            if = {
+                limit = { NOT = {owns = 52}}
+                add_treasury = -1000
+
+                52 = {
+                    owner = {
+                        add_treasury = 1000
+                    }
+                    cede_province = PRZ
+                }
+
+
+            } else = {
+                ROOT = {
+                    add_prestige = 1
+                }
+            }
+            set_country_flag = "prz-break-free-MAG"
+        }
+        ai_will_do = {
+            factor = 1
+        }
+        
+    }
+
+
 
 
 

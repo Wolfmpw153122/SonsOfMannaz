@@ -1,5 +1,5 @@
-owner = BNG
-controller = BNG
+owner = Z1E
+controller = Z1E
 capital = "Ghazipur"
 is_city = yes
 culture = dynamic-bengali-parthian-culture-num2
@@ -8,7 +8,7 @@ trade_goods = cloth
 base_tax = 7
 base_production = 5
 base_manpower = 4
-add_core = BNG
+add_core = Z1E
 discovered_by = chinese
 discovered_by = east_african
 discovered_by = eastern

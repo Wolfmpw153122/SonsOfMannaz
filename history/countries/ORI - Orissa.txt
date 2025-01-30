@@ -4,6 +4,7 @@ government_rank = 1
 technology_group = indian
 religion = hinduism
 primary_culture = oriya
+add_accepted_culture = dynamic-bengali-culture-num4
 capital = 552
 1434.1.1= {
 	monarch = {

@@ -19,3 +19,42 @@ alliance = {
 	start_date = 1380.1.1
 	end_date = 1581.1.1
 }
+
+march =
+{
+	first="SIC"
+	second="MZB"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+
+march =
+{
+	first="SIC"
+	second="TUN"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+
+march =
+{
+	first="SIC"
+	second="TRP"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+march =
+{
+	first="SIC"
+	second="FZA"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+
+Union=
+{
+	first="SIC"
+	second="NAP"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}

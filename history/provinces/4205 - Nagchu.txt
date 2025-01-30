@@ -1,5 +1,5 @@
-owner = MNG
-controller = MNG
+owner = TIB
+controller = TIB
 capital = "Nagchu"
 is_city = yes
 culture = sumpa
@@ -9,7 +9,7 @@ base_tax = 11
 base_production = 1
 base_manpower = 5
 add_core = TIB
-add_core = MNG
+add_core = BNG
 discovered_by = chinese
 discovered_by = east_african
 discovered_by = eastern

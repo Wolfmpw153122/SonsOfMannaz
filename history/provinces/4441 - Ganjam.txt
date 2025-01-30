@@ -1,5 +1,5 @@
-owner = Z0H
-controller = Z0H
+owner = AVA
+controller = AVA
 capital = "Ganjam"
 is_city = yes
 culture = oriya
@@ -9,7 +9,7 @@ base_tax = 7
 base_production = 5
 base_manpower = 3
 add_core = ORI
-add_core = Z0H
+add_core = AVA
 discovered_by = chinese
 discovered_by = east_african
 discovered_by = eastern

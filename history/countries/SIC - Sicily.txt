@@ -1,9 +1,11 @@
 government = monarchy
 add_government_reform = feudalism_reform
-government_rank = 1
+government_rank = 2
 technology_group = western
 religion = catholic
-primary_culture = sicilian
+primary_culture = dynamic-albanian-illyrian-roman-culture-num1
+add_accepted_culture = dynamic-gaulish-culture-num6
+add_accepted_culture = roman
 capital = 125
 1377.1.28= {
 	monarch = { 

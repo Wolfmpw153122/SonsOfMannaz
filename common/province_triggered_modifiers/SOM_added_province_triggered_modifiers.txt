@@ -15,5 +15,5 @@ prz_autonomy_updater = {
         remove_province_modifier = prz_autonomy_modifier_0
 		
 	}
-	#icon = 9
+	icon = 9
 }

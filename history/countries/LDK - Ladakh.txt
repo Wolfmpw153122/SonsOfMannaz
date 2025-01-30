@@ -1,9 +1,9 @@
-government = tribal
-add_government_reform = tribal_kingdom
+government = monarchy
+add_government_reform = daimyo
 government_rank = 1
 technology_group = indian
-religion = vajrayana
-primary_culture = tibetan
+religion = catholic
+primary_culture = arakanese
 capital = 2074
 fixed_capital = 2074
 add_accepted_culture = kashmiri

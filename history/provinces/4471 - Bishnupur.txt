@@ -1,5 +1,5 @@
-owner = Z0H
-controller = Z0H
+owner = ORI
+controller = ORI
 capital = "Bishnupur"
 is_city = yes
 culture = dynamic-bengali-culture-num4
@@ -8,7 +8,7 @@ trade_goods = naval_supplies
 base_tax = 10
 base_production = 5
 base_manpower = 9
-add_core = Z0H
+add_core = ORI
 discovered_by = chinese
 discovered_by = east_african
 discovered_by = eastern

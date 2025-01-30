@@ -197,22 +197,6 @@ vassal=
 
 vassal=
 {
-	first="NAP"
-	second="MZB"
-	start_date="1444.11.11"
-	end_date="1836.1.1"
-}
-
-vassal=
-{
-	first="NAP"
-	second="TUN"
-	start_date="1444.11.11"
-	end_date="1836.1.1"
-}
-
-vassal=
-{
 	first="QAR"
 	second="Z1I"
 	start_date="1444.11.11"

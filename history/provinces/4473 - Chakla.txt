@@ -1,5 +1,5 @@
-owner = BNG
-controller = BNG
+owner = MBL
+controller = MBL
 capital = "Chakla"
 is_city = yes
 culture = dynamic-bengali-culture-num5
@@ -8,7 +8,7 @@ trade_goods = tropical_wood
 base_tax = 10
 base_production = 5
 base_manpower = 9
-add_core = AVA
+add_core = MBL
 add_core = BNG
 discovered_by = chinese
 discovered_by = east_african

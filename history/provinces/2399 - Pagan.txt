@@ -1,5 +1,5 @@
-owner = Z0H
-controller = Z0H
+owner = AVA
+controller = AVA
 capital = "Pagan"
 is_city = yes
 culture = dynamic-bengali-burmese-culture-num1
@@ -9,7 +9,7 @@ fort_15th = yes
 base_tax = 10
 base_production = 5
 base_manpower = 10
-add_core = Z0H
+add_core = AVA
 discovered_by = chinese
 discovered_by = east_african
 discovered_by = eastern

@@ -1,5 +1,5 @@
-owner = Z1E
-controller = Z1E
+owner = KLP
+controller = KLP
 capital = "Kalpi"
 is_city = yes
 culture = avadhi
@@ -9,7 +9,7 @@ fort_15th = yes
 base_tax = 8
 base_production = 6
 base_manpower = 5
-add_core = ODH
+add_core = KLP
 add_core = Z1E
 discovered_by = chinese
 discovered_by = east_african

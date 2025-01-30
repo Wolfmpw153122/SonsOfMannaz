@@ -1,9 +1,9 @@
 government = monarchy
-add_government_reform = feudalism_reform
+add_government_reform = daimyo
 government_rank = 1
 technology_group = indian
-religion = hinduism
-primary_culture = nepali
+religion = catholic
+primary_culture = dynamic-bengali-culture-num5
 capital = 554
 1444.1.1= {
 	monarch = {

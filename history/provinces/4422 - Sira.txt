@@ -1,5 +1,5 @@
-owner = MER
-controller = MER
+owner = MYS
+controller = MYS
 capital = "Sira"
 is_city = yes
 culture = dynamic-tamil-culture-num1
@@ -8,7 +8,7 @@ trade_goods = grain
 base_tax = 7
 base_production = 3
 base_manpower = 5
-add_core = MER
+add_core = MYS
 discovered_by = chinese
 discovered_by = east_african
 discovered_by = eastern

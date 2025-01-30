@@ -1,5 +1,5 @@
-owner = MER
-controller = MER
+owner = BNG
+controller = BNG
 capital = "Deogarh"
 is_city = yes
 culture = dynamic-bengali-culture-num4
@@ -8,7 +8,7 @@ trade_goods = ivory
 base_tax = 3
 base_production = 6
 base_manpower = 4
-add_core = MER
+add_core = BNG
 discovered_by = chinese
 discovered_by = east_african
 discovered_by = eastern

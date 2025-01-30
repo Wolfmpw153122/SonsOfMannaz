@@ -1,5 +1,5 @@
-owner = MER
-controller = MER
+owner = MAD
+controller = MAD
 capital = "Devinuvara"
 is_city = yes
 culture = tamil
@@ -9,7 +9,6 @@ base_tax = 8
 base_production = 6
 base_manpower = 5
 add_core = MAD
-add_core = MER
 discovered_by = chinese
 discovered_by = east_african
 discovered_by = eastern
