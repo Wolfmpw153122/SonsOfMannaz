@@ -1,0 +1,5 @@
+on_monarch_death = {
+    events = {
+        greater_frisian_event.3 #flemish succession
+    }
+}

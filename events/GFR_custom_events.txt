@@ -1,9 +1,9 @@
-namespace = matt_new_event
+namespace = greater_frisian_event
 
 country_event = {
-	id = matt_new_event.1
-	title = matt_new_event.1.t
-	desc = matt_new_event.1.d
+	id = greater_frisian_event.1
+	title = greater_frisian_event.1.t
+	desc = greater_frisian_event.1.d
 	picture = HRE_eventPicture
 	
 	major = yes
@@ -136,10 +136,10 @@ country_event = {
 					NOT = { culture = dynamic-welsh-culture-num1}
 					NOT = { culture = northumbrian}
 					}
-					country_event = {id = matt_new_event.2}
+					country_event = {id = greater_frisian_event.2}
 					}
 			}
-			option = { name = "matt_new_eventOption1"}
+			option = { name = "greater_frisian_eventOption1"}
 			
 			
 
@@ -147,12 +147,13 @@ country_event = {
 }
 
 country_event = {
-	id = matt_new_event.2
-	title = matt_new_event.2.t
-	desc = matt_new_event.2.d
+	id = greater_frisian_event.2
+	title = greater_frisian_event.2.t
+	desc = greater_frisian_event.2.d
 	picture = HRE_eventPicture
 	#fire_only_once = yes
 	is_triggered_only = yes
+	
 	
 		option = {
 				name = "Convert_To_German"
@@ -178,27 +179,70 @@ country_event = {
 }
 
 country_event = {
-	id = iberian_exodus.1
-	title = iberian_exodus.1.t
-	desc = iberian_exodus.1.d
+	id = greater_frisian_event.3
+	title = greater_frisian_event.3.t
+	desc = greater_frisian_event.3.d
 	picture = HRE_eventPicture
-	#fire_only_once = yes
+	fire_only_once = yes
 	is_triggered_only = yes
-	
-		option = {
-				name = "iberian_exodus_arrest"
-				
-				ai_chance = { factor = 1 }
-					
-				add_prestige = 5
-				
-			}
-		option = {
-				name = "iberian_exodus_exile"
-				ai_chance = { factor = 0 }
-			}
-		option = {
-				name = "iberian_exodus_travel"
-				ai_chance = { factor = 0 }
-			}
+
+	major_trigger = {
+		is_in_empire = yes
+	}
+
+	trigger = {
+		tag = FLA
+	}
+
+	immediate = {
+		HOL = {
+			create_union = ROOT
+		}
+		FRI = {
+			country_event = {
+			id = greater_frisian_event.4
+		}
+		}
+		
+	}
+
+}
+
+country_event = {
+	id = greater_frisian_event.4
+	title = greater_frisian_event.4.t
+	desc = greater_frisian_event.4.d
+	picture = HRE_eventPicture
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	major_trigger = {
+		is_in_empire = yes
+	}
+
+	trigger = {
+		tag = FRI
+	}
+
+	option = {
+		name = "Contest_The_Union"
+		1742 = {
+			add_core = ROOT
+		}
+		2974 = {
+			add_core = ROOT
+		}
+		create_succession_crisis = {
+			attacker = FRI
+			defender = HOL
+			target = FLA
+		}
+	}
+
+	option = {
+		name = "Tremble_In_Fear"
+		add_legitimacy = -25
+		add_prestige = -50
+	}
+
 }

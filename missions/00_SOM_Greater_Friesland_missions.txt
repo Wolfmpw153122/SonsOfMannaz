@@ -34,6 +34,9 @@ greater_friesland_missions_1 = {
                     OR = {
                         province_id = 55
                         province_id = 2975
+						province_id = 56
+                        province_id = 2973
+						province_id = 86
                     }
                 }
                 add_permanent_claim = FRI
@@ -66,17 +69,13 @@ greater_friesland_missions_1 = {
 		}
 		
 		effect = {
-		every_province = {
-                limit = {
-                    OR = {
-                        province_id = 56
-                        province_id = 2973
-						province_id = 86
-                    }
-                }
-                add_permanent_claim = FRI
-            }
+			capital_scope = {
+    			light_ship = FRI
+				light_ship = FRI
+				light_ship = FRI
+			}
 		}
+		
 	}
 	
 	gfr_secure_the_weser = {
@@ -156,6 +155,8 @@ greater_friesland_missions_1 = {
 			}
 		}
 		effect = {
+			custom_tooltip = NED_ALLOW_FASTER_NETHERLANDS_FORMATION
+			set_country_flag = gfr_ignore_tech_requirement_netherlands
 			add_country_modifier = {
 					name = ald_fryslan_united_autonomy
 					duration = 1825
@@ -208,7 +209,24 @@ greater_friesland_missions_2 = {
 					value = 150
 				}
 			}
-			is_rival = HSA
+			OR = {
+					is_rival = HSA
+					HSA = {
+							custom_trigger_tooltip = {
+								tooltip = has_been_insulted_by_root
+								OR = {
+									has_opinion_modifier = {
+										who = ROOT
+										modifier = insulted
+									}
+									has_opinion_modifier = {
+										who = ROOT
+										modifier = scornfully_insulted
+									}
+								}
+							}
+						}
+					}
 		}
 		effect = {
 			give_claims = { area = weser_area }
@@ -275,20 +293,39 @@ greater_friesland_missions_3 = {
 
 	}
 
-	gfr_trade_dominance = {
+	gfr_flemish_union = {
 		icon = mission_unite_home_region
 		position = 1
 		required_missions = { }
 		provinces_to_highlight = { }
 		trigger = { 
-			home_trade_node = {
-				trade_share = {
-					country = ROOT
-					share = 20
+			# home_trade_node = {
+			# 	trade_share = {
+			# 		country = ROOT
+			# 		share = 20
+			# 	}
+			# }
+			senior_union_with = FLA
+			owns_core_province = 1742
+			owns_core_province = 2974
+		}
+		effect = { 
+			remove_opinion = {
+				who = FLA
+				modifier = they_force_unioned_us
+			}
+			hidden_effect = {
+				every_known_country = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					add_aggressive_expansion = {
+						who = ROOT
+						value = -10
+					}
 				}
 			}
 		}
-		effect = { give_claims = { area = holland_area }}
 	}
 
 	gfr_up_the_meuse = {
@@ -435,6 +472,8 @@ greater_friesland_missions_3 = {
 			}
 		}
 		effect = {
+			custom_tooltip = NED_ALLOW_FASTER_NETHERLANDS_FORMATION
+			set_country_flag = gfr_ignore_tech_requirement_netherlands
 			add_permanent_power_projection = {
 				type = byz_permanent_power_projection
 				amount = 5
@@ -533,8 +572,6 @@ greater_friesland_missions_3 = {
 		
 		}
 		effect = { 
-			custom_tooltip = NED_ALLOW_FASTER_NETHERLANDS_FORMATION
-			set_country_flag = gfr_ignore_tech_requirement_netherlands
 			
 			add_country_modifier = {
 				name = ned_je_maintiedrai

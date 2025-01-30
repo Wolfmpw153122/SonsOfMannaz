@@ -1,8 +1,8 @@
 ﻿ l_english:
- matt_new_event.1.t:0 "The Anglo-Saxon Divergence"
- matt_new_event.1.d:0 "Centuries ago, The Ingvaeoinc confederation of the Angles, Saxons, Frisians, and Jutes sailed across the channel to Britannia, however some of the Ingvaeonic Confederation stayed home in Germany. Over the Years the Continental Saxons grew closer to their German neighbors, and though they still remain close to the Angles of Britain The Formation of certain kingdoms have cemented the division."
- matt_new_eventOption1:0 "neat"
- matt_new_event.2.t:0 "King's Choice"
- matt_new_event.2.d:0 "The Saxons of Germany have Diverged from the British Angles, do you oh King follow the people?"
+ greater_frisian_event.1.t:0 "The Anglo-Saxon Divergence"
+ greater_frisian_event.1.d:0 "Centuries ago, The Ingvaeoinc confederation of the Angles, Saxons, Frisians, and Jutes sailed across the channel to Britannia, however some of the Ingvaeonic Confederation stayed home in Germany. Over the Years the Continental Saxons grew closer to their German neighbors, and though they still remain close to the Angles of Britain The Formation of certain kingdoms have cemented the division."
+ greater_frisian_eventOption1:0 "neat"
+ greater_frisian_event.2.t:0 "King's Choice"
+ greater_frisian_event.2.d:0 "The Saxons of Germany have Diverged from the British Angles, do you oh King follow the people?"
  Convert_To_German:0 "I accept that I am German"
  Ignore_The_German_Peasants:0 "Bah, I do not follow the Peasants"
