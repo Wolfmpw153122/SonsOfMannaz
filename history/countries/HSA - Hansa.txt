@@ -10,8 +10,6 @@ fixed_capital = 1874
 mercantilism = 25
 historical_friend = RIG
 historical_friend = FRN
-historical_friend = Z20
-historical_friend = Z24
 historical_friend = Z25
 historical_friend = RUG
 
