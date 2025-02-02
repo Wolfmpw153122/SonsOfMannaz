@@ -1,5 +1,5 @@
-owner = QAR
-controller = QAR
+owner = Z1I
+controller = Z1I
 capital = "Konjikala"
 is_city = yes
 culture = bactrian
@@ -8,7 +8,7 @@ trade_goods = copper
 base_tax = 4
 base_production = 5
 base_manpower = 4
-add_core = QAR
+add_core = Z11
 add_core = Z0G
 discovered_by = east_african
 discovered_by = eastern

@@ -10,7 +10,6 @@ base_tax = 6
 base_production = 5
 base_manpower = 3
 add_core = ALH
-add_core = QAR
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

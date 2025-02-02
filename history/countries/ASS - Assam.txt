@@ -1,5 +1,5 @@
 government = monarchy
-add_government_reform = daimyo
+add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = indian
 religion = catholic
@@ -60,8 +60,8 @@ capital = 566
 }
 1422.1.1= {
 	heir = {
-		name = "Susenphâ"
-		monarch_name = "Susenphâ"
+		name = "Susenphï¿½"
+		monarch_name = "Susenphï¿½"
 		dynasty = "Ahom"
 		birth_date = 1420.1.1
 		death_Date = 1488.1.1
@@ -73,7 +73,7 @@ capital = 566
 }
 1439.1.1= {
 	monarch = {
-		name = "Susenphâ"
+		name = "Susenphï¿½"
 		dynasty = "Ahom"
 		ADM = 4
 		DIP = 2
@@ -82,8 +82,8 @@ capital = 566
 }
 1450.1.1= {
 	heir = {
-		name = "Suhenphâ"
-		monarch_name = "Suhenphâ"
+		name = "Suhenphï¿½"
+		monarch_name = "Suhenphï¿½"
 		dynasty = "Ahom"
 		birth_date = 1450.1.1
 		death_Date = 1493.1.1
@@ -95,7 +95,7 @@ capital = 566
 }
 1488.1.1= {
 	monarch = {
-		name = "Suhenphâ"
+		name = "Suhenphï¿½"
 		dynasty = "Ahom"
 		ADM = 2
 		DIP = 1
@@ -104,7 +104,7 @@ capital = 566
 }
 1493.1.1= {
 	monarch = {
-		name = "Supimphâ"
+		name = "Supimphï¿½"
 		dynasty = "Ahom"
 		ADM = 2
 		DIP = 1
@@ -157,8 +157,8 @@ capital = 566
 }
 1539.1.1= {
 	heir = {
-		name = "Sukhamphâ"
-		monarch_name = "Sukhamphâ"
+		name = "Sukhamphï¿½"
+		monarch_name = "Sukhamphï¿½"
 		dynasty = "Ahom"
 		birth_date = 1530.1.1
 		death_Date = 1603.1.1
@@ -170,7 +170,7 @@ capital = 566
 }
 1552.1.1= {
 	monarch = {
-		name = "Sukhamphâ"
+		name = "Sukhamphï¿½"
 		dynasty = "Ahom"
 		ADM = 3
 		DIP = 3
@@ -179,8 +179,8 @@ capital = 566
 }
 1570.1.1= {
 	heir = {
-		name = "Susengphâ"
-		monarch_name = "Susengphâ"
+		name = "Susengphï¿½"
+		monarch_name = "Susengphï¿½"
 		dynasty = "Ahom"
 		birth_date = 1570.1.1
 		death_Date = 1641.1.1
@@ -192,7 +192,7 @@ capital = 566
 }
 1603.1.1= {
 	monarch = {
-		name = "Susengphâ"
+		name = "Susengphï¿½"
 		dynasty = "Ahom"
 		ADM = 3
 		DIP = 3
@@ -201,8 +201,8 @@ capital = 566
 }
 1603.1.1= {
 	heir = {
-		name = "Suramphâ"
-		monarch_name = "Suramphâ"
+		name = "Suramphï¿½"
+		monarch_name = "Suramphï¿½"
 		dynasty = "Ahom"
 		birth_date = 1600.1.1
 		death_Date = 1644.1.1
@@ -214,7 +214,7 @@ capital = 566
 }
 1641.1.1= {
 	monarch = {
-		name = "Suramphâ"
+		name = "Suramphï¿½"
 		dynasty = "Ahom"
 		ADM = 0
 		DIP = 0
@@ -223,8 +223,8 @@ capital = 566
 }
 1641.1.1= {
 	heir = {
-		name = "Sutyinphâ"
-		monarch_name = "Sutyinphâ"
+		name = "Sutyinphï¿½"
+		monarch_name = "Sutyinphï¿½"
 		dynasty = "Ahom"
 		birth_date = 1641.1.1
 		death_Date = 1648.1.1
@@ -236,7 +236,7 @@ capital = 566
 }
 1644.1.1= {
 	monarch = {
-		name = "Sutyinphâ"
+		name = "Sutyinphï¿½"
 		dynasty = "Ahom"
 		ADM = 0
 		DIP = 1
@@ -276,7 +276,7 @@ capital = 566
 }
 1669.1.1= {
 	monarch = {
-		name = "Sunyatphâ"
+		name = "Sunyatphï¿½"
 		dynasty = "Ahom"
 		ADM = 3
 		DIP = 1
@@ -285,7 +285,7 @@ capital = 566
 }
 1673.8.1= {
 	monarch = {
-		name = "Suklamphâ"
+		name = "Suklamphï¿½"
 		dynasty = "Ahom"
 		ADM = 1
 		DIP = 1
@@ -312,7 +312,7 @@ capital = 566
 }
 1676.1.1= {
 	monarch = {
-		name = "Sujinphâ"
+		name = "Sujinphï¿½"
 		dynasty = "Ahom"
 		ADM = 0
 		DIP = 0
@@ -321,7 +321,7 @@ capital = 566
 }
 1677.7.1= {
 	monarch = {
-		name = "Sudalphâ"
+		name = "Sudalphï¿½"
 		dynasty = "Ahom"
 		ADM = 0
 		DIP = 1
@@ -330,7 +330,7 @@ capital = 566
 }
 1679.1.1= {
 	monarch = {
-		name = "Sulikphâ"
+		name = "Sulikphï¿½"
 		dynasty = "Ahom"
 		ADM = 0
 		DIP = 0
@@ -339,7 +339,7 @@ capital = 566
 }
 1681.7.1= {
 	monarch = {
-		name = "Supatphâ"
+		name = "Supatphï¿½"
 		dynasty = "Ahom"
 		ADM = 1
 		DIP = 2
@@ -348,8 +348,8 @@ capital = 566
 }
 1681.7.1= {
 	heir = {
-		name = "Sukrungphâ"
-		monarch_name = "Sukrungphâ"
+		name = "Sukrungphï¿½"
+		monarch_name = "Sukrungphï¿½"
 		dynasty = "Ahom"
 		birth_date = 1660.1.1
 		death_Date = 1714.2.1
@@ -361,7 +361,7 @@ capital = 566
 }
 1696.1.1= {
 	monarch = {
-		name = "Sukrungphâ"
+		name = "Sukrungphï¿½"
 		dynasty = "Ahom"
 		ADM = 2
 		DIP = 2
@@ -370,8 +370,8 @@ capital = 566
 }
 1696.1.1= {
 	heir = {
-		name = "Sutanphâ"
-		monarch_name = "Sutanphâ"
+		name = "Sutanphï¿½"
+		monarch_name = "Sutanphï¿½"
 		dynasty = "Ahom"
 		birth_date = 1690.1.1
 		death_Date = 1744.1.1
@@ -383,7 +383,7 @@ capital = 566
 }
 1714.2.1= {
 	monarch = {
-		name = "Sutanphâ"
+		name = "Sutanphï¿½"
 		dynasty = "Ahom"
 		ADM = 0
 		DIP = 1
@@ -392,8 +392,8 @@ capital = 566
 }
 1714.2.1= {
 	heir = {
-		name = "Sunenphâ"
-		monarch_name = "Sunenphâ"
+		name = "Sunenphï¿½"
+		monarch_name = "Sunenphï¿½"
 		dynasty = "Ahom"
 		birth_date = 1700.1.1
 		death_Date = 1751.1.1
@@ -405,7 +405,7 @@ capital = 566
 }
 1744.1.1= {
 	monarch = {
-		name = "Sunenphâ"
+		name = "Sunenphï¿½"
 		dynasty = "Ahom"
 		ADM = 1
 		DIP = 2
@@ -414,8 +414,8 @@ capital = 566
 }
 1744.1.1= {
 	heir = {
-		name = "Suramphâ"
-		monarch_name = "Suramphâ"
+		name = "Suramphï¿½"
+		monarch_name = "Suramphï¿½"
 		dynasty = "Ahom"
 		birth_date = 1740.1.1
 		death_Date = 1769.1.1
@@ -427,7 +427,7 @@ capital = 566
 }
 1751.1.1= {
 	monarch = {
-		name = "Suramphâ"
+		name = "Suramphï¿½"
 		dynasty = "Ahom"
 		ADM = 1
 		DIP = 2
@@ -436,8 +436,8 @@ capital = 566
 }
 1751.1.1= {
 	heir = {
-		name = "Suyeophâ"
-		monarch_name = "Suyeophâ"
+		name = "Suyeophï¿½"
+		monarch_name = "Suyeophï¿½"
 		dynasty = "Ahom"
 		birth_date = 1751.1.1
 		death_date = 1780.12.1
@@ -449,7 +449,7 @@ capital = 566
 }
 1769.1.1= {
 	monarch = {
-		name = "Suyeophâ"
+		name = "Suyeophï¿½"
 		dynasty = "Ahom"
 		ADM = 1
 		DIP = 2
@@ -458,8 +458,8 @@ capital = 566
 }
 1769.1.1= {
 	heir = {
-		name = "Suhitpangphâ"
-		monarch_name = "Suhitpangphâ"
+		name = "Suhitpangphï¿½"
+		monarch_name = "Suhitpangphï¿½"
 		dynasty = "Ahom"
 		birth_date = 1760.1.1
 		death_Date = 1794.12.20
@@ -471,7 +471,7 @@ capital = 566
 }
 1780.12.1= {
 	monarch = {
-		name = "Suhitpangphâ"
+		name = "Suhitpangphï¿½"
 		dynasty = "Ahom"
 		ADM = 0
 		DIP = 0
@@ -480,8 +480,8 @@ capital = 566
 }
 1780.12.1= {
 	heir = {
-		name = "Suklingphâ"
-		monarch_name = "Suklingphâ"
+		name = "Suklingphï¿½"
+		monarch_name = "Suklingphï¿½"
 		dynasty = "Ahom"
 		birth_date = 1770.1.1
 		death_Date = 1810.1.1
@@ -493,7 +493,7 @@ capital = 566
 }
 1794.12.20= {
 	monarch = {
-		name = "Suklingphâ"
+		name = "Suklingphï¿½"
 		dynasty = "Ahom"
 		ADM = 1
 		DIP = 1

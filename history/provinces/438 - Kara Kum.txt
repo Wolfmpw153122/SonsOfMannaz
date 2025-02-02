@@ -1,5 +1,5 @@
-owner = QAR
-controller = QAR
+owner = Z0J
+controller = Z0J
 capital = "Geok-Tepe"
 is_city = yes
 culture = parthian
@@ -9,7 +9,7 @@ base_tax = 6
 base_production = 5
 base_manpower = 6
 add_core = PRA
-add_core = QAR
+add_core = Z0J
 add_core = Z0G
 discovered_by = east_african
 discovered_by = eastern
