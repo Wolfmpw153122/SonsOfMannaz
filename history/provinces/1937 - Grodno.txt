@@ -1,5 +1,5 @@
-owner = POL
-controller = POL
+owner = PRT
+controller = PRT
 capital = "Grodno"
 is_city = yes
 culture = pruthenian
@@ -9,7 +9,7 @@ hre = yes
 base_tax = 6
 base_production = 5
 base_manpower = 2
-add_core = POL
+add_core = PRT
 add_core = PRT
 discovered_by = east_african
 discovered_by = eastern

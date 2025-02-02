@@ -1,5 +1,3 @@
-owner = KHA
-controller = KHA
 capital = "Ust-Kut"
 is_city = yes
 culture = buryat
@@ -9,7 +7,6 @@ base_tax = 4
 base_production = 3
 base_manpower = 2
 add_core = BRT
-add_core = KHA
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

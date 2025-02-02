@@ -1,4 +1,3 @@
-
 capital = "Kurgan"
 is_city = yes
 culture = dynamic-ostyaki-culture-num3
@@ -7,7 +6,7 @@ trade_goods = fur
 base_tax = 3
 base_production = 4
 base_manpower = 2
-add_core = add_permanent_claim
+add_core = KZH
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian
@@ -18,3 +17,5 @@ discovered_by = sub_saharan
 discovered_by = western
 religion = animism
 trade_goods = unknown
+owner = KZH
+controller = KZH

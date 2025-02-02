@@ -1,5 +1,5 @@
-owner = Z0S
-controller = Z0S
+owner = SIB
+controller = SIB
 capital = "Barnaul"
 is_city = yes
 culture = dynamic-uzbehk-culture-num2
@@ -9,7 +9,7 @@ fort_15th = yes
 base_tax = 5
 base_production = 3
 base_manpower = 5
-add_core = Z0S
+add_core = SIB
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

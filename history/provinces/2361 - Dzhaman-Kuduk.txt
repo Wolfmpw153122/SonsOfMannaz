@@ -1,5 +1,5 @@
-owner = CMN
-controller = CMN
+owner = Z0S
+controller = Z0S
 capital = "Dzhaman-Kuduk"
 is_city = yes
 culture = cuman
@@ -8,7 +8,7 @@ trade_goods = grain
 base_tax = 4
 base_production = 2
 base_manpower = 3
-add_core = CMN
+add_core = Z0S
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

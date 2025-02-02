@@ -1,5 +1,5 @@
-owner = POL
-controller = POL
+owner = LIT
+controller = LIT
 capital = "Kiev"
 is_city = yes
 culture = dynamic-meshchera-scythian-culture-num1
@@ -11,7 +11,7 @@ base_production = 3
 base_manpower = 8
 extra_cost = 16
 center_of_trade = 2
-add_core = POL
+add_core = LIT
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

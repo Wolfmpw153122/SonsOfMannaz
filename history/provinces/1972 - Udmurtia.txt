@@ -1,5 +1,5 @@
-owner = MOS
-controller = MOS
+owner = KAZ
+controller = KAZ
 capital = "Elabuga"
 is_city = yes
 culture = kazani

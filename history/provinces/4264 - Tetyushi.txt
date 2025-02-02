@@ -1,5 +1,5 @@
-owner = MOS
-controller = MOS
+owner = KAZ
+controller = KAZ
 capital = "Tetyushi"
 is_city = yes
 culture = kazani
@@ -8,7 +8,7 @@ trade_goods = grain
 base_tax = 5
 base_production = 4
 base_manpower = 2
-add_core = MOS
+add_core = KAZ
 add_core = KAZ
 discovered_by = east_african
 discovered_by = eastern

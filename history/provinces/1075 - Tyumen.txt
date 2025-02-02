@@ -1,4 +1,3 @@
-
 capital = "Chimgi-Tura"
 is_city = yes
 culture = bashkir
@@ -8,7 +7,7 @@ base_tax = 4
 base_production = 4
 base_manpower = 1
 center_of_trade = 1
-add_core = BSH
+add_core = KZH
 add_core = add_permanent_claim
 discovered_by = east_african
 discovered_by = eastern
@@ -20,3 +19,5 @@ discovered_by = sub_saharan
 discovered_by = western
 religion = animism
 trade_goods = unknown
+owner = KZH
+controller = KZH

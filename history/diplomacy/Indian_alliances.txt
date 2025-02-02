@@ -1,6 +1,3 @@
-
-
-
 vassal = { 
 	first = JNP
 	second = JML

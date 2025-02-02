@@ -1,5 +1,5 @@
-owner = MOS
-controller = MOS
+owner = KAZ
+controller = KAZ
 capital = "Hlynov"
 is_city = yes
 culture = mishary
@@ -8,7 +8,7 @@ trade_goods = copper
 base_tax = 7
 base_production = 4
 base_manpower = 4
-add_core = GOL
+add_core = KAZ
 add_core = MOS
 discovered_by = east_african
 discovered_by = eastern

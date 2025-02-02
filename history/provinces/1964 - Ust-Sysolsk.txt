@@ -1,5 +1,5 @@
-owner = MOS
-controller = MOS
+owner = PRM
+controller = PRM
 capital = "Ust-Sysola"
 is_city = yes
 culture = mishary
@@ -8,7 +8,7 @@ trade_goods = fur
 base_tax = 7
 base_production = 4
 base_manpower = 4
-add_core = GOL
+add_core = PRM
 add_core = MOS
 discovered_by = east_african
 discovered_by = eastern
