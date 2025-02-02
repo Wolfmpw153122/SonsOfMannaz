@@ -1,40 +1,40 @@
 greater_friesland_missions_1 = {
 
-	slot = 1										#
+    slot = 1										#
 
-	has_country_shield = yes
-	generic = no
-	ai = yes
+    has_country_shield = yes
+    generic = no
+    ai = yes
 
-	potential = {
-		Or = {
-			tag = GFR
-			tag = FRI
-			tag = EFR
-			}
-		NOT = { map_setup = map_setup_random }
-	}
-	has_country_shield = yes
-	
-	gfr_prepare_for_war = {
-		icon = mission_landsknecht_soldier
-		position = 1
+    potential = {
+        Or = {
+            tag = GFR
+            tag = FRI
+            tag = EFR
+        }
+        NOT = { map_setup = map_setup_random }
+    }
+    has_country_shield = yes
 
-		trigger = {  
-			OR = {
-				army_size_percentage = 1
-				army_size = 15
-			}
-		} 
-		
-		effect = {
-			frisia_area = {
-				add_permanent_claim = ROOT
-			}
-			north_westphalia_area = {
-				add_permanent_claim = ROOT
-			}
-			every_province = {
+    gfr_prepare_for_war = {
+        icon = mission_landsknecht_soldier
+        position = 1
+
+        trigger = {
+            OR = {
+                army_size_percentage = 1
+                army_size = 15
+            }
+        }
+
+        effect = {
+            frisia_area = {
+                add_permanent_claim = ROOT
+            }
+            north_westphalia_area = {
+                add_permanent_claim = ROOT
+            }
+            every_province = {
                 limit = {
                     OR = {
                         province_id = 55
@@ -43,46 +43,46 @@ greater_friesland_missions_1 = {
                 }
                 add_permanent_claim = ROOT
             }
-		}
-	
-	}
-	
-	gfr_inner_fryslan = {
-		icon = mission_landsknecht_soldier
-		position = 2
-		required_missions = { gfr_prepare_for_war }
-		provinces_to_highlight = {
-			OR = {
-				area = frisia_area
-				province_id = 55
-				province_id = 2975
-				province_id = 56
+        }
+
+    }
+
+    gfr_inner_fryslan = {
+        icon = mission_landsknecht_soldier
+        position = 2
+        required_missions = { gfr_prepare_for_war }
+        provinces_to_highlight = {
+            OR = {
+                area = frisia_area
+                province_id = 55
+                province_id = 2975
+                province_id = 56
                 province_id = 2973
-				province_id = 86
-			}
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-		}
-		trigger {
-			frisia_area = {
-				type = all
-				owned_by = ROOT
-			}
-			owns_core_province = 55
-			owns_core_province = 2975
-			owns_core_province = 56
-			owns_core_province = 2973
-			owns_core_province = 86
-		}
-		
-		effect = {
-			capital_scope = {
-    			light_ship = ROOT
-				light_ship = ROOT
-				light_ship = ROOT
-			}
-			every_province = {
+                province_id = 86
+            }
+            NOT = {
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+        }
+        trigger {
+            frisia_area = {
+                type = all
+                owned_by = ROOT
+            }
+            owns_core_province = 55
+            owns_core_province = 2975
+            owns_core_province = 56
+            owns_core_province = 2973
+            owns_core_province = 86
+        }
+
+        effect = {
+            capital_scope = {
+                light_ship = ROOT
+                light_ship = ROOT
+                light_ship = ROOT
+            }
+            every_province = {
                 limit = {
                     OR = {
                         province_id = 1758
@@ -91,32 +91,32 @@ greater_friesland_missions_1 = {
                 }
                 add_permanent_claim = ROOT
             }
-			86 = {
-				set_seat_in_parliament = yes
-			}
-		}
-		
-	}
-	
-	gfr_secure_the_weser = {
-		icon = mission_landsknecht_soldier
-		position = 3
-		required_missions = { gfr_inner_fryslan }
-		provinces_to_highlight = {
-			OR = {
-				province_id = 1758
-				province_id = 2971
-			}
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-		}
-		trigger {
-			owns_core_province = 1758
-			owns_core_province = 2971
-		}
-		effect = {
-			every_province = {
+            86 = {
+                set_seat_in_parliament = yes
+            }
+        }
+
+    }
+
+    gfr_secure_the_weser = {
+        icon = mission_landsknecht_soldier
+        position = 3
+        required_missions = { gfr_inner_fryslan }
+        provinces_to_highlight = {
+            OR = {
+                province_id = 1758
+                province_id = 2971
+            }
+            NOT = {
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+        }
+        trigger {
+            owns_core_province = 1758
+            owns_core_province = 2971
+        }
+        effect = {
+            every_province = {
                 limit = {
                     OR = {
                         province_id = 1758
@@ -125,7 +125,7 @@ greater_friesland_missions_1 = {
                 }
                 change_culture = dynamic-norse-lower_saxon-culture-num5
             }
-			every_province = {
+            every_province = {
                 limit = {
                     OR = {
                         province_id = 53
@@ -134,510 +134,629 @@ greater_friesland_missions_1 = {
                 }
                 add_permanent_claim = ROOT
             }
-		}
-	}
-	
-	gfr_ald_fryslan_united = {
-		icon = mission_landsknecht_soldier
-		position = 4
-		required_missions = { gfr_fries_city gfr_secure_the_weser }
-		provinces_to_highlight = {
-			OR = {
-				area = weser_area
-				area = north_westphalia_area
-				area = westphalia_area
-				area = lower_saxony_area
-				area = braunschweig_area
-			}
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-		}
-		trigger {
-			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-					value = 12
-					OR = {
-						area = weser_area
-						area = north_westphalia_area
-						area = westphalia_area
-						area = lower_saxony_area
-						area = braunschweig_area
-					}
-					
-				}
-		}
-		effect = {
-			custom_tooltip = NED_ALLOW_FASTER_NETHERLANDS_FORMATION
-			set_country_flag = gfr_ignore_tech_requirement_netherlands
-			add_country_modifier = {
-					name = ald_fryslan_united_autonomy
-					duration = 1825
-				}
-			add_permanent_power_projection = {
-				type = byz_permanent_power_projection
-				amount = 5
-			}
-			add_prestige = 50
-		}
-	}
+        }
+    }
+
+    gfr_ald_fryslan_united = {
+        icon = mission_landsknecht_soldier
+        position = 4
+        required_missions = { gfr_fries_city gfr_secure_the_weser }
+        provinces_to_highlight = {
+            OR = {
+                area = weser_area
+                area = north_westphalia_area
+                area = westphalia_area
+                area = lower_saxony_area
+                area = braunschweig_area
+            }
+            NOT = {
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+        }
+        trigger {
+            num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+                value = 12
+                OR = {
+                    area = weser_area
+                    area = north_westphalia_area
+                    area = westphalia_area
+                    area = lower_saxony_area
+                    area = braunschweig_area
+                }
+
+            }
+        }
+        effect = {
+            custom_tooltip = NED_ALLOW_FASTER_NETHERLANDS_FORMATION
+            set_country_flag = gfr_ignore_tech_requirement_netherlands
+            add_country_modifier = {
+                name = ald_fryslan_united_autonomy
+                duration = 1825
+            }
+            add_permanent_power_projection = {
+                type = byz_permanent_power_projection
+                amount = 5
+            }
+            add_prestige = 50
+        }
+    }
 }
 
 
 greater_friesland_missions_2 = {
 
-	slot = 2										#
+    slot = 2										#
 
-	has_country_shield = yes
-	generic = no
-	ai = yes
+    has_country_shield = yes
+    generic = no
+    ai = yes
 
-	potential = {
-		Or = {
-			tag = GFR
-			tag = FRI
-			tag = EFR
-			}
-		NOT = { map_setup = map_setup_random }
-	}
-	has_country_shield = yes
+    potential = {
+        Or = {
+            tag = GFR
+            tag = FRI
+            tag = EFR
+        }
+        NOT = { map_setup = map_setup_random }
+    }
+    has_country_shield = yes
 
-	gfr_trade_dominance = {
-		icon = mission_landsknecht_soldier
-		position = 1
-		required_missions = {  }
-		provinces_to_highlight = {
-			Or = {
-				province_id = 1269
-				province_id = 99
-				province_id = 4381
-			}
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-		}
-		trigger = {
-			1269 = {
-				is_strongest_trade_power = ROOT
-			}
-			owns_core_province = 99
-			owns_core_province = 4381
-		}
-		effect = {
-			99 = {
-				add_building = shipyard
-			}
-			4381 = {
-				add_building = shipyard
-			}
-		}
-	}
+    gfr_trade_dominance = {
+        icon = mission_landsknecht_soldier
+        position = 1
+        required_missions = {  }
+        provinces_to_highlight = {
+            Or = {
+                province_id = 1269
+                province_id = 99
+                province_id = 4381
+            }
+            NOT = {
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+        }
+        trigger = {
+            1269 = {
+                is_strongest_trade_power = ROOT
+            }
+            owns_core_province = 99
+            owns_core_province = 4381
+        }
+        effect = {
+            99 = {
+                add_building = shipyard
+            }
+            4381 = {
+                add_building = shipyard
+            }
+        }
+    }
 
-	gfr_the_saxo_frisian_league = {
-		icon = mission_landsknecht_soldier
-		position = 2
-		required_missions = { gfr_prepare_for_war gfr_trade_dominance }
-		provinces_to_highlight = {
-			OR = {
-				province_id = 1874
-				province_id = 45
-			}
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-		}
-		trigger = {
-			BRE = {
-				has_opinion = {
-					who = ROOT
-					value = 150
-				}
-			}
-			OR = {
-					is_rival = Z2O
-					ROOT = {
-						trade_embargoing = Z2O
-					}
-					Z2O = {
-							custom_trigger_tooltip = {
-								tooltip = has_been_insulted_by_root
-								OR = {
-									has_opinion_modifier = {
-										who = ROOT
-										modifier = insulted
-									}
-									has_opinion_modifier = {
-										who = ROOT
-										modifier = scornfully_insulted
-									}
-								}
-							}
-						}
-					}
-		}
-		effect = {
-			country_event = {
-				id = incident_bremen_event.1
-			}
-		}
-	}
-	
-	gfr_fries_city = {
-		icon = mission_landsknecht_soldier
-		position = 2
-		required_missions = { gfr_the_saxo_frisian_league }
-		provinces_to_highlight = {
-			OR = {
-				area = weser_area	
-			}
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-		}
-		trigger {
-			1874 = { country_or_non_sovereign_subject_holds = ROOT }
-			96 = { country_or_non_sovereign_subject_holds = ROOT }
-			87 = { country_or_non_sovereign_subject_holds = ROOT }
-		}
-		effect = {
+    gfr_the_saxo_frisian_league = {
+        icon = mission_landsknecht_soldier
+        position = 2
+        required_missions = { gfr_prepare_for_war gfr_trade_dominance }
+        provinces_to_highlight = {
+            OR = {
+                country_or_non_sovereign_subject_holds = BRE
+				country_or_non_sovereign_subject_holds = Z2O
+            }
+            NOT = {
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+        }
+        trigger = {
+            Or = {
+                And = {
+                    BRE = {
+                        has_opinion = {
+                            who = ROOT
+                            value = 150
+                        }
+                    }
+                    OR = {
+                        is_rival = Z2O
+                        ROOT = {
+                            trade_embargoing = Z2O
+                        }
+                        Z2O = {
+                            custom_trigger_tooltip = {
+                                tooltip = has_been_insulted_by_root
+                                OR = {
+                                    has_opinion_modifier = {
+                                        who = ROOT
+                                        modifier = insulted
+                                    }
+                                    has_opinion_modifier = {
+                                        who = ROOT
+                                        modifier = scornfully_insulted
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                NOT = {BRE = {is_in_trade_league_with = Z2O}}
+            }
+        }
+        effect = {
+            if = {
+                limit = {
+                    BRE = {
+                        has_opinion = {
+                            who = ROOT
+                            value = 150
+                        }
+                    }
+                    OR = {
+                        is_rival = Z2O
+                        ROOT = {
+                            trade_embargoing = Z2O
+                        }
+                        Z2O = {
+                            custom_trigger_tooltip = {
+                                tooltip = has_been_insulted_by_root
+                                OR = {
+                                    has_opinion_modifier = {
+                                        who = ROOT
+                                        modifier = insulted
+                                    }
+                                    has_opinion_modifier = {
+                                        who = ROOT
+                                        modifier = scornfully_insulted
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                country_event = {
+                    id = incident_bremen_event.1
+                }
+            }
+            else_if = {
+                limit = {
+                    NOT = {BRE = {is_in_trade_league_with = Z2O}}
+                    exists = BRE
+					BRE = {
+                        has_opinion = {
+                            who = ROOT
+                            value = 150
+                        }
+                    }
+                }
+                ROOT = {
+                    vassalize = BRE
+                }
+                every_province = {
+                    limit = {
+                        OR = {
+                            province_id = 4775
+                            province_id = 69
+                            province_id = 96
+                            province_id = 87
+                        }
+                    }
+                    add_core = BRE
+                }
+
+            }
+            else = {
+                every_province = {
+                    limit = {
+                        OR = {
+                            province_id = 4775
+                            province_id = 69
+                            province_id = 96
+                            province_id = 87
+                            province_id = 1874
+                        }
+                    }
+                    add_permanent_claim = ROOT
+                }
+            }
+
+        }
+    }
+
+    gfr_fries_city = {
+        icon = mission_landsknecht_soldier
+        position = 2
+        required_missions = { gfr_the_saxo_frisian_league }
+        provinces_to_highlight = {
+            OR = {
+                province_id = 1874
+				province_id = 96
+				province_id = 87
+            }
+            NOT = {
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+        }
+        trigger {
+            1874 = { country_or_non_sovereign_subject_holds = ROOT }
+            96 = { country_or_non_sovereign_subject_holds = ROOT }
+            87 = { country_or_non_sovereign_subject_holds = ROOT }
+        }
+        effect = {
             weser_area = {
-				add_permanent_claim = ROOT
-			}
-                
-		}
-	}
-	
-}	
+                add_permanent_claim = ROOT
+            }
+
+        }
+    }
+
+}
 
 
 greater_friesland_missions_3 = {
-	slot = 3
-	generic = no
-	ai = yes
-	has_country_shield = yes
-	potential = {
-		Or = {
-			tag = GFR
-			tag = FRI
-			tag = EFR
-			}
-		NOT = { map_setup = map_setup_random }
+    slot = 3
+    generic = no
+    ai = yes
+    has_country_shield = yes
+    potential = {
+        Or = {
+            tag = GFR
+            tag = FRI
+            tag = EFR
+        }
+        NOT = { map_setup = map_setup_random }
 
-	}
+    }
 
-	gfr_flemish_union = {
-		icon = mission_unite_home_region
-		position = 1
-		required_missions = { }
-		provinces_to_highlight = { }
-		trigger = { 
+    gfr_flemish_union = {
+        icon = mission_unite_home_region
+        position = 1
+        required_missions = { }
+        provinces_to_highlight = { 
 			OR = {
-				senior_union_with = FLA
+                area = flanders_area
+				area = brabant_area
+				country_or_non_sovereign_subject_holds = FLA
+            }
+            NOT = {
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+		}
+        trigger = {
+            OR = {
+                senior_union_with = FLA
+                AND = {
+                    NOT = {
+                        exists = FLA
+                    }
+                    num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+                        value = 5
+                        OR = {
+                            area = brabant_area
+                            area = flanders_area
+                        }
+
+                    }
+                }
+
+            }
+
+            owns_core_province = 1742
+            owns_core_province = 2974
+        }
+        effect = {
+
+            hidden_effect = {
+                FLA = {
+                    remove_opinion = {
+                        who = ROOT
+                        modifier = they_force_unioned_us
+                        value = 100
+                    }
+                }
+            }
+            add_casus_belli = {
+                target = LUX
+                type = cb_vassalize_mission
+                months = 120
+            }
+            give_claims = { area = wallonia_area }
+        }
+    }
+
+    gfr_the_south_march = {
+        icon = mission_unite_home_region
+        position = 2
+        required_missions = {
+            gfr_flemish_union
+        }
+        provinces_to_highlight = {
+            OR = {
+                area = wallonia_area
+				country_or_non_sovereign_subject_holds = LUX
+            }
+            NOT = {
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+        }
+        trigger = {
+            OR = {
+				LUX = {
+                	is_subject_of = ROOT
+                    wallonia_area = {
+                		type = all
+                		owned_by = LUX
+            		}
+            	}
 				AND = {
-					NOT = {
-						exists = FLA
-					}
-					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-						value = 5
-						OR = {
-							area = brabant_area
-							area = flanders_area
-						}
-					
-					}
-				}
-				
-			}
-			
-			owns_core_province = 1742
-			owns_core_province = 2974
-		}
-		effect = { 
-			
-			hidden_effect = {
-				FLA = {
-					remove_opinion = {
-					who = ROOT
-					modifier = they_force_unioned_us
-					value = 100
-					}
+					NOT = {exists = LUX}
+					wallonia_area = {
+                		type = all
+                		owned_by = ROOT
+            		}
 				}
 			}
-			add_casus_belli = {
-				target = LUX
-				type = cb_vassalize_mission
-				months = 120
-			}
-			give_claims = { area = wallonia_area }
-		}
-	}
-
-	gfr_the_south_march = {
-		icon = mission_unite_home_region
-		position = 2
-		required_missions = {
-			gfr_flemish_union
-		}
-		provinces_to_highlight = { 
-			OR = {
-				area = wallonia_area
-			}
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-		}
-		trigger = { 
-			LUX = {
-				is_subject_of = ROOT
-			}
-		}
-		effect = {
-			ROOT = {
-				create_march = LUX
-			}
-			custom_tooltip = NED_LOSE_10_AE_WITH_HRE
-			hidden_effect = {
-				every_known_country = {
-					limit = {
-						is_part_of_hre = yes
-					}
-					add_aggressive_expansion = {
-						who = ROOT
-						value = -10
-					}
+        }
+        effect = {
+			if = {
+				limit = {NOT = {exists = LUX}}
+				wallonia_area = {
+					cede_province = LUX
 				}
 			}
-			wallonia_area = {
-				add_province_modifier = {
-					name = the_south_march
-					duration  = -1
-				}
-			}
-			
-		}
-	}
+            ROOT = {
+                create_march = LUX
+            }
+            custom_tooltip = NED_LOSE_10_AE_WITH_HRE
+            hidden_effect = {
+                every_known_country = {
+                    limit = {
+                        is_part_of_hre = yes
+                    }
+                    add_aggressive_expansion = {
+                        who = ROOT
+                        value = -10
+                    }
+                }
+            }
+            wallonia_area = {
+                add_province_modifier = {
+                    name = the_south_march
+                    duration  = -1
+                }
+            }
 
-	gfr_claim_to_holland = {
-		icon = mission_unite_home_region
-		position = 3
-		required_missions = {gfr_the_south_march gfr_the_saxo_frisian_league}
-		provinces_to_highlight = {  
-			country_or_non_sovereign_subject_holds = HOL
-		} 
+        }
+    }
 
-		trigger = {  
-			
-		} 
+    gfr_claim_to_holland = {
+        icon = mission_unite_home_region
+        position = 3
+        required_missions = {gfr_the_south_march gfr_the_saxo_frisian_league}
+        provinces_to_highlight = {
+            OR = {
+                country_or_non_sovereign_subject_holds = HOL
+                province_id = 1744
+            }
+            NOT = {
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+        }
 
-		effect = {  
-			add_casus_belli = {
-				target = HOL
-				type = cb_claim_throne
-				months = 120
-			}
-		}
-	}
+        trigger = {
+            1744 = {
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+            legitimacy = 80
+        }
 
-	gfr_nij_fryslan_united = {
-		icon = mission_unite_home_region
-		position = 4
-		required_missions = {
-			gfr_claim_to_holland
-		}
-		provinces_to_highlight = { 
-			region = low_countries_region
-			NOT = { country_or_non_sovereign_subject_holds = ROOT }
-		}
-		trigger = {
-			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-				value = 17
-				region = low_countries_region
-			}
-		}
-		effect = {
-			custom_tooltip = NED_ALLOW_FASTER_NETHERLANDS_FORMATION
-			set_country_flag = gfr_ignore_tech_requirement_netherlands
-			add_permanent_power_projection = {
-				type = byz_permanent_power_projection
-				amount = 5
-			}
-			hidden_effect = {
-					every_owned_province = {
-						limit = {
-							OR = {
-								area = flanders_area
-								area = brabant_area
-								area = holland_area
-								area = north_brabant_area
-							}
-							
-						}
-						add_province_modifier = {
-							name = nij_fryslan_united
-							duration = 3650
-						}
-					}
-			}
-			add_prestige = 50
+        effect = {
+            add_casus_belli = {
+                target = HOL
+                type = cb_claim_throne
+                months = 120
+            }
+        }
+    }
 
-		 }
-	}
-	
-	gfr_groote_fryslan = {
-		icon = mission_unite_home_region
-		position = 5
-		required_missions = {
-			gfr_nij_fryslan_united gfr_ald_fryslan_united
-		}
-		provinces_to_highlight = { 
-			OR = {
-				area = weser_area
-				area = north_westphalia_area
-				area = westphalia_area
-				area = lower_saxony_area
-				area = braunschweig_area
-				region = low_countries_region
-			}
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-		}
-		trigger = {
-			AND = {
-				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-					value = 17
-					region = low_countries_region
-				}
-				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-					value = 12
-					OR = {
-						area = weser_area
-						area = north_westphalia_area
-						area = westphalia_area
-						area = lower_saxony_area
-						area = braunschweig_area
-					}
-					
-				}
-			}
-		}
-		effect = { 
-			
-			add_country_modifier = {
-				name = ned_je_maintiedrai
-				duration = 10950
-			}
+    gfr_nij_fryslan_united = {
+        icon = mission_unite_home_region
+        position = 4
+        required_missions = {
+            gfr_claim_to_holland
+        }
+        provinces_to_highlight = {
+            region = low_countries_region
+            NOT = { country_or_non_sovereign_subject_holds = ROOT }
+        }
+        trigger = {
+            num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+                value = 17
+                region = low_countries_region
+            }
+        }
+        effect = {
+            custom_tooltip = NED_ALLOW_FASTER_NETHERLANDS_FORMATION
+            set_country_flag = gfr_ignore_tech_requirement_netherlands
+            add_permanent_power_projection = {
+                type = byz_permanent_power_projection
+                amount = 5
+            }
+            hidden_effect = {
+                every_owned_province = {
+                    limit = {
+                        OR = {
+                            area = flanders_area
+                            area = brabant_area
+                            area = holland_area
+                            area = north_brabant_area
+                        }
 
-		}
-	}
+                    }
+                    add_province_modifier = {
+                        name = nij_fryslan_united
+                        duration = 3650
+                    }
+                }
+            }
+            add_prestige = 50
+
+        }
+    }
+
+    gfr_groote_fryslan = {
+        icon = mission_unite_home_region
+        position = 5
+        required_missions = {
+            gfr_nij_fryslan_united gfr_ald_fryslan_united
+        }
+        provinces_to_highlight = {
+            OR = {
+                area = weser_area
+                area = north_westphalia_area
+                area = westphalia_area
+                area = lower_saxony_area
+                area = braunschweig_area
+                region = low_countries_region
+            }
+            NOT = {
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+        }
+        trigger = {
+            AND = {
+                num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+                    value = 17
+                    region = low_countries_region
+                }
+                num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+                    value = 12
+                    OR = {
+                        area = weser_area
+                        area = north_westphalia_area
+                        area = westphalia_area
+                        area = lower_saxony_area
+                        area = braunschweig_area
+                    }
+
+                }
+            }
+        }
+        effect = {
+
+            add_country_modifier = {
+                name = ned_je_maintiedrai
+                duration = 10950
+            }
+
+        }
+    }
 }
 greater_friesland_missions_4 = {
-	slot = 4
-	generic = no
-	ai = yes
-	has_country_shield = yes
-	potential = {
-		Or = {
-			tag = GFR
-			tag = FRI
-			tag = EFR
-			}
-		NOT = { map_setup = map_setup_random }
-	}
+    slot = 4
+    generic = no
+    ai = yes
+    has_country_shield = yes
+    potential = {
+        Or = {
+            tag = GFR
+            tag = FRI
+            tag = EFR
+        }
+        NOT = { map_setup = map_setup_random }
+    }
 
-	
 
-	
+
+
 }
 
 greater_friesland_missions_5 = {
-	slot = 5
-	generic = no
-	ai = yes
-	has_country_shield = yes
-	potential = {
-		Or = {
-			tag = GFR
-			tag = FRI
-			tag = EFR
-			}
-		NOT = { map_setup = map_setup_random }
-	}
+    slot = 5
+    generic = no
+    ai = yes
+    has_country_shield = yes
+    potential = {
+        Or = {
+            tag = GFR
+            tag = FRI
+            tag = EFR
+        }
+        NOT = { map_setup = map_setup_random }
+    }
 
-	gfr_a_frisian_port {
-		icon = mission_dominate_home_trade_node
-		position = 1
-		provinces_to_highlight = {
-		}
-		trigger = {
-			1931 = {
-				owned_by = ROOT
-				NOT = { num_free_building_slots = 1 }
-				development = 24
-			}
-		}
-		effect = {
-			1931 = {
-				add_base_tax = 2
-				add_base_production = 2
-				add_base_manpower = 2
-				center_of_trade = 2
-			}
-		}
-		ai_weight = {
-			factor = 75	#Default
-		}
-	}
+    gfr_a_frisian_port {
+        icon = mission_dominate_home_trade_node
+        position = 1
+        provinces_to_highlight = {
+        }
+        trigger = {
+            1931 = {
+                owned_by = ROOT
+                NOT = { num_free_building_slots = 1 }
+                development = 24
+            }
+        }
+        effect = {
+            1931 = {
+                add_base_tax = 2
+                add_base_production = 2
+                add_base_manpower = 2
+                center_of_trade = 2
+            }
+        }
+        ai_weight = {
+            factor = 75	#Default
+        }
+    }
 
-	gfr_muenster_the_army = {
-		icon = mission_landsknecht_soldier
-		position = 2
+    gfr_muenster_the_army = {
+        icon = mission_landsknecht_soldier
+        position = 2
 
-		provinces_to_highlight = {
-			OR = {
-                    province_id = 56
-                    province_id = 2973
-					province_id = 86
+        provinces_to_highlight = {
+            OR = {
+                province_id = 56
+                province_id = 2973
+                province_id = 86
+            }
+        }
+
+        trigger = {
+            56 = {
+                owned_by = ROOT
+                base_manpower = 8
+                has_building = barracks
+            }
+            2973 = {
+                owned_by = ROOT
+                base_manpower = 8
+                has_building = barracks
+            }
+            86 ={
+                owned_by = ROOT
+                base_manpower = 8
+                has_building = barracks
+            }
+        }
+
+        effect = {
+            56 = {
+                add_province_modifier = {
+                    name = muenster_the_army
+                    duration  = -1
                 }
-		}
-
-		trigger = {  
-			56 = {
-				owned_by = ROOT
-				base_manpower = 8
-				has_building = barracks
-			}
-			2973 = {
-				owned_by = ROOT
-				base_manpower = 8
-				has_building = barracks
-			}
-			86 ={
-				owned_by = ROOT
-				base_manpower = 8
-				has_building = barracks
-			}
-		} 
-		
-		effect = {
-			56 = {
-				add_province_modifier = {
-					name = muenster_the_army
-					duration  = -1
-				}
-			}
-			2973 = {
-				add_province_modifier = {
-					name = muenster_the_army
-					duration  = -1
-				}
-			}
-			86 = {
-				add_province_modifier = {
-					name = muenster_the_army
-					duration  = -1
-				}
-			}
-		}
-	}
+            }
+            2973 = {
+                add_province_modifier = {
+                    name = muenster_the_army
+                    duration  = -1
+                }
+            }
+            86 = {
+                add_province_modifier = {
+                    name = muenster_the_army
+                    duration  = -1
+                }
+            }
+        }
+    }
 
 }
