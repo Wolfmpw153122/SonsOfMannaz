@@ -15,20 +15,6 @@ alliance = {
 }
 alliance = {
 	first = HSA
-	second = Z20
-	trade_league = 1
-	start_date = 1380.1.1
-	end_date = 1581.1.1
-}
-alliance = {
-	first = HSA
-	second = Z24
-	trade_league = 1
-	start_date = 1380.1.1
-	end_date = 1581.1.1
-}
-alliance = {
-	first = HSA
 	second = Z25
 	trade_league = 1
 	start_date = 1380.1.1
@@ -49,8 +35,29 @@ alliance = {
 	end_date = 1581.1.1
 }
 alliance = {
-	first = HSA
+	first = Z2O
 	second = BRE
+	trade_league = 1
+	start_date = 1380.1.1
+	end_date = 1581.1.1
+}
+alliance = {
+	first = Z2O
+	second = RVA
+	trade_league = 1
+	start_date = 1380.1.1
+	end_date = 1581.1.1
+}
+alliance = {
+	first = Z2O
+	second = Z24
+	trade_league = 1
+	start_date = 1380.1.1
+	end_date = 1581.1.1
+}
+alliance = {
+	first = Z2O
+	second = BRG
 	trade_league = 1
 	start_date = 1380.1.1
 	end_date = 1581.1.1

@@ -93,3 +93,7 @@ muenster_the_army = {
 nij_fryslan_united = {
     local_production_efficiency = 0.1
 }
+
+the_south_march = {
+	local_defensiveness = .25
+}
