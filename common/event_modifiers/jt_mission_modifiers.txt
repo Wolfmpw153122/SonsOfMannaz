@@ -95,5 +95,5 @@ nij_fryslan_united = {
 }
 
 the_south_march = {
-	local_defensiveness = .25
+	local_defensiveness = 0.25
 }
