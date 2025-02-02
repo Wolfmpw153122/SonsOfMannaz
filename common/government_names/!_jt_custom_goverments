@@ -1,0 +1,18 @@
+chancellor = {
+    rank = {
+        1 = WIZARD_UNIVERSITY
+        2 = ESTEEMED_UNIVERSITY
+        3 = VENERABLE_UNIVERSITY
+    }
+    ruler_male = {
+        1 = wCHANCELLOR
+        2 = wARCHCHANCELLOR
+        3 = wARCHCHANCELLOR
+    }
+    ruler_female = {
+        1 = wCHANCELLOR
+        2 = wARCHCHANCELLOR
+        3 = wARCHCHANCELLOR
+    }
+	trigger = {	has_reform = university_reform }
+}
