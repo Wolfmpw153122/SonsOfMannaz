@@ -1,6 +1,9 @@
 prz_autonomy_updater = {
 	potential = {
-        always = yes
+        OR = {
+            has_province_modifier = prz_autonomy_modifier_0
+            has_province_modifier = prz_autonomy_modifier_25  
+        }
 	}
 
 	trigger = {	
@@ -16,4 +19,18 @@ prz_autonomy_updater = {
 		
 	}
 	#icon = 9
+}
+
+uni_constance_updater = {
+    potential = {
+        has_province_modifier = uni_seat_of_rebellion
+    }
+    trigger = {
+        NOT = { owned_by = UNI}
+        has_province_modifier = uni_seat_of_rebellion
+    }
+    hidden = yes
+    on_activation = {
+        remove_province_modifier = uni_seat_of_rebellion
+    }
 }
