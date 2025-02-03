@@ -1,5 +1,5 @@
-owner = QAR
-controller = QAR
+owner = Z1I
+controller = Z1I
 capital = "Bojnord"
 is_city = yes
 culture = dynamic-parthian-culture-num2
@@ -8,7 +8,7 @@ trade_goods = wool
 base_tax = 6
 base_production = 5
 base_manpower = 5
-add_core = QAR
+add_core = Z11
 add_core = Z0G
 discovered_by = east_african
 discovered_by = eastern

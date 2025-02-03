@@ -1,5 +1,5 @@
-owner = DLH
-controller = DLH
+owner = KLP
+controller = KLP
 capital = "Jhansi"
 is_city = yes
 culture = vindhyan
@@ -8,7 +8,7 @@ trade_goods = iron
 base_tax = 8
 base_production = 5
 base_manpower = 5
-add_core = BND
+add_core = KLP
 add_core = DLH
 add_core = RJP
 discovered_by = chinese

@@ -10,7 +10,6 @@ base_production = 3
 base_manpower = 2
 add_core = ARB
 add_core = NAJ
-add_core = QAR
 add_permanent_claim = Z15
 discovered_by = east_african
 discovered_by = eastern

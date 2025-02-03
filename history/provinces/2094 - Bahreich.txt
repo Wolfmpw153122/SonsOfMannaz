@@ -1,5 +1,5 @@
-owner = DLH
-controller = DLH
+owner = Z1E
+controller = Z1E
 capital = "Bahreich"
 is_city = yes
 culture = dynamic-bengali-parthian-culture-num2
@@ -8,7 +8,7 @@ trade_goods = cotton
 base_tax = 8
 base_production = 5
 base_manpower = 4
-add_core = DLH
+add_core = Z1E
 add_core = ODH
 discovered_by = chinese
 discovered_by = east_african

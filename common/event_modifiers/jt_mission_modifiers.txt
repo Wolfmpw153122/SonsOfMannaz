@@ -56,7 +56,8 @@ prz_efficient_ledgers_3 = {
 
 prz_better_capital = {
 	diplomatic_annexation_cost = -0.5
-	development_cost_in_primary_culture = -0.1
+	culture_conversion_cost  = -0.25
+	culture_conversion_time = -0.25
 }
 prz_income = {
 	adm_advisor_cost = -0.25
@@ -91,4 +92,8 @@ muenster_the_army = {
 
 nij_fryslan_united = {
     local_production_efficiency = 0.1
+}
+
+the_south_march = {
+	local_defensiveness = 0.25
 }

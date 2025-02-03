@@ -1,5 +1,5 @@
-owner = BNG
-controller = BNG
+owner = TPR
+controller = TPR
 capital = "Udaipur"
 is_city = yes
 culture = dynamic-bengali-burmese-culture-num1
@@ -8,8 +8,7 @@ trade_goods = tropical_wood
 base_tax = 9
 base_production = 6
 base_manpower = 7
-add_core = AVA
-add_core = BNG
+add_core = TPR
 discovered_by = chinese
 discovered_by = east_african
 discovered_by = eastern

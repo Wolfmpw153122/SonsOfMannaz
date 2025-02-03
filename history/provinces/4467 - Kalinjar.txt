@@ -1,5 +1,5 @@
-owner = Z1E
-controller = Z1E
+owner = PAN
+controller = PAN
 capital = "Kalinjar"
 is_city = yes
 culture = avadhi
@@ -9,7 +9,7 @@ base_tax = 3
 base_production = 6
 base_manpower = 4
 add_core = ODH
-add_core = Z1E
+add_core = PAN
 discovered_by = chinese
 discovered_by = east_african
 discovered_by = eastern

@@ -2,7 +2,7 @@ government = republic
 add_government_reform = noble_elite_reform
 government_rank = 1
 technology_group = chinese
-religion = vajrayana
+religion = hinduism
 primary_culture = tibetan
 capital = 677
 1391.1.1= {
@@ -32,7 +32,7 @@ capital = 677
 }
 1481.1.1= {
 	monarch = {
-		name = "Dön-yö Dorje"
+		name = "Dï¿½n-yï¿½ Dorje"
 		adm = 1
 		dip = 3
 		mil = 0
@@ -48,7 +48,7 @@ capital = 677
 }
 1550.1.1= {
 	monarch = {
-		name = "Töndap Tseten"
+		name = "Tï¿½ndap Tseten"
 		adm = 2
 		dip = 2
 		mil = 1
@@ -72,7 +72,7 @@ capital = 677
 }
 1603.1.1= {
 	monarch = {
-		name = "Phüntso Namgye"
+		name = "Phï¿½ntso Namgye"
 		adm = 3
 		dip = 3
 		mil = 2

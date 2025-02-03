@@ -1,5 +1,5 @@
-owner = MER
-controller = MER
+owner = BAH
+controller = BAH
 capital = "Thalner"
 is_city = yes
 culture = dynamic-rajput-tamil-culture-num1
@@ -8,7 +8,7 @@ trade_goods = cotton
 base_tax = 7
 base_production = 5
 base_manpower = 3
-add_core = MER
+add_core = BAH
 discovered_by = chinese
 discovered_by = east_african
 discovered_by = eastern

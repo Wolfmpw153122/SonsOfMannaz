@@ -5,7 +5,6 @@ trade_goods = unknown
 base_tax = 5
 base_production = 3
 base_manpower = 3
-add_core = AZT
 discovered_by = ARW
 discovered_by = CAB
 discovered_by = andean

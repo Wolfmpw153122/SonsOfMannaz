@@ -1,5 +1,5 @@
-owner = MER
-controller = MER
+owner = MYS
+controller = MYS
 capital = "Vijayanagar"
 is_city = yes
 culture = telegu
@@ -10,7 +10,7 @@ base_production = 4
 base_manpower = 2
 extra_cost = 8
 center_of_trade = 1
-add_core = GOC
+add_core = MYS
 add_core = MER
 discovered_by = chinese
 discovered_by = east_african

@@ -1,5 +1,5 @@
-owner = BNG
-controller = BNG
+owner = TIB
+controller = TIB
 capital = "Nyingchi"
 is_city = yes
 culture = dynamic-bengali-sumpa-culture-num1
@@ -8,7 +8,7 @@ trade_goods = grain
 base_tax = 7
 base_production = 5
 base_manpower = 6
-add_core = BNG
+add_core = TIB
 add_core = PHA
 discovered_by = chinese
 discovered_by = east_african

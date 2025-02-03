@@ -1,5 +1,5 @@
-owner = BNG
-controller = BNG
+owner = LWA
+controller = LWA
 capital = "Gauhauti"
 is_city = yes
 culture = dynamic-bengali-culture-num5
@@ -9,8 +9,7 @@ fort_15th = yes
 base_tax = 7
 base_production = 6
 base_manpower = 5
-add_core = AVA
-add_core = BNG
+add_core = LWA
 discovered_by = chinese
 discovered_by = east_african
 discovered_by = eastern

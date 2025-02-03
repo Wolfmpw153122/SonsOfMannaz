@@ -1,9 +1,9 @@
 government = monarchy
-add_government_reform = mandala_reform
+add_government_reform = daimyo
 government_rank = 1
 technology_group = chinese
-religion = buddhism
-primary_culture = burmese
+religion = catholic
+primary_culture = arakanese
 capital = 4396
 1442.1.1= {
 	monarch = {

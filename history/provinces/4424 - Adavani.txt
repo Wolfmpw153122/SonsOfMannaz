@@ -1,5 +1,5 @@
-owner = MER
-controller = MER
+owner = MYS
+controller = MYS
 capital = "Adavani"
 is_city = yes
 culture = dynamic-tamil-culture-num1
@@ -9,7 +9,7 @@ fort_15th = yes
 base_tax = 6
 base_production = 3
 base_manpower = 4
-add_core = MER
+add_core = MYS
 discovered_by = chinese
 discovered_by = east_african
 discovered_by = eastern

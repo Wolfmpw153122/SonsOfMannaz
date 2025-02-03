@@ -1,5 +1,5 @@
-owner = DLH
-controller = DLH
+owner = JSL
+controller = JSL
 capital = "Jalor"
 is_city = yes
 culture = gujarati
@@ -8,7 +8,7 @@ trade_goods = cotton
 base_tax = 7
 base_production = 3
 base_manpower = 6
-add_core = DLH
+add_core = JSL
 add_core = RJP
 discovered_by = chinese
 discovered_by = east_african

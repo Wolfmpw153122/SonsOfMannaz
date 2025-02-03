@@ -1,5 +1,5 @@
-owner = BNG
-controller = BNG
+owner = TAU
+controller = TAU
 capital = "Dagon"
 is_city = yes
 culture = arakanese
@@ -11,7 +11,7 @@ base_production = 5
 base_manpower = 3
 extra_cost = 5
 add_core = AVA
-add_core = BNG
+add_core = TAU
 add_core = PEG
 discovered_by = chinese
 discovered_by = east_african

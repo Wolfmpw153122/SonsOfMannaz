@@ -1,5 +1,5 @@
-owner = TIM
-controller = TIM
+owner = PUN
+controller = PUN
 capital = "Bhera"
 is_city = yes
 culture = kashmiri
@@ -8,7 +8,7 @@ trade_goods = salt
 base_tax = 8
 base_production = 6
 base_manpower = 5
-add_core = KSH
+add_core = PUN
 add_core = TIM
 discovered_by = chinese
 discovered_by = east_african

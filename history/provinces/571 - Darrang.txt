@@ -1,14 +1,13 @@
-owner = BNG
-controller = BNG
+owner = PHA
+controller = PHA
 capital = "Koliabar"
 is_city = yes
 culture = dynamic-bengali-nepali-culture-num1
-religion = hinduism
+religion = catholic
 trade_goods = silk
 base_tax = 6
 base_production = 5
 base_manpower = 3
-add_core = BNG
 add_core = PHA
 discovered_by = chinese
 discovered_by = east_african

@@ -1,5 +1,5 @@
-owner = TIM
-controller = TIM
+owner = PUN
+controller = PUN
 capital = "Bahawalpur"
 is_city = yes
 culture = panjabi
@@ -8,7 +8,7 @@ trade_goods = livestock
 base_tax = 8
 base_production = 6
 base_manpower = 5
-add_core = TIM
+add_core = PUN
 add_permanent_claim = PUN
 discovered_by = chinese
 discovered_by = east_african

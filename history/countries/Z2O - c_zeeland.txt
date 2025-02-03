@@ -1,11 +1,17 @@
-government = monarchy
-add_government_reform = english_monarchy
+government = republic
+add_government_reform = merchants_reform
 government_rank = 1
 technology_group = western
 religion = catholic
 primary_culture = dynamic-norse-culture-num2
-capital = 96
-fixed_capital = 96
+capital = 1744
+fixed_capital = 1744
+mercantilism = 25
+historical_friend = BRE
+historical_friend = Z24
+historical_friend = RVA
+historical_friend = BRG
+
 set_country_flag = ZZZ_generated_converter_nation
 1444.11.11= {
 	monarch = {

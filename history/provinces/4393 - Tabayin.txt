@@ -1,5 +1,5 @@
-owner = Z0H
-controller = Z0H
+owner = AVA
+controller = AVA
 capital = "Tabayin"
 is_city = yes
 culture = dynamic-bengali-burmese-culture-num1
@@ -9,7 +9,7 @@ fort_15th = yes
 base_tax = 6
 base_production = 4
 base_manpower = 3
-add_core = Z0H
+add_core = AVA
 discovered_by = chinese
 discovered_by = east_african
 discovered_by = eastern

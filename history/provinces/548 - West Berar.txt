@@ -1,5 +1,5 @@
-owner = MER
-controller = MER
+owner = BAH
+controller = BAH
 capital = "Illichpur"
 is_city = yes
 culture = dynamic-marathi-tamil-culture-num1
@@ -8,7 +8,7 @@ trade_goods = copper
 base_tax = 6
 base_production = 2
 base_manpower = 2
-add_core = MER
+add_core = BAH
 add_core = Z00
 discovered_by = chinese
 discovered_by = east_african

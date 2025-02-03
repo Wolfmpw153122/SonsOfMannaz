@@ -9,7 +9,6 @@ base_tax = 1
 base_production = 3
 base_manpower = 1
 add_core = Z16
-add_core = QAR
 add_core = Z13
 discovered_by = east_african
 discovered_by = eastern

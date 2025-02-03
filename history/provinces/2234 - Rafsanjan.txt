@@ -1,5 +1,5 @@
-owner = Z03
-controller = Z03
+owner = TIM
+controller = TIM
 capital = "Rafsanjan"
 is_city = yes
 culture = dynamic-baluchi-bengali-culture-num1
@@ -8,7 +8,7 @@ trade_goods = copper
 base_tax = 6
 base_production = 2
 base_manpower = 4
-add_core = Z03
+add_core = TIM
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

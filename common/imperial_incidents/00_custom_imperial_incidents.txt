@@ -10,11 +10,18 @@ incident_prague_event = {
 			NOT = { exists = PRZ }
 			PRZ = { is_emperor = yes }
 			PRZ = { is_subject = yes }
+			PRZ = { set_country_flag = "prz_causing_an_incident"}
 			emperor = { war_with = PRZ }
 			emperor = {
 				is_in_war = {
 					defenders = PRZ
 					defenders = emperor
+				}
+			}
+			emperor = {
+				is_in_war = {
+					attackers = PRZ
+					attackers = emperor
 				}
 			}
 		}

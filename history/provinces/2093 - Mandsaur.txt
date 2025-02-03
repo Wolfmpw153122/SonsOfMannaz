@@ -1,5 +1,5 @@
-owner = DLH
-controller = DLH
+owner = MLW
+controller = MLW
 capital = "Mandsaur"
 is_city = yes
 culture = tamil
@@ -8,7 +8,7 @@ trade_goods = spices
 base_tax = 9
 base_production = 5
 base_manpower = 9
-add_core = DLH
+add_core = MLW
 add_core = MAD
 add_core = RJP
 discovered_by = chinese
