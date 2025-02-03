@@ -1,0 +1,321 @@
+university_internal_slot_1 = {
+    slot = 1
+    generic = no
+    ai = yes
+    has_country_shield = yes
+    potential = { tag = UNI }
+
+    uni_new_income_streams = {
+        icon = mission_build_up_to_force_limit
+        position = 3
+        required_missions = {
+            uni_of_bursars_and_burghers
+        }
+        trigger = {
+            num_of_owned_provinces_with = {
+                value = 3
+                province_has_center_of_trade_of_level = 1
+            }
+        }
+        effect = {
+            add_mercantilism = 3
+            custom_tooltip = unirtm_tt
+            hidden_effect = {
+                set_country_flag = UNI_remove_trade_malus
+            }
+        }
+    }
+}
+
+university_internal_slot_2 = {
+    slot = 2
+    generic = no
+    ai = yes
+    has_country_shield = yes
+    potential = { tag = UNI }
+
+    uni_of_bursars_and_burghers = {
+        icon = mission_build_up_to_force_limit
+        position = 2
+        required_missions = {
+            uni_northern_victory
+        }
+        trigger = {
+            num_of_loans = 0
+            has_dip_advisor = yes
+        }
+        effect = {
+            custom_tooltip = unirim_tt
+            hidden_effect = {
+                set_country_flag = UNI_remove_inflation_malus
+            }         
+        }
+    }
+
+    uni_theory_into_practice = {
+        icon = mission_build_up_to_force_limit
+        position = 3
+        required_missions = {
+            uni_of_bursars_and_burghers
+        }
+        provinces_to_highlight = {
+            OR = {
+                province_id = 77
+                province_id = 70
+            }
+        }
+        trigger = {
+            77 = { 
+                base_production = 10
+            }
+            70 = {
+                base_production = 10
+            }
+        }
+        effect = {
+            77 = {
+                change_trade_goods = paper
+            }
+            70 = {
+                change_trade_goods = glass
+            }
+            custom_tooltip = unirpm_tt
+            hidden_effect = {
+                set_country_flag = UNI_remove_production_malus
+            }
+        }
+    }
+
+    uni_righting_the_books = {
+        icon = mission_build_up_to_force_limit
+        position = 4
+        required_missions = {
+            uni_theory_into_practice
+            uni_new_income_streams
+        }
+        trigger = {
+            estate_loyalty = {
+                estate = estate_burghers
+                loyalty = 60
+            }
+            estate_influence = {
+                estate = estate_burghers
+                influence = 40
+            }
+        }
+        effect = {
+            remove_estate_privilege = estate_burghers_UNI_merchant_dependance
+            add_estate__loyalty_modifier = {
+                estate = estate_burghers
+                desc = UNI_BL
+                loyalty = 5
+                duration = -1
+            }
+        }
+    }
+}
+
+university_internal_slot_3 = {
+    slot = 3
+    generic = no
+    ai = yes
+    has_country_shield = yes
+    potential = { tag = UNI }
+
+    uni_northern_victory = {
+        icon = mission_build_up_to_force_limit
+        position = 1
+        required_missions = { }
+        provinces_to_highlight = {
+            OR = {
+                province_id = 68
+                province_id = 72
+                province_id = 4712
+                province_id = 4713
+            }
+        }
+        trigger = {
+            owns_core_province = 68
+            owns_core_province = 72
+            owns_core_province = 4712
+            owns_core_province = 4713
+        }
+        effect = {
+            country_event = {
+                id = university_events.2
+            }
+        }
+    }
+
+    uni_a_godly_headache = {
+        icon = mission_build_up_to_force_limit
+        position = 2
+        required_missions = { 
+            uni_northern_victory
+        }
+        trigger = {
+            num_of_owned_provinces_with = {
+                value = 3
+                has_building = temple
+            }
+        }
+        effect = {
+            remove_country_modifier = uni_clerical_opposition
+            4712 = {
+                add_province_modifier = {
+                    name = "uni_seat_of_rebellion"
+                    duration = -1
+                }
+            }
+        }
+    }
+
+    uni_teaching_a_lesson = {
+        icon = mission_build_up_to_force_limit
+        position = 4
+        required_missions = { 
+            uni_a_godly_headache
+        }
+        provinces_to_highlight = {
+            OR = {
+                province_id = 4713
+            }
+        }
+        trigger = {
+            owns_core_province = 4712
+            owns_core_province = 4713
+            4713 = {
+                base_manpower = 8
+            }
+            manpower = 3000
+        }
+        effect = {
+            country_event = {
+                id = university_events.3
+            }
+        }
+    }
+
+    uni_the_fundamentals = {
+        icon = mission_build_up_to_force_limit
+        position = 5
+        required_missions = { 
+            uni_teaching_a_lesson
+            uni_righting_the_books
+            uni_the_gelehrterwache
+        }
+        provinces_to_highlight = {
+            OR = {
+                province_id = 68
+                province_id = 72
+                province_id = 4712
+                province_id = 4713
+            }
+        }
+        trigger = {
+            owns_core_province = 68
+            owns_core_province = 72
+            owns_core_province = 4712
+            owns_core_province = 4713
+        }
+        effect = {
+
+        }
+    }
+}
+
+university_internal_slot_4 = {
+    slot = 4
+    generic = no
+    ai = yes
+    has_country_shield = yes
+    potential = { tag = UNI }
+
+    uni_second_sons = {
+        icon = mission_build_up_to_force_limit
+        position = 2
+        required_missions = { 
+            uni_northern_victory
+        }
+        trigger = {
+            manpower_percentage = 0.50
+            has_mil_advisor = yes
+        }
+        effect = {
+            custom_tooltip = unirmm_tt
+            hidden_effect = {
+                set_country_flag = UNI_remove_manpower_malus
+            }
+        }
+    }
+
+    uni_ancient_history = {
+        icon = mission_build_up_to_force_limit
+        position = 3
+        required_missions = { 
+            uni_second_sons
+        }
+        trigger = {
+            corruption = 0
+        }
+        effect = {
+            custom_tooltip = unirflm_tt
+            hidden_effect = {
+                set_country_flag = UNI_remove_forcelimit_malus
+            }
+        }
+    }
+
+    uni_the_gelehrterwache = {
+        icon = mission_build_up_to_force_limit
+        position = 4
+        required_missions = { 
+            uni_ancient_history
+            uni_eye_for_talent
+        }
+        provinces_to_highlight = {
+            province_id = 74
+        }
+        trigger = {
+            estate_loyalty = {
+                estate = estate_nobles
+                loyalty = 60
+            }
+            estate_influence = {
+                estate = estate_nobles
+                influence = 40
+            }
+        }
+        effect = {
+            remove_estate_privilege = estate_nobles_UNI_ambitious_nobles
+            country_event = {
+                id = university_events.4
+            }
+        }
+    }
+}
+
+university_internal_slot_5 = {
+    slot = 5
+    generic = no
+    ai = yes
+    has_country_shield = yes
+    potential = { tag = UNI }
+
+    uni_eye_for_talent = {
+        icon = mission_build_up_to_force_limit
+        position = 3
+        required_missions = { 
+            uni_second_sons
+        }
+        trigger = {
+            army_professionalism = 0.20
+        }
+        effect = {
+            custom_tooltip = unirgm_tt
+            hidden_effect = {
+                set_country_flag = UNI_remove_general_malus
+            }
+        }
+    }
+}

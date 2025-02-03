@@ -1,0 +1,238 @@
+porte_livre_internal_slot_1 = {
+    slot = 1
+    generic = no
+    ai = yes
+    has_country_shield = yes
+    potential = { tag = PTR }
+
+    ptr_more_lumber = {
+        icon = mission_look_west
+        position = 4
+        required_missions = { ptr_safe_harbor }
+    }
+
+    ptr_sailors_at_arms = {
+        icon = mission_look_west
+        position = 6
+        required_missions = { 
+            ptr_more_lumber
+            ptr_amenceher_naval_yards
+         }
+    }
+}
+
+
+porte_livre_internal_slot_2 = {
+    slot = 2
+    generic = no
+    ai = yes
+    has_country_shield = yes
+    potential = { tag = PTR }
+
+    ptr_expand_the_harbor = {
+        icon = mission_galleys_in_port
+        position = 2
+        required_missions = { ptr_secure_the_landing }
+        provinces_to_highlight = {
+            province_id = 484
+        }
+        trigger = {
+            capital_scope = {
+                development = 30
+            }
+        }
+        effect = {
+            484 = {
+                add_building = shipyard
+                add_institution_embracement = {
+                    which = renaissance
+                    value = 50
+                }
+            }
+            
+        }
+    }
+
+    ptr_amenceher_naval_yards = {
+        icon = mission_galleys_in_port
+        position = 5
+        required_missions = { ptr_safe_harbor }
+    }
+
+    ptr_a_new_ship = {
+        icon = mission_galleys_in_port
+        position = 6
+        required_missions = {
+            ptr_amenceher_naval_yards
+            ptr_refugees_and_radicals
+        }
+    }
+}
+
+
+porte_livre_internal_slot_3 = {
+    slot = 3
+    generic = no
+    ai = yes
+    has_country_shield = yes
+    potential = { tag = PTR }
+
+    ptr_secure_the_landing = {
+        icon = mission_unite_coromandel
+        position = 1
+        required_missions = { }
+        provinces_to_highlight = {
+            area = cuba_area
+        }
+        trigger = {
+            cuba_area = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+        }
+        effect = {
+            every_province = {
+                limit = {
+                    OR = {
+                        province_id = 4624
+                        province_id = 4622
+                        province_id = 4623
+                        province_id = 485
+                    }
+                }
+                add_base_tax = -1
+                add_base_production = -1
+                add_base_manpower = -1
+            }
+            484 = {
+                add_base_tax = 4
+                add_base_production = 4
+                add_base_manpower = 4
+                add_building = dock
+            }
+        }
+    }
+
+    ptr_survey_the_island = {
+        icon = mission_retake_ceuta
+        position = 2
+        required_missions = { ptr_secure_the_landing }
+        provinces_to_highlight = {
+            area = east_cuba_area
+        }
+        trigger = {
+            east_cuba_area = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+        }
+        effect = {
+            every_province = {
+                limit = {
+                    OR = {
+                        province_id = 2656
+                        province_id = 486
+                        province_id = 2654
+                    }
+                }
+                add_base_tax = -1
+                add_base_production = -1
+                add_base_manpower = -1
+            }
+            2655 = {
+                add_base_tax = 3
+                add_base_production = 3
+                add_base_manpower = 3
+                change_province_name = "Porto Amanhecer"
+                hidden_effect = {
+                    rename_capital = "Porto Amanhecer"
+                }
+            }
+        }
+    }
+
+    ptr_safe_harbor = {
+        icon = mission_look_west
+        position = 3
+        required_missions = {
+            ptr_expand_the_harbor
+            ptr_survey_the_island
+            ptr_the_salt_and_sea
+        }
+    }
+
+    ptr_seize_the_seas = {
+        icon = mission_look_west
+        position = 7
+        required_missions = {
+            ptr_sailors_at_arms
+            ptr_a_new_ship
+            ptr_refugees_and_radicals
+            ptr_across_the_waves
+        }
+    }
+
+    ptr_hoist_the_flag = {
+        icon = mission_look_west
+
+        postition = 8
+        required_missions = { ptr_seize_the_seas }
+    }
+}
+
+porte_livre_internal_slot_4 = {
+    slot = 4
+    generic = no
+    ai = yes
+    has_country_shield = yes
+    potential = { tag = PTR }
+
+    ptr_the_salt_and_sea = {
+        icon = mission_look_west
+        position = 2
+        required_missions = { ptr_secure_the_landing }
+        trigger = {
+            cuba_area = {
+                type = all
+                religion = espiritos_do_mar
+            }
+        }
+        effect = {
+            484 = {
+                add_building = temple
+            }
+        }
+    }
+
+    ptr_coin_and_commerce = {
+        icon = mission_look_west
+        position = 4
+        required_missions = { ptr_safe_harbor }
+    }
+
+    ptr_refugees_and_radicals = {
+        icon = mission_look_west
+        position = 5
+        required_missions = { ptr_coin_and_commerce }
+    }
+}
+
+porte_livre_internal_slot_5 =  {
+    slot = 5
+    generic = no
+    ai = yes
+    has_country_shield = yes
+    potential = { tag = PTR }
+
+    ptr_chart_a_course = {
+        icon = mission_look_west
+        position = 4
+        required_missions = { ptr_safe_harbor }
+    }
+
+    ptr_across_the_waves = {
+        icon = mission_look_west
+        position = 6
+        required_missions = { ptr_chart_a_course }
+    }
+}
