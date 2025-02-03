@@ -1,5 +1,5 @@
-owner = LIT
-controller = LIT
+owner = RYA
+controller = RYA
 capital = "Vyazma"
 is_city = yes
 culture = ryazanian
@@ -8,7 +8,7 @@ trade_goods = cloth
 base_tax = 4
 base_production = 3
 base_manpower = 1
-add_core = LIT
+add_core = RYA
 add_core = RYA
 discovered_by = east_african
 discovered_by = eastern

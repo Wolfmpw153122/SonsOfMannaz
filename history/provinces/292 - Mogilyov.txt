@@ -1,5 +1,5 @@
-owner = LIT
-controller = LIT
+owner = KIE
+controller = KIE
 capital = "Mahilyow"
 is_city = yes
 culture = byelorussian
@@ -8,7 +8,8 @@ trade_goods = wool
 base_tax = 1
 base_production = 1
 base_manpower = 2
-add_core = LIT
+add_core = KIE
+hre = yes
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

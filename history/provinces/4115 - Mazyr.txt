@@ -1,5 +1,5 @@
-owner = LIT
-controller = LIT
+owner = KIE
+controller = KIE
 capital = "Mazyr"
 is_city = yes
 culture = dynamic-meshchera-scythian-culture-num1
@@ -8,7 +8,8 @@ trade_goods = grain
 base_tax = 4
 base_production = 3
 base_manpower = 4
-add_core = LIT
+add_core = KIE
+hre = yes
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

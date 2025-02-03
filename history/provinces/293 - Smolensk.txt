@@ -1,5 +1,5 @@
-owner = LIT
-controller = LIT
+owner = RYA
+controller = RYA
 capital = "Smolensk"
 is_city = yes
 culture = ryazanian
@@ -11,7 +11,7 @@ base_production = 1
 base_manpower = 1
 extra_cost = 16
 center_of_trade = 2
-add_core = LIT
+add_core = RYA
 add_core = RYA
 discovered_by = east_african
 discovered_by = eastern
