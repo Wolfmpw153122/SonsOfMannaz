@@ -9,5 +9,5 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 add_core = MKU
-discovered_by = central_african
-discovered_by = east_african
+
+

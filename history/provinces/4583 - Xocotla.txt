@@ -9,8 +9,8 @@ base_tax = 8
 base_production = 8
 base_manpower = 2
 add_core = TLX
-discovered_by = andean
-discovered_by = high_american
-discovered_by = mesoamerican
-discovered_by = north_american
-discovered_by = south_american
+
+
+
+
+

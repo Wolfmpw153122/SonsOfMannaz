@@ -1,6 +1,6 @@
 owner = KIC
 controller = KIC
-capital = "Petén"
+capital = "Petï¿½n"
 is_city = yes
 culture = putun
 religion = mesoamerican_religion
@@ -10,8 +10,8 @@ base_production = 4
 base_manpower = 2
 add_core = ITZ
 add_core = KIC
-discovered_by = andean
-discovered_by = high_american
-discovered_by = mesoamerican
-discovered_by = north_american
-discovered_by = south_american
+
+
+
+
+

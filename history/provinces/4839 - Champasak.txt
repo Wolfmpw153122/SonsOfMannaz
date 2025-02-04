@@ -10,5 +10,5 @@ base_production = 3
 base_manpower = 3
 add_core = CHK
 add_core = LXA
-discovered_by = chinese
-discovered_by = indian
+
+

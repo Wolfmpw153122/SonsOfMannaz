@@ -11,5 +11,5 @@ base_manpower = 5
 extra_cost = 8
 center_of_trade = 1
 add_core = ZIM
-discovered_by = central_african
-discovered_by = east_african
+
+
