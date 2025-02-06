@@ -1,0 +1,136 @@
+namespace = portolivre_events
+
+#Castaway Refugees
+province_event = {
+	id = portolivre_events.3
+	title = portolivre_events.3.t
+	desc = portolivre_events.3.d
+	picture = BUCCANEERS_eventPicture
+
+	trigger = {
+		is_colony = yes
+		owner = {
+			has_reform = ptr_castaways
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 6
+	}
+
+	option = {
+		name = portolivre_events.3.a
+		owner = {
+			random_owned_province = {
+				limit = {
+					is_colony = yes
+				}
+				add_province_modifier = {
+					name = "colonial_boom"
+					duration = 1825
+				}
+				add_colonysize = 100
+			}
+		}
+	}
+}
+
+#Pearls of Wisdom
+country_event = {
+	id = portolivre_events.2
+	title = portolivre_events.2.t
+	desc = portolivre_events.2.d
+	picture = PIRATE_CAPTAINS_eventPicture
+	fire_only_once = yes
+	trigger = { tag = PTR }
+
+	mean_time_to_happen = {
+		months = 3
+	}
+
+	option = {
+		name = portolivre_events.2.a
+		ai_chance = { factor = 1 }
+		change_religion = espiritos_do_mar
+		capital_scope = {
+			change_religion = espiritos_do_mar
+		}
+	}
+}
+
+#Iberian Exodus
+country_event = {
+	id = portolivre_events.1
+	title = portolivre_events.1.t
+	desc = portolivre_events.1.d
+	picture = HRE_eventPicture
+	is_triggered_only = yes
+	
+	option = {
+				name = portolivre_events.1.a
+				
+				ai_chance = { factor = 1 }
+					
+				add_prestige = 5
+				
+			}
+	option = {
+				name = portolivre_events.1.b
+				ai_chance = { factor = 0 }
+				hidden_effect = {
+					484 = {
+						add_core = PTR
+						cede_province = PTR
+						change_culture = portugese
+						change_religion = converted_dynamic_faith_138
+						change_province_name = "Porto Livre"
+						rename_capital = "Porto Livre"
+					}
+					cuba_area = {
+						discover_country = PTR
+					}
+					east_cuba_area = {
+						discover_country = PTR
+					}
+					bahama_channel_area = {
+						discover_country = PTR
+					}
+					caribbean_sea_area = {
+						discover_country = PTR
+					}
+					PTR = { 
+						apply_sprite_pack = dlc098_nss_sprite_pack
+					}
+				}
+			}
+
+	option = {
+				name = portolivre_events.1.c
+				ai_chance = { factor = 0 }
+				hidden_effect = {
+					484 = {
+						add_core = PTR
+						cede_province = PTR
+						change_culture = portugese
+						change_province_name = "Porto Livre"
+						rename_capital = "Porto Livre"
+					}
+					cuba_area = {
+						discover_country = PTR
+					}
+					east_cuba_area = {
+						discover_country = PTR
+					}
+					bahama_channel_area = {
+						discover_country = PTR
+					}
+					caribbean_sea_area = {
+						discover_country = PTR
+					}
+					PTR = { 
+						apply_sprite_pack = dlc098_nss_sprite_pack
+					}
+				}
+				switch_tag = PTR
+			}
+}

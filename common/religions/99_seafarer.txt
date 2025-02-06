@@ -1,0 +1,17 @@
+ seafarer = {
+    can_form_personal_unions = yes
+
+    espiritos_do_mar = {
+        color = { 159 226 191 }
+        icon = 62
+        country = {
+            naval_attrition = -0.15
+            global_sailors_modifier = 0.1
+        }
+        country_as_secondary = {
+            global_sailors_modifier = 0.1
+        }
+
+        personal_deity = yes
+    }
+ }

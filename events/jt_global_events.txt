@@ -4,7 +4,9 @@ country_event = {
 	title = jt_buff_admin_cap
 	desc = jt_global_desc.1.d
 	picture = TRADEGOODS_eventPicture
-	
+	trigger = {
+        ai = yes
+    }
     is_triggered_only = yes
 	major = no
     option = {

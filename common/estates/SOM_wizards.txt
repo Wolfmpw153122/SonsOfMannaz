@@ -1,0 +1,110 @@
+estate_wizards = {
+    icon = 4
+
+    trigger = {
+        has_reform = university_reform
+    }
+
+    country_modifier_happy = {
+        yearly_innovativeness = 0.01
+    }
+    country_modifier_neutral = {
+        yearly_innovativeness = 0.005
+    }
+    country_modifier_angry = {
+        yearly_innovativeness = -0.01
+    }
+
+    land_ownership_modifier = {
+		church_loyalty_modifier = 0.2
+	}
+
+    province_independence_weight = {
+        factor = 1
+    }
+
+    base_influence = 10
+    influence_modifier = {
+		desc = EST_VAL_OTHER_ESTATE_IN_POWER
+		trigger = {
+			has_any_estate_disaster_active = yes
+			has_not_own_estate_disaster_active = { estate = estate_church }
+		}
+		influence = -40
+	}
+    influence_modifier = {
+        desc = EST_HIGH_INNOVATIVENESS
+        influence = 10
+        trigger = { 
+            innovativeness = 50
+        }
+    }
+    influence_modifier = {
+        desc = EST_RULER_SCHOLAR
+        influence = 5
+        trigger = { 
+            ruler_has_personality = scholar_personality
+        }
+    }
+    influence_modifier = {
+        desc = EST_RULER_FREE_THINKER
+        influence = 5
+        trigger = { 
+            ruler_has_personality = free_thinker_personality
+        }
+    }
+    influence_modifier = {
+        desc = EST_UNIVERSITY_REFORM
+        influence = 15
+        trigger = { 
+            has_reform = university_reform
+        }
+    }
+    
+    loyalty_modifier = {
+		desc = EST_VAL_OTHER_ESTATE_IN_POWER_LOY
+		trigger = {
+			has_any_estate_disaster_active = yes
+			has_not_own_estate_disaster_active = { estate = estate_church }
+		}
+		loyalty = -20
+	}
+    loyalty_modifier = {
+        desc = EST_AHEAD_TECH
+        loyalty = 5
+        trigger = { 
+            any_neighbor_country = {
+                tech_difference = -1
+            }
+        }
+    }
+    loyalty_modifier = {
+        desc = EST_BEHIND_TECH
+        loyalty = -10
+        trigger = {
+            any_neighbor_country = {
+                tech_difference = 1
+            }
+        }
+    }
+
+    color = { 4 114 77 }
+
+    privileges = {
+        estate_wizards_advisors
+        estate_wizards_UNI_deadlocked_debate
+        estate_wizards_UNI_bureaucratic_burden
+    }
+
+    agendas = {
+        estate_wizards_build_university_in_y
+        estate_wizards_build_manufactory_in_y
+        estate_wizards_fire_advisor
+        estate_wizards_hire_advisor_adm
+        estate_wizards_hire_advisor_dip
+        estate_wizards_hire_advisor_mil
+        estate_wizards_develop_x
+        estate_wizards_embrace_institution
+    }
+    influence_from_dev_modifier = 1.0
+}
