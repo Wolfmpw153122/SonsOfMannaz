@@ -1,0 +1,48 @@
+harbor = {
+    sailors_recovery_speed = 0.10
+    development_cost_modifier = -0.05
+    sprite = 1
+    potential = {
+        religion = espiritos_do_mar
+    }
+}
+
+drowned = {
+    heavy_ship_power = 0.1
+    naval_tradition_from_battle = 0.15
+}
+
+horizon = {
+    global_colonial_growth = 15
+    global_ship_trade_power = 0.1
+}
+
+depths = {
+    global_missionary_strength = 0.015
+    spy_offence = 0.30
+}
+
+tides = {
+    reform_progress_growth = 0.1
+    global_institution_spread = 0.1
+}
+
+storms = {
+    shock_damage_received = -0.05
+    shock_damage = 0.1
+}
+
+stars = {
+    technology_cost = -0.05
+    advisor_pool  = 1
+}
+
+reefs = {
+    global_ship_cost = -0.1
+    production_efficiency = 0.1
+}
+
+winds = {
+    disengagement_chance = 0.05
+    movement_speed_in_fleet_modifier = 1
+}

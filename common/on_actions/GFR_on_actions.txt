@@ -3,3 +3,9 @@ on_monarch_death = {
         greater_frisian_event.3 #flemish succession
     }
 }
+on_province_owner_change = {
+    add_province_triggered_modifier = gfr_no_representation_munster #munster cultural malus
+}
+on_startup = {
+    FRI = {set_country_flag = cannot_add_seat}
+}

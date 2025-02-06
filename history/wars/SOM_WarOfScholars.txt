@@ -1,0 +1,16 @@
+name = "War of Scholars"
+war_goal = {
+    type = take_core_consolidate
+    casus_belli = cb_consolidate
+    province = 77
+}
+
+1444.10.11 = {
+    add_attacker = KNZ
+    add_defender = UNI
+}
+
+1464.11.11 = {
+    rem_attacker = KNZ
+    rem_defender = UNI
+}

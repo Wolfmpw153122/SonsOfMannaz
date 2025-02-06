@@ -97,3 +97,55 @@ PRZ_ideas = {
 
 
 }
+
+UNI_ideas = {
+	start = {
+		advisor_pool = 1
+		advisor_cost = -0.15
+	}
+
+	bonus = {
+		yearly_innovativeness = 0.25
+	}
+
+	trigger = {
+		tag = UNI
+	}
+	free = yes
+
+	uni_introduction_to_applied_wizardry = {
+		technology_cost = -0.05
+		global_institution_spread = 0.1
+	}
+
+	uni_imperial_translators = {
+		improve_relation_modifier = 0.2
+		diplomatic_reputation = 1
+	}
+
+	uni_academic_privilege = {
+		idea_cost = -0.05
+		tolerance_heretic = 1
+		tolerance_heathen = 1
+	}
+
+	uni_phials_and_flasks = {
+		monarch_lifespan = 0.1
+		caravan_power = 0.2
+	}
+	
+	uni_modern_major_generals = {
+		leader_land_fire = 1
+		leader_siege = 1
+	}
+
+	uni_unity_of_the_colleges = {
+		all_estate_loyalty_equilibrium = 0.05
+		republican_tradition = 0.5
+	}
+
+	uni_explosive_results = {
+		infantry_fire = 0.10
+		backrow_artillery_damage = 0.10
+	}
+}

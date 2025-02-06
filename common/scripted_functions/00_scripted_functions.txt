@@ -201,6 +201,16 @@ can_colonize_province_siberian_frontier = {
 }
 
 can_add_seat_in_parliament = {
+	condition = {
+		potential = {
+			FROM = {
+				has_country_flag = cannot_add_seat
+			}
+		}
+		allow = {
+			always = no
+		}
+	}
 }
 
 can_remove_seat_in_parliament = {

@@ -1,0 +1,11 @@
+uni_clerical_opposition = {
+    can_not_build_missionaries = yes
+    tolerance_own = -3
+    global_unrest = 13
+}
+
+uni_seat_of_rebellion = {
+    local_unrest = 25
+    local_missionary_strength = -1
+    min_local_autonomy = 25
+}

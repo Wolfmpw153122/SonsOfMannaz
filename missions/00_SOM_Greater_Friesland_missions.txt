@@ -91,9 +91,7 @@ greater_friesland_missions_1 = {
                 }
                 add_permanent_claim = ROOT
             }
-            86 = {
-                set_seat_in_parliament = yes
-            }
+            #unlock_issue = { issue = friesland_munster_compromise }
         }
 
     }
@@ -217,7 +215,10 @@ greater_friesland_missions_2 = {
         }
         trigger = {
             1269 = {
-                is_strongest_trade_power = ROOT
+                trade_share = {
+                    country = ROOT
+                    share = 20
+                }
             }
             owns_core_province = 99
             owns_core_province = 4381
@@ -544,15 +545,42 @@ greater_friesland_missions_3 = {
             1744 = {
                 country_or_non_sovereign_subject_holds = ROOT
             }
-            legitimacy = 80
+            1269 = {
+                is_strongest_trade_power = ROOT
+            }
         }
 
         effect = {
-            add_casus_belli = {
-                target = HOL
-                type = cb_claim_throne
-                months = 120
-            }
+            if = {
+				limit = {
+					valid_for_personal_unions_trigger = yes
+					exists = HOL #deliberately not PRU, that would be OP
+					HOL = {
+						valid_for_personal_unions_trigger = yes
+					}
+				}
+				add_casus_belli = {
+					type = cb_restore_personal_union
+					months = 300
+					target = HOL
+				}
+			}
+			else = {
+				holland_area_area = {
+					limit = {
+						NOT = { is_permanent_claim = ROOT }
+						NOT = { is_core = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+				north_brabant_area = {
+					limit = {
+						NOT = { is_permanent_claim = ROOT }
+						NOT = { is_core = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+			}
         }
     }
 
