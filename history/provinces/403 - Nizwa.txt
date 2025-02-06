@@ -1,5 +1,3 @@
-owner = OMA
-controller = OMA
 capital = "Nizwa"
 is_city = yes
 culture = persian
@@ -10,9 +8,10 @@ base_tax = 5
 base_production = 4
 base_manpower = 2
 add_core = OMA
-add_core = PER
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = indian
+owner = OMA
+controller = OMA

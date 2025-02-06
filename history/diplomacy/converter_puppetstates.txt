@@ -205,14 +205,6 @@ vassal=
 
 vassal=
 {
-	first="QAR"
-	second="OMA"
-	start_date="1444.11.11"
-	end_date="1836.1.1"
-}
-
-vassal=
-{
 	first="SIB"
 	second="Z1L"
 	start_date="1444.11.11"

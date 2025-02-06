@@ -4,6 +4,7 @@ government_rank = 2
 technology_group = muslim
 religion = hinduism
 primary_culture = dynamic-afghani-greek-culture-num1
+add_accepted_culture = dynamic-baluchi-bengali-culture-num1
 capital = 2229
 mercantilism = 15
 1444.11.11= {

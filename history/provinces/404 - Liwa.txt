@@ -1,5 +1,5 @@
-owner = QAR
-controller = QAR
+owner = OMA
+controller = OMA
 capital = "Liwa"
 is_city = yes
 culture = persian
@@ -8,9 +8,6 @@ trade_goods = spices
 base_tax = 1
 base_production = 4
 base_manpower = 3
-add_core = PER
-owner = OMA
-controller = OMA
 add_core = OMA
 discovered_by = east_african
 discovered_by = eastern

@@ -1,5 +1,5 @@
-owner = Z16
-controller = Z16
+owner = MHR
+controller = MHR
 capital = "Al Ghaydah"
 is_city = yes
 culture = mahri_culture
@@ -8,7 +8,7 @@ trade_goods = fish
 base_tax = 1
 base_production = 3
 base_manpower = 1
-add_core = Z16
+add_core = MHR
 add_core = Z13
 discovered_by = east_african
 discovered_by = eastern
