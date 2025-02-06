@@ -12,3 +12,5 @@ base_production = 10
 base_manpower = 3
 add_core = NOR
 add_permanent_claim = DAN
+discovered_by = western
+discovered_by = eastern

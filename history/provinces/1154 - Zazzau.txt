@@ -9,11 +9,6 @@ base_tax = 4
 base_production = 3
 base_manpower = 2
 add_core = SON
-
-
-
-
-
-
-
-
+discovered_by = sub_saharan
+discovered_by = ADU
+discovered_by = ALO

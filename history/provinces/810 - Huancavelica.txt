@@ -10,8 +10,4 @@ base_production = 4
 base_manpower = 2
 add_core = INC
 add_core = WKA
-
-
-
-
-
+discovered_by = high_american

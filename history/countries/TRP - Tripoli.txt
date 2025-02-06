@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = iqta
 government_rank = 1
-technology_group = muslim
+technology_group = eastern
 religion = converted_dynamic_faith_142
 primary_culture = dynamic-berber-culture-num1
 capital = 354

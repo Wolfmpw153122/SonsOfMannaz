@@ -11,15 +11,10 @@ base_manpower = 3
 extra_cost = 10
 add_core = EGY
 add_core = ALO
-
-
-
-
-
-
-
-
-add_permanent_province_modifier = {
-	name = granary_of_the_mediterranean
-	duration = -1
-}
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = east_african
+discovered_by = sub_saharan
+add_permanent_province_modifier = { name = granary_of_the_mediterranean duration = -1 } 

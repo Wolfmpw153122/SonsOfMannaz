@@ -10,8 +10,4 @@ base_production = 3
 base_manpower = 3
 add_core = AZT
 add_core = GAM
-
-
-
-
-
+discovered_by = high_american

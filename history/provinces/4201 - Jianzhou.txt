@@ -9,6 +9,6 @@ base_tax = 4
 base_production = 3
 base_manpower = 3
 add_core = MJZ
-
-
 add_province_triggered_modifier = changbai_mountain
+discovered_by = chinese
+discovered_by = nomad_group

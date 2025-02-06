@@ -11,8 +11,4 @@ base_manpower = 4
 add_core = CLA
 add_core = CRA
 add_core = INC
-
-
-
-
-
+discovered_by = high_american

@@ -11,10 +11,5 @@ base_manpower = 3
 add_core = KZH
 add_core = CMN
 add_permanent_claim = CMN
-
-
-
-
-
-
-
+discovered_by = nomad_group
+discovered_by = muslim

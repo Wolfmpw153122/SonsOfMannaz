@@ -1,7 +1,7 @@
 government = tribal
 add_government_reform = steppe_horde
 government_rank = 1
-technology_group = nomad_group
+technology_group = ottoman
 religion = catholic
 primary_culture = dynamic-sarmatian-culture-num1
 capital = 464

@@ -11,11 +11,4 @@ base_manpower = 8
 extra_cost = 8
 center_of_trade = 1
 add_core = TLA
-
-
-
-
-
-
-
-
+discovered_by = high_american

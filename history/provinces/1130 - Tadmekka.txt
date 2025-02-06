@@ -11,11 +11,5 @@ base_manpower = 2
 add_core = TMB
 add_core = TLC
 add_core = Z0L
-
-
-
-
-
-
-
-
+discovered_by = sub_saharan
+discovered_by = ADU

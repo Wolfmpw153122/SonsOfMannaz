@@ -12,11 +12,5 @@ extra_cost = 8
 center_of_trade = 1
 add_core = GUR
 add_permanent_claim = SON
-
-
-
-
-
-
-
-
+discovered_by = sub_saharan
+discovered_by = ADU

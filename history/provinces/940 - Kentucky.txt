@@ -9,15 +9,8 @@ base_production = 5
 base_manpower = 2
 add_core = KSP
 add_core = SHA
-
-
-
-
-
 native_size = 5
 native_ferocity = 5
 native_hostileness = 1
-latent_trade_goods = {
-	coal
-}
-{
+discovered_by = high_american
+latent_trade_goods = { coal }

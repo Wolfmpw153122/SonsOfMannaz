@@ -11,11 +11,6 @@ base_production = 5
 base_manpower = 3
 add_core = TAU
 add_core = MNG
-
-
-
-
-
-
-
-
+discovered_by = chinese
+discovered_by = nomad_group
+discovered_by = indian

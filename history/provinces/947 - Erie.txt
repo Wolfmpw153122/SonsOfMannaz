@@ -10,11 +10,7 @@ base_manpower = 4
 add_core = ERI
 add_core = SHA
 add_core = TIO
-
-
-
-
-
 native_size = 5
 native_ferocity = 1
 native_hostileness = 4
+discovered_by = high_american

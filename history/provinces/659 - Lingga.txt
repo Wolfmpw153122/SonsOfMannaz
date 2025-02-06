@@ -9,7 +9,5 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 add_core = JMB
-
-
-
-
+discovered_by = chinese
+discovered_by = indian

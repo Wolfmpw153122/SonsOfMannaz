@@ -11,8 +11,4 @@ base_manpower = 1
 add_core = AZT
 add_core = CTM
 add_core = ITZ
-
-
-
-
-
+discovered_by = high_american

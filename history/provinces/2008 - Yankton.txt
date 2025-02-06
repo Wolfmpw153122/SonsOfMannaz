@@ -10,11 +10,7 @@ base_manpower = 2
 add_core = LAK
 add_core = PAW
 add_core = SIO
-
-
-
-
-
 native_size = 1
 native_ferocity = 1
 native_hostileness = 1
+discovered_by = high_american

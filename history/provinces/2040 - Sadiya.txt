@@ -11,11 +11,7 @@ base_manpower = 3
 add_core = MKA
 add_core = AVA
 add_core = BNG
-
-
-
-
-
-
-
-
+discovered_by = indian
+discovered_by = nomad_group
+discovered_by = chinese
+discovered_by = muslim

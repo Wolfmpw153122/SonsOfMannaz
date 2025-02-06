@@ -8,11 +8,6 @@ base_tax = 4
 base_production = 5
 base_manpower = 4
 add_core = MAY
-
-
-
-
-
 native_size = 5
 native_ferocity = 2
 native_hostileness = 4

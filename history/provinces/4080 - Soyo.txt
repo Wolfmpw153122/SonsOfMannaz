@@ -10,5 +10,4 @@ base_production = 3
 base_manpower = 4
 add_core = KON
 add_core = SYO
-
-
+discovered_by = central_african

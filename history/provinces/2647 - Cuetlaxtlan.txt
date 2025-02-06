@@ -12,11 +12,7 @@ extra_cost = 16
 center_of_trade = 2
 add_core = TLX
 add_core = TOT
-
-
-
-
-
 native_size = 5
 native_ferocity = 1
 native_hostileness = 2
+discovered_by = high_american

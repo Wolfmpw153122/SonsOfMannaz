@@ -9,11 +9,7 @@ base_production = 7
 base_manpower = 2
 add_core = IRO
 add_core = SEN
-
-
-
-
-
 native_size = 10
 native_ferocity = 7
 native_hostileness = 2
+discovered_by = high_american

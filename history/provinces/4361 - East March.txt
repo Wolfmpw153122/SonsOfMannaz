@@ -10,6 +10,5 @@ base_tax = 7
 base_production = 1
 base_manpower = 2
 add_core = SCO
-
-
-
+discovered_by = western
+discovered_by = eastern

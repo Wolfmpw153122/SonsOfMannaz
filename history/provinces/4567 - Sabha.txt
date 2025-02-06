@@ -10,14 +10,10 @@ base_production = 3
 base_manpower = 2
 add_core = FEZ
 add_core = Z0V
-
-
-
-
-
-
-
-
 owner = FZA
 controller = FZA
 add_core = FZA
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman

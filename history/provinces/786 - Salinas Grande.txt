@@ -8,10 +8,6 @@ base_tax = 5
 base_production = 3
 base_manpower = 1
 add_core = INC
-
-
-
-
-
 native_size = 10
 native_ferocity = 3
+discovered_by = high_american

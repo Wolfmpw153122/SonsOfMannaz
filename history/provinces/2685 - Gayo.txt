@@ -10,8 +10,6 @@ base_production = 3
 base_manpower = 1
 add_core = ATJ
 add_core = PSA
-
-
-
-
-{
+discovered_by = chinese
+discovered_by = indian
+ 

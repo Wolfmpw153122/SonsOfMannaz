@@ -9,5 +9,4 @@ base_tax = 3
 base_production = 3
 base_manpower = 1
 add_core = RZW
-
-
+discovered_by = east_african

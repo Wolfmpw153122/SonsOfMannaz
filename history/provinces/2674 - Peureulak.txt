@@ -9,7 +9,5 @@ base_tax = 4
 base_production = 4
 base_manpower = 3
 add_core = PSA
-
-
-
-
+discovered_by = chinese
+discovered_by = indian

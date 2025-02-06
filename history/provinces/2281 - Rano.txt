@@ -10,11 +10,6 @@ base_production = 4
 base_manpower = 3
 add_core = Z0P
 add_permanent_claim = SON
-
-
-
-
-
-
-
-
+discovered_by = sub_saharan
+discovered_by = ADU
+discovered_by = ALO

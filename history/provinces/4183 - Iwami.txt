@@ -9,8 +9,5 @@ base_tax = 4
 base_production = 2
 base_manpower = 2
 add_core = YMN
-
-
-
-
-
+discovered_by = chinese
+discovered_by = nomad_group

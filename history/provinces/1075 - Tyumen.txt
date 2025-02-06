@@ -9,15 +9,8 @@ base_manpower = 1
 center_of_trade = 1
 add_core = KZH
 add_core = add_permanent_claim
-
-
-
-
-
-
-
-
 religion = animism
 trade_goods = unknown
 owner = KZH
 controller = KZH
+discovered_by = nomad_group

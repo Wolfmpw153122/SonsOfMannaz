@@ -9,7 +9,5 @@ base_tax = 5
 base_production = 5
 base_manpower = 3
 add_core = MAJ
-
-
-
-
+discovered_by = chinese
+discovered_by = indian

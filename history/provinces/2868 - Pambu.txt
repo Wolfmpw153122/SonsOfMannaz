@@ -10,10 +10,6 @@ base_manpower = 1
 extra_cost = 8
 center_of_trade = 1
 add_core = INC
-
-
-
-
-
 native_size = 10
 native_ferocity = 3
+discovered_by = high_american

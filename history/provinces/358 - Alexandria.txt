@@ -13,12 +13,10 @@ extra_cost = 8
 center_of_trade = 1
 add_core = EGY
 add_core = ALO
-
-
-
-
-
-
-
-
 add_province_triggered_modifier = coptic_alexandria
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = east_african
+discovered_by = sub_saharan

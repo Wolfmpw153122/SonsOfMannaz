@@ -10,11 +10,7 @@ base_production = 3
 base_manpower = 2
 add_core = KIC
 add_core = ZAP
-
-
-
-
-
 native_size = 5
 native_ferocity = 1
 native_hostileness = 2
+discovered_by = high_american

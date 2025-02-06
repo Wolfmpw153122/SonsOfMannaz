@@ -10,15 +10,8 @@ base_manpower = 2
 add_core = CHE
 add_core = POW
 add_core = TSC
-
-
-
-
-
 native_size = 5
 native_ferocity = 1
 native_hostileness = 2
-latent_trade_goods = {
-	coal
-}
-{
+discovered_by = high_american
+latent_trade_goods = { coal }

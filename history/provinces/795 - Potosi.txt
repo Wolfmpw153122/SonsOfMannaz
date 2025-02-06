@@ -11,9 +11,5 @@ base_manpower = 4
 extra_cost = 6
 add_core = CRA
 add_core = INC
-
-
-
-
-
 add_province_triggered_modifier = cerro_rico_modifier
+discovered_by = high_american

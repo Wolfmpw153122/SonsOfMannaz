@@ -9,10 +9,7 @@ base_tax = 7
 base_production = 6
 base_manpower = 6
 add_core = CAB
-
-
-
-
 native_size = 15
 native_ferocity = 2
 native_hostileness = 6
+discovered_by = high_american

@@ -9,12 +9,7 @@ base_tax = 5
 base_production = 3
 base_manpower = 3
 add_core = Z0P
-
-
-
-
-
-
-
-
 native_size = 40
+discovered_by = sub_saharan
+discovered_by = ADU
+discovered_by = ALO

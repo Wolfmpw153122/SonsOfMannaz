@@ -12,11 +12,5 @@ extra_cost = 16
 center_of_trade = 2
 add_core = Z0W
 add_permanent_claim = KBO
-
-
-
-
-
-
-
-
+discovered_by = sub_saharan
+discovered_by = ALO

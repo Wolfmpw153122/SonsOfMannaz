@@ -10,5 +10,5 @@ base_production = 4
 base_manpower = 3
 add_core = AYU
 add_core = SUK
-
-
+discovered_by = chinese
+discovered_by = indian

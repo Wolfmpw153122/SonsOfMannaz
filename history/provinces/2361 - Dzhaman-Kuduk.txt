@@ -9,10 +9,5 @@ base_tax = 4
 base_production = 2
 base_manpower = 3
 add_core = Z0S
-
-
-
-
-
-
-
+discovered_by = nomad_group
+discovered_by = muslim

@@ -10,8 +10,4 @@ base_production = 2
 base_manpower = 2
 add_core = CSU
 add_core = INC
-
-
-
-
-
+discovered_by = high_american

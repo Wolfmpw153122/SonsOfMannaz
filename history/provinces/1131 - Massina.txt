@@ -13,13 +13,7 @@ center_of_trade = 1
 add_core = JNN
 add_core = ZAF
 add_permanent_claim = Z0N
-
-
-
-
-
-
-
-
 native_ferocity = 4
 native_hostileness = 9
+discovered_by = sub_saharan
+discovered_by = ADU

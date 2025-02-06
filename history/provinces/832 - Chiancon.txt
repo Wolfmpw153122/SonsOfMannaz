@@ -9,9 +9,4 @@ base_tax = 5
 base_production = 5
 base_manpower = 2
 add_core = MCA
-
-
-
-
-
-
+discovered_by = high_american

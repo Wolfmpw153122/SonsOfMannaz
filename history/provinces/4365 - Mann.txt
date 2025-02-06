@@ -12,6 +12,6 @@ base_manpower = 2
 add_core = HAN
 add_core = SWE
 add_permanent_claim = ENG
-
-
-
+discovered_by = ottoman
+discovered_by = western
+discovered_by = eastern

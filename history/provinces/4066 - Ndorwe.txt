@@ -9,4 +9,4 @@ base_tax = 3
 base_production = 3
 base_manpower = 2
 add_core = NKO
-
+discovered_by = central_african

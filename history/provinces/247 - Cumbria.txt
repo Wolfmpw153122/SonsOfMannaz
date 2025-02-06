@@ -11,6 +11,6 @@ base_production = 1
 base_manpower = 3
 add_core = NOL
 add_permanent_claim = SCO
-
-
-
+discovered_by = western
+discovered_by = eastern
+discovered_by = ottoman

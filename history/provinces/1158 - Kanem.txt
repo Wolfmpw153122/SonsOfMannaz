@@ -11,11 +11,5 @@ base_manpower = 5
 extra_cost = 8
 center_of_trade = 1
 add_core = Z0W
-
-
-
-
-
-
-
-
+discovered_by = sub_saharan
+discovered_by = ALO

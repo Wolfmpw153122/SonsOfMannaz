@@ -12,11 +12,5 @@ extra_cost = 8
 center_of_trade = 1
 add_core = JNN
 add_core = ZAF
-
-
-
-
-
-
-
-
+discovered_by = sub_saharan
+discovered_by = ADU

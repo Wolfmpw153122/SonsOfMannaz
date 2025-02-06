@@ -10,11 +10,5 @@ base_tax = 8
 base_production = 5
 base_manpower = 7
 add_core = GUR
-
-
-
-
-
-
-
-
+discovered_by = sub_saharan
+discovered_by = ADU

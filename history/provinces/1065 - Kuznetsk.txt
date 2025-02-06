@@ -1,4 +1,3 @@
-
 capital = "Kuznetsk"
 is_city = yes
 culture = dynamic-kirgiz-culture-num3
@@ -9,17 +8,10 @@ base_tax = 3
 base_production = 2
 base_manpower = 1
 add_core = discovered_by
-
-
-
-
-
-
-
-
 native_size = 10
 native_ferocity = 1
 native_hostileness = 3
 religion = animism
 trade_goods = unknown
+discovered_by = nomad_group
 latent_trade_goods = { coal }

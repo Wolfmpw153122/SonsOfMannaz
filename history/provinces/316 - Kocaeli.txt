@@ -10,11 +10,8 @@ base_production = 9
 base_manpower = 4
 add_core = RUM
 add_core = BYZ
-
-
-
-
-
-
-
-
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = east_african

@@ -13,3 +13,5 @@ extra_cost = 8
 center_of_trade = 1
 add_core = NOR
 add_permanent_claim = DAN
+discovered_by = western
+discovered_by = eastern

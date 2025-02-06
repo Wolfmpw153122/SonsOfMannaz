@@ -9,11 +9,4 @@ base_tax = 10
 base_production = 10
 base_manpower = 4
 add_core = AZT
-
-
-
-
-
-
-
-
+discovered_by = high_american

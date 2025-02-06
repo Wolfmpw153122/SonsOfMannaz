@@ -10,12 +10,7 @@ base_manpower = 6
 add_core = ERI
 add_core = IRO
 add_core = SUS
-
-
-
-
-
 native_size = 5
 native_ferocity = 1
 native_hostileness = 6
-{
+discovered_by = high_american

@@ -1,7 +1,7 @@
 government = tribal
 add_government_reform = matrilineal_system
 government_rank = 1
-technology_group = eastern
+technology_group = ottoman
 religion = kemetism
 primary_culture = dynamic-greek-culture-num9
 add_accepted_culture = greek

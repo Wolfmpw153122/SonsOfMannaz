@@ -11,6 +11,5 @@ base_production = 3
 base_manpower = 4
 add_core = SCO
 add_permanent_claim = ULS
-
-
-
+discovered_by = western
+discovered_by = eastern

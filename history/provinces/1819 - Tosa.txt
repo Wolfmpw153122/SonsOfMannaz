@@ -10,8 +10,5 @@ base_production = 2
 base_manpower = 3
 add_core = CSK
 add_core = HSK
-
-
-
-
-
+discovered_by = chinese
+discovered_by = nomad_group

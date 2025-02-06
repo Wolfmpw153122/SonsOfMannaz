@@ -10,8 +10,4 @@ base_tax = 8
 base_production = 8
 base_manpower = 8
 add_core = TLX
-
-
-
-
-
+discovered_by = high_american

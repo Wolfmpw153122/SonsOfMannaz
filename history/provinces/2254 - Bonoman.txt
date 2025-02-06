@@ -11,11 +11,6 @@ base_manpower = 1
 add_core = ASH
 add_core = SON
 add_permanent_claim = SON
-
-
-
-
-
-
-
-
+discovered_by = sub_saharan
+discovered_by = ADU
+discovered_by = ALO

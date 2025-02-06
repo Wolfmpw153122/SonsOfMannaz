@@ -10,8 +10,4 @@ base_production = 4
 base_manpower = 2
 add_core = KIC
 add_core = ZAP
-
-
-
-
-
+discovered_by = high_american

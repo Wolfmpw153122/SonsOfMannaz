@@ -10,7 +10,5 @@ base_production = 5
 base_manpower = 2
 add_core = MLC
 add_core = PRK
-
-
-
-
+discovered_by = chinese
+discovered_by = indian

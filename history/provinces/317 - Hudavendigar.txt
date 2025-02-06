@@ -13,10 +13,8 @@ center_of_trade = 2
 add_core = GRE
 add_core = THR
 add_permanent_claim = RUM
-
-
-
-
-
-
-
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = east_african

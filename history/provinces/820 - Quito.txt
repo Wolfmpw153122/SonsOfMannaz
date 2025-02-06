@@ -12,8 +12,4 @@ extra_cost = 8
 center_of_trade = 1
 add_core = INC
 add_core = QTO
-
-
-
-
-
+discovered_by = high_american

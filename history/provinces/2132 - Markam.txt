@@ -11,11 +11,7 @@ base_manpower = 4
 add_core = TIB
 add_core = BNG
 add_core = NPL
-
-
-
-
-
-
-
-
+discovered_by = indian
+discovered_by = nomad_group
+discovered_by = chinese
+discovered_by = muslim

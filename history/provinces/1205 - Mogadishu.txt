@@ -13,11 +13,8 @@ center_of_trade = 2
 add_core = ADA
 add_core = AJU
 add_permanent_claim = AJU
-
-
-
-
-
-
-
-
+discovered_by = east_african
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = indian

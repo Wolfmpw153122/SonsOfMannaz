@@ -10,8 +10,7 @@ base_tax = 5
 base_production = 3
 base_manpower = 2
 add_core = WLS
-
-
-
-
+discovered_by = western
+discovered_by = eastern
+discovered_by = ottoman
 latent_trade_goods = { coal }

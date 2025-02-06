@@ -11,3 +11,5 @@ base_tax = 5
 base_production = 4
 base_manpower = 3
 add_core = SMI
+discovered_by = western
+discovered_by = eastern

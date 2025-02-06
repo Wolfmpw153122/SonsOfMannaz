@@ -10,3 +10,6 @@ base_tax = 6
 base_production = 5
 base_manpower = 4
 add_core = SWE
+discovered_by = western
+discovered_by = eastern
+discovered_by = ottoman

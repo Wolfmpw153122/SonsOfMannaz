@@ -10,11 +10,7 @@ base_manpower = 6
 add_core = CAO
 add_core = ILL
 add_core = WIC
-
-
-
-
-
 native_size = 5
 native_ferocity = 1
 native_hostileness = 6
+discovered_by = high_american

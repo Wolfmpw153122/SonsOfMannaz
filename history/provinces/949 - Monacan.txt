@@ -10,12 +10,7 @@ base_manpower = 4
 add_core = CHE
 add_core = CIA
 add_core = JOA
-
-
-
-
-
 native_size = 5
 native_ferocity = 1
 native_hostileness = 4
-{
+discovered_by = high_american
