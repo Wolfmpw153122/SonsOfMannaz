@@ -1,0 +1,55 @@
+#Parliament issues relevant to Frisia and Greater Friesland
+friesland_munster_compromise = {
+	category = 4
+
+	allow = {
+		has_government_attribute = english_parliament
+		has_not_enacted_parliament_action = {
+			parliament_action = friesland_munster_compromise
+		}
+		has_issue_unlocked = {
+			issue = friesland_munster_compromise
+		}
+		is_free_or_tributary_trigger = yes
+		is_nomad = no
+		is_at_war = no
+		OR = {
+			AND = {
+				owns_core_province = 86		# Munster
+				owns_core_province = 56		# Osnabrueck
+				owns_core_province = 2973		# Meppen
+				2973 = {							# Meppen
+					is_state = yes
+				}
+			}
+		}
+	}
+	
+	effect = {
+		set_parliament_action_flag = {
+			parliament_action = friesland_munster_compromise
+		}
+        ROOT = {set_country_flag = munster_compromise_achieved}
+        
+        86 = {
+            set_seat_in_parliament = yes
+        }
+        #add_province_triggered_modifier = gfr_no_representation_munster #munster cultural malus
+		#custom_tooltip = friesland_munster_compromise_at
+		add_prestige = 25
+	}
+	
+	modifier = {
+		global_autonomy = -0.05
+		prestige_decay = -0.01
+	}
+	backing_percentage = 0
+	
+	chance = {
+		factor = 0	#Will be forced thruogh a decision
+	}
+
+	ai_will_do = {
+		factor = 1000
+	}
+}

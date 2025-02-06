@@ -97,3 +97,9 @@ nij_fryslan_united = {
 the_south_march = {
 	local_defensiveness = 0.25
 }
+
+gfr_refusal_to_serve = {
+	local_manpower_modifier = -0.50
+	local_culture_conversion_cost = 10.00
+	local_unrest = 5
+}

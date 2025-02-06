@@ -1,0 +1,29 @@
+#FROM = province
+friesland_munster_bribe = {
+	# If bribe targets a certain province use scope FROM
+	# Otherwise, use normal triggers
+	trigger = {
+		FROM = {province_id = 100}
+        current_debate = friesland_munster_compromise
+	}
+
+	# Action that occurs when bribe is enacted. Uses normal command effects.
+	effect = {
+		ROOT = {add_adm_power = -100
+				add_corruption = 2}
+		frisia_area = {
+			limit = {owned_by = ROOT}
+            add_unrest = 10
+        }
+	}
+	
+	# Defines how likely a bribe is to appear
+	chance = {
+		factor = 100
+	}
+	
+	# The importance the AI places on enacting this reform relative to other bribes
+	ai_will_do = {
+		factor = 100
+	}
+}

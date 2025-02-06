@@ -17,3 +17,41 @@ prz_autonomy_updater = {
 	}
 	icon = 9
 }
+gfr_no_representation_munster = {
+
+    hidden = yes
+    potential = {
+        OR = {
+            owned_by = FRI
+            owned_by = GFR
+        }
+    }
+
+    trigger = {
+        OR = {
+            owned_by = FRI
+            owned_by = GFR
+        }
+        culture = dynamic-norse-lower_saxon-culture-num5
+        NOT = {
+            OR = {
+                FRI = {has_country_flag = munster_compromise_achieved}
+                GFR = {has_country_flag = munster_compromise_achieved}
+            }
+        }
+    }
+
+    on_activation = {
+        hidden = no
+        add_province_modifier ={ 
+            name = gfr_refusal_to_serve
+            duration = -1 
+        }
+    }
+
+    on_deactivation = {
+        remove_province_modifier = gfr_refusal_to_serve
+        remove_province_triggered_modifier = gfr_no_representation_munster
+    }
+
+}

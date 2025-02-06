@@ -1,0 +1,75 @@
+country_decisions = {
+    force_friesland_munster_compromise = {
+        major = yes
+        potential = {
+            has_government_attribute = english_parliament
+            ai = no
+            normal_or_historical_nations = yes
+            has_not_enacted_parliament_action = { parliament_action = friesland_munster_compromise }
+            OR = {
+                tag = FRI
+                tag = GFR
+            }
+            OR = {
+                ROOT = {
+                    any_owned_province = {
+                        culture = dynamic-norse-lower_saxon-culture-num5
+                    }
+                }
+            }
+        }
+        provinces_to_highlight = {
+            OR = {
+                province_id = 86		# Munster
+                province_id = 56		# Osnabrueck
+                province_id = 2973		# Meppen
+            }
+            OR = {
+                NOT = { owned_by = ROOT }
+                NOT = { is_core = ROOT }
+            }
+
+        }
+        allow = {
+            has_active_debate = no
+            is_free_or_tributary_trigger = yes
+            is_nomad = no
+            is_at_war = no
+            OR = {
+                AND = {
+                    owns_core_province = 86		# Munster
+                    owns_core_province = 56		# Osnabrueck
+                    owns_core_province = 2973		# Meppen
+                    86 = {							# Munster
+                        is_state = yes
+                    }
+                }
+            }
+        }
+        effect = {
+            ROOT = {unlock_issue = { issue = friesland_munster_compromise}}
+            start_debate = friesland_munster_compromise
+            #custom_tooltip = DEBATE_EFFECT_TT
+            # tooltip = {
+            # 	if = {
+            # 		limit = {
+            # 			FRA = {
+            # 				exists = yes
+            # 				ai = yes
+            # 				is_subject_of = ROOT
+            # 				NOT = { num_of_cities = 40 }
+            # 			}
+            # 		}
+            # 		inherit = FRA
+            # 		custom_tooltip = english_french_act_of_union_ct
+            # 	}
+            # 	change_tag = AVE
+            # 	add_prestige = 25
+            # }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+        ai_importance = 200
+    }
+}
