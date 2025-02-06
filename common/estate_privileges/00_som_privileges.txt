@@ -51,7 +51,7 @@ estate_nobles_UNI_ambitious_nobles = {
     is_valid = { tag = UNI }
     can_select = {always = no }
     on_granted = {
-        add_corruption = 20
+        add_corruption = 10
     }
     can_revoke = { always = no }
     penalties = { 

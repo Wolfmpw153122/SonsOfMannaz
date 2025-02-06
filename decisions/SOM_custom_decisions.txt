@@ -264,7 +264,36 @@ country_decisions = {
         
     }
 
-
+    #Recruit Musketeers
+    uni_recruit_gelerhterwache = {
+        potential = {
+            tag = UNI
+            mission_completed = uni_second_sons
+            not = {
+                mission_completed = uni_the_fundamentals
+            }
+        }
+        allow = {
+            NOT = { army_size_percentage = 1}
+            is_at_war = no
+            treasury = 20
+            manpower = 1
+            mil_power = 25
+        }
+        effect = {
+            add_treasury = -20
+            add_manpower = -1
+            add_mil_power = -25
+            create_unit_forcelimit_percentage = {
+                type = infantry
+                special_unit_category = musketeer
+                force_limit_percentage = 0.01   
+            }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
 
 
 

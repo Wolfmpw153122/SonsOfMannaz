@@ -41,7 +41,7 @@ university_internal_slot_2 = {
             uni_northern_victory
         }
         trigger = {
-            num_of_loans = 0
+            NOT = { num_of_loans = 1 }
             has_dip_advisor = yes
         }
         effect = {
@@ -98,10 +98,12 @@ university_internal_slot_2 = {
                 estate = estate_burghers
                 loyalty = 60
             }
-            estate_influence = {
-                estate = estate_burghers
-                influence = 40
-            }
+            NOT = {
+                estate_influence = {
+                    estate = estate_burghers
+                    influence = 40
+                }
+            }     
         }
         effect = {
             remove_estate_privilege = estate_burghers_UNI_merchant_dependance
@@ -186,8 +188,9 @@ university_internal_slot_3 = {
             owns_core_province = 4713
             4713 = {
                 base_manpower = 8
+                fort_level = 2
             }
-            manpower = 3000
+            manpower = 3
         }
         effect = {
             country_event = {
@@ -256,7 +259,7 @@ university_internal_slot_4 = {
             uni_second_sons
         }
         trigger = {
-            corruption = 0
+            NOT = { corruption = 1 }
         }
         effect = {
             custom_tooltip = unirflm_tt
@@ -281,10 +284,12 @@ university_internal_slot_4 = {
                 estate = estate_nobles
                 loyalty = 60
             }
-            estate_influence = {
-                estate = estate_nobles
-                influence = 40
-            }
+            NOT = {
+                estate_influence = {
+                    estate = estate_nobles
+                    influence = 40
+                }
+            }          
         }
         effect = {
             remove_estate_privilege = estate_nobles_UNI_ambitious_nobles
@@ -309,7 +314,7 @@ university_internal_slot_5 = {
             uni_second_sons
         }
         trigger = {
-            army_professionalism = 0.20
+            army_professionalism = 0.10
         }
         effect = {
             custom_tooltip = unirgm_tt

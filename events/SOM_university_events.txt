@@ -75,6 +75,10 @@ country_event = {
         74 = {
             add_base_tax = -3
             add_base_production = -2
+            spawn_rebels = {
+                type = pretender_rebels
+                size = 16
+            }
         }
     }
 }
