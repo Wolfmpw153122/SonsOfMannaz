@@ -12,6 +12,6 @@ add_core = KHA
 add_core = MNG
 discovered_by = chinese
 discovered_by = nomad_group
-latent_trade_goods = {
-	coal
-}
+discovered_by = indian
+discovered_by = muslim
+latent_trade_goods = { coal }

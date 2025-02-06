@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = rajput_kingdom
 government_rank = 2
-technology_group = indian
+technology_group = nomad_group
 religion = hinduism
 primary_culture = dynamic-bengali-parthian-culture-num2
 capital = 2352

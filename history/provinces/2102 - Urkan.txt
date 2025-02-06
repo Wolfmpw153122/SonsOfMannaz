@@ -10,6 +10,4 @@ base_manpower = 1
 add_core = SOL
 discovered_by = chinese
 discovered_by = nomad_group
-latent_trade_goods = {
-	coal
-}
+latent_trade_goods = { coal }

@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 2
-technology_group = eastern
+technology_group = ottoman
 religion = catholic
 primary_culture = dynamic-norse-lower_saxon-culture-num2
 capital = 358
