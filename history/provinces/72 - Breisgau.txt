@@ -1,4 +1,3 @@
-
 owner = KNZ
 controller = KNZ
 capital = "Freiburg"
@@ -13,8 +12,9 @@ base_manpower = 4
 add_permanent_claim = ALS
 add_permanent_claim = FRA
 add_permanent_claim = BAD
-add_core = BAD
+add_core = KNZ
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
+add_core = UNI

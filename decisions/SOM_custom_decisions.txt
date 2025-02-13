@@ -264,37 +264,126 @@ country_decisions = {
         
     }
 
-    #Recruit Musketeers
-    uni_recruit_gelerhterwache = {
+    #Skullduggery
+    uni_skullduggery_101 = {
         potential = {
             tag = UNI
-            mission_completed = uni_second_sons
-            not = {
-                mission_completed = uni_the_fundamentals
+            owns_core_province = 4714
+            4714 = {
+                has_province_modifier = uni_noble_stronghold
             }
         }
         allow = {
-            NOT = { army_size_percentage = 1}
-            is_at_war = no
-            treasury = 20
-            manpower = 1
-            mil_power = 25
-        }
-        effect = {
-            add_treasury = -20
-            add_manpower = -1
-            add_mil_power = -25
-            create_unit_forcelimit_percentage = {
-                type = infantry
-                special_unit_category = musketeer
-                force_limit_percentage = 0.01   
+            treasury = 50
+            dip_power = 50
+            mil_power = 50
+            4714 = {
+                num_of_units_in_province = 5
             }
         }
-        ai_will_do = {
-            factor = 1
+        effect = {
+            add_treasury = -50
+            add_dip_power = -50
+            add_mil_power = -50
+            country_event = {
+                id = university_events.4
+            }
         }
     }
 
+    #Midnight Raid
+    uni_midnight_raid = {
+        potential = {
+            tag = UNI
+            owns_core_province = 72
+            4714 = {
+                NOT = {
+                    has_province_modifier = uni_noble_stronghold
+                }       
+            }
+            72 = {
+                has_province_modifier = uni_noble_stronghold
+            }
+        }
+        allow = {
+            treasury = 50
+            dip_power = 50
+            mil_power = 50
+            72 = {
+                num_of_units_in_province = 5
+            }
+        }
+        effect = {
+            add_treasury = -50
+            add_dip_power = -50
+            add_mil_power = -50
+            country_event = {
+                id = university_events.5
+            }
+        }
+    }
 
+    #Seditious Siege
+    uni_seditious_siege = {
+        potential = {
+            tag = UNI
+            owns_core_province = 4713
+            72= {
+                NOT = {
+                    has_province_modifier = uni_noble_stronghold
+                }       
+            }
+            4713 = {
+                has_province_modifier = uni_noble_stronghold
+            }
+        }
+        allow = {
+            treasury = 50
+            dip_power = 50
+            mil_power = 50
+            4713 = {
+                num_of_units_in_province = 5
+            }
+        }
+        effect = {
+            add_treasury = -50
+            add_dip_power = -50
+            add_mil_power = -50
+            country_event = {
+                id = university_events.6
+            }
+        }
+    }
 
+    #Countercoup
+    uni_countercoup = {
+        potential = {
+            tag = UNI
+            owns_core_province = 74
+            4713 = {
+                NOT = {
+                    has_province_modifier = uni_noble_stronghold
+                }       
+            }
+            74 = {
+                has_province_modifier = uni_the_old_capital
+            }
+        }
+        allow = {
+            treasury = 50
+            dip_power = 50
+            mil_power = 50
+            74 = {
+                num_of_units_in_province = 10
+            }
+        }
+        effect = {
+            add_treasury = -50
+            add_dip_power = -50
+            add_mil_power = -50
+            country_event = {
+                id = university_events.7
+            }
+        }
+    }
 }

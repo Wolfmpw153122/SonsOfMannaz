@@ -1,4 +1,3 @@
-
 owner = KNZ
 controller = KNZ
 capital = "Konstanz"
@@ -16,5 +15,4 @@ add_province_triggered_modifier = uni_constance_updater
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
-
-
+add_core = UNI

@@ -24,14 +24,20 @@ prz_autonomy_updater = {
 uni_constance_updater = {
     potential = {
         has_province_modifier = uni_seat_of_rebellion
+        has_province_modifier = uni_noble_stronghold
+        has_province_modifier = uni_the_old_capital
     }
     trigger = {
         NOT = { owned_by = UNI}
         has_province_modifier = uni_seat_of_rebellion
+        has_province_modifier = uni_noble_stronghold
+        has_province_modifier = uni_the_old_capital
     }
     hidden = yes
     on_activation = {
         remove_province_modifier = uni_seat_of_rebellion
+        remove_province_modifier = uni_noble_stronghold
+        remove_province_modifier = uni_the_old_capital
     }
 }
 gfr_no_representation_munster = {
